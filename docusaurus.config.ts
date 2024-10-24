@@ -30,7 +30,7 @@ const config: Config = {
 
   themeConfig: {
     colorMode: {
-      defaultMode: 'light',
+      defaultMode: 'dark',
       respectPrefersColorScheme: true,
     },
     navbar: {
