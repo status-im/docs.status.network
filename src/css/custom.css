@@ -83,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Enhanced Navbar */
 .navbar {
-  backdrop-filter: blur(12px);
   background: rgba(255, 255, 255, 0.8);
   border-bottom: 1px solid rgba(229, 231, 235, 0.5);
   animation: navbarFadeIn 0.5s ease-out;
