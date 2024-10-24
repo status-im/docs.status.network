@@ -170,6 +170,7 @@ body {
   box-shadow: 0 4px 12px rgba(67, 96, 223, 0.2);
   position: relative;
   overflow: hidden;
+  margin-right: 16px;
 }
 
 .hub-button::before {
