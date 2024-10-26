@@ -1,0 +1,62 @@
+{
+  "title": {
+    "message": "Status Network 文档",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Status Network 标志",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tools": {
+    "message": "工具",
+    "description": "Navbar item with label Tools"
+  },
+  "item.label.Hub": {
+    "message": "中心",
+    "description": "Navbar item with label Hub"
+  },
+  "item.label.🔌 RPC": {
+    "message": "🔌 RPC",
+    "description": "Navbar item with label 🔌 RPC"
+  },
+  "item.label.👥 Multisig Wallets": {
+    "message": "👥 多签钱包",
+    "description": "Navbar item with label 👥 Multisig Wallets"
+  },
+  "item.label.🌉 Bridge": {
+    "message": "🌉 桥接",
+    "description": "Navbar item with label 🌉 Bridge"
+  },
+  "item.label.🚰 Testnet Faucets": {
+    "message": "🚰 测试网水龙头",
+    "description": "Navbar item with label 🚰 Testnet Faucets"
+  },
+  "item.label.🔎 Block Explorers": {
+    "message": "🔎 区块浏览器",
+    "description": "Navbar item with label 🔎 Block Explorers"
+  },
+  "item.label.📊 Data Indexers": {
+    "message": "📊 数据索引器",
+    "description": "Navbar item with label 📊 Data Indexers"
+  },
+  "item.label.🔮 Oracles": {
+    "message": "🔮 预言机",
+    "description": "Navbar item with label 🔮 Oracles"
+  },
+  "item.label.🔗 Interoperability": {
+    "message": "🔗 互操作性",
+    "description": "Navbar item with label 🔗 Interoperability"
+  },
+  "item.label.🎲 Randomness": {
+    "message": "🎲 随机性",
+    "description": "Navbar item with label 🎲 Randomness"
+  },
+  "item.label.🛠️ General Tooling": {
+    "message": "🛠️ 通用工具",
+    "description": "Navbar item with label 🛠️ General Tooling"
+  },
+  "item.label.🖥️ Node Operators": {
+    "message": "🖥️ 节点运营商",
+    "description": "Navbar item with label 🖥️ Node Operators"
+  }
+}

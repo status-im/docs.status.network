@@ -69,6 +69,90 @@
   --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.3), 0 4px 6px -2px rgba(0,0,0,0.2);
 }
 
+/* Base background colors */
+html,
+html body {
+  background: #ffffff !important;
+}
+
+html[data-theme='dark'],
+html[data-theme='dark'] body {
+  background: #0A0A0C !important;
+}
+
+/* Light mode gradient background */
+html::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 0% 0%, rgba(67, 96, 223, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 100% 0%, rgba(136, 122, 249, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 100% 100%, rgba(81, 208, 240, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 0% 100%, rgba(81, 208, 167, 0.2) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Dark mode gradient background */
+html[data-theme='dark']::before {
+  background: 
+    radial-gradient(circle at 0% 0%, rgba(67, 96, 223, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 100% 0%, rgba(136, 122, 249, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 100% 100%, rgba(81, 208, 240, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 0% 100%, rgba(81, 208, 167, 0.2) 0%, transparent 50%);
+}
+
+/* Ensure content appears above the gradient */
+#__docusaurus {
+  position: relative;
+  z-index: 1;
+}
+
+/* Remove any competing background styles */
+.main-wrapper,
+[class*='docPage_'],
+[class*='docMainContainer_'] {
+  background: transparent !important;
+}
+
+/* Fix for code block visibility */
+[class*='codeBlockContainer_'] {
+  background-color: #f6f7f8 !important;
+}
+
+[class*='codeBlockContent_'] {
+  background-color: #f6f7f8 !important;
+}
+
+[class*='codeBlockLines_'] {
+  color: #374151 !important;
+}
+
+[data-theme='dark'] [class*='codeBlockContainer_'],
+[data-theme='dark'] [class*='codeBlockContent_'] {
+  background-color: #1e1e1e !important;
+}
+
+[data-theme='dark'] [class*='codeBlockLines_'] {
+  color: #e5e7eb !important;
+}
+
+:not(pre) > code {
+  background-color: #f6f7f8 !important;
+  color: #374151 !important;
+  padding: 0.2rem 0.4rem !important;
+  border-radius: 4px !important;
+}
+
+[data-theme='dark'] :not(pre) > code {
+  background-color: #1e1e1e !important;
+  color: #e5e7eb !important;
+}
+
 /* Global Typography Refinements */
 html {
   font-size: var(--ifm-font-size-base);
@@ -91,25 +175,6 @@ h1, h2, h3, h4, h5, h6 {
 [data-theme='dark'] .navbar {
   background: rgba(10, 10, 12, 0.8);
   border-bottom: 1px solid rgba(38, 38, 42, 0.5);
-}
-
-/* Animated Background */
-body {
-  background: 
-    radial-gradient(circle at 0% 0%, rgba(67, 96, 223, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 100% 0%, rgba(136, 122, 249, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 100% 100%, rgba(81, 208, 240, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 0% 100%, rgba(81, 208, 167, 0.05) 0%, transparent 50%);
-  background-attachment: fixed;
-}
-
-[data-theme='dark'] body {
-  background: 
-    radial-gradient(circle at 0% 0%, rgba(67, 96, 223, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 100% 0%, rgba(136, 122, 249, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 100% 100%, rgba(81, 208, 240, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 0% 100%, rgba(81, 208, 167, 0.1) 0%, transparent 50%);
-  background-attachment: fixed;
 }
 
 /* Enhanced Card Styling */
@@ -193,13 +258,6 @@ body {
   opacity: 1;
 }
 
-/* Code Block Styling */
-.prism-code {
-  border-radius: 12px !important;
-  background: var(--ifm-background-surface-color) !important;
-  box-shadow: var(--shadow-md);
-}
-
 /* Table Enhancements */
 table {
   border-collapse: separate;
@@ -249,37 +307,14 @@ main {
   animation: contentFadeIn 0.5s ease-out;
 }
 
-/* Previous CSS remains the same until the sidebar section... */
-
 /* Sidebar refinements */
 .menu {
   font-size: 0.95rem;
   padding: var(--content-padding);
-  border-right: none !important; /* Remove the divider */
+  border-right: none !important;
 }
 
-/* Add a subtle gradient separation instead of a line */
-.main-wrapper {
-  background: linear-gradient(
-    to right,
-    transparent,
-    transparent calc(var(--doc-sidebar-width) - 1px),
-    rgba(229, 231, 235, 0.2) calc(var(--doc-sidebar-width) - 1px),
-    transparent calc(var(--doc-sidebar-width) + 1px)
-  );
-}
-
-[data-theme='dark'] .main-wrapper {
-  background: linear-gradient(
-    to right,
-    transparent,
-    transparent calc(var(--doc-sidebar-width) - 1px),
-    rgba(38, 38, 42, 0.2) calc(var(--doc-sidebar-width) - 1px),
-    transparent calc(var(--doc-sidebar-width) + 1px)
-  );
-}
-
-/* Add subtle hover effect to menu items */
+/* Menu item styling */
 .menu__link {
   border-radius: 8px;
   transition: var(--transition-fast);
@@ -304,26 +339,12 @@ main {
   background: rgba(67, 96, 223, 0.2) !important;
 }
 
-.main-wrapper > div {
-  border-right: none !important;
-}
-
-aside {
-  border-right: none !important;
-}
-
-nav.menu {
-  border-right: none !important;
-}
-
-.theme-doc-sidebar-container {
-  border-right: none !important;
-}
-
-div[class*='docSidebarContainer'] {
-  border-right: none !important;
-}
-
+/* Remove all sidebar borders */
+.main-wrapper > div,
+aside,
+nav.menu,
+.theme-doc-sidebar-container,
+div[class*='docSidebarContainer'],
 div[class*='sidebarViewport'] {
   border-right: none !important;
 }

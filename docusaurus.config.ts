@@ -10,6 +10,29 @@ const config: Config = {
   organizationName: 'status-network',
   projectName: 'docs',
 
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh', 'ko', 'ja'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        htmlLang: 'en-US',
+      },
+      zh: {
+        label: '中文',
+        htmlLang: 'zh-CN',
+      },
+      ko: {
+        label: '한국어',
+        htmlLang: 'ko-KR',
+      },
+      ja: {
+        label: '日本語',
+        htmlLang: 'ja-JP',
+      },
+    },
+  },
+
   presets: [
     [
       'classic',
@@ -90,6 +113,11 @@ const config: Config = {
               to: '/tools/node-operators',
             },
           ],
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+          className: 'language-dropdown',
         },
         {
           href: 'https://hub.status.network',
