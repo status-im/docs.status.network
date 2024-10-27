@@ -27,7 +27,7 @@ For the sake of this tutorial, we will be deploying the `SimpleStorage.sol` smar
 Here's the sample code:
 
 ```solidity
-// SPDX-License-Identifier: GPL-3.0
+// SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.24;
 

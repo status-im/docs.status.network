@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 4px 12px rgba(67, 96, 223, 0.2);
   position: relative;
   overflow: hidden;
-  margin-right: 16px;
+  margin-right: 10px;
 }
 
 .hub-button::before {
