@@ -250,7 +250,7 @@ Congratulations! You've successfully deployed a smart contract on the **Status N
 
 - **Explore More Tutorials**:
 
-  - Check out other tutorials in the [Status Network Documentation](/tutorials).
+  - Check out other tutorials in the [Status Network Documentation](/tutorials/ethers-tutorial).
 
 - **Deploy to Mainnet**:
 
@@ -312,7 +312,7 @@ Congratulations! You've successfully deployed a smart contract on the **Status N
 
 If you encounter any issues or have questions, feel free to reach out:
 
-- **Support**: [support@statusnetwork.io](mailto:nadeem@status.network)
+- **Support**: [support](mailto:nadeem@status.network)
 - **Community Discord**: [Join Our Discord](https://discord.gg/status_im)
 
 ---

@@ -381,7 +381,7 @@ You've successfully created a web application that interacts with a smart contra
 
 - **Explore More Tutorials**:
 
-  - Check out other tutorials in the [Status Network Documentation](/tutorials).
+  - Check out other tutorials in the [Status Network Documentation](/tutorials/ethers-tutorial).
 
 - **Enhance the Application**:
 
