@@ -127,6 +127,13 @@ const config: Config = {
         },
       ],
     },
+    algolia: {
+      // it is safe to commit these
+      appId: 'M7J93TRPJ9',
+      apiKey: '17befa84094fd9acddd40cbb64012976',
+      indexName: 'status',
+      contextualSearch: true,
+    },
   },
 } satisfies Config;
 
