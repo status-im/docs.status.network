@@ -312,7 +312,6 @@ Congratulations! You've successfully deployed a smart contract on the **Status N
 
 If you encounter any issues or have questions, feel free to reach out:
 
-- **Support**: [support](mailto:nadeem@status.network)
 - **Community Discord**: [Join Our Discord](https://discord.gg/status_im)
 
 ---

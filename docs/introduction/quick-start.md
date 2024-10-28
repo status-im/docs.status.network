@@ -97,7 +97,7 @@ contract SimpleStorage {
 
 - **Get Support**:
 
-  - If you encounter any issues or have questions, visit the [Status Network Support](https://status.app) or join the community channels for assistance.
+  - If you encounter any issues or have questions, join the community channels for assistance.
 
 ## Summary
 

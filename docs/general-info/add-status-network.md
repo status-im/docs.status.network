@@ -77,7 +77,7 @@ You should now be able to connect to the Status Network Testnet by selecting it 
 
 - **Need Help?**
 
-  - If you encounter any issues, please reach out to our [Support Team](mailto:nadeem@status.im) or join our [Community Discord](#).
+  - If you encounter any issues, please join our [Community Discord](https://discord.gg/status_im).
 
 ---
 
