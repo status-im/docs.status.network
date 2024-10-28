@@ -45,8 +45,7 @@ pipeline {
                 -b deploy-master \
                 -c docs.status.network \
                 -p build
-                """, 
-                pure: false
+            """
             )
           }
         }

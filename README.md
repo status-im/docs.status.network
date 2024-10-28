@@ -77,26 +77,6 @@ docs/
 └── other/              # Additional resources
 ```
 
-### Style Guide
-
-When contributing to the documentation, please follow these guidelines:
-
-- Use clear, concise language
-- Include code examples where applicable
-- Add screenshots or diagrams for complex concepts
-- Follow the existing document structure
-- Use appropriate frontmatter for all markdown files
-
-Example markdown frontmatter:
-```md
----
-id: page-id
-title: Page Title
-description: Brief description of the page
-sidebar_position: 1
----
-```
-
 ---
 
 Made with ❤️ by the Status Network community
