@@ -10,6 +10,8 @@ Welcome to the official documentation for Status Network! This repository contai
 - [Yarn](https://yarnpkg.com/) (v1 or higher)
 - [Git](https://git-scm.com/)
 
+If you are familiar with using [Nix shell](https://nix.dev/manual/nix/2.17/command-ref/new-cli/nix3-develop) all of the dependencies will be installed by just running `nix develop` from within this repository which will spawn a new shell.
+
 ### Installation
 
 ```bash
@@ -39,6 +41,14 @@ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+
+## CI/CD
+
+- [CI builds](https://ci.infra.status.im/job/website/job/docs.status.network/) `main` and pushes to `deploy-main` branch, which is hosted at <https://docs.status.network/>.
+
+The hosting is done using [Caddy server with Git plugin for handling GitHub webhooks](https://github.com/status-im/infra-misc/blob/master/ansible/roles/caddy-git).
+
+Information about deployed build can be also found in `/build.json` available on the website.
 
 ## 📝 Contributing
 
