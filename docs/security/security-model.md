@@ -1,1 +1,0 @@
-# Status Network Security Model
