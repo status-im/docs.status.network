@@ -52,6 +52,7 @@ const config: Config = {
   ],
 
   themeConfig: {
+    image: 'https://docs.status.network/img/sn_logo.png',
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: true,
