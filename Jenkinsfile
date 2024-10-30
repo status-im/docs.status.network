@@ -42,8 +42,8 @@ pipeline {
           script {
             nix.develop("""
                 ghp-import \
-                -b deploy-master \
-                -c docs.status.network \
+                -b ${deployBranch()} \
+                -c ${deployDomain()} \
                 -p build
                 """, 
                 pure: false
@@ -58,3 +58,7 @@ pipeline {
     cleanup { cleanWs() }
   }
 }
+
+def isMasterBranch() { GIT_BRANCH ==~ /.*master/ }
+def deployBranch() { isMasterBranch() ? 'deploy-master' : 'deploy-develop' }
+def deployDomain() { isMasterBranch() ? 'docs.status.network' : 'dev-docs.status.network' }
