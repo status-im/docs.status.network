@@ -45,6 +45,7 @@ This command generates static content into the `build` directory and can be serv
 ## CI/CD
 
 - [CI builds](https://ci.infra.status.im/job/website/job/docs.status.network/) `master` and pushes to `deploy-master` branch, which is hosted at <https://docs.status.network/>.
+- [CI builds dev](https://ci.infra.status.im/job/website/job/dev-docs.status.network/) `develop` and pushes to `deploy-develop` branch, which is hosted at <https://dev-docs.status.network/>.
 
 The hosting is done using [Caddy server with Git plugin for handling GitHub webhooks](https://github.com/status-im/infra-misc/blob/master/ansible/roles/caddy-git).
 
