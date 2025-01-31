@@ -74,10 +74,6 @@ const config: Config = {
               to: '/tools/rpc',
             },
             {
-              label: '👥 Multisig Wallets',
-              to: '/tools/multisig-wallets',
-            },
-            {
               label: '🌉 Bridge',
               to: '/tools/bridge',
             },
@@ -88,30 +84,6 @@ const config: Config = {
             {
               label: '🔎 Block Explorers',
               to: '/tools/block-explorers',
-            },
-            {
-              label: '📊 Data Indexers',
-              to: '/tools/data-indexers',
-            },
-            {
-              label: '🔮 Oracles',
-              to: '/tools/oracles',
-            },
-            {
-              label: '🔗 Interoperability',
-              to: '/tools/interoperability',
-            },
-            {
-              label: '🎲 Randomness',
-              to: '/tools/randomness',
-            },
-            {
-              label: '🛠️ General Tooling',
-              to: '/tools/general-tooling',
-            },
-            {
-              label: '🖥️ Node Operators',
-              to: '/tools/node-operators',
             },
           ],
         },
