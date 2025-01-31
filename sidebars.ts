@@ -103,11 +103,6 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'doc',
-          id: 'tools/multisig-wallets',
-          label: '👥 Multisig Wallets',
-        },
-        {
-          type: 'doc',
           id: 'tools/bridge',
           label: '🌉 Bridge',
         },
@@ -120,36 +115,6 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'tools/block-explorers',
           label: '🔎 Block Explorers',
-        },
-        {
-          type: 'doc',
-          id: 'tools/data-indexers',
-          label: '📊 Data Indexers',
-        },
-        {
-          type: 'doc',
-          id: 'tools/oracles',
-          label: '🔮 Oracles',
-        },
-        {
-          type: 'doc',
-          id: 'tools/interoperability',
-          label: '🔗 Interoperability',
-        },
-        {
-          type: 'doc',
-          id: 'tools/randomness',
-          label: '🎲 Randomness',
-        },
-        {
-          type: 'doc',
-          id: 'tools/general-tooling',
-          label: '🛠️ General Tooling',
-        },
-        {
-          type: 'doc',
-          id: 'tools/node-operators',
-          label: '🖥️ Node Operators',
         },
       ],
     },
