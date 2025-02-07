@@ -1,62 +1,14 @@
 {
   "title": {
-    "message": "스테이터스 네트워크 문서",
+    "message": "Status Network Docs",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "스테이터스 네트워크 로고",
+    "message": "Status Network Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Tools": {
-    "message": "도구",
-    "description": "Navbar item with label Tools"
-  },
   "item.label.Hub": {
-    "message": "허브",
+    "message": "Hub",
     "description": "Navbar item with label Hub"
-  },
-  "item.label.🔌 RPC": {
-    "message": "🔌 RPC",
-    "description": "Navbar item with label 🔌 RPC"
-  },
-  "item.label.👥 Multisig Wallets": {
-    "message": "👥 다중서명 지갑",
-    "description": "Navbar item with label 👥 Multisig Wallets"
-  },
-  "item.label.🌉 Bridge": {
-    "message": "🌉 브리지",
-    "description": "Navbar item with label 🌉 Bridge"
-  },
-  "item.label.🚰 Testnet Faucets": {
-    "message": "🚰 테스트넷 파우셋",
-    "description": "Navbar item with label 🚰 Testnet Faucets"
-  },
-  "item.label.🔎 Block Explorers": {
-    "message": "🔎 블록 익스플로러",
-    "description": "Navbar item with label 🔎 Block Explorers"
-  },
-  "item.label.📊 Data Indexers": {
-    "message": "📊 데이터 인덱서",
-    "description": "Navbar item with label 📊 Data Indexers"
-  },
-  "item.label.🔮 Oracles": {
-    "message": "🔮 오라클",
-    "description": "Navbar item with label 🔮 Oracles"
-  },
-  "item.label.🔗 Interoperability": {
-    "message": "🔗 상호운용성",
-    "description": "Navbar item with label 🔗 Interoperability"
-  },
-  "item.label.🎲 Randomness": {
-    "message": "🎲 난수성",
-    "description": "Navbar item with label 🎲 Randomness"
-  },
-  "item.label.🛠️ General Tooling": {
-    "message": "🛠️ 일반 도구",
-    "description": "Navbar item with label 🛠️ General Tooling"
-  },
-  "item.label.🖥️ Node Operators": {
-    "message": "🖥️ 노드 운영자",
-    "description": "Navbar item with label 🖥️ Node Operators"
   }
 }

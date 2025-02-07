@@ -1,1 +1,1 @@
-# $SNT Token
+# SNT Token

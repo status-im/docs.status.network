@@ -1,28 +1,27 @@
 ---
 id: index
-title: 介绍 Status Network
+title: 欢迎来到 Status Network
 slug: /
 sidebar_position: 1
 ---
 
-# 欢迎来到 Status Network
+# Status Network: 无 Gas 费的第二层网络
 
-欢迎来到 **Status Network**，这是一个重新构想您区块链体验的加密社交游乐场！作为一个基于 [Linea 的尖端 ZK-EVM 技术](https://docs.linea.build/architecture) 构建的 **与 EVM 等效的以太坊 Layer 2 Rollup**，Status Network 提供了使我们与其他平台区别开来的独特功能。
 
-## 我们的独特之处是什么？
+## 立即开始构建
 
-### 💰 原生 ETH 和 DAI 收益
+准备好加入去中心化应用程序的未来了吗？以下是开始的方法：
 
-在您的 **ETH** 和 **DAI** 资产上享受可持续且有吸引力的收益！我们提供原生收益生成，这是 Layer 2 解决方案中的一项独特功能，让您在参与网络的同时轻松提升您的加密持有量。
+1. [将 Status Network 添加到您的钱包](/general-info/add-status-network)
+2. [获取测试网 ETH](/tools/testnet-faucets)
+3. [跨链资产](/general-info/bridge/bridging-testnet)
+4. [部署您的第一个合约](/tutorials/deploying-contracts/using-remix)
 
-### 🏆 赚取 $AURA 代币
+## 支持与资源
 
-**实时**获得您的参与奖励！参与网络活动并 **质押 $SNT** 以赚取 **$AURA 代币**。您互动得越多——无论是通过交易、质押还是社区参与——您在我们充满活力的社区中获得的影响力就越大。您的 $AURA 会增强您在塑造网络未来方面的声音。
+加入我们的社区并访问所需资源：
+- 加入我们的 [Telegram 开发者社区](https://t.me/+k04A_OZbhIs1Mzc9)
+- 查看[网络详情](/general-info/network-details)
+- 浏览[合约地址](/general-info/contract-addresses/testnet-contracts)
 
-### 🔒 有趣的隐私保护
-
-体验既**安全又有趣**的隐私功能！我们相信隐私是一项基本权利，应该在不复杂的情况下人人都能访问。我们用户友好的隐私工具使安全的交互变得愉快，打破了传统的复杂隐私技术概念。
-
----
-
-加入 Status Network，成为一个独特的、专注于隐私并有回报的加密社区的一员，在这里，**您的积极参与真正塑造未来**！让我们一起建立加密游乐场！
+准备好构建令人惊叹的应用了吗？今天就开始您的 Status Network 之旅！

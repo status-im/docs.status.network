@@ -1,12 +1,20 @@
-# Network Details
+# 网络详情
 
-## Status Testnet
+## Status 测试网
 
-| Name                | Value |
-|---------------------|-------|
-| **Network Name**    |       |
-| **RPC Endpoint**    |       |
-| **Chain ID**        |       |
-| **Currency Symbol** |       |
-| **Block Explorer**  |       |
-| **Bridge**          |       |
+| 名称                | 值                                       |
+|---------------------|------------------------------------------|
+| **网络名称**        | Status Network Testnet                    |
+| **RPC 端点**        | https://public.sepolia.rpc.status.network |
+| **链 ID**           | 1660990954                               |
+| **货币符号**        | ETH                                       |
+| **区块浏览器**      | https://sepoliascan.status.network       |
+| **跨链桥**          | https://bridge.status.network            |
+
+这些是 Status Network 测试网的官方网络详情。您可以使用这些详情来：
+- 将网络添加到您的钱包
+- 配置开发环境
+- 将 dApp 连接到网络
+- 验证智能合约
+
+关于如何将网络添加到您的钱包，请参阅我们的 [Status Network 添加指南](./add-status-network.md)。

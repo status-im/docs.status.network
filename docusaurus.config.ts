@@ -52,7 +52,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'https://docs.status.network/img/sn_logo.png',
+    image: 'https://docs.status.network/img/sn_logo.svg',
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: true,
@@ -64,29 +64,6 @@ const config: Config = {
         src: 'img/sn_logo.svg',
       },
       items: [
-        {
-          type: 'dropdown',
-          label: 'Tools',
-          position: 'left',
-          items: [
-            {
-              label: '🔌 RPC',
-              to: '/tools/rpc',
-            },
-            {
-              label: '🌉 Bridge',
-              to: '/tools/bridge',
-            },
-            {
-              label: '🚰 Testnet Faucets',
-              to: '/tools/testnet-faucets',
-            },
-            {
-              label: '🔎 Block Explorers',
-              to: '/tools/block-explorers',
-            },
-          ],
-        },
         {
           type: 'localeDropdown',
           position: 'right',
