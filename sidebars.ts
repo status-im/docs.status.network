@@ -31,8 +31,8 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'doc',
-          id: 'tokenomics/aura-token',
-          label: '💠 Aura Token',
+          id: 'tokenomics/karma-token',
+          label: '💠 Karma Token',
         },
       ],
     },
@@ -115,11 +115,6 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         {
-          type: 'doc',
-          id: 'tutorials/ethers-tutorial',
-          label: '📘 Ethers Tutorial',
-        },
-        {
           type: 'category',
           label: '🚀 Deploying a Smart Contract',
           collapsed: false,
@@ -152,11 +147,6 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'other/official-links',
           label: '🔗 Official Links',
-        },
-        {
-          type: 'doc',
-          id: 'other/branding-guidelines',
-          label: '🎨 Branding Guidelines',
         },
       ],
     },

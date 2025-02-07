@@ -1,1 +1,0 @@
-# Branding Guidelines
