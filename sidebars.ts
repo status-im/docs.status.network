@@ -75,16 +75,6 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'doc',
-              id: 'general-info/bridge/bridge-to-status',
-              label: '➡️ Bridge to Status',
-            },
-            {
-              type: 'doc',
-              id: 'general-info/bridge/bridge-from-status',
-              label: '⬅️ Bridge from Status',
-            },
-            {
-              type: 'doc',
               id: 'general-info/bridge/bridging-testnet',
               label: '🧪 Bridging Testnet',
             },
@@ -95,6 +85,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'TOOLS',
+      collapsed: false,
       items: [
         {
           type: 'doc',
@@ -175,29 +166,9 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'SECURITY',
-      items: [
-        {
-          type: 'doc',
-          id: 'security/security-model',
-          label: '🛡️ Security Model',
-        },
-        {
-          type: 'doc',
-          id: 'security/security-upgrades',
-          label: '⬆️ Security Upgrades',
-        },
-      ],
-    },
-    {
-      type: 'category',
       label: 'OTHER DOCS',
+      collapsed: false,
       items: [
-        {
-          type: 'doc',
-          id: 'other/audits',
-          label: '🔒 Audits',
-        },
         {
           type: 'doc',
           id: 'other/official-links',

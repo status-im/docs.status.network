@@ -65,29 +65,6 @@ const config: Config = {
       },
       items: [
         {
-          type: 'dropdown',
-          label: 'Tools',
-          position: 'left',
-          items: [
-            {
-              label: '🔌 RPC',
-              to: '/tools/rpc',
-            },
-            {
-              label: '🌉 Bridge',
-              to: '/tools/bridge',
-            },
-            {
-              label: '🚰 Testnet Faucets',
-              to: '/tools/testnet-faucets',
-            },
-            {
-              label: '🔎 Block Explorers',
-              to: '/tools/block-explorers',
-            },
-          ],
-        },
-        {
           type: 'localeDropdown',
           position: 'right',
           className: 'language-dropdown',
