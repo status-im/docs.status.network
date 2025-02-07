@@ -1,38 +1,37 @@
 # クイックスタート
 
-このセクションでは、**Status Network テストネット**で10分以内にサンプルコントラクトをデプロイする方法を紹介します。
+このセクションでは、10分以内に**Status Networkテストネット**にサンプルコントラクトをデプロイする方法を説明します。
 
-シンプルさのために、Remix IDEを使用してStatus Network上でスマートコントラクトをデプロイする方法を見てみましょう。
+簡単のため、Remix IDEを使用してStatus Networkにスマートコントラクトをデプロイする方法を見ていきましょう。
 
-## 準備を整える
+## 準備
 
 始める前に：
 
-- **MetaMaskにStatus Network テストネットを追加する**：
+1. **Status NetworkテストネットをMetaMaskに追加**：
 
-  MetaMaskにStatus Network テストネットを追加する手順については、[Status Network ドキュメント](/general-info/add-status-network)をご覧ください。ネットワークのRPC URL、チェーンID、その他の詳細が必要です。
+   MetaMaskにStatus Networkテストネットを追加する方法については、[Status Network追加ガイド](/general-info/add-status-network)の手順に従ってください。
 
-- **テストネットトークンを取得する**：
+2. **テストETHを入手**：
 
-  このガイドでは、Status NetworkでテストネットETHを取得していることを前提としています。テストトークンをリクエストするには、[Status Network テストネットファウセット](#)を使用できます。
+   SepoliaのETHとStatus NetworkのETHの両方が必要です：
+   - まず[Sepoliaフォーセット](https://faucet.status.network)からSepolia ETHを入手
+   - 次に[Statusブリッジ](https://bridge.status.network)を使用してETHをStatus Networkにブリッジ
+   - または、[テストネットフォーセット](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)から直接Status Network ETHを入手
 
-準備ができました！
+これで準備完了です！
 
 ## Remixとサンプルコード
 
-**Remix**は、スマートコントラクトを開発するためのセットアップ不要のツールです。簡単に始められ、シンプルなデプロイプロセス、デバッグ、スマートコントラクトとのやり取りなどが可能です。デプロイされたスマートコントラクトと対話し、迅速な変更をテストするのに最適なツールです。
+**Remix**は、セットアップ不要のスマートコントラクト開発ツールです。簡単に始められ、シンプルなデプロイプロセス、デバッグ、スマートコントラクトとの対話などが可能です。
 
-このチュートリアルでは、Remixのサンプルとして提供されている`SimpleStorage.sol`スマートコントラクトをデプロイしますが、ご自身のコードを使用することもできます。
-
-サンプルコードはこちらです：
+このチュートリアルでは、シンプルな`SimpleStorage.sol`コントラクトをデプロイします：
 
 ```solidity
-// SPDX-License-Identifier: GPL-3.0
-
-pragma solidity ^0.8.24;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
 contract SimpleStorage {
-
     uint256 number;
     
     function store(uint256 num) public {
@@ -45,70 +44,75 @@ contract SimpleStorage {
 }
 ```
 
-> **注意：** このコントラクトは、数値を保存し、その数値を読み取ることができます。
+> **注意：** このコントラクトは数値を保存し、その数値を読み取ることができます。
 
 ## デプロイの手順
 
-1. **サンプルコードをコピーする**：
+1. **サンプルコードをコピー**：
 
    - サンプルコードをコピーし、Remixで`SimpleStorage.sol`という新しいファイルに貼り付けます。
 
-2. **スマートコントラクトをコンパイルする**：
+2. **スマートコントラクトをコンパイル**：
 
-   - **Solidity Compiler**タブ（左のサイドバー）に移動します。
-   - コンパイラのバージョンがコントラクトのプラグマ文（`0.8.24`）と一致していることを確認します。
-   - **「Compile SimpleStorage.sol」**をクリックします。
-   - コントラクトコードを変更するたびに自動的にコンパイルするには、**「Auto compile」**を有効にできます。
+   - 左サイドバーの**Solidityコンパイラー**タブに移動。
+   - コンパイラーバージョンが0.8.0以上であることを確認。
+   - **「SimpleStorage.solをコンパイル」**をクリック。
+   - コントラクトコードを変更するたびに自動コンパイルするには**「自動コンパイル」**を有効にできます。
 
-3. **スマートコントラクトをデプロイする**：
+3. **スマートコントラクトをデプロイ**：
 
-   - **Deploy & Run Transactions**タブに切り替えます。
-   - **「Environment」**ドロップダウンメニューで、**「Injected Provider - MetaMask」**を選択します。これにより、RemixがMetaMaskウォレットに接続されます。
-   - MetaMaskがRemixへの接続を求める場合があります。接続を確認してください。
-   - MetaMaskで**Status Network テストネット**が選択されていることを確認します。
-   - **「Contract」**の下で、`SimpleStorage`が選択されていることを確認します。
-   - **「Deploy」**をクリックします。
-   - MetaMaskがポップアップし、トランザクションの確認を求めます。
-   - トランザクションの詳細を確認し、**「Confirm」**をクリックします。
-   - トランザクションがマイニングされるのを待ちます。RemixやMetaMaskでステータスを追跡できます。
+   - **デプロイ＆実行トランザクション**タブに切り替え。
+   - **「環境」**ドロップダウンメニューで**「Injected Provider - MetaMask」**を選択。
+   - MetaMaskがRemixへの接続を求めることがあります。接続を確認してください。
+   - MetaMaskで**Status Networkテストネット**が選択されていることを確認。
+   - **「コントラクト」**で`SimpleStorage`が選択されていることを確認。
+   - **「デプロイ」**をクリック。
+   - MetaMaskがポップアップし、トランザクションの確認を求めます。ガス代はETHで支払われます。
+   - トランザクションの詳細を確認し、**「確認」**をクリック。
+   - トランザクションがマイニングされるのを待ちます。
 
-**おめでとうございます！** Status Network上で初めてのスマートコントラクトをデプロイしました。
+4. **デプロイを確認**：
+   
+   - デプロイ後、Remixからコントラクトのアドレスをコピー
+   - [Status Networkエクスプローラー](https://sepoliascan.status.network)で確認
+
+**おめでとうございます！** Status Networkに最初のスマートコントラクトをデプロイしました。
 
 ## デプロイしたスマートコントラクトと対話する
 
-1. **デプロイされたコントラクトにアクセスする**：
+1. **デプロイしたコントラクトにアクセス**：
 
-   - Remixで、**「Deployed Contracts」**セクションの下に、デプロイされた`SimpleStorage`コントラクトが表示されます。
+   - Remixの**「デプロイされたコントラクト」**セクションで、デプロイした`SimpleStorage`コントラクトが表示されます。
 
-2. **数値を保存する**：
+2. **数値を保存**：
 
-   - デプロイされたコントラクトを展開し、その関数を表示します。
-   - **「store」**関数の入力フィールドに、数値（例：`42`）を入力します。
-   - **「transact」**をクリックします。
-   - MetaMaskがトランザクションの確認を求めます。**「Confirm」**をクリックします。
+   - デプロイされたコントラクトを展開して関数を表示。
+   - **「store」**関数の入力フィールドに数値（例：`42`）を入力。
+   - **「transact」**をクリック。
+   - MetaMaskがトランザクションの確認を求めます。ガス代はETHで支払われます。
    - トランザクションが確認されるのを待ちます。
 
-3. **数値を取得する**：
+3. **数値を取得**：
 
-   - **「retrieve」**関数をクリックします。
-   - 保存された数値がボタンの下に表示されます。
+   - **「retrieve」**関数をクリック。
+   - ボタンの下に保存された数値が表示されます。
+   - これはview関数なので、ガス代は不要です。
 
 ## 次のステップ
 
 - **サポートを受ける**：
-
-  - 問題が発生したり質問がある場合は、[Status Network サポート](https://status.app)を訪れるか、コミュニティチャンネルに参加して支援を受けてください。
+  - サポートが必要な場合は[Telegramコミュニティ](https://t.me/+k04A_OZbhIs1Mzc9)に参加
+  - 詳細については[ネットワークの詳細](/general-info/network-details)をチェック
+  - Status Networkへの[トークンのブリッジ](/general-info/bridge/bridging-testnet)について学ぶ
 
 ## まとめ
 
-あなたは次のことに成功しました：
+以下のことを達成しました：
+- Status Networkテストネットと対話するための環境設定
+- ブリッジまたはフォーセットを通じてテストネットETHを入手
+- Remix IDEとMetaMaskを使用してスマートコントラクトをデプロイ
+- 数値の保存と取得によってデプロイしたコントラクトと対話
 
-- Status Network テストネットと対話するための環境を設定しました。
-- Remix IDEとMetaMaskを使用してスマートコントラクトをデプロイしました。
-- 数値の保存と取得によって、デプロイしたコントラクトと対話しました。
-
----
-
-もっと深く学びたい場合は、より複雑なスマートコントラクトを探求してみてください。追加のチュートリアルは[こちら](/tutorials/ethers-tutorial)からご覧いただけます。
-
-**楽しいコーディングを！**
+より高度な開発については、以下を使用したデプロイのガイドをチェックしてください：
+- [Hardhat](/tutorials/deploying-contracts/using-hardhat)
+- [Foundry](/tutorials/deploying-contracts/using-foundry)

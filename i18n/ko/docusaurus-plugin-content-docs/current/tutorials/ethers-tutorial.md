@@ -1,1 +1,0 @@
-# Interacting with Smart Contracts using ethers.js
