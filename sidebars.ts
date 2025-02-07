@@ -131,11 +131,6 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: 'doc',
-              id: 'tutorials/deploying-contracts/using-thirdweb',
-              label: '🌐 Using Thirdweb',
-            },
-            {
-              type: 'doc',
               id: 'tutorials/deploying-contracts/using-foundry',
               label: '⚒️ Using Foundry',
             },
@@ -143,22 +138,6 @@ const sidebars: SidebarsConfig = {
               type: 'doc',
               id: 'tutorials/deploying-contracts/using-remix',
               label: '🎛️ Using Remix',
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: '🔍 Verifying Your Smart Contract',
-          items: [
-            {
-              type: 'doc',
-              id: 'tutorials/verifying-contracts/using-hardhat',
-              label: '🎩 Using Hardhat',
-            },
-            {
-              type: 'doc',
-              id: 'tutorials/verifying-contracts/using-foundry',
-              label: '⚒️ Using Foundry',
             },
           ],
         },
