@@ -367,3 +367,20 @@ div[class*='sidebarViewport'] {
     transform: translateX(100%);
   }
 }
+
+/* Footer Enhancements */
+.footer {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-top: 1px solid rgba(229, 231, 235, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+[data-theme='dark'] .footer {
+  background: rgba(10, 10, 12, 0.95) !important;
+  border-top: 1px solid rgba(38, 38, 42, 0.8);
+}
+
+/* Remove default footer background */
+.footer--dark {
+  background: none;
+}

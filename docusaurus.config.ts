@@ -69,11 +69,28 @@ const config: Config = {
           position: 'right',
           className: 'language-dropdown',
         },
+        // {
+        //   href: 'https://hub.status.network',
+        //   label: 'Hub',
+        //   position: 'right',
+        //   className: 'hub-button',
+        // },
+      ],
+    },
+    footer: {
+      links: [
         {
-          href: 'https://hub.status.network',
-          label: 'Hub',
-          position: 'right',
-          className: 'hub-button',
+          title: 'Legal',
+          items: [
+            {
+              label: 'Terms of use',
+              to: '/terms-of-use',
+            },
+            {
+              label: 'Privacy policy',
+              to: '/privacy-policy',
+            },
+          ],
         },
       ],
     },
