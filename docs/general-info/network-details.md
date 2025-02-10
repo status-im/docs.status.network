@@ -1,3 +1,5 @@
+import AddToMetaMask from '@site/src/components/AddToMetaMask';
+
 # Network Details
 
 ## Status Testnet
@@ -10,6 +12,9 @@
 | **Currency Symbol** | ETH                                       |
 | **Block Explorer**  | https://sepoliascan.status.network       |
 | **Bridge**          | https://bridge.status.network            |
+
+<AddToMetaMask />
+<div style={{height: '2rem'}} />
 
 These are the official network details for the Status Network testnet. You can use these details to:
 - Add the network to your wallet
