@@ -19,7 +19,7 @@
 - **合约验证**: [sepoliascan.status.network/verify-contract](https://sepoliascan.status.network/contract-verification)
 
 ## 社区与支持
-- **Telegram 社区**: [t.me/+k04A_OZbhIs1Mzc9](https://t.me/+k04A_OZbhIs1Mzc9)
+- **Telegram 社区**: [t.me/+k04A_OZbhIs1Mzc9](https://t.me)
 - **X/推特**: [twitter.com/ethstatus](https://x.com/statusL2)
 
 关于如何将网络添加到您的钱包，请参阅我们的[添加网络指南](/general-info/add-status-network)。

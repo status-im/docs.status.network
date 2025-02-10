@@ -20,7 +20,7 @@ sidebar_position: 1
 ## 지원 및 리소스
 
 커뮤니티에 참여하고 필요한 리소스에 접근하세요:
-- [텔레그램 빌더 커뮤니티](https://t.me/+k04A_OZbhIs1Mzc9)에 참여
+- [텔레그램 빌더 커뮤니티](https://t.me)에 참여
 - [네트워크 세부정보](/general-info/network-details) 확인
 - [컨트랙트 주소](/general-info/contract-addresses/testnet-contracts) 탐색
 

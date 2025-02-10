@@ -29,4 +29,4 @@ Status Network ブリッジを使用すると、SepoliaとStatus Networkテス�
 - 取引を開始する前に、正しいウェブサイト（bridge.status.network）にアクセスしていることを必ず確認してください
 - 大きな金額を転送する前に、少額でテストすることをお勧めします
 - ガス代を支払うのに十分なETHをウォレットに保有していることを確認してください
-- 問題が発生した場合は、サポート用の[Telegram](https://t.me/+k04A_OZbhIs1Mzc9)にご参加ください
+- 問題が発生した場合は、サポート用の[Telegram](https://t.me)にご参加ください

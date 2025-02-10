@@ -42,5 +42,5 @@ Status Network 테스트넷 브리지를 사용하면 Sepolia (레이어 1)와 S
 
 브리지 사용 중 문제가 발생한 경우:
 - 일반적인 해결책은 [브리징 가이드](../general-info/bridge/bridging-testnet.md) 확인
-- 도움이 필요하면 [텔레그램 커뮤니티](https://t.me/+k04A_OZbhIs1Mzc9)에 참여
+- 도움이 필요하면 [텔레그램 커뮤니티](https://t.me)에 참여
 - 진행 중인 문제는 [네트워크 상태](https://health.status.network) 모니터링

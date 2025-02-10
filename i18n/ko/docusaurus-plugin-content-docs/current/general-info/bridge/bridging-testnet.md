@@ -29,4 +29,4 @@ Status Network 브리지를 사용하면 Sepolia와 Status Network 테스트넷 
 - 거래를 시작하기 전에 올바른 웹사이트(bridge.status.network)에 접속했는지 반드시 확인하세요
 - 큰 금액을 전송하기 전에 먼저 소액으로 테스트해보세요
 - 가스비를 지불할 충분한 ETH가 지갑에 있는지 확인하세요
-- 문제가 발생한 경우, 지원을 받으시려면 [텔레그램](https://t.me/+k04A_OZbhIs1Mzc9)에 참여하세요
+- 문제가 발생한 경우, 지원을 받으시려면 [텔레그램](https://t.me)에 참여하세요

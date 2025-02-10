@@ -19,7 +19,7 @@
 - **コントラクト検証**: [sepoliascan.status.network/verify-contract](https://sepoliascan.status.network/contract-verification)
 
 ## コミュニティ＆サポート
-- **Telegramコミュニティ**: [t.me/+k04A_OZbhIs1Mzc9](https://t.me/+k04A_OZbhIs1Mzc9)
+- **Telegramコミュニティ**: [t.me/+k04A_OZbhIs1Mzc9](https://t.me)
 - **X/twitter**: [twitter.com/ethstatus](https://x.com/statusL2)
 
 ウォレットへのネットワークの追加方法については、[ネットワーク追加ガイド](/general-info/add-status-network)をご参照ください。

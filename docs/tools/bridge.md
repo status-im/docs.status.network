@@ -42,5 +42,5 @@ You can monitor your bridge transactions using:
 
 If you encounter any issues while using the bridge:
 - Check our [Bridging Guide](../general-info/bridge/bridging-testnet.md) for common solutions
-- Join our [Telegram Community](https://t.me/+k04A_OZbhIs1Mzc9) for assistance
+- Join our [Telegram Community](https://t.me) for assistance
 - Monitor [Network Status](https://health.status.network) for any ongoing issues

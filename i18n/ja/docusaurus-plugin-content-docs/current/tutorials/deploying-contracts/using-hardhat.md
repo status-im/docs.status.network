@@ -157,6 +157,6 @@ npx hardhat run scripts/interact.ts --network statusTestnet
 ## サポート
 
 問題が発生した場合：
-- [Telegramコミュニティ](https://t.me/+k04A_OZbhIs1Mzc9)に参加
+- [Telegramコミュニティ](https://t.me)に参加
 - [ネットワークステータス](https://health.status.network)を確認
 - [ネットワーク詳細](/general-info/network-details)を参照

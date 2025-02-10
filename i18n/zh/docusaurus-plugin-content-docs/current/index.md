@@ -20,7 +20,7 @@ sidebar_position: 1
 ## 支持与资源
 
 加入我们的社区并访问所需资源：
-- 加入我们的 [Telegram 开发者社区](https://t.me/+k04A_OZbhIs1Mzc9)
+- 加入我们的 [Telegram 开发者社区](https://t.me)
 - 查看[网络详情](/general-info/network-details)
 - 浏览[合约地址](/general-info/contract-addresses/testnet-contracts)
 

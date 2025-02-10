@@ -89,7 +89,7 @@ contract HelloWorld {
 ## 支持
 
 如果遇到问题：
-- 加入我们的 [Telegram 社区](https://t.me/+k04A_OZbhIs1Mzc9)
+- 加入我们的 [Telegram 社区](https://t.me)
 - 查看[网络状态](https://health.status.network)
 - 查看[网络详情](/general-info/network-details)
 

@@ -20,7 +20,7 @@ Ready to join the future of decentralized applications? Here's how to get starte
 ## Support & Resources
 
 Connect with our community and access the resources you need:
-- Join our [Telegram Builder's Community](https://t.me/+k04A_OZbhIs1Mzc9)
+- Join our [Telegram Builder's Community](https://t.me)
 - View [Network Details](/general-info/network-details)
 - Browse [Contract Addresses](/general-info/contract-addresses/testnet-contracts)
 
