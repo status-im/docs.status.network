@@ -1,3 +1,12 @@
+---
+id: network-details
+title: Status Network Details & Configuration
+description: Official network details for Status Network testnet including RPC endpoints, Chain ID, and configuration information for wallets and development environments.
+keywords: [Status Network, network details, RPC endpoint, Chain ID, testnet configuration, blockchain network, MetaMask setup]
+---
+
+import AddToMetaMask from '@site/src/components/AddToMetaMask';
+
 # Network Details
 
 ## Status Testnet
@@ -10,6 +19,9 @@
 | **Currency Symbol** | ETH                                       |
 | **Block Explorer**  | https://sepoliascan.status.network       |
 | **Bridge**          | https://bridge.status.network            |
+
+<AddToMetaMask />
+<div style={{height: '2rem'}} />
 
 These are the official network details for the Status Network testnet. You can use these details to:
 - Add the network to your wallet

@@ -1,3 +1,9 @@
+---
+title: Status Network Block Explorer
+description: Learn how to use the Status Network block explorer to track transactions, verify smart contracts, and monitor network activity. Complete guide to explorer features and contract verification.
+keywords: [Status Network explorer, blockchain explorer, smart contract verification, transaction tracking, block explorer, network monitoring]
+---
+
 # Status Network Testnet Explorer
 
 The Status Network block explorer is available at [sepoliascan.status.network](https://sepoliascan.status.network).

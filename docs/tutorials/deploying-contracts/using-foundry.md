@@ -1,3 +1,9 @@
+---
+title: Using Foundry with Status Network
+description: Comprehensive guide to deploying and testing smart contracts on Status Network using Foundry. Learn about project setup, deployment scripts, testing, and contract interaction using Cast.
+keywords: [Foundry tutorial, smart contract deployment, Status Network development, blockchain testing, Solidity development, web3 development, Foundry testing]
+---
+
 # Using Foundry to Deploy Smart Contracts
 
 This tutorial will guide you through the process of deploying a smart contract on Status Network testnet using Foundry.

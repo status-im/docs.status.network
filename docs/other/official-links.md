@@ -1,3 +1,9 @@
+---
+title: Official Links
+description: Complete directory of official Status Network resources, including main website, tools, development resources, and community links.
+keywords: [Status Network links, official resources, network tools, development resources, community links, blockchain explorer, bridge, faucet]
+---
+
 # Official Links
 
 This page contains all the official links for the Status Network ecosystem.

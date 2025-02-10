@@ -1,8 +1,21 @@
+---
+title: Add Status Network
+description: Step-by-step guide on how to add Status Network to MetaMask and other wallets. Learn how to configure network settings for both desktop and mobile wallets.
+keywords: [Status Network, MetaMask setup, add network, wallet configuration, RPC settings, Chain ID, blockchain network setup]
+---
+
+import AddToMetaMask from '@site/src/components/AddToMetaMask';
+
 # Add Status Network
 
 This guide shows how to add the **Status Network** to your wallet.
 
-## Testnet
+You can add Status Network Testnet directly by clicking on the button below:
+
+<AddToMetaMask />
+
+
+## Manual Configuration
 
 To add **Status Network Testnet** as a custom network to MetaMask:
 
