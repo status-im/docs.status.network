@@ -1,15 +1,15 @@
 {
-    "timestamp": "2025-02-10T16:14:21Z",
+    "timestamp": "2025-02-10T16:48:41Z",
     "git": {
-        "commit": "9a758e719c7787ac581800af1fe6194248e52726",
+        "commit": "628d5f31e2ef0d8a3ecb30e21b898d1b45c8f454",
         "branch": "origin/develop",
         "url": "git@github.com:status-im/docs.status.network.git"
     },
     "build": {
-        "id": "7",
-        "number": "7",
+        "id": "8",
+        "number": "8",
         "name": "website/dev-docs.status.network",
         "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/dev-docs.status.network/7/"
+        "url": "https://ci.infra.status.im/job/website/job/dev-docs.status.network/8/"
     }
 }
