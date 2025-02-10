@@ -49,5 +49,5 @@ RPCエンドポイントは、以下を含む標準的なEthereum JSON-RPCメソ
 
 RPCエンドポイントに問題が発生した場合：
 - 進行中の問題については[ネットワークステータス](https://health.status.network)をチェック
-- サポートについては[Telegramコミュニティ](https://t.me/+k04A_OZbhIs1Mzc9)に参加
+- サポートについては[Telegramコミュニティ](https://t.me)に参加
 - アプリケーションにフォールバックRPC戦略の実装を検討

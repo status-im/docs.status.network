@@ -101,7 +101,7 @@ contract SimpleStorage {
 ## Next Steps
 
 - **Get Support**:
-  - Join our [Telegram Community](https://t.me/+k04A_OZbhIs1Mzc9) for assistance
+  - Join our [Telegram Community](https://t.me) for assistance
   - Check our [Network Details](/general-info/network-details) for more information
   - Learn about [bridging tokens](/general-info/bridge/bridging-testnet) to Status Network
 

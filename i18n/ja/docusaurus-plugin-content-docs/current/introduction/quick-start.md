@@ -101,7 +101,7 @@ contract SimpleStorage {
 ## 次のステップ
 
 - **サポートを受ける**：
-  - サポートが必要な場合は[Telegramコミュニティ](https://t.me/+k04A_OZbhIs1Mzc9)に参加
+  - サポートが必要な場合は[Telegramコミュニティ](https://t.me)に参加
   - 詳細については[ネットワークの詳細](/general-info/network-details)をチェック
   - Status Networkへの[トークンのブリッジ](/general-info/bridge/bridging-testnet)について学ぶ
 

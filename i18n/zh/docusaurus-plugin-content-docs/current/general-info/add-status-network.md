@@ -77,7 +77,7 @@
 
 - **需要帮助？**
 
-  - 如果遇到任何问题，请加入我们的 [Telegram](https://t.me/+k04A_OZbhIs1Mzc9) 获取支持。
+  - 如果遇到任何问题，请加入我们的 [Telegram](https://t.me) 获取支持。
 
 ---
 

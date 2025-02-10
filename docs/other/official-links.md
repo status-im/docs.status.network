@@ -19,7 +19,7 @@ This page contains all the official links for the Status Network ecosystem.
 - **Contract Verification**: [sepoliascan.status.network/verify-contract](https://sepoliascan.status.network/contract-verification)
 
 ## Community & Support
-- **Telegram Community**: [t.me/+k04A_OZbhIs1Mzc9](https://t.me/+k04A_OZbhIs1Mzc9)
+- **Telegram Community**: [t.me/+k04A_OZbhIs1Mzc9](https://t.me)
 - **X/twitter**: [twitter.com/ethstatus](https://x.com/statusL2)
 
 For detailed information about adding the network to your wallet, see our [Add Network guide](/general-info/add-status-network).

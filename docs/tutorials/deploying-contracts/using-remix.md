@@ -89,7 +89,7 @@ Once deployed, you'll see your contract under "Deployed Contracts":
 ## Support
 
 If you encounter any issues:
-- Join our [Telegram Community](https://t.me/+k04A_OZbhIs1Mzc9)
+- Join our [Telegram Community](https://t.me)
 - Check [Network Status](https://health.status.network)
 - View our [Network Details](/general-info/network-details)
 

@@ -49,5 +49,5 @@ RPC 端点支持标准的以太坊 JSON-RPC 方法，包括：
 
 如果您在使用 RPC 端点时遇到问题：
 - 查看[网络状态](https://health.status.network)了解任何正在进行的问题
-- 加入我们的 [Telegram 社区](https://t.me/+k04A_OZbhIs1Mzc9)获取支持
+- 加入我们的 [Telegram 社区](https://t.me)获取支持
 - 考虑在您的应用程序中实现备用 RPC 策略

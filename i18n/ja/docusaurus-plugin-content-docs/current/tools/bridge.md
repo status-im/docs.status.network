@@ -42,5 +42,5 @@ Status Networkテストネットブリッジを使用すると、Sepolia（レ�
 
 ブリッジ使用中に問題が発生した場合：
 - 一般的な解決策については[ブリッジングガイド](../general-info/bridge/bridging-testnet.md)をチェック
-- サポートについては[Telegramコミュニティ](https://t.me/+k04A_OZbhIs1Mzc9)に参加
+- サポートについては[Telegramコミュニティ](https://t.me)に参加
 - 進行中の問題については[ネットワークステータス](https://health.status.network)を確認

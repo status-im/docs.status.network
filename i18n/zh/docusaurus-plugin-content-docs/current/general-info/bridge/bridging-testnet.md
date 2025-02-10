@@ -29,4 +29,4 @@ Status Network 跨链桥允许您在 Sepolia 和 Status Network 测试网之间�
 - 在进行任何交易之前，请务必验证您是否在正确的网站（bridge.status.network）上
 - 建议先用小额进行测试，然后再转移大额资金
 - 确保您的钱包中有足够的 ETH 支付燃料费
-- 如果遇到任何问题，请加入我们的 [Telegram](https://t.me/+k04A_OZbhIs1Mzc9) 获取支持
+- 如果遇到任何问题，请加入我们的 [Telegram](https://t.me) 获取支持

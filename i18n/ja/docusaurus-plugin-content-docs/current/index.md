@@ -20,7 +20,7 @@ sidebar_position: 1
 ## サポート＆リソース
 
 コミュニティに参加し、必要なリソースにアクセスしましょう：
-- [Telegramビルダーズコミュニティ](https://t.me/+k04A_OZbhIs1Mzc9)に参加
+- [Telegramビルダーズコミュニティ](https://t.me)に参加
 - [ネットワーク詳細](/general-info/network-details)を確認
 - [コントラクトアドレス](/general-info/contract-addresses/testnet-contracts)を閲覧
 

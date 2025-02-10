@@ -101,7 +101,7 @@ contract SimpleStorage {
 ## 下一步
 
 - **获取支持**：
-  - 加入我们的 [Telegram 社区](https://t.me/+k04A_OZbhIs1Mzc9) 获取帮助
+  - 加入我们的 [Telegram 社区](https://t.me) 获取帮助
   - 查看我们的 [网络详情](/general-info/network-details) 了解更多信息
   - 了解如何 [跨链代币](/general-info/bridge/bridging-testnet) 到 Status Network
 

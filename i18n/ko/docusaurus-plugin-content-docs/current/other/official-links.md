@@ -19,7 +19,7 @@
 - **컨트랙트 검증**: [sepoliascan.status.network/verify-contract](https://sepoliascan.status.network/contract-verification)
 
 ## 커뮤니티 & 지원
-- **텔레그램 커뮤니티**: [t.me/+k04A_OZbhIs1Mzc9](https://t.me/+k04A_OZbhIs1Mzc9)
+- **텔레그램 커뮤니티**: [t.me/+k04A_OZbhIs1Mzc9](https://t.me)
 - **X/트위터**: [twitter.com/ethstatus](https://x.com/statusL2)
 
 지갑에 네트워크를 추가하는 방법에 대해서는 [네트워크 추가 가이드](/general-info/add-status-network)를 참조하세요.
