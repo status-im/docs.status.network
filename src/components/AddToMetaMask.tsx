@@ -34,7 +34,7 @@ export default function AddToMetaMask(): JSX.Element {
       onClick={addStatusNetwork}
     >
       <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg"
+        src="https://docs.status.network/img/metamask.svg"
         alt="MetaMask Fox"
         style={{ 
           width: '20px', 
