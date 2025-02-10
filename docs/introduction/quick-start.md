@@ -1,3 +1,9 @@
+---
+title: Quick Start
+description: Get started with Status Network in under 10 minutes. Learn how to deploy your first smart contract using Remix IDE, get test ETH, and interact with the network.
+keywords: [Status Network tutorial, quick start, smart contract deployment, Remix IDE, blockchain development, testnet setup, MetaMask configuration]
+---
+
 # Quick Start
 
 In this section, we'll get you deploying a sample contract on **Status Network Testnet** in less than 10 minutes.

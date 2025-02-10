@@ -1,3 +1,9 @@
+---
+title: RPC Endpoints
+description: Official RPC endpoints for Status Network, including configuration guides for MetaMask and Web3 libraries. Learn about available methods, rate limits, and best practices.
+keywords: [Status Network RPC, JSON-RPC, blockchain API, web3 configuration, MetaMask setup, blockchain development]
+---
+
 # RPC Endpoints
 
 The Status Network provides public RPC (Remote Procedure Call) endpoints that allow you to interact with the network.

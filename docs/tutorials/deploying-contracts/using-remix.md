@@ -1,3 +1,9 @@
+---
+title: Using Remix with Status Network
+description: Learn how to deploy smart contracts on Status Network using Remix IDE. Beginner-friendly guide with step-by-step instructions for contract deployment and interaction.
+keywords: [Remix IDE, smart contract deployment, Status Network development, blockchain tutorial, web3 development, solidity]
+---
+
 # Using Remix to Deploy Smart Contracts
 
 This tutorial will guide you through deploying a smart contract on Status Network testnet using the Remix IDE. Remix is a browser-based IDE that's perfect for quick development and testing.

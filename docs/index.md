@@ -1,6 +1,8 @@
 ---
 id: index
 title: Welcome to Status Network
+description: Status Network is a gasless Layer 2 blockchain network enabling seamless, fee-free decentralized applications. Start building with easy wallet setup, faucets, and deployment tools.
+keywords: [Status Network, Layer 2, gasless blockchain, ethereum scaling, web3 development, dapp development, blockchain development]
 slug: /
 sidebar_position: 1
 ---

@@ -39,24 +39,31 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/status-im/status-network-docs/tree/main/',
+          editUrl: 'https://github.com/status-im/docs.status.network',
           routeBasePath: '/',
+          showLastUpdateTime: true,
         },
         blog: false,
         pages: false,
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
+        gtag: {
+          trackingID: 'G-4GHNHQDPG2',
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    image: 'https://docs.status.network/img/sn_logo.svg',
-    colorMode: {
-      defaultMode: 'dark',
-      respectPrefersColorScheme: true,
-    },
+    image: 'img/sn-social-card.png',
     navbar: {
       title: 'Status Network Docs',
       logo: {
@@ -69,14 +76,78 @@ const config: Config = {
           position: 'right',
           className: 'language-dropdown',
         },
-        // {
-        //   href: 'https://hub.status.network',
-        //   label: 'Hub',
-        //   position: 'right',
-        //   className: 'hub-button',
-        // },
       ],
     },
+
+    metadata: [
+      // General SEO
+      {
+        name: 'description',
+        content: 'Documentation for Status Network - The gasless network with sustainable funding for app builders. Launch and scale your social apps and games with truly free transactions.',
+      },
+      {
+        name: 'keywords',
+        content: 'status network, blockchain, web3, documentation, gasless transactions, social network, cryptocurrency',
+      },
+      {
+        name: 'author',
+        content: 'Status Network',
+      },
+      
+      // OpenGraph tags
+      {
+        property: 'og:title',
+        content: 'Status Network Documentation',
+      },
+      {
+        property: 'og:description',
+        content: 'Documentation for Status Network - The gasless network with sustainable funding for app builders. Launch and scale your social apps and games with truly free transactions.',
+      },
+      {
+        property: 'og:image',
+        content: 'https://docs.status.network/img/sn-social-card.png',
+      },
+      {
+        property: 'og:url',
+        content: 'https://docs.status.network',
+      },
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        property: 'og:site_name',
+        content: 'Status Network Documentation',
+      },
+      
+      // Twitter Card tags
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        name: 'twitter:site',
+        content: '@statusL2',
+      },
+      {
+        name: 'twitter:title',
+        content: 'Status Network Documentation',
+      },
+      {
+        name: 'twitter:description',
+        content: 'Documentation for Status Network - The gasless network with sustainable funding for app builders. Launch and scale your social apps and games with truly free transactions.',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://docs.status.network/img/sn-social-card.png',
+      },
+    ],
+
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: true,
+    },
+
     footer: {
       links: [
         {
@@ -95,7 +166,6 @@ const config: Config = {
       ],
     },
     algolia: {
-      // it is safe to commit these
       appId: 'M7J93TRPJ9',
       apiKey: '17befa84094fd9acddd40cbb64012976',
       indexName: 'status',

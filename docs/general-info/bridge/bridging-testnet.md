@@ -1,3 +1,9 @@
+---
+title: Bridging to Status Network Testnet
+description: Learn how to bridge tokens between Sepolia and Status Network testnet using the official Status Network bridge. Complete guide with prerequisites and step-by-step instructions.
+keywords: [Status Network bridge, token bridge, cross-chain bridge, Sepolia bridge, L2 bridge, testnet bridge, blockchain bridge]
+---
+
 # Bridging to Status Network Testnet
 
 The Status Network bridge allows you to transfer tokens between Sepolia and Status Network testnet. The bridge is deployed at [bridge.status.network](https://bridge.status.network).
