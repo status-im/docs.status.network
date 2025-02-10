@@ -1,3 +1,10 @@
+---
+id: network-details
+title: Status Network Details & Configuration
+description: Official network details for Status Network testnet including RPC endpoints, Chain ID, and configuration information for wallets and development environments.
+keywords: [Status Network, network details, RPC endpoint, Chain ID, testnet configuration, blockchain network, MetaMask setup]
+---
+
 import AddToMetaMask from '@site/src/components/AddToMetaMask';
 
 # Network Details
