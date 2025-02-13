@@ -168,6 +168,17 @@ const config: Config = {
       contextualSearch: true,
     },
   },
+
+  plugins: [
+      [
+        '@acid-info/docusaurus-fathom',
+        {
+          siteId: 'SMSOL',
+          scriptUrl: 'https://fathom.bi.status.im/tracker.js',
+          hostnames: ['docs.status.network'],
+        },
+      ]
+  ]
 } satisfies Config;
 
 export default config;
