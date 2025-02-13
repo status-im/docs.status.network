@@ -54,10 +54,6 @@ const config: Config = {
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
         },
-        gtag: {
-          trackingID: 'G-4GHNHQDPG2',
-          anonymizeIP: true,
-        },
       } satisfies Preset.Options,
     ],
   ],
