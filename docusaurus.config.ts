@@ -54,10 +54,6 @@ const config: Config = {
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
         },
-        gtag: {
-          trackingID: 'G-4GHNHQDPG2',
-          anonymizeIP: true,
-        },
       } satisfies Preset.Options,
     ],
   ],
@@ -172,6 +168,17 @@ const config: Config = {
       contextualSearch: true,
     },
   },
+
+  plugins: [
+      [
+        '@acid-info/docusaurus-fathom',
+        {
+          siteId: 'SMSOL',
+          scriptUrl: 'https://fathom.bi.status.im/tracker.js',
+          hostnames: ['docs.status.network'],
+        },
+      ]
+  ]
 } satisfies Config;
 
 export default config;
