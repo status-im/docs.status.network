@@ -1,22 +1,24 @@
 # Status Network - Website Privacy Policy
 
-*Last updated: 29 January 2025*
+*Last updated: 12 February 2025*
 
-This Privacy Policy is intended to inform users of our approach to privacy in respect of this website ("Website"). In this regard, if you are visiting our Website, this Privacy Policy applies to you.
+This Privacy Policy is intended to inform users of our approach to privacy in respect of this website (“**Website**”). In this regard, if you are visiting our Website, this Privacy Policy applies to you.
 
 ## Who we are
 
-For the purposes of this Privacy Policy and the collection and processing of personal data as a controller, the relevant entity is the Status Research & Development GmbH, a Swiss company with its registered office at Baarerstrasse 10, Zug, Switzerland.
+For the purposes of this Privacy Policy and the collection and processing of personal data as a controller,  the relevant entity is the Status Research & Development GmbH, a Swiss company with its registered office at Baarerstrasse 10, Zug, Switzerland.
 
-Whenever we refer to "Status", "we", "us" or any other similar references, we are referring to Status Research & Development GmbH.
+Whenever we refer to “Status”, “we”, “us” or any other similar references, we are referring to Status Research & Development GmbH.
 
 ## We limit the collection and processing of personal data from your use of the Website
 
-We aim to limit the collection and processing of personal data from users of the Website. We only collect and process certain personal data for specific purposes and where we have the legal basis to do so under applicable data protection law. We will not collect or process any personal data that we don't need and where we do store any personal data, we will only store it for the least amount of time needed for the indicated purpose.
+We aim to limit the collection and processing of personal data from users of the Website. We only collect and process certain personal data for specific purposes and where we have the legal basis to do so under applicable data protection law. We will not collect or process any personal data that we don’t need and where we do store any personal data, we will only store it for the least amount of time needed for the indicated purpose.
 
 In this regard, we collect and process the following personal data from your use of the Website:
 
-**IP address**: As part of such use of the Website we briefly process your IP address but we have no way of identifying you. We however have a legitimate interest in processing such IP addresses to ensure the technical functionality and enhance the security measures of the Website. This IP address is not stored by us over time.
+* **IP address**: As part of such use of the Website and from our use of Fathom Analytics we briefly process your IP address but we have no way of identifying you. We however have a legitimate interest in processing such IP addresses to ensure the technical functionality and enhance the security measures of the Website. This IP address is not stored by us over time.
+
+* **Fathom Analytics**: We note that we make use of Fathom Analytics, which you can read more about here: https://usefathom.com/. In short, Fathom Analytics is an alternative to Google Analytics, that doesn’t compromise visitor privacy for data. Fathom Analytics collects trends and insights, not personal details about specific website visitors. Fathom Analytics offers simple traffic insights such as top pages, top referrers, bounce rate, and average time people spend on a site.
 
 ## Third party processing of personal data
 
@@ -34,12 +36,12 @@ We are obliged to protect the privacy of personal data that you may have submitt
 
 As explained in this Privacy Policy, we limit our collection and processing of your personal data wherever possible. Nonetheless, you still have certain choices and rights in respect of the personal data which we do collect and process. As laid out in relevant applicable data protection law, you have the right to:
 
-- Ask us to correct or update your personal data (where reasonably possible);
-- Ask us to remove your personal data from our systems;
-- Ask us for a copy of your personal data, which may also be transferred to another data controller at your request;
-- Withdraw your consent to process your personal data (only if consent was asked for a processing activity), which only affects processing activities that are based on your consent and doesn't affect the validity of such processing activities before you have withdrawn your consent;
-- Object to the processing of your personal data; and
-- File a complaint with the Federal Data Protection and Information Commissioner (FDPIC), if you believe that your personal data has been processed unlawfully.
+* Ask us to correct or update your personal data (where reasonably possible);
+* Ask us to remove your personal data from our systems;
+* Ask us for a copy of your personal data, which may also be transferred to another data controller at your request;
+* Withdraw your consent to process your personal data (only if consent was asked for a processing activity), which only affects processing activities that are based on your consent and doesn’t affect the validity of such processing activities before you have withdrawn your consent;
+* Object to the processing of your personal data; and
+* File a complaint with the Federal Data Protection and Information Commissioner (FDPIC), if you believe that your personal data has been processed unlawfully.
 
 ## Third party links
 
