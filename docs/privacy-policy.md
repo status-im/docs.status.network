@@ -12,7 +12,7 @@ Whenever we refer to “Status”, “we”, “us” or any other similar refer
 
 ## We limit the collection and processing of personal data from your use of the Website
 
-We aim to limit the collection and collection and processing of personal data from users of the Website. We only collect and process certain personal data for specific purposes and where we have the legal basis to do so under applicable data protection law. We will not collect or process any personal data that we don’t need and where we do store any personal data, we will only store it for the least amount of time needed for the indicated purpose.
+We aim to limit the collection and processing of personal data from users of the Website. We only collect and process certain personal data for specific purposes and where we have the legal basis to do so under applicable data protection law. We will not collect or process any personal data that we don’t need and where we do store any personal data, we will only store it for the least amount of time needed for the indicated purpose.
 
 In this regard, we collect and process the following personal data from your use of the Website:
 
