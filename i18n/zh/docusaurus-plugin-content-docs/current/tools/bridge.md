@@ -42,5 +42,4 @@ Status Network 测试网跨链桥允许用户在 Sepolia（第一层）和 Statu
 
 如果您在使用跨链桥时遇到任何问题：
 - 查看[跨链指南](../general-info/bridge/bridging-testnet.md)了解常见解决方案
-- 加入我们的 [Telegram 社区](https://t.me)获取帮助
-- 通过[网络状态](https://health.status.network)监控任何正在进行的问题
+- 加入我们的 [Telegram 社区](https://t.me/statusl2)获取帮助

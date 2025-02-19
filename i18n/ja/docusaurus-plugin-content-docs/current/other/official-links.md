@@ -15,11 +15,10 @@
 
 ## 開発リソース
 - **トークンリストリポジトリ**: [github.com/status-im/status-network-token-list](https://github.com/status-im/status-network-token-list)
-- **ネットワークステータス**: [status.status.network](https://health.status.network)
 - **コントラクト検証**: [sepoliascan.status.network/verify-contract](https://sepoliascan.status.network/contract-verification)
 
 ## コミュニティ＆サポート
-- **Telegramコミュニティ**: [t.me/+k04A_OZbhIs1Mzc9](https://t.me)
-- **X/twitter**: [twitter.com/ethstatus](https://x.com/statusL2)
+- **Telegramコミュニティ**: [t.me/statusl2](https://t.me/statusl2)
+- **X/twitter**: [x.com/statusL2](https://x.com/statusL2)
 
 ウォレットへのネットワークの追加方法については、[ネットワーク追加ガイド](/general-info/add-status-network)をご参照ください。

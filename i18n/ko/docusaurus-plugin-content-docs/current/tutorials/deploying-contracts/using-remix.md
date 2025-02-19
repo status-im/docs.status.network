@@ -89,8 +89,7 @@ contract HelloWorld {
 ## 지원
 
 문제가 발생한 경우:
-- [텔레그램 커뮤니티](https://t.me)에 참여
-- [네트워크 상태](https://health.status.network) 확인
+- [텔레그램 커뮤니티](https://t.me/statusl2)에 참여
 - [네트워크 세부정보](/general-info/network-details) 참조
 
 ## 추가 리소스

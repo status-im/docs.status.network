@@ -54,6 +54,5 @@ For higher limits, get in touch with us on Telegram.
 ## Support
 
 If you experience issues with the RPC endpoint:
-- Check [Network Status](https://health.status.network) for any ongoing problems
-- Join our [Telegram Community](https://t.me) for support
+- Join our [Telegram Community](https://t.me/statusl2) for support
 - Consider implementing a fallback RPC strategy in your application

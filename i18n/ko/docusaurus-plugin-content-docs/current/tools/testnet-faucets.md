@@ -31,5 +31,4 @@ Sepolia ETH를 받은 후, [Status Network 브리지](https://bridge.status.netw
 ## 지원
 
 수도꼭지 사용 중 문제가 발생한 경우:
-- [네트워크 상태](https://health.status.network)에서 진행 중인 문제 확인
-- 지원을 받으려면 [텔레그램 커뮤니티](https://t.me)에 참여
+- 지원을 받으려면 [텔레그램 커뮤니티](https://t.me/statusl2)에 참여

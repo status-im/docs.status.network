@@ -90,7 +90,7 @@ You should now be able to connect to the Status Network Testnet by selecting it 
 
 - **Need Help?**
 
-  - If you encounter any issues, please join our [Telegram](https://t.me) for support.
+  - If you encounter any issues, please join our [Telegram](https://t.me/statusl2) for support.
 
 ---
 
