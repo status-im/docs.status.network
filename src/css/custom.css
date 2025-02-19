@@ -182,6 +182,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+[data-theme='dark'] .DocSearch,
+[data-theme='light'] .DocSearch {
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--ifm-heading-font-family);
   letter-spacing: -0.02em;
