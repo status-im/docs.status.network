@@ -1,5 +1,37 @@
-/* Import custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url('@site/static/fonts/inter/Inter_18pt-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('@site/static/fonts/inter/Inter_18pt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('@site/static/fonts/inter/Inter_18pt-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('@site/static/fonts/inter/Inter_18pt-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('@site/static/fonts/inter/Inter_18pt-Bold.ttf') format('truetype');
+}
 
 /* Custom Properties */
 :root {
@@ -30,8 +62,8 @@
   --status-gray-700: hsla(215, 22%, 21%, 1);
   
   /* Typography */
-  --ifm-font-family-base: 'Inter', system-ui, -apple-system;
-  --ifm-heading-font-family: 'Space Grotesk', var(--ifm-font-family-base);
+  --ifm-font-family-base: 'Inter', -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Inter', var(--ifm-font-family-base);
   --ifm-font-size-base: 15px;
   --ifm-h1-font-size: 2.5rem;
   --ifm-h2-font-size: 2rem;
@@ -141,6 +173,18 @@ html[data-theme='dark']::before {
 html {
   font-size: var(--ifm-font-size-base);
   letter-spacing: -0.01em;
+  font-family: var(--ifm-font-family-base);
+}
+
+body {
+  font-family: var(--ifm-font-family-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme='dark'] .DocSearch,
+[data-theme='light'] .DocSearch {
+  font-family: 'Inter', -apple-system, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
