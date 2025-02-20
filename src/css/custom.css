@@ -2,35 +2,35 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
-  src: url('@site/static/fonts/inter/Inter_18pt-Light.ttf') format('truetype');
+  src: url('../../static/fonts/inter/Inter_18pt-Light.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('@site/static/fonts/inter/Inter_18pt-Regular.ttf') format('truetype');
+  src: url('../../static/fonts/inter/Inter_18pt-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  src: url('@site/static/fonts/inter/Inter_18pt-Medium.ttf') format('truetype');
+  src: url('../../static/fonts/inter/Inter_18pt-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  src: url('@site/static/fonts/inter/Inter_18pt-SemiBold.ttf') format('truetype');
+  src: url('../../static/fonts/inter/Inter_18pt-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  src: url('@site/static/fonts/inter/Inter_18pt-Bold.ttf') format('truetype');
+  src: url('../../static/fonts/inter/Inter_18pt-Bold.ttf') format('truetype');
 }
 
 /* Custom Properties */
