@@ -31,5 +31,4 @@ Sepolia ETHを入手したら、[Status Networkブリッジ](https://bridge.stat
 ## サポート
 
 フォーセットに問題が発生した場合：
-- 進行中の問題については[ネットワークステータス](https://health.status.network)をチェック
-- サポートについては[Telegramコミュニティ](https://t.me)に参加
+- サポートについては[Telegramコミュニティ](https://t.me/statusl2)に参加

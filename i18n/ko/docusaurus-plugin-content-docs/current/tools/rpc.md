@@ -48,6 +48,5 @@ RPC 엔드포인트는 다음을 포함한 표준 Ethereum JSON-RPC 메소드를
 ## 지원
 
 RPC 엔드포인트에 문제가 발생한 경우:
-- [네트워크 상태](https://health.status.network)에서 진행 중인 문제 확인
-- 지원을 받으려면 [텔레그램 커뮤니티](https://t.me)에 참여
+- 지원을 받으려면 [텔레그램 커뮤니티](https://t.me/statusl2)에 참여
 - 애플리케이션에 대체 RPC 전략 구현 고려
