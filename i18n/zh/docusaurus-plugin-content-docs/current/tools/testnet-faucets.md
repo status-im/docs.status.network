@@ -31,5 +31,4 @@ Status Network 测试网水龙头可在 [faucet.status.network](https://faucet.s
 ## 支持
 
 如果您在使用水龙头时遇到任何问题：
-- 查看[网络状态](https://health.status.network)了解任何正在进行的问题
-- 加入我们的 [Telegram 社区](https://t.me)获取支持
+- 加入我们的 [Telegram 社区](https://t.me/statusl2)获取支持

@@ -101,7 +101,7 @@ contract SimpleStorage {
 ## 다음 단계
 
 - **지원 받기**:
-  - [텔레그램 커뮤니티](https://t.me)에 참여하여 도움을 받으세요
+  - [텔레그램 커뮤니티](https://t.me/statusl2)에 참여하여 도움을 받으세요
   - [네트워크 세부정보](/general-info/network-details)에서 자세한 정보를 확인하세요
   - Status Network로의 [토큰 브리징](/general-info/bridge/bridging-testnet)에 대해 알아보세요
 

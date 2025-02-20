@@ -39,7 +39,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/status-im/docs.status.network',
+          editUrl: 'https://github.com/status-im/docs.status.network/tree/develop',
           routeBasePath: '/',
           showLastUpdateTime: true,
         },
