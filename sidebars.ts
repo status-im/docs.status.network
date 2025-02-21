@@ -10,7 +10,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'doc',
           id: 'index',
-          label: '🏠 Home',
+          label: '🌴 Home',
         },
         {
           type: 'doc',
@@ -26,13 +26,23 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'tokenomics/snt-token',
-          label: '💎 SNT Token',
+          id: 'tokenomics/economic-model',
+          label: '🤝 Economic Model',
         },
         {
           type: 'doc',
-          id: 'tokenomics/karma-token',
-          label: '💠 Karma Token',
+          id: 'tokenomics/public-funding',
+          label: '💰 Public Funding',
+        },  
+        {
+          type: 'doc',
+          id: 'tokenomics/karmic-tokenomics',
+          label: '🐉 Karmic Tokenomics',
+        },       
+        {
+          type: 'doc',
+          id: 'tokenomics/snt-staking',
+          label: '💎 SNT Staking',
         },
       ],
     },
@@ -59,7 +69,7 @@ const sidebars: SidebarsConfig = {
             {
               type: 'doc',
               id: 'general-info/contract-addresses/tokens',
-              label: '💰 Tokens',
+              label: '🪙 Tokens',
             },
             {
               type: 'doc',
