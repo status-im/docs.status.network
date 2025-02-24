@@ -16,8 +16,8 @@ If you are familiar with using [Nix shell](https://nix.dev/manual/nix/2.17/comma
 
 ```bash
 # Clone the repository
-git clone https://github.com/status-network/docs.git
-cd docs
+git clone https://github.com/status-im/docs.status.network
+cd docs.status.network
 
 # Install dependencies
 yarn
@@ -69,15 +69,14 @@ We welcome contributions from the community! Here's how you can help improve our
 
 ```
 docs/
-├── introduction/         # Introduction and getting started
-├── tokenomics/          # SNT and AURA token documentation
-├── general-info/        # Network details and contracts
+├── introduction/       # Introduction and getting started
+├── tokenomics/         # Economic model and Karmic Tokenomics
+├── general-info/       # Network details and contracts
 ├── tools/              # Development tools and resources
 ├── tutorials/          # Step-by-step guides
-├── security/           # Security information
 └── other/              # Additional resources
 ```
 
 ---
 
-Made with ❤️ by the Status Network community
+Made with ❤️ by the Status Network team
