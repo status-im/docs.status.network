@@ -40,7 +40,7 @@ To add **Status Network Testnet** as a custom network to MetaMask:
      |------------------|------------------------------------------|
      | **Network Name** | Status Network Testnet                   |
      | **RPC URL**      | https://public.sepolia.rpc.status.network |
-     | **Chain ID**     | 1660990954                              |
+     | **Chain ID**     | 1660990954                               |
      | **Currency Symbol** | `ETH`                                 |
      | **Block Explorer URL** | https://sepoliascan.status.network |
 
@@ -90,7 +90,7 @@ You should now be able to connect to the Status Network Testnet by selecting it 
 
 - **Need Help?**
 
-  - If you encounter any issues, please join our [Telegram](https://t.me/statusl2) for support.
+  - If you encounter any issues, please join our [Telegram Builder's Community](https://t.me/statusl2) for support.
 
 ---
 

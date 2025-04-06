@@ -1,3 +1,9 @@
+---
+title: Economic Model
+description: Overview of Status Network's economic model including revenue streams, sustainable funding approach, and how the network achieves economic sustainability without relying on gas fees.
+keywords: [Status Network economics, L2 revenue, yield commission, DEX fees, sustainable blockchain, gasless blockchain, crypto economics]
+---
+
 # Economic Model
 
 Unlike traditional L2s that generate revenue from gas fees, Status Network operates on a radically different paradigm: users and applications do not pay transaction fees. This necessitates alternative revenue sources to maintain and sustain the network. As gas fees trend toward zero and rollups move toward decentralization, the business model of L2s must shift from execution-based revenue (sequencer fees) to monetizing asset trading volume and yield-bearing total value locked (TVL) on the network.

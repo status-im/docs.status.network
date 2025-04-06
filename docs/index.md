@@ -19,7 +19,7 @@ Developers can create seamless experiences and users can transact freely without
 
 - **Native Yield and Fees** 
 
-To sustain the L2 operation and support developers, Status Network is funded through a combinaison of native yield and fees coming from its native apps, starting with a DEX.
+To sustain the L2 operation and support developers, Status Network is funded through a combination of native yield and fees coming from its native apps, starting with a DEX.
 
 - **Sustainable Public Funding**
 
@@ -27,7 +27,7 @@ The apps funding pool, governed by token holders, continuously allocates capital
 
 - **High-Performance Execution**
 
-Status Network is built on Linea’s zkEVM rollup stack, ensuring fast and secure transactions.
+Status Network is built on Linea's zkEVM rollup stack, ensuring fast and secure transactions.
 
 - **Spam Protection via RLN**
 

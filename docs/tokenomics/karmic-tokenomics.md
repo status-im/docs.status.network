@@ -1,10 +1,16 @@
+---
+title: Karmic Tokenomics
+description: Explore Status Network's Karma system, a non-transferable governance token that rewards network participation and determines influence over funding decisions, incentives, and network parameters.
+keywords: [Karma token, Karmic tokenomics, Status Network governance, non-transferable token, governance power, staking rewards, contribution rewards]
+---
+
 # Karmic Tokenomics
 
 In some Eastern traditions, Karma represents the principle that one's past actions shape their future state. Similarly, on Status Network, every positive action and contribution accumulates Karma, granting greater influence over the network's funding and incentives. Karma ($KARMA) is a non-transferable governance token that rewards staking, bridging, providing liquidity, and building. The more a user or an app contributes to the L2 in liquidity or activity, the more voting power they earn over funding allocations, liquidity incentives, and network roadmap and parameters.
 
 ## How Karma is Earned
 
-Karma is minted through six primary mechanisms and cannot be aquired, ensuring that no entity—including the Status team—has any advantage in getting access to it. Everyone earns Karma under the same rules, based solely on their contributions to the network, ensuring it remains a pure representation of meaningful engagement within the network:
+Karma is minted through six primary mechanisms and cannot be acquired, ensuring that no entity—including the Status team—has any advantage in getting access to it. Everyone earns Karma under the same rules, based solely on their contributions to the network, ensuring it remains a pure representation of meaningful engagement within the network:
 
 1. **Staking SNT** – Anyone staking SNT receives Karma rewards proportionally. The longer one stakes or locks their SNT, the higher the Karma earning rate.
 
@@ -28,7 +34,7 @@ The initialization parameters of Karma minting allocations will be announced soo
 
 - **Native DEX Liquidity Incentives**: Karma holders vote on the incentive gauges for all curated liquidity pools on the native DEX.
 
-- **Network Policy Decisions**: Karma holders vote on the L2 economic and operational parameters, inlcuding native yield and fees distribution, Karma minting rate and allocation, etc.
+- **Network Policy Decisions**: Karma holders vote on the L2 economic and operational parameters, including native yield and fees distribution, Karma minting rate and allocation, etc.
 
 - **Loyalty and Reputation System**: Since Karma is soulbound, high Karma scores signal power users and key contributors within the ecosystem. The users progressively accumulate influence and may gain access to extra incentives and perks (e.g. rewards from apps building on the network and seeking to attract high-quality users).
 
