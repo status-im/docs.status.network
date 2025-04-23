@@ -171,11 +171,10 @@ const config: Config = {
 
   plugins: [
       [
-        '@acid-info/docusaurus-fathom',
+        '@acid-info/docusaurus-umami',
         {
-          siteId: 'SMSOL',
-          scriptUrl: 'https://fathom.bi.status.im/tracker.js',
-          hostnames: ['docs.status.network'],
+          websiteId: '21aa8b2b-6bcd-4a02-90d4-e0aa2f514995',
+          scriptSrc: 'https://umami.bi.status.im/script.js',
         },
       ]
   ]
