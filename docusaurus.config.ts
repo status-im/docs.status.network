@@ -175,6 +175,7 @@ const config: Config = {
         {
           websiteId: '21aa8b2b-6bcd-4a02-90d4-e0aa2f514995',
           scriptSrc: 'https://umami.bi.status.im/script.js',
+          dataDomains: 'docs.status.network',
         },
       ]
   ]
