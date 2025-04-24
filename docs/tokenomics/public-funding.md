@@ -1,3 +1,9 @@
+---
+title: Public Funding
+description: Overview of Status Network's public funding mechanism, including the apps funding pool, how funding is allocated, and why sustainable funding is crucial for blockchain applications.
+keywords: [Status Network funding, apps funding pool, blockchain funding, public goods, developer incentives, community governance, sustainable funding]
+---
+
 # Public Funding
 
 ## Apps Funding Pool and Public Funding Mechanism

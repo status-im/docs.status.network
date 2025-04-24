@@ -4,6 +4,8 @@ description: Official RPC endpoints for Status Network, including configuration 
 keywords: [Status Network RPC, JSON-RPC, blockchain API, web3 configuration, MetaMask setup, blockchain development]
 ---
 
+import AddToMetaMask from '@site/src/components/AddToMetaMask';
+
 # RPC Endpoints
 
 The Status Network provides public RPC (Remote Procedure Call) endpoints that allow you to interact with the network.
@@ -17,7 +19,10 @@ https://public.sepolia.rpc.status.network
 ## Using the RPC
 
 ### Adding to MetaMask
-For instructions on adding Status Network to your wallet using this RPC, see our [Add Network guide](../general-info/add-status-network.md).
+For instructions on adding Status Network to your wallet using this RPC, see our [Add Network guide](/general-info/add-status-network).
+
+<AddToMetaMask />
+<div style={{height: '2rem'}} />
 
 ### Web3 Library Configuration
 
@@ -49,7 +54,7 @@ The public RPC endpoint has rate limiting to ensure fair usage:
 - 10 requests per second per IP
 - 100,000 requests per day per IP
 
-For higher limits, get in touch with us on Telegram.
+For higher limits, get in touch with us on our [Telegram Builder's Community](https://t.me/statusl2).
 
 ## Support
 
