@@ -20,10 +20,10 @@ Before getting started:
 
 2. **Get Test ETH**:
 
-   You'll need both Sepolia ETH and Status Network ETH:
+   You'll need both Sepolia ETH and Status Network Testnet ETH:
    - First get Sepolia ETH from [Sepolia Faucet](https://faucet.status.network)
-   - Then bridge some ETH to Status Network using the [Status Bridge](https://bridge.status.network)
-   - Alternatively, get Status Network ETH directly from our [Testnet Faucet](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)
+   - Then bridge some ETH to Status Network Testnet using the [Status Bridge](https://bridge.status.network)
+   - Alternatively, get Status Network Testnet ETH directly from our [Testnet Faucet](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)
 
 We are ready to get started!
 

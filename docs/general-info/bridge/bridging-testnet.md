@@ -6,7 +6,7 @@ keywords: [Status Network bridge, token bridge, cross-chain bridge, Sepolia brid
 
 # Bridging to Status Network Testnet
 
-The Status Network bridge allows you to transfer tokens between Sepolia and Status Network testnet. The bridge is deployed at [bridge.status.network](https://bridge.status.network).
+The Status Network bridge allows you to transfer tokens between Sepolia and Status Network testnet. The bridge is deployed at [https://bridge.status.network](https://bridge.status.network).
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ The Status Network bridge allows you to transfer tokens between Sepolia and Stat
 
 ## Bridging Process
 
-1. Visit [bridge.status.network](https://bridge.status.network)
+1. Visit [https://bridge.status.network](https://bridge.status.network)
 
 2. Connect your wallet by clicking the "Connect Wallet" button in the top right corner
 
@@ -32,7 +32,7 @@ The Status Network bridge allows you to transfer tokens between Sepolia and Stat
 
 ## Important Notes
 
-- Always verify you're on the correct website (bridge.status.network) before initiating any transactions
+- Always verify you're on the correct website (https://bridge.status.network) before initiating any transactions
 - Start with a small amount to test the bridge before transferring larger amounts
 - Make sure you have enough ETH in your wallet to cover gas fees
-- If you encounter any issues, join our [Telegram](https://t.me/statusl2) for support
+- If you encounter any issues, join our [Telegram Builder's Community](https://t.me/statusl2) for support

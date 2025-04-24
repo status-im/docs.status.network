@@ -1,3 +1,9 @@
+---
+title: SNT Staking
+description: Learn about staking Status Network Token (SNT), including staking options, multiplier points, benefits, and how staking contributes to network governance and access to gasless transactions.
+keywords: [SNT staking, Status Network Token, token staking, blockchain staking, multiplier points, locked staking, governance power, Karma system]
+---
+
 # SNT Staking
 
 ## Status Network Token (SNT)
