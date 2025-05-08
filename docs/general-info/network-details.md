@@ -16,6 +16,7 @@ import AddToMetaMask from '@site/src/components/AddToMetaMask';
 | **Network Name**    | Status Network Testnet                    |
 | **RPC Endpoint**    | https://public.sepolia.rpc.status.network |
 | **Chain ID**        | 1660990954                               |
+| **Chain ID (Hex)**  | 0x6300b5ea                               |
 | **Currency Symbol** | ETH                                       |
 | **Block Explorer**  | https://sepoliascan.status.network       |
 | **Bridge**          | https://bridge.status.network            |
