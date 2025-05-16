@@ -24,6 +24,8 @@ Karma is minted through six primary mechanisms and cannot be acquired, ensuring 
 
 6. **Direct Donations** – Anyone contributing directly to the public funding pool receives Karma.
 
+7. **Promotional Proof Transactions** – New users can earn initial Karma by submitting cryptographic proofs of external blockchain activity, enabling frictionless onboarding without requiring existing tokens or gas fees. For more details, see [Promotional Proof Transactions (PPT)](./promotional-proof-transactions.md).
+
 The initialization parameters of Karma minting allocations will be announced soon. In the future, Karma holders will be able to modify those parameters through a vote if needed. The ultimate objective is to maximize alignment among stakeholders for a more sustainable growth of the network.
 
 ## Utility of Karma
