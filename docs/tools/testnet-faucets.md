@@ -14,7 +14,7 @@ The Status Network testnet faucet is available at [faucet.status.network](https:
 
 ### Details
 - **Faucet Contract**: [`0x06338B70F1eAbc60d7A82C083e605C07F78bb878`](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)
-- **Amount**: 0.1 ETH per request
+- **Amount**: 0.01 ETH per request
 - **Cooldown**: One request per address per day
 
 ### How to Get Testnet ETH
