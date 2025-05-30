@@ -52,3 +52,13 @@ These contracts are deployed on the Status Network testnet. You can view them on
   - Address: [`0x24B5eD2763129D6cBDEfE32e08558D2095132560`](https://sepoliascan.status.network/address/0x24B5eD2763129D6cBDEfE32e08558D2095132560)
   - Purpose: Manages state anchoring between L1 and L2
 
+### Utility Contracts
+- **Multicall3**
+  - Address: [`0xcA11bde05977b3631167028862bE2a173976CA11`](https://sepoliascan.status.network/address/0xcA11bde05977b3631167028862bE2a173976CA11)
+  - Purpose: Batching of multiple calls to the chain from one request
+- **deterministic-deployment-proxy**
+  - Address: [`0x4e59b44847b379578588920cA78FbF26c0B4956C`](https://sepoliascan.status.network/address/0x4e59b44847b379578588920cA78FbF26c0B4956C)
+  - Purpose: CREATE2 util contract used by popular frameworks like Hardhat and similar behind the scenes
+- **safe-singleton-factory**
+  - Address: [`0x914d7Fec6aaC8cd542e72Bca78B30650d45643d7`](https://sepoliascan.status.network/address/0x914d7Fec6aaC8cd542e72Bca78B30650d45643d7)
+  - Purpose: Singleton factory used by Safe related contracts
