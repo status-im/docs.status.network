@@ -8,7 +8,7 @@ Status Networkテストネットフォーセットは[faucet.status.network](htt
 
 ### 詳細
 - **フォーセットコントラクト**: [`0x06338B70F1eAbc60d7A82C083e605C07F78bb878`](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)
-- **配布量**: リクエストあたり0.1 ETH
+- **配布量**: リクエストあたり0.01 ETH
 - **クールダウン**: アドレスあたり1日1回のリクエスト
 
 ### テストネットETHの入手方法

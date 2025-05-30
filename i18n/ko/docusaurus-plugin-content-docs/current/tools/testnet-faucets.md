@@ -8,7 +8,7 @@ Status Network 테스트넷 수도꼭지는 [faucet.status.network](https://fauc
 
 ### 세부사항
 - **수도꼭지 컨트랙트**: [`0x06338B70F1eAbc60d7A82C083e605C07F78bb878`](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)
-- **지급량**: 요청당 0.1 ETH
+- **지급량**: 요청당 0.01 ETH
 - **대기 시간**: 주소당 하루 1회 요청
 
 ### 테스트넷 ETH 받는 방법

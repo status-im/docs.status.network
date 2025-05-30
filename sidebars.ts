@@ -58,6 +58,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'doc',
+          id: 'general-info/gasless-transactions',
+          label: '⛽ Gasless Transactions',
+        },
+        {
+          type: 'doc',
           id: 'general-info/add-status-network',
           label: '➕ Add Status Network',
         },
