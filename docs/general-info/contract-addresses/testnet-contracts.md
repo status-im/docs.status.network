@@ -37,6 +37,8 @@ These contracts are deployed on the Sepolia testnet. You can view them on [Sepol
 These contracts are deployed on the Status Network testnet. You can view them on [Status Network Explorer](https://sepoliascan.status.network).
 
 ### Bridge Contracts
+- **L2 Message Service**
+  - Address: [`0xe74Bd8db0440533F8915042D980AbAA86085821c`](https://sepoliascan.status.network/address/0xe74Bd8db0440533F8915042D980AbAA86085821c)
 - **L2 Token Bridge Proxy**
   - Address: [`0xbC7f9571152a8e21942b2aEa4831a27f1149af19`](https://sepoliascan.status.network/address/0xbC7f9571152a8e21942b2aEa4831a27f1149af19)
   - Purpose: Manages token bridging operations on L2
