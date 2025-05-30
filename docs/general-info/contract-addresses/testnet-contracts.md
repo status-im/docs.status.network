@@ -13,6 +13,8 @@ This page lists all the important contract addresses for the Status Network test
 These contracts are deployed on the Sepolia testnet. You can view them on [Sepolia Etherscan](https://sepolia.etherscan.io).
 
 ### Bridge Contracts
+- **Rollup Contract**
+  - Address: [`0x0Bf464f24D867ff0B20aE8f9C353a589138D6836`](https://sepolia.etherscan.io/address/0x0bf464f24d867ff0b20ae8f9c353a589138d6836)
 - **L1 Token Bridge Proxy**
   - Address: [`0x01b44C5Ea321f921D93476cf54Aa8460db17a548`](https://sepolia.etherscan.io/address/0x01b44C5Ea321f921D93476cf54Aa8460db17a548)
   - Purpose: Manages token bridging operations on L1
