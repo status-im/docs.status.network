@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstatus_network_docs=self.webpackChunkstatus_network_docs||[]).push([[2024],{2024:(e,s,t)=>{t.d(s,{createArchitectureServices:()=>c.S});var c=t(8815);t(3579)}}]);
