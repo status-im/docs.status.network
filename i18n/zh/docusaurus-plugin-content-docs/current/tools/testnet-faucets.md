@@ -8,7 +8,7 @@ Status Network 测试网水龙头可在 [faucet.status.network](https://faucet.s
 
 ### 详情
 - **水龙头合约**: [`0x06338B70F1eAbc60d7A82C083e605C07F78bb878`](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)
-- **数量**: 每次请求 0.1 ETH
+- **数量**: 每次请求 0.01 ETH
 - **冷却时间**: 每个地址每天一次请求
 
 ### 如何获取测试网 ETH
