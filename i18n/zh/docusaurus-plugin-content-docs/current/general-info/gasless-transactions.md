@@ -114,7 +114,7 @@ Prover是一个由三个服务组成的系统：
 
 ### 3.2 RLN验证器
 
-RLN验证器是sequencer内部的besu插件，通过Java本机接口利用RLN的Zerokit Rust库。[PoC验证了JNI的可行性。](https://github.com/nadeemb53/verify-rln-proofs-java)
+RLN验证器是sequencer内部的besu插件，通过Java本机接口利用RLN的Zerokit Rust库。
 验证器：
 
 - 订阅来自RLN证明服务的gRPC流以接收生成的RLN证明。

@@ -115,7 +115,7 @@ These services ensure secure credential management, proof generation, and transa
 
 ### 3.2 RLN Verifier
 
-The RLN Verifier is a besu plugin inside the sequencer, leveraging RLN's Zerokit Rust library via Java Native Interface. [A PoC verified JNI feasibility.](https://github.com/nadeemb53/verify-rln-proofs-java)
+The RLN Verifier is a besu plugin inside the sequencer, leveraging RLN's Zerokit Rust library via Java Native Interface.
 The Verifier:
 
 - Subscribes to the gRPC stream from the RLN Prover Service to receive RLN proofs as they are generated.

@@ -114,7 +114,7 @@ Proverは3つのサービスで構成されるシステムです：
 
 ### 3.2 RLN Verifier
 
-RLN Verifierはsequencer内のbesuプラグインで、Java Native Interfaceを介してRLNのZerokit Rustライブラリを活用します。[PoCがJNIの実現可能性を確認しました。](https://github.com/nadeemb53/verify-rln-proofs-java)
+RLN Verifierはsequencer内のbesuプラグインで、Java Native Interfaceを介してRLNのZerokit Rustライブラリを活用します。
 Verifierは：
 
 - RLN Prover ServiceからgRPCストリームを購読して生成されるRLN証明を受信します。
