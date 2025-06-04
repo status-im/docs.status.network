@@ -10,7 +10,7 @@ keywords: [Status Network, Gasless Transactions, Linea, RLN, Rate Limiting Nulli
 
 Status Network aims to introduce gasless transactions at scale. The key component of this gasless approach is Vac's Rate Limiting Nullifier, which permits transaction rate limitation without the need for traditional gas fees. The document describes the architecture and integration elements needed to safely enable gasless transactions.
 
-### 1.2 RLN
+### RLN
 
 RLN is a zero-knowledge system designed to prevent spam without compromising user privacy unless a violation occurs. It replaces traditional gas fees with cryptographic rate limits enforced via ZKPs and Shamir's Secret Sharing.
 
@@ -20,7 +20,7 @@ RLN characteristics:
 - **Shamir's Secret Sharing and Nullifiers:** Users hold a secret key used to generate unique nullifiers for transactions. If a user exceeds their transaction limit within an epoch (e.g., block or timestamp), their secret key becomes recoverable, exposing them.
 - **Spam Detection:** Users exceeding limits effectively reveal their secret, leading to penalties like Deny List inclusion, higher future gas costs, or potential token slashing.
 
-### 1.3. RLN Membership Management
+### RLN Membership Management
 
 RLN uses Sparse Merkle Trees to efficiently handle large-scale membership proofs. A benchmarking study determined that a tree height of 20, supporting 1 million accounts, provides optimal performance for proof generation and verification. For scalability beyond 1 million accounts, multiple SMTs can be used with a registry to direct users to the appropriate tree.
 
@@ -101,9 +101,9 @@ graph TD
     class X,Y,Z,AA gas
 ```
 
-## 3. System Components
+## System Components
 
-### 3.1 Prover
+### Prover
 
 The Prover is a system comprising three services:
 
@@ -113,7 +113,7 @@ The Prover is a system comprising three services:
 
 These services ensure secure credential management, proof generation, and transaction tracking, with gRPC enabling low-latency communication with the Sequencer.
 
-### 3.2 RLN Verifier
+### RLN Verifier
 
 The RLN Verifier is a besu plugin inside the sequencer, leveraging RLN's Zerokit Rust library via Java Native Interface.
 The Verifier:
@@ -124,7 +124,7 @@ The Verifier:
 
 Transactions failing verification are rejected, and users may be temporarily added to the Deny List.
 
-### 3.3 Deny List
+### Deny List
 
 The Deny List temporarily restricts users exceeding quotas or engaging in spam:
 
@@ -132,7 +132,7 @@ The Deny List temporarily restricts users exceeding quotas or engaging in spam:
 - Users can bypass restrictions by paying premium gas fees
 - Paying premium fees removes users from the list and earns additional Karma
 
-### 3.4 `linea_estimateGas` RPC Modification
+### `linea_estimateGas` RPC Modification
 
 The linea_estimateGas method is customised to account for users on the Deny List:
 
