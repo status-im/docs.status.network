@@ -10,6 +10,7 @@
 | **通貨シンボル**    | ETH                                       |
 | **ブロックエクスプローラー** | https://sepoliascan.status.network       |
 | **ブリッジ**        | https://bridge.status.network            |
+| **WebSocket RPC**   | WebSocket RPCを取得するには[Telegram](https://t.me/statusl2)でお問い合わせください |
 
 これらはStatus Networkテストネットの公式ネットワーク詳細です。これらの詳細は以下の用途に使用できます：
 - ウォレットへのネットワークの追加

@@ -10,6 +10,7 @@
 | **货币符号**        | ETH                                       |
 | **区块浏览器**      | https://sepoliascan.status.network       |
 | **跨链桥**          | https://bridge.status.network            |
+| **WebSocket RPC**   | 请通过 [Telegram](https://t.me/statusl2) 联系我们获取 websocket RPC |
 
 这些是 Status Network 测试网的官方网络详情。您可以使用这些详情来：
 - 将网络添加到您的钱包
