@@ -20,6 +20,7 @@ import AddToMetaMask from '@site/src/components/AddToMetaMask';
 | **Currency Symbol** | ETH                                       |
 | **Block Explorer**  | https://sepoliascan.status.network       |
 | **Bridge**          | https://bridge.status.network            |
+| **WebSocket RPC**   | Get in touch with us on [Telegram](https://t.me/statusl2) to get a websocket RPC |
 
 <AddToMetaMask />
 <div style={{height: '2rem'}} />
