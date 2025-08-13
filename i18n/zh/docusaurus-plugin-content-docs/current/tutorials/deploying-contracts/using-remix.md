@@ -49,8 +49,9 @@ contract HelloWorld {
 
 1. 点击"Solidity Compiler"图标（左侧边栏的第二个图标）
 2. 选择编译器版本"0.8.24"
-3. 点击"Compile HelloWorld.sol"
-4. 确保编译成功（会看到绿色对勾）
+3. 选择“高级配置”，然后选择 EVM 版本“paris”。
+4. 点击"Compile HelloWorld.sol"
+5. 确保编译成功（会看到绿色对勾）
 
 ### 5. 部署合约
 

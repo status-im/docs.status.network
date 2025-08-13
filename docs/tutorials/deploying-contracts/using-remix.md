@@ -55,8 +55,9 @@ contract HelloWorld {
 
 1. Click the "Solidity Compiler" icon (second icon on the left sidebar)
 2. Select compiler version "0.8.24"
-3. Click "Compile HelloWorld.sol"
-4. Ensure compilation succeeds (you'll see a green checkmark)
+3. Select "Advanced Configurations", select evm version "paris"
+4. Click "Compile HelloWorld.sol"
+5. Ensure compilation succeeds (you'll see a green checkmark)
 
 ### 5. Deploy the Contract
 

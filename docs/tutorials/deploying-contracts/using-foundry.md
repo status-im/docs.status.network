@@ -72,6 +72,7 @@ src = "src"
 out = "out"
 libs = ["lib"]
 solc = "0.8.24"
+evm_version = "paris"
 
 [rpc_endpoints]
 status_testnet = "https://public.sepolia.rpc.status.network"

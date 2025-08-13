@@ -49,8 +49,9 @@ contract HelloWorld {
 
 1. "Solidity Compiler" 아이콘(왼쪽 사이드바의 두 번째 아이콘) 클릭
 2. 컴파일러 버전 "0.8.24" 선택
-3. "Compile HelloWorld.sol" 클릭
-4. 컴파일이 성공했는지 확인(녹색 체크마크가 표시됨)
+3. "고급 구성"을 선택하고 EVM 버전 "paris"를 선택합니다.
+4. "Compile HelloWorld.sol" 클릭
+5. 컴파일이 성공했는지 확인(녹색 체크마크가 표시됨)
 
 ### 5. 컨트랙트 배포
 
