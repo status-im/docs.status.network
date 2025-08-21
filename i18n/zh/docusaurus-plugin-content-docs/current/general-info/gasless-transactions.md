@@ -9,6 +9,8 @@ keywords: [Status Network, 无Gas交易, Linea, RLN, Rate Limiting Nullifier, Ka
 
 Status Network旨在大规模引入无Gas交易。这种无Gas方法的关键组件是Vac的速率限制无效器（Rate Limiting Nullifier），它允许在不需要传统Gas费用的情况下进行交易速率限制。本文档描述了安全启用无Gas交易所需的架构和集成元素。
 
+这些无Gas交易的实现代码可在[Status Network代码库](https://github.com/status-im/status-network-monorepo)中找到。
+
 ### 1.2 RLN
 
 RLN是一个零知识系统，旨在在不违规的情况下防止垃圾邮件而不损害用户隐私。它通过ZKP和Shamir秘密共享执行的加密速率限制来替代传统的Gas费用。
