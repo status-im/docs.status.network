@@ -10,6 +10,8 @@ keywords: [Status Network, Gasless Transactions, Linea, RLN, Rate Limiting Nulli
 
 Status Network aims to introduce gasless transactions at scale. The key component of this gasless approach is Vac's Rate Limiting Nullifier, which permits transaction rate limitation without the need for traditional gas fees. The document describes the architecture and integration elements needed to safely enable gasless transactions.
 
+The implementation code for these gasless transactions is available in the [Status Network monorepo](https://github.com/status-im/status-network-monorepo).
+
 ### RLN
 
 RLN is a zero-knowledge system designed to prevent spam without compromising user privacy unless a violation occurs. It replaces traditional gas fees with cryptographic rate limits enforced via ZKPs and Shamir's Secret Sharing.
