@@ -9,6 +9,8 @@ keywords: [Status Network, 가스리스 트랜잭션, Linea, RLN, Rate Limiting 
 
 Status Network는 대규모 가스리스 트랜잭션 도입을 목표로 합니다. 이 가스리스 접근 방식의 핵심 구성 요소는 Vac의 Rate Limiting Nullifier로, 기존 가스 수수료 없이도 트랜잭션 속도 제한을 가능하게 합니다. 이 문서는 가스리스 트랜잭션을 안전하게 활성화하는 데 필요한 아키텍처와 통합 요소를 설명합니다.
 
+이러한 가스리스 트랜잭션의 구현 코드는 [Status Network 모노레포](https://github.com/status-im/status-network-monorepo)에서 확인할 수 있습니다.
+
 ### 1.2 RLN
 
 RLN은 위반이 발생하지 않는 한 사용자 프라이버시를 손상시키지 않으면서 스팸을 방지하도록 설계된 영지식 시스템입니다. ZKP와 Shamir의 비밀 공유를 통해 시행되는 암호화 속도 제한으로 기존 가스 수수료를 대체합니다.
