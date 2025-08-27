@@ -1,15 +1,15 @@
 {
-    "timestamp": "2025-08-27T14:55:58Z",
+    "timestamp": "2025-08-27T14:57:26Z",
     "git": {
         "commit": "6e775c0fdabb2f96effc1b92047538566f10b04d",
         "branch": "origin/master",
         "url": "git@github.com:status-im/docs.status.network.git"
     },
     "build": {
-        "id": "51",
-        "number": "51",
+        "id": "52",
+        "number": "52",
         "name": "website/docs.status.network",
         "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/docs.status.network/51/"
+        "url": "https://ci.infra.status.im/job/website/job/docs.status.network/52/"
     }
 }
