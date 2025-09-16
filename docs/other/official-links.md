@@ -16,7 +16,8 @@ This page contains all the official links for the Status Network ecosystem.
 ## Network Tools
 - **Bridge**: [bridge.status.network](https://bridge.status.network)
 - **Block Explorer**: [sepoliascan.status.network](https://sepoliascan.status.network)
-- **RPC Endpoint**: `https://public.sepolia.rpc.status.network`
+- **RPC Endpoint**: [public.sepolia.rpc.status.network](https://public.sepolia.rpc.status.network)
+- **WebSocket RPC**: Get in touch with us on [Telegram](https://t.me/statusl2) to get a websocket RPC
 - **Faucet**: [faucet.status.network](https://faucet.status.network)
 
 ## Development Resources

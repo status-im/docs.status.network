@@ -10,7 +10,8 @@
 ## 网络工具
 - **跨链桥**: [bridge.status.network](https://bridge.status.network)
 - **区块浏览器**: [sepoliascan.status.network](https://sepoliascan.status.network)
-- **RPC 端点**: `https://public.sepolia.rpc.status.network`
+- **RPC 端点**: [public.sepolia.rpc.status.network](https://public.sepolia.rpc.status.network)
+- **WebSocket RPC**: 如需 WebSocket RPC，请通过 [Telegram](https://t.me/statusl2) 联系我们
 - **水龙头**: [faucet.status.network](https://faucet.status.network)
 
 ## 开发资源

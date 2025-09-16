@@ -10,7 +10,8 @@
 ## ネットワークツール
 - **ブリッジ**: [bridge.status.network](https://bridge.status.network)
 - **ブロックエクスプローラー**: [sepoliascan.status.network](https://sepoliascan.status.network)
-- **RPCエンドポイント**: `https://public.sepolia.rpc.status.network`
+- **RPCエンドポイント**: [public.sepolia.rpc.status.network](https://public.sepolia.rpc.status.network)
+- **WebSocket RPC**: WebSocket RPC を取得するには [Telegram](https://t.me/statusl2) でご連絡ください
 - **フォーセット**: [faucet.status.network](https://faucet.status.network)
 
 ## 開発リソース
