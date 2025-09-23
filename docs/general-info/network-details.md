@@ -6,6 +6,7 @@ keywords: [Status Network, network details, RPC endpoint, Chain ID, testnet conf
 ---
 
 import AddToMetaMask from '@site/src/components/AddToMetaMask';
+import CopyCell from '@site/src/components/CopyCell';
 
 # Network Details
 
@@ -14,12 +15,12 @@ import AddToMetaMask from '@site/src/components/AddToMetaMask';
 | Name                | Value                                      |
 |---------------------|-------------------------------------------|
 | **Network Name**    | Status Network Testnet                    |
-| **RPC Endpoint**    | https://public.sepolia.rpc.status.network |
-| **Chain ID**        | 1660990954                               |
-| **Chain ID (Hex)**  | 0x6300b5ea                               |
+| **RPC Endpoint**    | https://public.sepolia.rpc.status.network <CopyCell text="https://public.sepolia.rpc.status.network" ariaLabel="Copy RPC endpoint" /> |
+| **Chain ID**        | 1660990954 <CopyCell text="1660990954" ariaLabel="Copy Chain ID" /> |
+| **Chain ID (Hex)**  | 0x6300b5ea <CopyCell text="0x6300b5ea" ariaLabel="Copy Hex Chain ID" /> |
 | **Currency Symbol** | ETH                                       |
-| **Block Explorer**  | https://sepoliascan.status.network       |
-| **Bridge**          | https://bridge.status.network            |
+| **Block Explorer**  | https://sepoliascan.status.network <CopyCell text="https://sepoliascan.status.network" ariaLabel="Copy block explorer URL" /> |
+| **Bridge**          | https://bridge.status.network <CopyCell text="https://bridge.status.network" ariaLabel="Copy bridge URL" /> |
 | **WebSocket RPC**   | Get in touch with us on [Telegram](https://t.me/statusl2) to get a websocket RPC |
 
 <AddToMetaMask />
