@@ -149,6 +149,11 @@ const sidebars: SidebarsConfig = {
               id: 'tutorials/deploying-contracts/using-remix',
               label: '🎛️ Using Remix',
             },
+            {
+              type: 'doc',
+              id: 'tutorials/deploying-contracts/using-se2',
+              label: '🏗 Using Scaffold-ETH 2',
+            },
           ],
         },
       ],

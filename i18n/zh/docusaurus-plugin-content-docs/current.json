@@ -103,6 +103,10 @@
     "message": "🎛️ 使用 Remix",
     "description": "The label for the doc item 🎛️ Using Remix in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.doc.🏗 Using Scaffold-ETH 2": {
+    "message": "🏗 Scaffold-ETH 2 使用",
+    "description": "The label for the doc item 🏗 Using Scaffold-ETH 2 in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.doc.🔗 Official Links": {
     "message": "🔗 官方链接",
     "description": "The label for the doc item 🔗 Official Links in sidebar tutorialSidebar"
