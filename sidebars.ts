@@ -156,6 +156,11 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
+        {
+          type: 'doc',
+          id: 'tutorials/running-an-rpc',
+          label: '🌐 Running an RPC node',
+        },
       ],
     },
     {
