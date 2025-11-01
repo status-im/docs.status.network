@@ -144,6 +144,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
 
+    prism: {
+      additionalLanguages: ['bash', 'solidity'],
+    },
+
     footer: {
       links: [
         {
