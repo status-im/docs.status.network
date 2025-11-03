@@ -24,32 +24,6 @@ The setup script provides two node implementations to choose from:
 
 You can run either one or both simultaneously depending on your needs.
 
-
-## Full Node vs Archive Node
-
-When setting up your node, you'll need to choose between two types:
-
-### Full Node (~200 GB)
-- **Sync Time**: 1–3 hours (with snapshot) / 4–12 hours (from genesis)
-- **Use Case**: Standard RPC operations, recent state queries
-- **Storage Growth**: Moderate
-- Suitable for most use cases including wallet interactions and dApp development
-
-### Archive Node (~2 TB)
-- **Sync Time**: 12–36 hours (with snapshot) / 2–4 days (from genesis)
-- **Use Case**: Historical data access, deep chain analysis
-- **Storage Growth**: ~3.07 GB/day (based on Linea baseline)
-- Required for specific RPC methods (see below)
-
-#### When You Need an Archive Node
-
-Archive nodes are required for:
-
-- **Trace Methods**: All `trace_*` calls for transaction tracing
-- **Debug Methods**: Many `debug_*` calls for low-level debugging
-- **Historical State Queries**: Any state query beyond the Bonsai Trie retention window
-- **Deep Historical Analysis**: Accessing state from far back in the chain history
-
 ## Verifying Your Node
 In the examples below, replace `<YOUR_CLIENT_PORT>` with `8545` if using Besu, or `8445` if using Geth.
 
@@ -128,10 +102,8 @@ Your node supports batch JSON-RPC requests for improved efficiency:
 
 Be aware of methods that may require longer response times:
 
-| Method | Response Time | Requirements |
-|--------|---------------|--------------|
-| `trace_*` calls | 0.5–5+ seconds | Archive node or extended Bonsai retention |
-| `debug_*` calls | 0.5–5+ seconds | Archive node or extended Bonsai retention |
+| Method | Response Time | Notes |
+|--------|---------------|-------|
 | `eth_getLogs` (large ranges) | 200ms – several seconds | Use bounded ranges and bloom filters |
 | `eth_estimateGas` | 200ms – several seconds | May be slower under load or with complex contracts |
 
@@ -198,20 +170,14 @@ netstat -tulpn | grep :8445
 
 ### Disk Space Requirements
 
-Plan your storage capacity based on node type and growth:
+Plan your storage capacity based on growth:
 
-**Full Node:**
 - Initial size: ~200 GB (after 6 months, ~12M transactions with 2s blocks)
 - Growth rate: Moderate, depends on network activity
 - Recommended: 2 TB Gen4 NVMe for headroom
 
-**Archive Node:**
-- Initial size: ~2 TB (Status Network estimate)
-- Growth rate: ~3.07 GB/day (based on Linea baseline)
-- Recommended: 6–8 TB Gen4 NVMe for future growth
-
 :::warning Plan for Growth
-Always provision extra storage capacity beyond the current requirement. Archive nodes especially require significant headroom for continued operation.
+Always provision extra storage capacity beyond the current requirement to ensure continued operation.
 :::
 
 ## Security Considerations
@@ -234,9 +200,9 @@ For production use, avoid relying on public RPC endpoints due to rate limits. Ru
 To optimize your RPC node performance:
 
 1. **SSD Storage**: Use Gen4 NVMe storage for better I/O performance
-2. **Sufficient RAM**: Ensure adequate memory for caching (32–48 GB for full, 64–96 GB for archive)
+2. **Sufficient RAM**: Ensure adequate memory for caching (32–48 GB recommended)
 3. **Network Bandwidth**: Stable 1+ Gbps connection for syncing and peer communication
-4. **CPU Resources**: Adequate processing power for transaction validation (8–12 cores for full, 16–24 for archive)
+4. **CPU Resources**: Adequate processing power for transaction validation (8–12 cores recommended)
 5. **Horizontal Scaling**: For high-traffic applications, run multiple nodes behind a load balancer
 
 ## Support
