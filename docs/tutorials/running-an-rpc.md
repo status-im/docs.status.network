@@ -104,7 +104,7 @@ Be aware of methods that may require longer response times:
 
 | Method | Response Time | Notes |
 |--------|---------------|-------|
-| `eth_getLogs` (large ranges) | 200ms – several seconds | Use bounded ranges and bloom filters |
+| `eth_getLogs` (large ranges) | 200ms to several seconds | Use bounded ranges and bloom filters |
 | `eth_estimateGas` | 200ms – several seconds | May be slower under load or with complex contracts |
 
 :::tip Performance Tip
