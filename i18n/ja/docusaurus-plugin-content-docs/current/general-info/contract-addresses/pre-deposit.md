@@ -1,12 +1,12 @@
 ---
-title: プリデポジットキャンペーンコントラクト
-description: Status Networkプリデポジットキャンペーンのボールトアドレス一覧。
-keywords: [Status Network, プリデポジット, キャンペーン, ボールト]
+title: プリ・デポジットキャンペーンコントラクト
+description: Status Networkプリ・デポジットキャンペーンのボールトアドレス一覧。
+keywords: [Status Network, プリ・デポジット, キャンペーン, ボールト]
 ---
 
 # テストネットコントラクト
 
-[Aragon](https://www.aragon.org/)と協力して、Status Networkユーザー向けのプリデポジットキャンペーンを実施しています。
+[Aragon](https://www.aragon.org/)と協力して、Status Networkユーザー向けのプリ・デポジットキャンペーンを実施しています。
 このページでは、キャンペーンのすべての重要なコントラクトアドレスを一覧表示します。
 
 :::note

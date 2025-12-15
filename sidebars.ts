@@ -83,7 +83,7 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: 'doc',
-              id: 'general-info/contract-addresses/predeposit',
+              id: 'general-info/contract-addresses/pre-deposit',
               label: '💰 Pre-Deposit Vault Contracts',
             },
           ],
