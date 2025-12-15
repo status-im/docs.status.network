@@ -6,11 +6,11 @@ keywords: [Status Network, Pre-deposit, Campaign, Vaults]
 
 # Testnet Contracts
 
-In collaboration with [Aragon](https://www.aragon.org/), we're running our Pre-deposit campaign for Status Network users.
+In collaboration with [Aragon](https://www.aragon.org/), we're running our pre-deposit campaign for Status Network users.
 This page lists all the important contract addresses of the campaign.
 
 :::note
-Depending on the vault's token, it's going to be deployed either on Ethereum Main-net or Linea Main-net
+Depending on the vault's token, it's going to be deployed either on Ethereum Mainnet or Linea Mainnet
 :::
 
 ## Vaults
