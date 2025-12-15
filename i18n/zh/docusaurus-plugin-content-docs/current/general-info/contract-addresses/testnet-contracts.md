@@ -56,6 +56,27 @@ keywords: [Status Network合约, 测试网地址, 智能合约, 桥接合约, L1
   - 地址: [`0x24B5eD2763129D6cBDEfE32e08558D2095132560`](https://sepoliascan.status.network/address/0x24B5eD2763129D6cBDEfE32e08558D2095132560)
   - 用途: 管理L1和L2之间的状态锚定
 
+### Karma合约
+- **Karma**
+  - 地址: [`0x7ec5Dc75D09fAbcD55e76077AFa5d4b77D112fde`](https://sepoliascan.status.network/address/0x7ec5Dc75D09fAbcD55e76077AFa5d4b77D112fde)
+  - 用途: 不可转让的ERC20原生声誉代币
+
+- **KarmaTiers**
+  - 地址: [`0xc7fCD786a161f42bDaF66E18a67C767C23cFd30C`](https://sepoliascan.status.network/address/0xc7fCD786a161f42bDaF66E18a67C767C23cFd30C)
+  - 用途: 无Gas交易的等级级别
+
+- **KarmaNFT**
+  - 地址: [`0xf78d58742840C0ee00b17EE062855392d10a0305`](https://sepoliascan.status.network/address/0xf78d58742840C0ee00b17EE062855392d10a0305)
+  - 用途: 灵魂绑定Karma NFT
+
+- **StakeManager**
+  - 地址: [`0x5cDf1646E4c1D21eE94DED1DA8da3Ca450dc96D1`](https://sepoliascan.status.network/address/0x5cDf1646E4c1D21eE94DED1DA8da3Ca450dc96D1)
+  - 用途: SNT质押合约
+
+- **VaultFactory**
+  - 地址: [`0xddDcd43a0B0dA865decf3e4Ae71FbBE3e2DfFF14`](https://sepoliascan.status.network/address/0xddDcd43a0B0dA865decf3e4Ae71FbBE3e2DfFF14)
+  - 用途: 创建连接到StakeManager的自托管保险库的工厂
+
 ### 实用工具合约
 - **Multicall3**
   - 地址: [`0xcA11bde05977b3631167028862bE2a173976CA11`](https://sepoliascan.status.network/address/0xcA11bde05977b3631167028862bE2a173976CA11)
