@@ -138,5 +138,9 @@
   "sidebar.tutorialSidebar.doc.💰 Pre-Deposit Vault Contracts": {
     "message": "💰 预存金库合同",
     "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.🌐 Running an RPC node": {
+    "message": "🌐 运行RPC节点",
+    "description": "The label for the doc item 🌐 Running an RPC node in sidebar tutorialSidebar"
   }
 }
