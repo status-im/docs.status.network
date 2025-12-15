@@ -138,5 +138,9 @@
   "sidebar.tutorialSidebar.doc.💰 Pre-Deposit Vault Contracts": {
     "message": "💰 사전예치 금고 컨트랙트",
     "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.🌐 Running an RPC node": {
+    "message": "🌐 RPC 노드 운영하기",
+    "description": "The label for the doc item 🌐 Running an RPC node in sidebar tutorialSidebar"
   }
 }
