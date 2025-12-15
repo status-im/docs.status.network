@@ -56,6 +56,27 @@ keywords: [Status Network 컨트랙트, 테스트넷 주소, 스마트 컨트랙
   - 주소: [`0x24B5eD2763129D6cBDEfE32e08558D2095132560`](https://sepoliascan.status.network/address/0x24B5eD2763129D6cBDEfE32e08558D2095132560)
   - 목적: L1과 L2 간의 상태 앵커링을 관리
 
+### Karma 컨트랙트
+- **Karma**
+  - 주소: [`0x7ec5Dc75D09fAbcD55e76077AFa5d4b77D112fde`](https://sepoliascan.status.network/address/0x7ec5Dc75D09fAbcD55e76077AFa5d4b77D112fde)
+  - 목적: 양도 불가능한 ERC20 네이티브 평판 토큰
+
+- **KarmaTiers**
+  - 주소: [`0xc7fCD786a161f42bDaF66E18a67C767C23cFd30C`](https://sepoliascan.status.network/address/0xc7fCD786a161f42bDaF66E18a67C767C23cFd30C)
+  - 목적: 가스리스 트랜잭션 티어 레벨
+
+- **KarmaNFT**
+  - 주소: [`0xf78d58742840C0ee00b17EE062855392d10a0305`](https://sepoliascan.status.network/address/0xf78d58742840C0ee00b17EE062855392d10a0305)
+  - 목적: 소울바운드 Karma NFT
+
+- **StakeManager**
+  - 주소: [`0x5cDf1646E4c1D21eE94DED1DA8da3Ca450dc96D1`](https://sepoliascan.status.network/address/0x5cDf1646E4c1D21eE94DED1DA8da3Ca450dc96D1)
+  - 목적: SNT 스테이킹 컨트랙트
+
+- **VaultFactory**
+  - 주소: [`0xddDcd43a0B0dA865decf3e4Ae71FbBE3e2DfFF14`](https://sepoliascan.status.network/address/0xddDcd43a0B0dA865decf3e4Ae71FbBE3e2DfFF14)
+  - 목적: StakeManager에 연결되는 자체 보관 금고(self-custody vault)를 생성하는 팩토리
+
 ### 유틸리티 컨트랙트
 - **Multicall3**
   - 주소: [`0xcA11bde05977b3631167028862bE2a173976CA11`](https://sepoliascan.status.network/address/0xcA11bde05977b3631167028862bE2a173976CA11)

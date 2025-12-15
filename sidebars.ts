@@ -81,6 +81,11 @@ const sidebars: SidebarsConfig = {
               id: 'general-info/contract-addresses/testnet-contracts',
               label: '🧪 Testnet Contracts',
             },
+            {
+              type: 'doc',
+              id: 'general-info/contract-addresses/pre-deposit',
+              label: '💰 Pre-Deposit Vault Contracts',
+            },
           ],
         },
         {

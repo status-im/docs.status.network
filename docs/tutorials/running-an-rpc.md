@@ -13,7 +13,7 @@ This tutorial will guide you through the process of setting up and running your 
 The [Status Network RPC Tools repository](https://github.com/status-im/status-l2-rpc-tools) provides all the necessary tooling, genesis files, and setup scripts to run your own RPC node.
 
 ### Complete Setup Guide
-For detailed setup instructions, prerequisites, system requirements, and step-by-step guidance, please refer to the **[official README](https://github.com/status-im/status-l2-rpc-tools/blob/master/README.md)** in the repository.
+For detailed setup instructions, prerequisites, system requirements, and step-by-step guidance, please refer to the [**official README**](https://github.com/status-im/status-l2-rpc-tools/blob/master/README.md) in the repository.
 
 ## Node Options
 

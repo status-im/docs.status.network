@@ -134,5 +134,13 @@
   "sidebar.tutorialSidebar.doc.🪙 Tokens": {
     "message": "🪙 トークン",
     "description": "The label for the doc item 🪙 Tokens in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.💰 Pre-Deposit Vault Contracts": {
+    "message": "💰 プリ・デポジット金庫コントラクト",
+    "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.🌐 Running an RPC node": {
+    "message": "🌐 RPCノードの運用",
+    "description": "The label for the doc item 🌐 Running an RPC node in sidebar tutorialSidebar"
   }
 }
