@@ -134,5 +134,9 @@
   "sidebar.tutorialSidebar.doc.🪙 Tokens": {
     "message": "🪙 토큰",
     "description": "The label for the doc item 🪙 Tokens in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.💰 Pre-Deposit Vault Contracts": {
+    "message": "💰 사전예치 금고 컨트랙트",
+    "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar tutorialSidebar"
   }
 }
