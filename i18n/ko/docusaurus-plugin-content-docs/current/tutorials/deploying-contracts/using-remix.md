@@ -9,7 +9,7 @@
 - **웹 브라우저**: Chrome이나 Firefox와 같은 최신 브라우저
 - **MetaMask**: [MetaMask](https://metamask.io) 브라우저 확장 프로그램 설치
 - **테스트넷 ETH**: Status Network 테스트넷 ETH가 필요합니다
-  - Status Network 테스트넷 ETH는 [수도꼭지](/tools/testnet-faucets)에서 받을 수 있습니다
+  - Status Network 테스트넷 ETH는 [파우셋](/tools/testnet-faucets)에서 받을 수 있습니다
 - **네트워크 구성**: [네트워크 추가 가이드](/general-info/add-status-network)에 따라 MetaMask에 Status Network 테스트넷 추가
 
 ## 단계
