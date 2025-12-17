@@ -1,13 +1,13 @@
-# 테스트넷 수도꼭지
+# 테스트넷 파우셋
 
 Status Network 테스트넷을 시작하려면 Sepolia ETH와 Status Network 테스트넷 ETH 모두가 필요합니다.
 
-## Status Network 테스트넷 수도꼭지
+## Status Network 테스트넷 파우셋
 
-Status Network 테스트넷 수도꼭지는 [faucet.status.network](https://faucet.status.network)에서 이용할 수 있습니다.
+Status Network 테스트넷 파우셋는 [faucet.status.network](https://faucet.status.network)에서 이용할 수 있습니다.
 
 ### 세부사항
-- **수도꼭지 컨트랙트**: [`0x06338B70F1eAbc60d7A82C083e605C07F78bb878`](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)
+- **파우셋 컨트랙트**: [`0x06338B70F1eAbc60d7A82C083e605C07F78bb878`](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)
 - **지급량**: 요청당 0.01 ETH
 - **대기 시간**: 주소당 하루 1회 요청
 
@@ -23,12 +23,12 @@ Status Network 테스트넷 수도꼭지는 [faucet.status.network](https://fauc
 
 Status Network 테스트넷에 자산을 브리징하려면 먼저 Sepolia ETH가 필요합니다. 다음에서 받을 수 있습니다:
 
-2. [Alchemy Sepolia 수도꼭지](https://www.alchemy.com/faucets/ethereum-sepolia)
-3. [Metamask Sepolia 수도꼭지](https://docs.metamask.io/developer-tools/faucet/)
+2. [Alchemy Sepolia 파우셋](https://www.alchemy.com/faucets/ethereum-sepolia)
+3. [Metamask Sepolia 파우셋](https://docs.metamask.io/developer-tools/faucet/)
 
 Sepolia ETH를 받은 후, [Status Network 브리지](https://bridge.status.network)를 사용하여 Status Network 테스트넷으로 브리징할 수 있습니다.
 
 ## 지원
 
-수도꼭지 사용 중 문제가 발생한 경우:
+파우셋 사용 중 문제가 발생한 경우:
 - 지원을 받으려면 [텔레그램 커뮤니티](https://t.me/statusl2)에 참여
