@@ -15,9 +15,9 @@
 2. **테스트 ETH 받기**:
 
    Sepolia ETH와 Status Network ETH 모두 필요합니다:
-   - 먼저 [Sepolia 수도꼭지](https://faucet.status.network)에서 Sepolia ETH를 받으세요
+   - 먼저 [Sepolia 파우셋](https://faucet.status.network)에서 Sepolia ETH를 받으세요
    - 그런 다음 [Status 브리지](https://bridge.status.network)를 사용하여 ETH를 Status Network로 브리징하세요
-   - 또는 [테스트넷 수도꼭지](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)에서 직접 Status Network ETH를 받으세요
+   - 또는 [테스트넷 파우셋](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)에서 직접 Status Network ETH를 받으세요
 
 이제 시작할 준비가 되었습니다!
 
@@ -109,7 +109,7 @@ contract SimpleStorage {
 
 성공적으로 다음을 수행하셨습니다:
 - Status Network 테스트넷과 상호작용하기 위한 환경 설정
-- 브리징 또는 수도꼭지를 통해 테스트넷 ETH 획득
+- 브리징 또는 파우셋를 통해 테스트넷 ETH 획득
 - Remix IDE와 MetaMask를 사용하여 스마트 컨트랙트 배포
 - 숫자 저장 및 조회를 통해 배포된 컨트랙트와 상호작용
 

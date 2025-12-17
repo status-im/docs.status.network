@@ -9,7 +9,7 @@
 - **Foundry**: [공식 Foundry 문서](https://book.getfoundry.sh/getting-started/installation)에서 설치
 - **이더리움 지갑**: Status Network 테스트넷용 개인키
 - **테스트넷 ETH**: Status Network 테스트넷 ETH가 필요합니다
-  - Status Network 테스트넷 ETH는 [수도꼭지](/tools/testnet-faucets)에서 받을 수 있습니다
+  - Status Network 테스트넷 ETH는 [파우셋](/tools/testnet-faucets)에서 받을 수 있습니다
 - **기본 지식**: Solidity와 명령줄 사용 경험
 
 ## 달성 목표
