@@ -25,9 +25,9 @@ keywords: [Status Network, 사전 예치, 캠페인, 금고]
     - **심볼:** svLINEA
 
 - **ETH Vault**
-    - **주소:** _TBA_
+    - **주소:** [`0xc71ec84ee70a54000db3370807bfaf4309a67a1f`](https://etherscan.io/address/0xc71ec84ee70a54000db3370807bfaf4309a67a1f)
     - **네트워크:** Ethereum Mainnet
-    - **심볼:** _TBA_
+    - **심볼:** svWETH
 
 - **GUSD Vault**
     - **주소:** _TBA_

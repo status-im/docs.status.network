@@ -25,9 +25,9 @@ keywords: [Status Network, 预存, 活动, 金库]
     - **符号:** svLINEA
 
 - **ETH Vault**
-    - **地址:** _TBA_
+    - **地址:** [`0xc71ec84ee70a54000db3370807bfaf4309a67a1f`](https://etherscan.io/address/0xc71ec84ee70a54000db3370807bfaf4309a67a1f)
     - **网络:** Ethereum Mainnet
-    - **符号:** _TBA_
+    - **符号:** svWETH
 
 - **GUSD Vault**
     - **地址:** _TBA_
