@@ -4,9 +4,9 @@ description: Status Network 사전 예치 캠페인 금고 주소 목록.
 keywords: [Status Network, 사전 예치, 캠페인, 금고]
 ---
 
-# 테스트넷 컨트랙트
+# 사전예치 금고 컨트랙트
 
-[Aragon](https://www.aragon.org/)과 협력하여 Status Network 사용자를 위한 사전 예치 캠페인을 진행하고 있습니다.
+[Aragon](https://www.aragon.org/)과 협력하여 Status Network 사용자를 위한 사전예치 캠페인을 진행하고 있습니다.
 이 페이지는 캠페인의 모든 중요한 컨트랙트 주소를 나열합니다.
 
 :::note
@@ -25,9 +25,9 @@ keywords: [Status Network, 사전 예치, 캠페인, 금고]
     - **심볼:** svLINEA
 
 - **ETH Vault**
-    - **주소:** _TBA_
+    - **주소:** [`0xc71ec84ee70a54000db3370807bfaf4309a67a1f`](https://etherscan.io/address/0xc71ec84ee70a54000db3370807bfaf4309a67a1f)
     - **네트워크:** Ethereum Mainnet
-    - **심볼:** _TBA_
+    - **심볼:** svWETH
 
 - **GUSD Vault**
     - **주소:** _TBA_

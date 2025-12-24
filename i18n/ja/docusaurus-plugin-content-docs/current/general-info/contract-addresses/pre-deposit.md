@@ -4,7 +4,7 @@ description: Status Networkプリ・デポジットキャンペーンのボー�
 keywords: [Status Network, プリ・デポジット, キャンペーン, ボールト]
 ---
 
-# テストネットコントラクト
+# プリ・デポジット・ボールトコントラクト
 
 [Aragon](https://www.aragon.org/)と協力して、Status Networkユーザー向けのプリ・デポジットキャンペーンを実施しています。
 このページでは、キャンペーンのすべての重要なコントラクトアドレスを一覧表示します。
@@ -25,9 +25,9 @@ keywords: [Status Network, プリ・デポジット, キャンペーン, ボー�
     - **シンボル:** svLINEA
 
 - **ETH Vault**
-    - **アドレス:** _TBA_
+    - **アドレス:** [`0xc71ec84ee70a54000db3370807bfaf4309a67a1f`](https://etherscan.io/address/0xc71ec84ee70a54000db3370807bfaf4309a67a1f)
     - **ネットワーク:** Ethereum Mainnet
-    - **シンボル:** _TBA_
+    - **シンボル:** svWETH
 
 - **GUSD Vault**
     - **アドレス:** _TBA_

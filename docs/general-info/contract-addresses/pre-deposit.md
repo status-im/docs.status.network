@@ -4,7 +4,7 @@ description: List of Status Network pre-deposit campaign vault addresses.
 keywords: [Status Network, Pre-deposit, Campaign, Vaults]
 ---
 
-# Testnet Contracts
+# Pre-Deposit Vault Contracts
 
 In collaboration with [Aragon](https://www.aragon.org/), we're running our pre-deposit campaign for Status Network users.
 This page lists all the important contract addresses of the campaign.
@@ -25,9 +25,9 @@ Depending on the vault's token, it's going to be deployed either on Ethereum Mai
     - **Symbol:** svLINEA
 
 - **ETH Vault**
-    - **Address:** _TBA_
+    - **Address:** [`0xc71ec84ee70a54000db3370807bfaf4309a67a1f`](https://etherscan.io/address/0xc71ec84ee70a54000db3370807bfaf4309a67a1f)
     - **Network:** Ethereum Mainnet
-    - **Symbol:** _TBA_
+    - **Symbol:** svWETH
 
 - **GUSD Vault**
     - **Address:** _TBA_
