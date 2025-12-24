@@ -4,7 +4,7 @@ description: Status Networkプリ・デポジットキャンペーンのボー�
 keywords: [Status Network, プリ・デポジット, キャンペーン, ボールト]
 ---
 
-# テストネットコントラクト
+# プリ・デポジット・ボールトコントラクト
 
 [Aragon](https://www.aragon.org/)と協力して、Status Networkユーザー向けのプリ・デポジットキャンペーンを実施しています。
 このページでは、キャンペーンのすべての重要なコントラクトアドレスを一覧表示します。
