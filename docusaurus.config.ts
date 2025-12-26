@@ -155,11 +155,11 @@ const config: Config = {
           items: [
             {
               label: 'Terms of use',
-              to: '/terms-of-use',
+              to: 'https://status.network/legal/terms-of-use',
             },
             {
               label: 'Privacy policy',
-              to: '/privacy-policy',
+              to: 'https://status.network/legal/privacy-policy',
             },
           ],
         },
