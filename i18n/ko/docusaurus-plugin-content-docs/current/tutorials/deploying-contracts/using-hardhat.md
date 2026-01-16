@@ -9,7 +9,7 @@
 - **Node.js와 npm**: [공식 Node.js 웹사이트](https://nodejs.org/)에서 다운로드 및 설치
 - **이더리움 지갑**: Status Network 테스트넷용 개인키가 있는 MetaMask 또는 다른 지갑
 - **테스트넷 ETH**: Status Network 테스트넷 ETH가 필요합니다
-  - Status Network 테스트넷 ETH는 [수도꼭지](/tools/testnet-faucets)에서 받을 수 있습니다
+  - Status Network 테스트넷 ETH는 [파우셋](/tools/testnet-faucets)에서 받을 수 있습니다
 - **기본 지식**: Solidity, Hardhat, 명령줄 사용 경험
 
 ## 달성 목표
