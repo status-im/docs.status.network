@@ -30,6 +30,6 @@ Depending on the vault's token, it's going to be deployed either on Ethereum Mai
     - **Symbol:** svWETH
 
 - **GUSD Vault**
-    - **Address:** _TBA_
-    - **Network:** Ethereum Mainnet 
-    - **Symbol:** _TBA_
+    - **Address:** [`0x79B4cDb14A31E8B0e21C0120C409Ac14Af35f919`](https://etherscan.io/address/0x79B4cDb14A31E8B0e21C0120C409Ac14Af35f919)
+    - **Network:** Ethereum Mainnet
+    - **Symbol:** N/A, GUSD vault does not issue a receipt token.
