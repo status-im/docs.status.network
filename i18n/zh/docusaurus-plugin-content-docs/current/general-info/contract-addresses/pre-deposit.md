@@ -30,7 +30,6 @@ keywords: [Status Network, 预存, 活动, 金库]
     - **符号:** svWETH
 
 - **GUSD Vault**
-    - **地址:** _TBA_
-    - **网络:** Ethereum Mainnet 
-    - **符号:** _TBA_
-
+    - **地址:** [`0x79B4cDb14A31E8B0e21C0120C409Ac14Af35f919`](https://etherscan.io/address/0x79B4cDb14A31E8B0e21C0120C409Ac14Af35f919)
+    - **网络:** Ethereum Mainnet
+    - **符号:** N/A，GUSD金库不发行收据代币。
