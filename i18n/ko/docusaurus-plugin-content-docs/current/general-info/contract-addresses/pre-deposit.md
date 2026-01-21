@@ -30,7 +30,6 @@ keywords: [Status Network, 사전 예치, 캠페인, 금고]
     - **심볼:** svWETH
 
 - **GUSD Vault**
-    - **주소:** _TBA_
-    - **네트워크:** Ethereum Mainnet 
-    - **심볼:** _TBA_
-
+    - **주소:** [`0x79B4cDb14A31E8B0e21C0120C409Ac14Af35f919`](https://etherscan.io/address/0x79B4cDb14A31E8B0e21C0120C409Ac14Af35f919)
+    - **네트워크:** Ethereum Mainnet
+    - **심볼:** N/A, GUSD 금고는 영수증 토큰을 발행하지 않습니다.
