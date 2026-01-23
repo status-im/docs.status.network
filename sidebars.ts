@@ -44,6 +44,11 @@ const sidebars: SidebarsConfig = {
           id: 'tokenomics/snt-staking',
           label: '💎 SNT Staking',
         },
+        {
+          type: 'doc',
+          id: 'tokenomics/pre-deposit',
+          label: '💰 Pre-Deposits',
+        },
       ],
     },
     {
