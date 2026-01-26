@@ -46,7 +46,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'doc',
-          id: 'tokenomics/pre-deposit',
+          id: 'tokenomics/pre-deposits',
           label: '💰 Pre-Deposits',
         },
       ],
