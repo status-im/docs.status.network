@@ -44,9 +44,9 @@ GUSD is a yield-generating meta-stablecoin fully backed by USDT, USDC, and USDS,
 
 The GUSD vault implements a multi-layered yield strategy through [Steakhouse Financial](https://steakhouse.financial/) and [Morpho](https://morpho.org/):
 
-1. Deposited stablecoins are routed to **Generic Protocol's asset-specific vaults** (e.g., USDC Vault at [`0x4825eFF24F9B7b76EEAFA2ecc6A1D5dFCb3c1c3f`](https://etherscan.io/address/0x4825eFF24F9B7b76EEAFA2ecc6A1D5dFCb3c1c3f)).
-2. The vault allocates assets to **Steakhouse Financial MetaMorpho vaults** (e.g., steakUSDC at [`0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB`](https://etherscan.io/address/0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB)).
-3. Steakhouse vaults supply assets to **Morpho lending markets** ([`0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb`](https://etherscan.io/address/0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb)), earning lending yield.
+1. Deposited stablecoins are routed to **Generic Protocol's asset-specific vaults** (e.g., [USDC Vault](https://etherscan.io/address/0x4825eFF24F9B7b76EEAFA2ecc6A1D5dFCb3c1c3f)).
+2. The vault allocates assets to **Steakhouse Financial MetaMorpho vaults** (e.g., [steakUSDC](https://etherscan.io/address/0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB)).
+3. Steakhouse vaults supply assets to [**Morpho lending markets**](https://etherscan.io/address/0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb), earning lending yield.
 
 A portion of the generated yield will seed Status Network's native funding pool upon mainnet launch.
 
@@ -57,7 +57,7 @@ The GUSD vault does **not** issue a receipt token. Your deposit is recorded in G
 ### DepositorHelper contract
 
 Status Network pre-deposit interacts with Generic Protocol through the DepositorHelper:
-[`0x79B4cDb14A31E8B0e21C0120C409Ac14Af35f919`](https://etherscan.io/address/0x79B4cDb14A31E8B0e21C0120C409Ac14Af35f919) (Ethereum Mainnet)
+[`0x79B4cDb14A31E8B0e21C0120C409Ac14Af35f919`](https://etherscan.io/address/0x79B4cDb14A31E8B0e21C0120C409Ac14Af35f919)
 
 ### Deposit flow (GUSD)
 
