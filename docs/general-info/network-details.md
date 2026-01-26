@@ -13,12 +13,12 @@ import CopyCell from '@site/src/components/CopyCell';
 ## Status Testnet
 
 | Name                | Value                                      |
-|---------------------|-------------------------------------------|
-| **Network Name**    | Status Network Testnet                    |
+|---------------------|--------------------------------------------|
+| **Network Name**    | Status Network Testnet                     |
 | **RPC Endpoint**    | https://public.sepolia.rpc.status.network <CopyCell text="https://public.sepolia.rpc.status.network" ariaLabel="Copy RPC endpoint" /> |
 | **Chain ID**        | 1660990954 <CopyCell text="1660990954" ariaLabel="Copy Chain ID" /> |
 | **Chain ID (Hex)**  | 0x6300b5ea <CopyCell text="0x6300b5ea" ariaLabel="Copy Hex Chain ID" /> |
-| **Currency Symbol** | ETH                                       |
+| **Currency Symbol** | ETH                                        |
 | **Block Explorer**  | https://sepoliascan.status.network <CopyCell text="https://sepoliascan.status.network" ariaLabel="Copy block explorer URL" /> |
 | **Bridge**          | https://bridge.status.network <CopyCell text="https://bridge.status.network" ariaLabel="Copy bridge URL" /> |
 | **WebSocket RPC**   | Get in touch with us on [Telegram](https://t.me/statusl2) to get a websocket RPC |
@@ -27,6 +27,7 @@ import CopyCell from '@site/src/components/CopyCell';
 <div style={{height: '2rem'}} />
 
 These are the official network details for the Status Network testnet. You can use these details to:
+
 - Add the network to your wallet
 - Configure development environments
 - Connect dApps to the network
