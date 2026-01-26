@@ -38,7 +38,7 @@ See [Pre-Deposit Vault Contracts](../general-info/contract-addresses/pre-deposit
 
 ## Generic Protocol Vault (GUSD)
 
-GUSD is a yield-generating meta-stablecoin fully backed by USDT, USDC, and USDS, built by [Generic Protocol](https://docs.generic.money/). The GUSD infrastructure is maintained by Generic Protocol, and Status Network integrates with it via their **DepositorHelper** contract.
+GUSD is a yield-generating meta-stablecoin fully backed by USDT, USDC, and USDS, built by [Generic Protocol](https://docs.generic.money/). The GUSD infrastructure is maintained by Generic Protocol, and Status Network integrates with it via its **DepositorHelper** contract.
 
 ### Yield strategy (stablecoins)
 
@@ -70,7 +70,7 @@ When a user deposits USDC, USDT or USDS, the following on-chain operations occur
 5. The DepositorHelper deposits the stablecoin into the corresponding **Generic Protocol asset vault** ([USDC Vault](https://etherscan.io/address/0x4825eFF24F9B7b76EEAFA2ecc6A1D5dFCb3c1c3f), [USDT Vault](https://etherscan.io/address/0xB8280955aE7b5207AF4CDbdCd775135Bd38157fE), or [USDS Vault](https://etherscan.io/address/0x6133dA4Cd25773Ebd38542a8aCEF8F94cA89892A)).
 6. The asset vault allocates to **Steakhouse Financial MetaMorpho vaults**, which supply assets to **Morpho lending markets**.
 7. The **Bridge Coordinator L1** emits a `Predeposited` event, recording the pre-deposit for Status Network mainnet.
-8. At mainnet launch, your deposit entitles you to GUSD on Status Network plus Karma, SNT & LINEA incentives, and Generic Protocol points.
+8. At mainnet launch, your deposit entitles you to GUSD on Status Network plus Karma, SNT & LINEA incentives, Generic Protocol points and potential native app points.
 
 For a full overview of the Generic Protocol structure (GUSD tokenomics, bridging infrastructure, etc.), see [Generic Protocol documentation](https://docs.generic.money/).
 
@@ -78,9 +78,10 @@ For a full overview of the Generic Protocol structure (GUSD tokenomics, bridging
 
 Pre-depositors earn:
 
-- **Karma** — non-transferable governance token; grants gasless throughput and voting power (details in [Karmic Tokenomics](./karmic-tokenomics)).
-- **Liquid incentives** — 15M SNT and 20M LINEA tokens distributed across vaults.
-- **Generic protocol points** — for stablecoin depositors, Generic Protocol points to be used when Generic Protocol launches on Status Network Mainnet.
+- **Karma**: non-transferable governance token; grants gasless throughput and voting power (details in [Karmic Tokenomics](./karmic-tokenomics)).
+- **Liquid incentives**: 15M SNT and 20M LINEA tokens distributed across vaults.
+- **Generic protocol points** for stablecoin depositors: Generic Protocol points to be used when Generic Protocol launches on Status Network Mainnet.
+- **Native app points**: to be confirmed as natives apps unveil their tokenomics.
 
 Allocation depends on:
 
@@ -95,12 +96,13 @@ Initial Karma distribution at mainnet launch:
 | LINEA       | 10%                |
 | ETH         | 20%                |
 | GUSD        | 20%                |
-| Native apps | 25%                |
+
+Native apps receive 25% of the initial Karma at mainnet launch.
 
 ## Security
 
 - **Aragon vaults**: audited; report available in the [repo's `audit/` folder](https://github.com/aragon/status-predeposit-vaults/tree/development/audit).
-- **Generic Protocol**: audited; refer to [docs.generic.money](https://docs.generic.money/resources/audits) for their security disclosures and report details.
+- **Generic Protocol**: audited; refer to its [documentation](https://docs.generic.money/resources/audits) on its security disclosures and report details.
 
 ## Risks and considerations
 
