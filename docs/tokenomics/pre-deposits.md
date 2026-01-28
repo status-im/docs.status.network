@@ -108,6 +108,8 @@ Native apps receive 25% of the initial Karma at mainnet launch.
 
 Depositing into any vault involves smart contract risk, bridging risk, market risk, and protocol risk associated with any underlying yield strategy. Only deposit amounts you can afford to lock for the duration of the campaign.
 
+Before participating, please read the [Status Network Pre-Deposit Disclaimer](https://status.network/legal/status-network-pre-deposit-disclaimer).
+
 This documentation is for informational purposes and does not constitute financial advice.
 
 ## Further reading
