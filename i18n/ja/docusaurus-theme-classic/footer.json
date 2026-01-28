@@ -1,14 +1,18 @@
 {
   "link.title.Legal": {
-    "message": "Legal",
+    "message": "法的事項",
     "description": "The title of the footer links column with title=Legal in the footer"
   },
   "link.item.label.Terms of use": {
-    "message": "Terms of use",
+    "message": "利用規約",
     "description": "The label of footer link with label=Terms of use linking to /terms-of-use"
   },
   "link.item.label.Privacy policy": {
-    "message": "Privacy policy",
+    "message": "プライバシーポリシー",
     "description": "The label of footer link with label=Privacy policy linking to /privacy-policy"
+  },
+  "link.item.label.Pre-Deposit Disclaimer": {
+    "message": "事前預入免責事項",
+    "description": "The label of footer link with label=Pre-Deposit Disclaimer linking to /status-network-pre-deposit-disclaimer"
   }
 }
