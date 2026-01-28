@@ -8,7 +8,7 @@
     "description": "The label for category INTRODUCTION in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.TOKENOMICS": {
-    "message": "토큰노믹스",
+    "message": "토크노믹스",
     "description": "The label for category TOKENOMICS in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.GENERAL INFO": {
@@ -124,12 +124,16 @@
     "description": "The label for the doc item 💰 Public Funding in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.🐉 Karmic Tokenomics": {
-    "message": "🐉 카르마 토큰노믹스",
+    "message": "🐉 카르마 토크노믹스",
     "description": "The label for the doc item 🐉 Karmic Tokenomics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.💎 SNT Staking": {
     "message": "💎 SNT 스테이킹",
     "description": "The label for the doc item 💎 SNT Staking in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.💰 Pre-Deposits": {
+    "message": "💰 사전예치",
+    "description": "The label for the doc item 💰 Pre-Deposits in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.🪙 Tokens": {
     "message": "🪙 토큰",
