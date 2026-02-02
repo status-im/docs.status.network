@@ -68,9 +68,9 @@ const config: Config = {
       },
       items: [
         {
-          label: 'Home',
+          label: 'Overview',
           to: '/',
-          activeBasePath: 'home',
+          activeBasePath: 'overview',
         },
         {
           label: 'Build for Karma',

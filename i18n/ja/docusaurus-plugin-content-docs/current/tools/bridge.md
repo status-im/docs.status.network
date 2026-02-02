@@ -30,7 +30,7 @@ Status Networkテストネットブリッジを使用すると、Sepolia（レ�
 
 ## ブリッジの使用
 
-ブリッジの使用方法の詳細な手順や重要なセキュリティ上の考慮事項については、[ブリッジングガイド](/home/general-info/bridge/bridging-testnet)をご参照ください。
+ブリッジの使用方法の詳細な手順や重要なセキュリティ上の考慮事項については、[ブリッジングガイド](/overview/general-info/bridge/bridging-testnet)をご参照ください。
 
 ## ブリッジトランザクションの監視
 
@@ -41,5 +41,5 @@ Status Networkテストネットブリッジを使用すると、Sepolia（レ�
 ## サポート
 
 ブリッジ使用中に問題が発生した場合：
-- 一般的な解決策については[ブリッジングガイド](/home/general-info/bridge/bridging-testnet)をチェック
+- 一般的な解決策については[ブリッジングガイド](/overview/general-info/bridge/bridging-testnet)をチェック
 - サポートについては[Telegramコミュニティ](https://t.me/statusl2)に参加

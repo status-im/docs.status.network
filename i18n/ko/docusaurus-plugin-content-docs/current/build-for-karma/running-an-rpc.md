@@ -210,7 +210,7 @@ RPC 노드 성능을 최적화하려면:
 문제가 발생하면:
 
 - 최신 업데이트는 [공식 README](https://github.com/status-im/status-l2-rpc-tools/blob/master/README.md) 확인
-- [네트워크 세부정보](/home/general-info/network-details) 및 전반적인 문서 검토
+- [네트워크 세부정보](/overview/general-info/network-details) 및 전반적인 문서 검토
 - [Telegram 커뮤니티](https://t.me/statusl2) 에서 지원 요청
 
 ## 추가 리소스

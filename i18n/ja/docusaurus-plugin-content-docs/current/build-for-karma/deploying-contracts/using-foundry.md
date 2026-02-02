@@ -200,7 +200,7 @@ forge test
 
 問題が発生した場合：
 - [Telegramコミュニティ](https://t.me/statusl2)に参加
-- [ネットワーク詳細](/home/general-info/network-details)を参照
+- [ネットワーク詳細](/overview/general-info/network-details)を参照
 
 ## 追加リソース
 

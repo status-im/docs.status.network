@@ -19,7 +19,7 @@ https://public.sepolia.rpc.status.network
 ## Using the RPC
 
 ### Adding to MetaMask
-For instructions on adding Status Network to your wallet using this RPC, see our [Add Network guide](/home/general-info/add-status-network).
+For instructions on adding Status Network to your wallet using this RPC, see our [Add Network guide](/overview/general-info/add-status-network).
 
 <AddToMetaMask />
 <div style={{height: '2rem'}} />

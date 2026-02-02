@@ -11,7 +11,7 @@ https://public.sepolia.rpc.status.network
 ## 使用 RPC
 
 ### 添加到 MetaMask
-有关使用此 RPC 将 Status Network 添加到您钱包的说明，请参阅我们的[添加网络指南](/home/general-info/add-status-network)。
+有关使用此 RPC 将 Status Network 添加到您钱包的说明，请参阅我们的[添加网络指南](/overview/general-info/add-status-network)。
 
 ### Web3 库配置
 

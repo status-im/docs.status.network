@@ -9,12 +9,12 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'home/index',
+          id: 'overview/index',
           label: '🌴 Home',
         },
         {
           type: 'doc',
-          id: 'home/introduction/quick-start',
+          id: 'overview/introduction/quick-start',
           label: '⚡ Quick Start',
         },
       ],
@@ -26,27 +26,27 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'home/tokenomics/economic-model',
+          id: 'overview/tokenomics/economic-model',
           label: '🤝 Economic Model',
         },
         {
           type: 'doc',
-          id: 'home/tokenomics/public-funding',
+          id: 'overview/tokenomics/public-funding',
           label: '💰 Public Funding',
         },  
         {
           type: 'doc',
-          id: 'home/tokenomics/karmic-tokenomics',
+          id: 'overview/tokenomics/karmic-tokenomics',
           label: '🐉 Karmic Tokenomics',
         },       
         {
           type: 'doc',
-          id: 'home/tokenomics/snt-staking',
+          id: 'overview/tokenomics/snt-staking',
           label: '💎 SNT Staking',
         },
         {
           type: 'doc',
-          id: 'home/tokenomics/pre-deposits',
+          id: 'overview/tokenomics/pre-deposits',
           label: '💰 Pre-Deposits',
         },
       ],
@@ -58,17 +58,17 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'home/general-info/network-details',
+          id: 'overview/general-info/network-details',
           label: '🌐 Network Details',
         },
         {
           type: 'doc',
-          id: 'home/general-info/gasless-transactions',
+          id: 'overview/general-info/gasless-transactions',
           label: '⛽ Gasless Transactions',
         },
         {
           type: 'doc',
-          id: 'home/general-info/add-status-network',
+          id: 'overview/general-info/add-status-network',
           label: '➕ Add Status Network',
         },
         {
@@ -78,17 +78,17 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'doc',
-              id: 'home/general-info/contract-addresses/tokens',
+              id: 'overview/general-info/contract-addresses/tokens',
               label: '🪙 Tokens',
             },
             {
               type: 'doc',
-              id: 'home/general-info/contract-addresses/testnet-contracts',
+              id: 'overview/general-info/contract-addresses/testnet-contracts',
               label: '🧪 Testnet Contracts',
             },
             {
               type: 'doc',
-              id: 'home/general-info/contract-addresses/pre-deposit',
+              id: 'overview/general-info/contract-addresses/pre-deposit',
               label: '💰 Pre-Deposit Vault Contracts',
             },
           ],
@@ -100,7 +100,7 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'doc',
-              id: 'home/general-info/bridge/bridging-testnet',
+              id: 'overview/general-info/bridge/bridging-testnet',
               label: '🧪 Bridging Testnet',
             },
           ],
@@ -114,7 +114,7 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'home/other/official-links',
+          id: 'overview/other/official-links',
           label: '🔗 Official Links',
         },
       ],

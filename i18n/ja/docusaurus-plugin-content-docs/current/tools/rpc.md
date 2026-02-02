@@ -11,7 +11,7 @@ https://public.sepolia.rpc.status.network
 ## RPCの使用
 
 ### MetaMaskへの追加
-このRPCを使用してStatus Networkをウォレットに追加する方法については、[ネットワーク追加ガイド](/home/general-info/add-status-network)をご参照ください。
+このRPCを使用してStatus Networkをウォレットに追加する方法については、[ネットワーク追加ガイド](/overview/general-info/add-status-network)をご参照ください。
 
 ### Web3ライブラリの設定
 
@@ -63,7 +63,7 @@ https://public.sepolia.rpc.status.network
 ## RPCの使用
 
 ### MetaMaskへの追加
-このRPCを使用してStatus Networkをウォレットに追加する方法については、[ネットワーク追加ガイド](/home/general-info/add-status-network)をご参照ください。
+このRPCを使用してStatus Networkをウォレットに追加する方法については、[ネットワーク追加ガイド](/overview/general-info/add-status-network)をご参照ください。
 
 ### Web3ライブラリの設定
 

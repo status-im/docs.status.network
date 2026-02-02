@@ -58,4 +58,4 @@ keywords: [Scaffold-ETH 2, 智能合约部署, Status Network开发, Foundry, Ha
 有关详细配置选项、故障排除和高级用法：
 - 查看[扩展README](https://github.com/status-im/status-network-scaffold-extension)获取全面文档
 - 加入我们的[Telegram社区](https://t.me/statusl2)寻求支持
-- 查看我们的[网络详情](/home/general-info/network-details)
+- 查看我们的[网络详情](/overview/general-info/network-details)
