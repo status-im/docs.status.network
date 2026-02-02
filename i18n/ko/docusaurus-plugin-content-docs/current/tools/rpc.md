@@ -11,7 +11,7 @@ https://public.sepolia.rpc.status.network
 ## RPC 사용하기
 
 ### MetaMask에 추가하기
-이 RPC를 사용하여 Status Network를 지갑에 추가하는 방법은 [네트워크 추가 가이드](../general-info/add-status-network.md)를 참조하세요.
+이 RPC를 사용하여 Status Network를 지갑에 추가하는 방법은 [네트워크 추가 가이드](/home/general-info/add-status-network)를 참조하세요.
 
 ### Web3 라이브러리 설정
 

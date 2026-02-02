@@ -1,14 +1,22 @@
 {
   "title": {
-    "message": "Status Network Docs",
+    "message": "Status Network 文档",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Status Network Logo",
+    "message": "Status Network 标志",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Hub": {
-    "message": "Hub",
-    "description": "Navbar item with label Hub"
+  "item.label.Home": {
+    "message": "首页",
+    "description": "Navbar item with label Home"
+  },
+  "item.label.Build for Karma": {
+    "message": "为 Karma 构建",
+    "description": "Navbar item with label Build for Karma"
+  },
+  "item.label.Tools": {
+    "message": "工具",
+    "description": "Navbar item with label Tools"
   }
 }

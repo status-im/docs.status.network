@@ -4,11 +4,19 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Status Network Logo",
+    "message": "Status Network ロゴ",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Hub": {
-    "message": "Hub",
-    "description": "Navbar item with label Hub"
+  "item.label.Home": {
+    "message": "ホーム",
+    "description": "Navbar item with label Home"
+  },
+  "item.label.Build for Karma": {
+    "message": "Karma でビルド",
+    "description": "Navbar item with label Build for Karma"
+  },
+  "item.label.Tools": {
+    "message": "ツール",
+    "description": "Navbar item with label Tools"
   }
 }
