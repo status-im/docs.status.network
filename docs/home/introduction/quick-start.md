@@ -16,7 +16,7 @@ Before getting started:
 
 1. **Add Status Network Testnet to MetaMask**:
 
-   Follow the [Add Status Network guide](/general-info/add-status-network) for step-by-step instructions on how to add the Status Network testnet to MetaMask.
+   Follow the [Add Status Network guide](/home/general-info/add-status-network) for step-by-step instructions on how to add the Status Network testnet to MetaMask.
 
 2. **Get Test ETH**:
 
@@ -108,8 +108,8 @@ contract SimpleStorage {
 
 - **Get Support**:
   - Join our [Telegram Community](https://t.me/statusl2) for assistance
-  - Check our [Network Details](/general-info/network-details) for more information
-  - Learn about [bridging tokens](/general-info/bridge/bridging-testnet) to Status Network
+  - Check our [Network Details](/home/general-info/network-details) for more information
+  - Learn about [bridging tokens](/home/general-info/bridge/bridging-testnet) to Status Network
 
 ## Summary
 
@@ -120,5 +120,5 @@ You've successfully:
 - Interacted with your deployed contract by storing and retrieving a number
 
 For more advanced development, check out our guides for deploying with:
-- [Hardhat](/tutorials/deploying-contracts/using-hardhat)
-- [Foundry](/tutorials/deploying-contracts/using-foundry)
+- [Hardhat](/build-for-karma/deploying-contracts/using-hardhat)
+- [Foundry](/build-for-karma/deploying-contracts/using-foundry)

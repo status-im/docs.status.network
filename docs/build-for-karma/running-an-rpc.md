@@ -210,7 +210,7 @@ To optimize your RPC node performance:
 If you encounter any issues:
 
 - Check the [official README](https://github.com/status-im/status-l2-rpc-tools/blob/master/README.md) for the latest updates
-- Review our [Network Details](/general-info/network-details) and docs in general
+- Review our [Network Details](/home/general-info/network-details) and docs in general
 - Join our [Telegram Community](https://t.me/statusl2) for support
 
 ## Additional Resources

@@ -41,16 +41,16 @@ Status Network is natively integrated with Status Wallet, Keycard, Waku and Code
 
 Wants to skip the explanation part and go straight to building? Here's how to get started:
 
-1. [Add Status Network to Your Wallet](/general-info/add-status-network)
+1. [Add Status Network to Your Wallet](/home/general-info/add-status-network)
 2. [Get Testnet ETH](/tools/testnet-faucets)
-3. [Bridge Assets](/general-info/bridge/bridging-testnet)
-4. [Deploy Your First Contract](/tutorials/deploying-contracts/using-remix)
+3. [Bridge Assets](/home/general-info/bridge/bridging-testnet)
+4. [Deploy Your First Contract](/build-for-karma/deploying-contracts/using-remix)
 
 ## Support & Resources
 
 Connect with our community and access the resources you need:
 - Join our [Telegram Builder's Community](https://t.me/statusl2)
-- View [Network Details](/general-info/network-details)
-- Browse [Contract Addresses](/general-info/contract-addresses/testnet-contracts)
+- View [Network Details](/home/general-info/network-details)
+- Browse [Contract Addresses](/home/general-info/contract-addresses/testnet-contracts)
 
 Ready to build something amazing? Start your journey on the free network today!

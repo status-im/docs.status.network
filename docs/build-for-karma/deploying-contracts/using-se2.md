@@ -58,4 +58,4 @@ The [Status Network Scaffold-ETH 2 extension](https://github.com/status-im/statu
 For detailed configuration options, troubleshooting, and advanced usage:
 - Check the [extension README](https://github.com/status-im/status-network-scaffold-extension) for comprehensive documentation
 - Join our [Telegram Community](https://t.me/statusl2) and ask for support
-- View our [Network Details](/general-info/network-details)
+- View our [Network Details](/home/general-info/network-details)

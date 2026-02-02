@@ -43,4 +43,4 @@ This page contains all the official links for the Status Network ecosystem.
 | Telegram Community | [t.me/statusl2](https://t.me/statusl2) |
 | X/twitter | [x.com/statusL2](https://x.com/statusL2) |
 
-For detailed information about adding the network to your wallet, see our [Add Network guide](/general-info/add-status-network).
+For detailed information about adding the network to your wallet, see our [Add Network guide](/home/general-info/add-status-network).

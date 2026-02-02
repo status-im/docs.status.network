@@ -1,7 +1,7 @@
 import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  tutorialSidebar: [
+  homeSidebar: [
     {
       type: 'category',
       label: 'INTRODUCTION',
@@ -9,12 +9,12 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'index',
+          id: 'home/index',
           label: '🌴 Home',
         },
         {
           type: 'doc',
-          id: 'introduction/quick-start',
+          id: 'home/introduction/quick-start',
           label: '⚡ Quick Start',
         },
       ],
@@ -26,27 +26,27 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'tokenomics/economic-model',
+          id: 'home/tokenomics/economic-model',
           label: '🤝 Economic Model',
         },
         {
           type: 'doc',
-          id: 'tokenomics/public-funding',
+          id: 'home/tokenomics/public-funding',
           label: '💰 Public Funding',
         },  
         {
           type: 'doc',
-          id: 'tokenomics/karmic-tokenomics',
+          id: 'home/tokenomics/karmic-tokenomics',
           label: '🐉 Karmic Tokenomics',
         },       
         {
           type: 'doc',
-          id: 'tokenomics/snt-staking',
+          id: 'home/tokenomics/snt-staking',
           label: '💎 SNT Staking',
         },
         {
           type: 'doc',
-          id: 'tokenomics/pre-deposits',
+          id: 'home/tokenomics/pre-deposits',
           label: '💰 Pre-Deposits',
         },
       ],
@@ -58,17 +58,17 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'general-info/network-details',
+          id: 'home/general-info/network-details',
           label: '🌐 Network Details',
         },
         {
           type: 'doc',
-          id: 'general-info/gasless-transactions',
+          id: 'home/general-info/gasless-transactions',
           label: '⛽ Gasless Transactions',
         },
         {
           type: 'doc',
-          id: 'general-info/add-status-network',
+          id: 'home/general-info/add-status-network',
           label: '➕ Add Status Network',
         },
         {
@@ -78,17 +78,17 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'doc',
-              id: 'general-info/contract-addresses/tokens',
+              id: 'home/general-info/contract-addresses/tokens',
               label: '🪙 Tokens',
             },
             {
               type: 'doc',
-              id: 'general-info/contract-addresses/testnet-contracts',
+              id: 'home/general-info/contract-addresses/testnet-contracts',
               label: '🧪 Testnet Contracts',
             },
             {
               type: 'doc',
-              id: 'general-info/contract-addresses/pre-deposit',
+              id: 'home/general-info/contract-addresses/pre-deposit',
               label: '💰 Pre-Deposit Vault Contracts',
             },
           ],
@@ -100,7 +100,7 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'doc',
-              id: 'general-info/bridge/bridging-testnet',
+              id: 'home/general-info/bridge/bridging-testnet',
               label: '🧪 Bridging Testnet',
             },
           ],
@@ -109,9 +109,74 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'OTHER DOCS',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'home/other/official-links',
+          label: '🔗 Official Links',
+        },
+      ],
+    },
+  ],
+  buildForKarmaSidebar: [
+    {
+      type: 'category',
+      label: 'BUILD FOR KARMA',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'build-for-karma/index',
+          label: '🛠 Build for Karma',
+        },
+        {
+          type: 'category',
+          label: '🚀 Deploying a Smart Contract',
+          collapsed: false,
+          items: [
+            {
+              type: 'doc',
+              id: 'build-for-karma/deploying-contracts/using-hardhat',
+              label: '🎩 Using Hardhat',
+            },
+            {
+              type: 'doc',
+              id: 'build-for-karma/deploying-contracts/using-foundry',
+              label: '⚒️ Using Foundry',
+            },
+            {
+              type: 'doc',
+              id: 'build-for-karma/deploying-contracts/using-remix',
+              label: '🎛️ Using Remix',
+            },
+            {
+              type: 'doc',
+              id: 'build-for-karma/deploying-contracts/using-se2',
+              label: '🏗 Using Scaffold-ETH 2',
+            },
+          ],
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/running-an-rpc',
+          label: '🌐 Running an RPC node',
+        },
+      ],
+    },
+  ],
+  toolsSidebar: [
+    {
+      type: 'category',
       label: 'TOOLS',
       collapsed: false,
       items: [
+        {
+          type: 'doc',
+          id: 'tools/index',
+          label: '🛠 Tools',
+        },
         {
           type: 'doc',
           id: 'tools/rpc',
@@ -131,57 +196,6 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'tools/block-explorers',
           label: '🔎 Block Explorers',
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'TUTORIALS',
-      collapsed: false,
-      items: [
-        {
-          type: 'category',
-          label: '🚀 Deploying a Smart Contract',
-          collapsed: false,
-          items: [
-            {
-              type: 'doc',
-              id: 'tutorials/deploying-contracts/using-hardhat',
-              label: '🎩 Using Hardhat',
-            },
-            {
-              type: 'doc',
-              id: 'tutorials/deploying-contracts/using-foundry',
-              label: '⚒️ Using Foundry',
-            },
-            {
-              type: 'doc',
-              id: 'tutorials/deploying-contracts/using-remix',
-              label: '🎛️ Using Remix',
-            },
-            {
-              type: 'doc',
-              id: 'tutorials/deploying-contracts/using-se2',
-              label: '🏗 Using Scaffold-ETH 2',
-            },
-          ],
-        },
-        {
-          type: 'doc',
-          id: 'tutorials/running-an-rpc',
-          label: '🌐 Running an RPC node',
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'OTHER DOCS',
-      collapsed: false,
-      items: [
-        {
-          type: 'doc',
-          id: 'other/official-links',
-          label: '🔗 Official Links',
         },
       ],
     },
