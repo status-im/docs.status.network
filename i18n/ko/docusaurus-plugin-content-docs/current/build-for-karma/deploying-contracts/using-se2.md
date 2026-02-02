@@ -58,4 +58,4 @@ keywords: [Scaffold-ETH 2, 스마트 컨트랙트 배포, Status Network 개발,
 자세한 구성 옵션, 문제 해결 및 사용법에 대해서는:
 - 포괄적인 문서는 [확장 README](https://github.com/status-im/status-network-scaffold-extension)를 확인하세요
 - [Telegram 커뮤니티](https://t.me/statusl2)에 참여하여 지원을 요청하세요
-- [네트워크 세부사항](/home/general-info/network-details)을 확인하세요
+- [네트워크 세부사항](/overview/general-info/network-details)을 확인하세요

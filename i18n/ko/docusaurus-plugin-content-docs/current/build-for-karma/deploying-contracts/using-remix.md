@@ -10,7 +10,7 @@
 - **MetaMask**: [MetaMask](https://metamask.io) 브라우저 확장 프로그램 설치
 - **테스트넷 ETH**: Status Network 테스트넷 ETH가 필요합니다
   - Status Network 테스트넷 ETH는 [파우셋](/tools/testnet-faucets)에서 받을 수 있습니다
-- **네트워크 구성**: [네트워크 추가 가이드](/home/general-info/add-status-network)에 따라 MetaMask에 Status Network 테스트넷 추가
+- **네트워크 구성**: [네트워크 추가 가이드](/overview/general-info/add-status-network)에 따라 MetaMask에 Status Network 테스트넷 추가
 
 ## 단계
 
@@ -91,7 +91,7 @@ contract HelloWorld {
 
 문제가 발생한 경우:
 - [텔레그램 커뮤니티](https://t.me/statusl2)에 참여
-- [네트워크 세부정보](/home/general-info/network-details) 참조
+- [네트워크 세부정보](/overview/general-info/network-details) 참조
 
 ## 추가 리소스
 

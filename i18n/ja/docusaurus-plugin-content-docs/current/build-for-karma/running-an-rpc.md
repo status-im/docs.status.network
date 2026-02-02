@@ -208,7 +208,7 @@ RPCノードのパフォーマンスを最適化するには：
 問題が発生した場合：
 
 - 最新の更新については[公式README](https://github.com/status-im/status-l2-rpc-tools/blob/master/README.md)を確認
-- [ネットワーク詳細](/home/general-info/network-details)およびドキュメント全般を確認
+- [ネットワーク詳細](/overview/general-info/network-details)およびドキュメント全般を確認
 - サポートについては[Telegramコミュニティ](https://t.me/statusl2)に参加
 
 ## 追加リソース

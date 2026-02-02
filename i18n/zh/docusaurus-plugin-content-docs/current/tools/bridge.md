@@ -30,7 +30,7 @@ Status Network 测试网跨链桥允许用户在 Sepolia（第一层）和 Statu
 
 ## 使用跨链桥
 
-关于如何使用跨链桥的详细说明，包括分步指南和重要的安全考虑事项，请参考我们的[跨链指南](/home/general-info/bridge/bridging-testnet)。
+关于如何使用跨链桥的详细说明，包括分步指南和重要的安全考虑事项，请参考我们的[跨链指南](/overview/general-info/bridge/bridging-testnet)。
 
 ## 监控跨链交易
 
@@ -41,5 +41,5 @@ Status Network 测试网跨链桥允许用户在 Sepolia（第一层）和 Statu
 ## 支持
 
 如果您在使用跨链桥时遇到任何问题：
-- 查看[跨链指南](/home/general-info/bridge/bridging-testnet)了解常见解决方案
+- 查看[跨链指南](/overview/general-info/bridge/bridging-testnet)了解常见解决方案
 - 加入我们的 [Telegram 社区](https://t.me/statusl2)获取帮助

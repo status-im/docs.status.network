@@ -209,7 +209,7 @@ netstat -tulpn | grep :8445
 如果遇到任何问题：
 
 - 查看[官方README](https://github.com/status-im/status-l2-rpc-tools/blob/master/README.md)获取最新更新
-- 查看我们的[网络详情](/home/general-info/network-details)和文档
+- 查看我们的[网络详情](/overview/general-info/network-details)和文档
 - 加入我们的[Telegram社区](https://t.me/statusl2)寻求支持
 
 ## 其他资源

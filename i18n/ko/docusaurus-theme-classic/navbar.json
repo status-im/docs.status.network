@@ -7,9 +7,9 @@
     "message": "Status Network 로고",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Home": {
-    "message": "홈",
-    "description": "Navbar item with label Home"
+  "item.label.Overview": {
+    "message": "개요",
+    "description": "Navbar item with label Overview"
   },
   "item.label.Build for Karma": {
     "message": "카르마를 위해 개발하기",

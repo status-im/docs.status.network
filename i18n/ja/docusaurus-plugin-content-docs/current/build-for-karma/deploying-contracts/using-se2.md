@@ -58,4 +58,4 @@ keywords: [Scaffold-ETH 2, スマートコントラクトデプロイ, Status Ne
 詳細な設定オプション、トラブルシューティング、高度な使用方法については：
 - 包括的なドキュメントについては[拡張機能README](https://github.com/status-im/status-network-scaffold-extension)を確認
 - [Telegramコミュニティ](https://t.me/statusl2)に参加してサポートを求める
-- [ネットワーク詳細](/home/general-info/network-details)を表示
+- [ネットワーク詳細](/overview/general-info/network-details)を表示

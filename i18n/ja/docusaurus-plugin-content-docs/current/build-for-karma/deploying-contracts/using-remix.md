@@ -10,7 +10,7 @@
 - **MetaMask**: [MetaMask](https://metamask.io)ブラウザ拡張機能をインストール
 - **テストネットETH**: Status NetworkテストネットのETHが必要です
   - Status NetworkテストネットのETHは[フォーセット](/tools/testnet-faucets)から入手できます
-- **ネットワーク設定**: [ネットワーク追加ガイド](/home/general-info/add-status-network)に従ってMetaMaskにStatus Networkテストネットを追加
+- **ネットワーク設定**: [ネットワーク追加ガイド](/overview/general-info/add-status-network)に従ってMetaMaskにStatus Networkテストネットを追加
 
 ## 手順
 
@@ -91,7 +91,7 @@ contract HelloWorld {
 
 問題が発生した場合：
 - [Telegramコミュニティ](https://t.me/statusl2)に参加
-- [ネットワーク詳細](/home/general-info/network-details)を参照
+- [ネットワーク詳細](/overview/general-info/network-details)を参照
 
 ## 追加リソース
 

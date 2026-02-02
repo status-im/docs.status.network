@@ -158,4 +158,4 @@ npx hardhat run scripts/interact.ts --network statusTestnet
 
 如果遇到问题：
 - 加入我们的 [Telegram 社区](https://t.me/statusl2)
-- 查看[网络详情](/home/general-info/network-details)
+- 查看[网络详情](/overview/general-info/network-details)

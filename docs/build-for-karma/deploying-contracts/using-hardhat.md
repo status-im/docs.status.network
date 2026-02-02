@@ -169,4 +169,4 @@ npx hardhat run scripts/interact.ts --network statusTestnet
 
 If you encounter any issues:
 - Join our [Telegram Community](https://t.me/statusl2)
-- View our [Network Details](/home/general-info/network-details)
+- View our [Network Details](/overview/general-info/network-details)

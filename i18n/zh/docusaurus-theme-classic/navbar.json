@@ -7,9 +7,9 @@
     "message": "Status Network 标志",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Home": {
-    "message": "首页",
-    "description": "Navbar item with label Home"
+  "item.label.Overview": {
+    "message": "概览",
+    "description": "Navbar item with label Overview"
   },
   "item.label.Build for Karma": {
     "message": "为 Karma 构建",
