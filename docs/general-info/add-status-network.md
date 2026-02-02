@@ -5,15 +5,13 @@ keywords: [Status Network, MetaMask setup, add network, wallet configuration, RP
 ---
 
 import AddToMetaMask from '@site/src/components/AddToMetaMask';
-
-# Add Status Network
+import CopyCell from '@site/src/components/CopyCell';
 
 This guide shows how to add the **Status Network** to your wallet.
 
 You can add Status Network Testnet directly by clicking on the button below:
 
 <AddToMetaMask />
-
 
 ## Manual Configuration
 
@@ -39,10 +37,10 @@ To add **Status Network Testnet** as a custom network to MetaMask:
      | Name             | Value                                    |
      |------------------|------------------------------------------|
      | **Network Name** | Status Network Testnet                   |
-     | **RPC URL**      | https://public.sepolia.rpc.status.network |
+     | **RPC URL**      | https://public.sepolia.rpc.status.network  <CopyCell text="https://public.sepolia.rpc.status.network" ariaLabel="Copy RPC endpoint" /> |
      | **Chain ID**     | 1660990954                               |
      | **Currency Symbol** | `ETH`                                 |
-     | **Block Explorer URL** | https://sepoliascan.status.network |
+     | **Block Explorer URL** | https://sepoliascan.status.network <CopyCell text="https://sepoliascan.status.network" ariaLabel="Copy block explorer URL" /> |
 
 5. **Save the Network**:
 

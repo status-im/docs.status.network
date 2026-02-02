@@ -161,6 +161,10 @@ const config: Config = {
               label: 'Privacy policy',
               to: 'https://status.network/legal/privacy-policy',
             },
+            {
+              label: 'Pre-Deposit Disclaimer',
+              to: 'https://status.network/legal/status-network-pre-deposit-disclaimer',
+            },
           ],
         },
       ],

@@ -131,6 +131,10 @@
     "message": "💎 SNT 质押",
     "description": "The label for the doc item 💎 SNT Staking in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.doc.💰 Pre-Deposits": {
+    "message": "💰 预存款",
+    "description": "The label for the doc item 💰 Pre-Deposits in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.doc.🪙 Tokens": {
     "message": "🪙 代币",
     "description": "The label for the doc item 🪙 Tokens in sidebar tutorialSidebar"
