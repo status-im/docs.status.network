@@ -34,7 +34,7 @@ Deposited ETH is staked via [Lido](https://lido.fi/) to earn staking yield. A po
 
 ### Deployed contracts
 
-See [Pre-Deposit Vault Contracts](../general-info/contract-addresses/pre-deposit) for a full list of addresses and networks.
+See [Pre-Deposit Vault Contracts](/home/general-info/contract-addresses/pre-deposit) for a full list of addresses and networks.
 
 ## Generic Protocol Vault (GUSD)
 
@@ -78,7 +78,7 @@ For a full overview of the Generic Protocol structure (GUSD tokenomics, bridging
 
 Pre-depositors earn:
 
-- **Karma**: non-transferable governance token; grants gasless throughput and voting power (details in [Karmic Tokenomics](./karmic-tokenomics)).
+- **Karma**: non-transferable governance token; grants gasless throughput and voting power (details in [Karmic Tokenomics](/home/tokenomics/karmic-tokenomics)).
 - **Liquid incentives**: 15M SNT and 20M LINEA tokens distributed across vaults.
 - **Generic protocol points** for stablecoin depositors: Generic Protocol points to be used when Generic Protocol launches on Status Network Mainnet.
 - **Native app points**: to be confirmed as natives apps unveil their tokenomics.
@@ -114,8 +114,8 @@ This documentation is for informational purposes and does not constitute financi
 
 ## Further reading
 
-- [Pre-Deposit Vault Contracts](../general-info/contract-addresses/pre-deposit) — deployed addresses information
-- [Karmic Tokenomics](./karmic-tokenomics) — how Karma is earned and used
-- [Economic Model](./economic-model) — Status Network's sustainable revenue model
+- [Pre-Deposit Vault Contracts](/home/general-info/contract-addresses/pre-deposit) — deployed addresses information
+- [Karmic Tokenomics](/home/tokenomics/karmic-tokenomics) — how Karma is earned and used
+- [Economic Model](/home/tokenomics/economic-model) — Status Network's sustainable revenue model
 - [Aragon Documentation](https://docs.aragon.org/)
 - [Generic Protocol Documentation](https://docs.generic.money/)

@@ -33,4 +33,4 @@ These are the official network details for the Status Network testnet. You can u
 - Connect dApps to the network
 - Verify smart contracts
 
-For instructions on adding the network to your wallet, see our [Add Status Network guide](./add-status-network.md).
+For instructions on adding the network to your wallet, see our [Add Status Network guide](/home/general-info/add-status-network).

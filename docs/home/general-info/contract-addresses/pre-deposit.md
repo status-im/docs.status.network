@@ -1,10 +1,8 @@
 ---
-title: Pre-Deposit Campaign Contracts
+title: Pre-Deposit Vault Contracts
 description: List of Status Network pre-deposit campaign vault addresses.
 keywords: [Status Network, Pre-deposit, Campaign, Vaults]
 ---
-
-# Pre-Deposit Vault Contracts
 
 In collaboration with [Aragon](https://www.aragon.org/), we're running our pre-deposit campaign for Status Network users.
 This page lists all the important contract addresses of the campaign.

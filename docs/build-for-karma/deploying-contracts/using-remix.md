@@ -16,7 +16,7 @@ Before you begin, ensure you have:
 - **MetaMask**: Install the [MetaMask](https://metamask.io) browser extension
 - **Testnet ETH**: You'll need Status Network testnet ETH
   - Get Status Network testnet ETH from our [Faucet](/tools/testnet-faucets)
-- **Network Configuration**: Add Status Network testnet to MetaMask following our [Add Network guide](/general-info/add-status-network)
+- **Network Configuration**: Add Status Network testnet to MetaMask following our [Add Network guide](/home/general-info/add-status-network)
 
 ## Steps
 
@@ -97,7 +97,7 @@ Once deployed, you'll see your contract under "Deployed Contracts":
 
 If you encounter any issues:
 - Join our [Telegram Community](https://t.me/statusl2)
-- View our [Network Details](/general-info/network-details)
+- View our [Network Details](/home/general-info/network-details)
 
 ## Additional Resources
 

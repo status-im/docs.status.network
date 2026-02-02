@@ -68,6 +68,21 @@ const config: Config = {
       },
       items: [
         {
+          label: 'Home',
+          to: '/',
+          activeBasePath: 'home',
+        },
+        {
+          label: 'Build for Karma',
+          to: '/build-for-karma',
+          activeBasePath: 'build-for-karma',
+        },
+        {
+          label: 'Tools',
+          to: '/tools',
+          activeBasePath: 'tools',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
           className: 'language-dropdown',

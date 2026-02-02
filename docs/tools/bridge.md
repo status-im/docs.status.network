@@ -36,7 +36,7 @@ For the most up-to-date list of supported tokens and their contract addresses, p
 
 ## Using the Bridge
 
-For detailed instructions on how to use the bridge, including step-by-step guides and important security considerations, please refer to our [Bridging Guide](../general-info/bridge/bridging-testnet.md).
+For detailed instructions on how to use the bridge, including step-by-step guides and important security considerations, please refer to our [Bridging Guide](/home/general-info/bridge/bridging-testnet).
 
 ## Monitoring Bridge Transactions
 
@@ -47,5 +47,5 @@ You can monitor your bridge transactions using:
 ## Support
 
 If you encounter any issues while using the bridge:
-- Check our [Bridging Guide](../general-info/bridge/bridging-testnet.md) for common solutions
+- Check our [Bridging Guide](/home/general-info/bridge/bridging-testnet) for common solutions
 - Join our [Telegram Community](https://t.me/statusl2) for assistance
