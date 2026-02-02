@@ -30,7 +30,7 @@ Status Network 테스트넷 브리지를 사용하면 Sepolia (레이어 1)와 S
 
 ## 브리지 사용하기
 
-단계별 가이드와 중요한 보안 고려사항을 포함한 브리지 사용 방법에 대한 자세한 내용은 [브리징 가이드](../general-info/bridge/bridging-testnet.md)를 참조하세요.
+단계별 가이드와 중요한 보안 고려사항을 포함한 브리지 사용 방법에 대한 자세한 내용은 [브리징 가이드](/home/general-info/bridge/bridging-testnet)를 참조하세요.
 
 ## 브리지 트랜잭션 모니터링
 
@@ -41,5 +41,5 @@ Status Network 테스트넷 브리지를 사용하면 Sepolia (레이어 1)와 S
 ## 지원
 
 브리지 사용 중 문제가 발생한 경우:
-- 일반적인 해결책은 [브리징 가이드](../general-info/bridge/bridging-testnet.md) 확인
+- 일반적인 해결책은 [브리징 가이드](/home/general-info/bridge/bridging-testnet) 확인
 - 도움이 필요하면 [텔레그램 커뮤니티](https://t.me/statusl2)에 참여

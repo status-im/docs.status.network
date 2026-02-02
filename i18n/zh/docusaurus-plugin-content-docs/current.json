@@ -3,148 +3,144 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.INTRODUCTION": {
+  "sidebar.homeSidebar.category.INTRODUCTION": {
     "message": "简介",
-    "description": "The label for category INTRODUCTION in sidebar tutorialSidebar"
+    "description": "The label for category INTRODUCTION in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.TOKENOMICS": {
+  "sidebar.homeSidebar.category.TOKENOMICS": {
     "message": "代币经济学",
-    "description": "The label for category TOKENOMICS in sidebar tutorialSidebar"
+    "description": "The label for category TOKENOMICS in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.GENERAL INFO": {
+  "sidebar.homeSidebar.category.GENERAL INFO": {
     "message": "基本信息",
-    "description": "The label for category GENERAL INFO in sidebar tutorialSidebar"
+    "description": "The label for category GENERAL INFO in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.🏡 Contract Addresses": {
+  "sidebar.homeSidebar.category.🏡 Contract Addresses": {
     "message": "🏡 合约地址",
-    "description": "The label for category 🏡 Contract Addresses in sidebar tutorialSidebar"
+    "description": "The label for category 🏡 Contract Addresses in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.🌉 Bridge": {
+  "sidebar.homeSidebar.category.🌉 Bridge": {
     "message": "🌉 跨链桥",
-    "description": "The label for category 🌉 Bridge in sidebar tutorialSidebar"
+    "description": "The label for category 🌉 Bridge in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.TOOLS": {
+  "sidebar.toolsSidebar.category.TOOLS": {
     "message": "工具",
-    "description": "The label for category TOOLS in sidebar tutorialSidebar"
+    "description": "The label for category TOOLS in sidebar toolsSidebar"
   },
-  "sidebar.tutorialSidebar.category.TUTORIALS": {
-    "message": "教程",
-    "description": "The label for category TUTORIALS in sidebar tutorialSidebar"
+  "sidebar.buildForKarmaSidebar.category.BUILD FOR KARMA": {
+    "message": "开发",
+    "description": "The label for category BUILD FOR KARMA in sidebar buildForKarmaSidebar"
   },
-  "sidebar.tutorialSidebar.category.🚀 Deploying a Smart Contract": {
+  "sidebar.buildForKarmaSidebar.category.🚀 Deploying a Smart Contract": {
     "message": "🚀 部署智能合约",
-    "description": "The label for category 🚀 Deploying a Smart Contract in sidebar tutorialSidebar"
+    "description": "The label for category 🚀 Deploying a Smart Contract in sidebar buildForKarmaSidebar"
   },
-  "sidebar.tutorialSidebar.category.OTHER DOCS": {
+  "sidebar.homeSidebar.category.OTHER DOCS": {
     "message": "其他文档",
-    "description": "The label for category OTHER DOCS in sidebar tutorialSidebar"
+    "description": "The label for category OTHER DOCS in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🏠 Home": {
-    "message": "🏠 首页",
-    "description": "The label for the doc item 🏠 Home in sidebar tutorialSidebar, linking to the doc index"
+  "sidebar.homeSidebar.doc.🌴 Home": {
+    "message": "🌴 首页",
+    "description": "The label for the doc item 🌴 Home in sidebar homeSidebar, linking to the doc index"
   },
-  "sidebar.tutorialSidebar.doc.⚡ Quick Start": {
+  "sidebar.homeSidebar.doc.⚡ Quick Start": {
     "message": "⚡ 快速开始",
-    "description": "The label for the doc item ⚡ Quick Start in sidebar tutorialSidebar, linking to the doc introduction/quick-start"
+    "description": "The label for the doc item ⚡ Quick Start in sidebar homeSidebar, linking to the doc introduction/quick-start"
   },
-  "sidebar.tutorialSidebar.doc.💎 SNT Token": {
+  "sidebar.homeSidebar.doc.💎 SNT Token": {
     "message": "💎 SNT Token",
-    "description": "The label for the doc item 💎 SNT Token in sidebar tutorialSidebar, linking to the doc tokenomics/snt-token"
+    "description": "The label for the doc item 💎 SNT Token in sidebar homeSidebar, linking to the doc tokenomics/snt-token"
   },
-  "sidebar.tutorialSidebar.doc.💠 Karma Token": {
+  "sidebar.homeSidebar.doc.💠 Karma Token": {
     "message": "💠 Karma Token",
-    "description": "The label for the doc item 💠 Karma Token in sidebar tutorialSidebar, linking to the doc tokenomics/karma-token"
+    "description": "The label for the doc item 💠 Karma Token in sidebar homeSidebar, linking to the doc tokenomics/karma-token"
   },
-  "sidebar.tutorialSidebar.doc.🌐 Network Details": {
+  "sidebar.homeSidebar.doc.🌐 Network Details": {
     "message": "🌐 网络详情",
-    "description": "The label for the doc item 🌐 Network Details in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🌐 Network Details in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.➕ Add Status Network": {
+  "sidebar.homeSidebar.doc.➕ Add Status Network": {
     "message": "➕ 添加 Status 网络",
-    "description": "The label for the doc item ➕ Add Status Network in sidebar tutorialSidebar"
+    "description": "The label for the doc item ➕ Add Status Network in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💰 Tokens": {
+  "sidebar.homeSidebar.doc.💰 Tokens": {
     "message": "💰 代币",
-    "description": "The label for the doc item 💰 Tokens in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💰 Tokens in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🧪 Testnet Contracts": {
+  "sidebar.homeSidebar.doc.🧪 Testnet Contracts": {
     "message": "🧪 测试网合约",
-    "description": "The label for the doc item 🧪 Testnet Contracts in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🧪 Testnet Contracts in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🧪 Bridging Testnet": {
+  "sidebar.homeSidebar.doc.🧪 Bridging Testnet": {
     "message": "🧪 测试网跨链",
-    "description": "The label for the doc item 🧪 Bridging Testnet in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🧪 Bridging Testnet in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🔌 RPC": {
+  "sidebar.toolsSidebar.doc.🔌 RPC": {
     "message": "🔌 RPC",
-    "description": "The label for the doc item 🔌 RPC in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🔌 RPC in sidebar toolsSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🌉 Bridge": {
+  "sidebar.toolsSidebar.doc.🌉 Bridge": {
     "message": "🌉 跨链桥",
-    "description": "The label for the doc item 🌉 Bridge in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🌉 Bridge in sidebar toolsSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🚰 Testnet Faucets": {
+  "sidebar.toolsSidebar.doc.🚰 Testnet Faucets": {
     "message": "🚰 测试网水龙头",
-    "description": "The label for the doc item 🚰 Testnet Faucets in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🚰 Testnet Faucets in sidebar toolsSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🔎 Block Explorers": {
+  "sidebar.toolsSidebar.doc.🔎 Block Explorers": {
     "message": "🔎 区块浏览器",
-    "description": "The label for the doc item 🔎 Block Explorers in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🔎 Block Explorers in sidebar toolsSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🎩 Using Hardhat": {
+  "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
     "message": "🎩 使用 Hardhat",
-    "description": "The label for the doc item 🎩 Using Hardhat in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🎩 Using Hardhat in sidebar buildForKarmaSidebar"
   },
-  "sidebar.tutorialSidebar.doc.⚒️ Using Foundry": {
+  "sidebar.buildForKarmaSidebar.doc.⚒️ Using Foundry": {
     "message": "⚒️ 使用 Foundry",
-    "description": "The label for the doc item ⚒️ Using Foundry in sidebar tutorialSidebar"
+    "description": "The label for the doc item ⚒️ Using Foundry in sidebar buildForKarmaSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🎛️ Using Remix": {
+  "sidebar.buildForKarmaSidebar.doc.🎛️ Using Remix": {
     "message": "🎛️ 使用 Remix",
-    "description": "The label for the doc item 🎛️ Using Remix in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🎛️ Using Remix in sidebar buildForKarmaSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🏗 Using Scaffold-ETH 2": {
+  "sidebar.buildForKarmaSidebar.doc.🏗 Using Scaffold-ETH 2": {
     "message": "🏗 Scaffold-ETH 2 使用",
-    "description": "The label for the doc item 🏗 Using Scaffold-ETH 2 in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🏗 Using Scaffold-ETH 2 in sidebar buildForKarmaSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🔗 Official Links": {
+  "sidebar.homeSidebar.doc.🔗 Official Links": {
     "message": "🔗 官方链接",
-    "description": "The label for the doc item 🔗 Official Links in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🔗 Official Links in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🌴 Home": {
-    "message": "🌴 Home",
-    "description": "The label for the doc item 🌴 Home in sidebar tutorialSidebar, linking to the doc index"
-  },
-  "sidebar.tutorialSidebar.doc.🤝 Economic Model": {
+  "sidebar.homeSidebar.doc.🤝 Economic Model": {
     "message": "🤝 经济模型",
-    "description": "The label for the doc item 🤝 Economic Model in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🤝 Economic Model in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💰 Public Funding": {
+  "sidebar.homeSidebar.doc.💰 Public Funding": {
     "message": "💰 公共资金",
-    "description": "The label for the doc item 💰 Public Funding in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💰 Public Funding in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🐉 Karmic Tokenomics": {
+  "sidebar.homeSidebar.doc.🐉 Karmic Tokenomics": {
     "message": "🐉 因果代币经济学",
-    "description": "The label for the doc item 🐉 Karmic Tokenomics in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🐉 Karmic Tokenomics in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💎 SNT Staking": {
+  "sidebar.homeSidebar.doc.💎 SNT Staking": {
     "message": "💎 SNT 质押",
-    "description": "The label for the doc item 💎 SNT Staking in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💎 SNT Staking in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💰 Pre-Deposits": {
+  "sidebar.homeSidebar.doc.💰 Pre-Deposits": {
     "message": "💰 预存款",
-    "description": "The label for the doc item 💰 Pre-Deposits in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💰 Pre-Deposits in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🪙 Tokens": {
+  "sidebar.homeSidebar.doc.🪙 Tokens": {
     "message": "🪙 代币",
-    "description": "The label for the doc item 🪙 Tokens in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🪙 Tokens in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💰 Pre-Deposit Vault Contracts": {
+  "sidebar.homeSidebar.doc.💰 Pre-Deposit Vault Contracts": {
     "message": "💰 预存金库合同",
-    "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🌐 Running an RPC node": {
+  "sidebar.buildForKarmaSidebar.doc.🌐 Running an RPC node": {
     "message": "🌐 运行RPC节点",
-    "description": "The label for the doc item 🌐 Running an RPC node in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🌐 Running an RPC node in sidebar buildForKarmaSidebar"
   }
 }
