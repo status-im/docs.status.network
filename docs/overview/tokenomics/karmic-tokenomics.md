@@ -4,8 +4,6 @@ description: Explore Status Network's Karma system, a non-transferable governanc
 keywords: [Karma token, Karmic tokenomics, Status Network governance, non-transferable token, governance power, staking rewards, contribution rewards]
 ---
 
-# Karmic Tokenomics
-
 In some Eastern traditions, Karma represents the principle that one's past actions shape their future state. Similarly, on Status Network, every positive action and contribution accumulates Karma, granting greater influence over the network's funding and incentives. Karma ($KARMA) is a non-transferable governance token that rewards staking, bridging, providing liquidity, and building. The more a user or an app contributes to the L2 in liquidity or activity, the more voting power they earn over funding allocations, liquidity incentives, and network roadmap and parameters.
 
 ## How Karma is Earned
@@ -39,7 +37,6 @@ The initialization parameters of Karma minting allocations will be announced soo
 - **Loyalty and Reputation System**: Since Karma is soulbound, high Karma scores signal power users and key contributors within the ecosystem. The users progressively accumulate influence and may gain access to extra incentives and perks (e.g. rewards from apps building on the network and seeking to attract high-quality users).
 
 - **Liquid Grants for Votes**: In the future, apps, protocols, and liquidity providers will be able to offer liquid grants to Karma holders as voting incentives.
-
 
 ## Flywheel Effect
 

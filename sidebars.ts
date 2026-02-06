@@ -131,9 +131,11 @@ const sidebars: SidebarsConfig = {
           id: 'build-for-karma/index',
           label: '🛠 Build for Karma',
         },
+      ],
+    },
         {
           type: 'category',
-          label: '🚀 Deploying a Smart Contract',
+      label: 'DEPLOYING CONTRACTS',
           collapsed: false,
           items: [
             {
@@ -158,9 +160,14 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
+    {
+      type: 'category',
+      label: 'RPC',
+      collapsed: false,
+      items: [
         {
           type: 'doc',
-          id: 'build-for-karma/running-an-rpc',
+          id: 'build-for-karma/rpc/running-an-rpc',
           label: '🌐 Running an RPC node',
         },
       ],

@@ -233,7 +233,7 @@ const config: Config = {
             },
             {
               from: '/tutorials/running-an-rpc',
-              to: '/build-for-karma/running-an-rpc',
+              to: '/build-for-karma/rpc/running-an-rpc',
             },
             // Old root-level paths to overview
             {
