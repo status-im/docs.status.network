@@ -5,14 +5,11 @@ description: Learn how Status Network implements gasless transactions using RLN 
 keywords: [Status Network, Gasless Transactions, Linea, RLN, Rate Limiting Nullifier, Karma, Zero-Knowledge Proofs, ZKP, Soulbound Tokens, Blockchain, Layer 2, L2, Spam Prevention]
 ---
 
-# Gasless Transactions in Status Network
-
-
 Status Network aims to introduce gasless transactions at scale. The key component of this gasless approach is Vac's [Rate Limiting Nullifier](https://vac.dev/rln), which permits transaction rate limitation without the need for traditional gas fees. The document describes the architecture and integration elements needed to safely enable gasless transactions.
 
 The implementation code for these gasless transactions is available in the [Status Network monorepo](https://github.com/status-im/status-network-monorepo?tab=readme-ov-file#architecture-components).
 
-### RLN
+## RLN
 
 [RLN](https://vac.dev/rln) is a zero-knowledge system designed to prevent spam without compromising user privacy unless a violation occurs. It replaces traditional gas fees with cryptographic rate limits enforced via ZKPs and Shamir's Secret Sharing.
 
@@ -141,3 +138,5 @@ The linea_estimateGas method is customised to account for users on the Deny List
 - Checks user's Deny List status
 - Adds premium gas multipliers if needed
 - Provides transparency and accurate gas estimations to the users
+
+For further explanation on why it is important to use `linea_estimateGas` instead of `eth_estimateGas` to make gasless transactions on Status Network, refer to the [JSON-RPC docs](../../build-for-karma/rpc/json-rpc.md).
