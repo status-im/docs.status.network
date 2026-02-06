@@ -131,36 +131,48 @@ const sidebars: SidebarsConfig = {
           id: 'build-for-karma/index',
           label: '🛠 Build for Karma',
         },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'DEPLOYING CONTRACTS',
+      collapsed: false,
+      items: [
         {
-          type: 'category',
-          label: '🚀 Deploying a Smart Contract',
-          collapsed: false,
-          items: [
-            {
-              type: 'doc',
-              id: 'build-for-karma/deploying-contracts/using-hardhat',
-              label: '🎩 Using Hardhat',
-            },
-            {
-              type: 'doc',
-              id: 'build-for-karma/deploying-contracts/using-foundry',
-              label: '⚒️ Using Foundry',
-            },
-            {
-              type: 'doc',
-              id: 'build-for-karma/deploying-contracts/using-remix',
-              label: '🎛️ Using Remix',
-            },
-            {
-              type: 'doc',
-              id: 'build-for-karma/deploying-contracts/using-se2',
-              label: '🏗 Using Scaffold-ETH 2',
-            },
-          ],
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-hardhat',
+          label: '🎩 Using Hardhat',
         },
         {
           type: 'doc',
-          id: 'build-for-karma/running-an-rpc',
+          id: 'build-for-karma/deploying-contracts/using-foundry',
+          label: '⚒️ Using Foundry',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-remix',
+          label: '🎛️ Using Remix',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-se2',
+          label: '🏗 Using Scaffold-ETH 2',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'RPC',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'build-for-karma/rpc/json-rpc',
+          label: '🔌 JSON-RPC API',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/rpc/running-an-rpc',
           label: '🌐 Running an RPC node',
         },
       ],

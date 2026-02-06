@@ -1,5 +1,7 @@
 import type * as Preset from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
   title: 'Status Network Documentation',
@@ -42,6 +44,8 @@ const config: Config = {
           editUrl: 'https://github.com/status-im/docs.status.network/tree/develop',
           routeBasePath: '/',
           showLastUpdateTime: true,
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: false,
         pages: false,
@@ -229,7 +233,7 @@ const config: Config = {
             },
             {
               from: '/tutorials/running-an-rpc',
-              to: '/build-for-karma/running-an-rpc',
+              to: '/build-for-karma/rpc/running-an-rpc',
             },
             // Old root-level paths to overview
             {
