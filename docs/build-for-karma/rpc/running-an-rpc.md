@@ -4,8 +4,6 @@ description: Complete guide to setting up and running your own RPC node for Stat
 keywords: [RPC node, Status Network RPC, blockchain node, WebSocket, wss, self-hosted RPC, network infrastructure, Status L2 RPC tools]
 ---
 
-# Running Your Own RPC Node
-
 This tutorial will guide you through the process of setting up and running your own Remote Procedure Call (RPC) node for Status Network. By running your own RPC node, you can gain greater control over your interactions with the Status Network, enhance privacy, and reduce reliance on third-party services.
 
 ## Getting Started
@@ -13,6 +11,7 @@ This tutorial will guide you through the process of setting up and running your 
 The [Status Network RPC Tools repository](https://github.com/status-im/status-l2-rpc-tools) provides all the necessary tooling, genesis files, and setup scripts to run your own RPC node.
 
 ### Complete Setup Guide
+
 For detailed setup instructions, prerequisites, system requirements, and step-by-step guidance, please refer to the [**official README**](https://github.com/status-im/status-l2-rpc-tools/blob/master/README.md) in the repository.
 
 ## Node Options
@@ -25,6 +24,7 @@ The setup script provides two node implementations to choose from:
 You can run either one or both simultaneously depending on your needs.
 
 ## Verifying Your Node
+
 In the examples below, replace `<YOUR_CLIENT_PORT>` with `8545` if using Besu, or `8445` if using Geth.
 
 ### Basic Verification
@@ -86,7 +86,6 @@ ws://localhost:8446  # Geth
 // Unsubscribe
 {"jsonrpc":"2.0","method":"eth_unsubscribe","params":["0x..."],"id":1}
 ```
-
 
 ## Advanced Features
 
