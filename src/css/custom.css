@@ -1,3 +1,5 @@
+@import url('katex/dist/katex.min.css');
+
 @font-face {
   font-family: 'Inter';
   font-style: normal;
