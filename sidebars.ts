@@ -133,38 +133,43 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-        {
-          type: 'category',
+    {
+      type: 'category',
       label: 'DEPLOYING CONTRACTS',
-          collapsed: false,
-          items: [
-            {
-              type: 'doc',
-              id: 'build-for-karma/deploying-contracts/using-hardhat',
-              label: '🎩 Using Hardhat',
-            },
-            {
-              type: 'doc',
-              id: 'build-for-karma/deploying-contracts/using-foundry',
-              label: '⚒️ Using Foundry',
-            },
-            {
-              type: 'doc',
-              id: 'build-for-karma/deploying-contracts/using-remix',
-              label: '🎛️ Using Remix',
-            },
-            {
-              type: 'doc',
-              id: 'build-for-karma/deploying-contracts/using-se2',
-              label: '🏗 Using Scaffold-ETH 2',
-            },
-          ],
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-hardhat',
+          label: '🎩 Using Hardhat',
         },
+        {
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-foundry',
+          label: '⚒️ Using Foundry',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-remix',
+          label: '🎛️ Using Remix',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-se2',
+          label: '🏗 Using Scaffold-ETH 2',
+        },
+      ],
+    },
     {
       type: 'category',
       label: 'RPC',
       collapsed: false,
       items: [
+        {
+          type: 'doc',
+          id: 'build-for-karma/rpc/json-rpc',
+          label: '🔌 JSON-RPC API',
+        },
         {
           type: 'doc',
           id: 'build-for-karma/rpc/running-an-rpc',
