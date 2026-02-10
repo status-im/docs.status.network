@@ -40,7 +40,6 @@ Concretely, Status Network’s `linea_estimateGas`:
 
 - **Applies deny-list premium estimation**: if the sender is on the deny list, the node computes a normal estimate and then applies a premium multiplier to the gas estimation.
 - **Returns gasless estimates for eligible users**: if the sender has available Karma quota, the method returns a “gasless” estimate (zero fee fields).
-- **Falls back to standard estimation**: if the sender has no quota available or is not eligible for gasless estimation (or the Karma service is unavailable), the method returns a standard Linea gas estimate.
 
 The above logic lives in our modified `LineaEstimateGas` implementation open-sourced around [this section in the Status Network monorepo](https://github.com/status-im/status-network-monorepo/blob/v1.0.1/besu-plugins/linea-sequencer/sequencer/src/main/java/net/consensys/linea/rpc/methods/LineaEstimateGas.java#L218).
 
@@ -220,7 +219,6 @@ On Status Network, you should **replace the above multiple RPC calls with a sing
 
 - accounts may be eligible for **gasless** transactions
 - deny-listed accounts may need to pay a **premium gas fee**
-- everyone else should see **standard EIP-1559-like fee suggestions**
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="linea-estimate-gas-request">
