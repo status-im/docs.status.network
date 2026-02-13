@@ -44,7 +44,6 @@ const config: Config = {
           showLastUpdateTime: true,
         },
         blog: false,
-        pages: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -69,7 +68,7 @@ const config: Config = {
       items: [
         {
           label: 'Overview',
-          to: '/',
+          to: '/overview',
           activeBasePath: 'overview',
         },
         {
