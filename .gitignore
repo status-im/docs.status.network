@@ -20,3 +20,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
+.vscode
+
+# AI configuration files
+.omc
+.sisyphus
