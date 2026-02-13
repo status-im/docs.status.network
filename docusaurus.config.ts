@@ -48,7 +48,6 @@ const config: Config = {
           rehypePlugins: [rehypeKatex],
         },
         blog: false,
-        pages: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -73,7 +72,7 @@ const config: Config = {
       items: [
         {
           label: 'Overview',
-          to: '/',
+          to: '/overview',
           activeBasePath: 'overview',
         },
         {
