@@ -3,7 +3,7 @@ id: index
 title: 欢迎来到 Status Network
 description: Status Network 是一个无 Gas 费的第二层区块链网络，支持无缝、免费的去中心化应用程序。通过简单的钱包设置、水龙头和部署工具开始构建。
 keywords: [Status Network, 第二层, 无gas区块链, 以太坊扩展, L2, validium, web3开发, dapp开发, 区块链开发]
-slug: /
+slug: /overview
 sidebar_position: 1
 ---
 

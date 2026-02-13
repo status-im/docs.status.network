@@ -3,7 +3,7 @@ id: index
 title: Status Networkへようこそ
 description: Status Networkは、シームレスで手数料無料の分散型アプリケーションを実現するガスレスなレイヤー2ブロックチェーンネットワークです。簡単なウォレット設定、フォーセット、デプロイメントツールで開発を始めましょう。
 keywords: [Status Network, レイヤー2, ガスレスブロックチェーン, イーサリアムスケーリング, L2, バリディウム, web3開発, dapp開発, ブロックチェーン開発]
-slug: /
+slug: /overview
 sidebar_position: 1
 ---
 
