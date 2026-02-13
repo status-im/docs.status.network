@@ -24,14 +24,14 @@ Status Network 테스트넷 파우셋은 [faucet.status.network](https://faucet.
 3. "Request" 클릭
 4. ETH가 지갑에 표시될 때까지 대기 (보통 몇 초 소요)
 
-## Sepolia ETH (브리징에 필요)
+## Sepolia ETH (브릿지에 필요)
 
 Status Network 테스트넷으로 자산을 브릿징하려면 먼저 Sepolia ETH가 필요합니다. 다음에서 받을 수 있습니다:
 
 1. [Alchemy Sepolia 파우셋](https://www.alchemy.com/faucets/ethereum-sepolia)
 2. [Metamask Sepolia 파우셋](https://docs.metamask.io/developer-tools/faucet/)
 
-Sepolia ETH를 받은 후, [Status Network 브리지](https://bridge.status.network)를 사용하여 Status Network 테스트넷으로 브릿징할 수 있습니다.
+Sepolia ETH를 받은 후, [Status Network 브릿지](https://bridge.status.network)를 사용하여 Status Network 테스트넷으로 브릿징할 수 있습니다.
 
 ## Status Network STT 파우셋
 

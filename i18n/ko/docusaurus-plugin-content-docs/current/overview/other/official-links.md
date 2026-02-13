@@ -8,7 +8,7 @@
 - **GitHub**: [github.com/status-im](https://github.com/status-im)
 
 ## 네트워크 도구
-- **브리지**: [bridge.status.network](https://bridge.status.network)
+- **브릿지**: [bridge.status.network](https://bridge.status.network)
 - **블록 탐색기**: [sepoliascan.status.network](https://sepoliascan.status.network)
 - **RPC 엔드포인트**: [public.sepolia.rpc.status.network](https://public.sepolia.rpc.status.network)
 - **WebSocket RPC**: WebSocket RPC가 필요하시면 [Telegram](https://t.me/statusl2)으로 문의해주세요

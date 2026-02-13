@@ -9,7 +9,7 @@
 | **체인 ID**         | 1660990954                               |
 | **통화 기호**       | ETH                                       |
 | **블록 탐색기**     | https://sepoliascan.status.network       |
-| **브리지**          | https://bridge.status.network            |
+| **브릿지**          | https://bridge.status.network            |
 | **WebSocket RPC**   | WebSocket RPC를 받으려면 [Telegram](https://t.me/statusl2)으로 문의하세요 |
 
 이것은 Status Network 테스트넷의 공식 네트워크 세부정보입니다. 이 세부정보는 다음과 같은 용도로 사용할 수 있습니다:

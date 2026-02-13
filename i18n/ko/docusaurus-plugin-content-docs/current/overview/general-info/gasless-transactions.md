@@ -30,7 +30,7 @@ Prover에는 Karma가 새 주소에 할당되는 Karma Contract의 이벤트를 
 ```mermaid
 graph TD
     A[사용자 지갑] -->|화이트리스트 앱을 통한 첫 L2 액션| B(Karma 발급)
-    A -->|SN으로 브리지| B
+    A -->|SN으로 브릿지| B
     B -->|소울바운드 토큰| C{티어 할당}
 
     subgraph "티어 제한"
