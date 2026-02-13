@@ -17,7 +17,7 @@ const docCards = [
   {
     title: 'Build for Karma',
     description:
-      'Guides, tutorials, and references for deploying contracts, integrating Karma, and building gasless dApps.',
+      'Guides, tutorials, and references for deploying contracts, integrating Karma, and building gasless apps.',
     link: '/build-for-karma',
     linkText: 'Read More',
     iconClass: styles.cardIconBuild,
