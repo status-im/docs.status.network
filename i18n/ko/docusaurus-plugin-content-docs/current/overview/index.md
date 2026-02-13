@@ -3,7 +3,7 @@ id: index
 title: Status Network에 오신 것을 환영합니다
 description: Status Network는 원활하고 수수료가 없는 탈중앙화 애플리케이션을 가능하게 하는 가스리스 레이어 2 블록체인 네트워크입니다. 간단한 지갑 설정, 파우셋, 배포 도구로 구축을 시작하세요.
 keywords: [Status Network, 레이어 2, 가스리스 블록체인, 이더리움 스케일링, L2, validium, web3 개발, dapp 개발, 블록체인 개발]
-slug: /
+slug: /overview
 sidebar_position: 1
 ---
 
