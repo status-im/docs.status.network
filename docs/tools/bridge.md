@@ -6,14 +6,7 @@ keywords: [Status Network bridge, token bridge, cross-chain transfer, L1 L2 brid
 
 # Status Network Testnet Bridge
 
-The Status Network Testnet Bridge allows users to transfer tokens between Sepolia (Layer 1) and Status Network testnet (Layer 2). The bridge interface is available at [bridge.status.network](https://bridge.status.network).
-
-## Overview
-
-The bridge serves as a crucial infrastructure component that enables:
-- Token transfers from Sepolia to Status Network testnet
-- Token withdrawals from Status Network testnet to Sepolia
-- Message passing between L1 and L2
+The Status Network Testnet Bridge allows users to transfer tokens and pass messages between Sepolia (Layer 1) and Status Network testnet (Layer 2). The bridge interface is available at [bridge.status.network](https://bridge.status.network).
 
 ## Bridge Contracts
 
