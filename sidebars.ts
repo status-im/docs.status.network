@@ -171,12 +171,11 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'TOOLS',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'tools/tools-index',
+      },
       items: [
-        {
-          type: 'doc',
-          id: 'tools/index',
-          label: '🛠 Tools',
-        },
         {
           type: 'doc',
           id: 'tools/rpc',
@@ -196,6 +195,18 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'tools/block-explorers',
           label: '🔎 Block Explorers',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'PARTNERS',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'tools/infrastructure',
+          label: '🤝 Infrastructure Partners',
         },
       ],
     },
