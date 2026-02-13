@@ -1,41 +1,25 @@
 ---
-title: Status Network Block Explorer
-description: Learn how to use the Status Network block explorer to track transactions, verify smart contracts, and monitor network activity. Complete guide to explorer features and contract verification.
-keywords: [Status Network explorer, blockchain explorer, smart contract verification, transaction tracking, block explorer, network monitoring]
+title: Block Explorers
+description: Status Network block explorer for viewing transactions, verifying contracts, and monitoring network activity.
+keywords: [block explorer, transaction tracking, smart contract verification]
 ---
 
-# Status Network Testnet Explorer
+# Block Explorers
 
-The Status Network block explorer is available at [sepoliascan.status.network](https://sepoliascan.status.network).
+## Status Network Mainnet
 
-### Features
-- View transaction details and status
-- Track token transfers and balances
-- Verify smart contract source code
-- Monitor gas prices and network activity
-- View and interact with verified smart contracts
-- Track token holdings for any address
+*Coming soon.*
 
-## Sepolia Explorer (Layer 1)
+## Status Network Testnet (Sepolia)
 
-For tracking transactions on Sepolia (Layer 1), use [Sepolia Etherscan](https://sepolia.etherscan.io).
+| Explorer | URL | Features |
+|----------|-----|----------|
+| Sepoliascan | [sepoliascan.status.network](https://sepoliascan.status.network) | Search transactions, verify and interact with smart contracts, track balances |
 
-This is particularly useful for:
-- Monitoring bridge transactions from L1 to L2
-- Tracking token deposits and withdrawals
-- Verifying L1 contract interactions
+For contract verification, visit the [Contract Verification](https://sepoliascan.status.network/contract-verification) page on Sepoliascan.
 
-## Contract Verification
+L1 activity on Sepolia can be tracked via [Sepolia Etherscan](https://sepolia.etherscan.io).
 
-To verify your smart contract on Status Network Explorer:
+## Status Network Testnet (Hoodi)
 
-1. Navigate to [Contract Verification](https://sepoliascan.status.network/contract-verification)
-2. Enter your contract address
-3. Upload your source code and provide compilation details
-4. Submit for verification
-
-Once verified, your contract's source code will be publicly visible and users can interact with it directly through the explorer.
-
-## API Access
-
-The Status Network Explorer provides API endpoints for developers. Documentation for the API will be available soon.
+*Coming soon.*
