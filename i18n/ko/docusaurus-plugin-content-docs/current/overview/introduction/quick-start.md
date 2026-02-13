@@ -16,7 +16,7 @@
 
    Sepolia ETH와 Status Network ETH 모두 필요합니다:
    - 먼저 [Sepolia 파우셋](https://faucet.status.network)에서 Sepolia ETH를 받으세요
-   - 그런 다음 [Status 브리지](https://bridge.status.network)를 사용하여 ETH를 Status Network로 브리징하세요
+   - 그런 다음 [Status 브릿지](https://bridge.status.network)를 사용하여 ETH를 Status Network로 브릿지하세요
    - 또는 [테스트넷 파우셋](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)에서 직접 Status Network ETH를 받으세요
 
 이제 시작할 준비가 되었습니다!
@@ -103,13 +103,13 @@ contract SimpleStorage {
 - **지원 받기**:
   - [텔레그램 커뮤니티](https://t.me/statusl2)에 참여하여 도움을 받으세요
   - [네트워크 세부정보](/overview/general-info/network-details)에서 자세한 정보를 확인하세요
-  - Status Network로의 [토큰 브리징](/overview/general-info/bridge/bridging-testnet)에 대해 알아보세요
+  - Status Network로의 [토큰 브릿지](/overview/general-info/bridge/bridging-testnet)에 대해 알아보세요
 
 ## 요약
 
 성공적으로 다음을 수행하셨습니다:
 - Status Network 테스트넷과 상호작용하기 위한 환경 설정
-- 브리징 또는 파우셋를 통해 테스트넷 ETH 획득
+- 브릿지 또는 파우셋를 통해 테스트넷 ETH 획득
 - Remix IDE와 MetaMask를 사용하여 스마트 컨트랙트 배포
 - 숫자 저장 및 조회를 통해 배포된 컨트랙트와 상호작용
 

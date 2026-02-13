@@ -1,8 +1,8 @@
 ---
 id: tools-index
 title: 도구 및 인프라
-description: Status Network에서 사용할 수 있는 개발자 도구, 인프라 서비스, 통합 — RPC 엔드포인트, 브리지, 파우셋, 익스플로러, 파트너 통합.
-keywords: [Status Network, 개발자 도구, RPC, 브리지, 파우셋, 블록 익스플로러, 인프라]
+description: Status Network에서 사용할 수 있는 개발자 도구, 인프라 서비스, 통합 — RPC 엔드포인트, 브릿지, 파우셋, 익스플로러, 파트너 통합.
+keywords: [Status Network, 개발자 도구, RPC, 브릿지, 파우셋, 블록 익스플로러, 인프라]
 slug: /tools
 sidebar_position: 1
 ---

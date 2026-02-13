@@ -43,7 +43,7 @@ Status Network는 Status Wallet, Keycard, Waku, Codex 등 [IFT](https://free.tec
 
 1. [Status Network를 지갑에 추가](/overview/general-info/add-status-network)
 2. [테스트넷 ETH 받기](/tools/testnet-faucets)
-3. [자산 브리징하기](/overview/general-info/bridge/bridging-testnet)
+3. [자산 브릿지하기](/overview/general-info/bridge/bridging-testnet)
 4. [첫 번째 컨트랙트 배포하기](/build-for-karma/deploying-contracts/using-remix)
 
 ## 지원 및 리소스

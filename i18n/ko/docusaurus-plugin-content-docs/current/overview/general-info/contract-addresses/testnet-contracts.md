@@ -1,7 +1,7 @@
 ---
 title: 테스트넷 컨트랙트
-description: 브리지 컨트랙트, 핵심 인프라, L2 컨트랙트를 포함한 Status Network 테스트넷 컨트랙트 주소의 포괄적인 목록과 각각의 목적 및 블록 탐색기 링크.
-keywords: [Status Network 컨트랙트, 테스트넷 주소, 스마트 컨트랙트, 브리지 컨트랙트, L1 컨트랙트, L2 컨트랙트, 블록체인 인프라]
+description: 브릿지 컨트랙트, 핵심 인프라, L2 컨트랙트를 포함한 Status Network 테스트넷 컨트랙트 주소의 포괄적인 목록과 각각의 목적 및 블록 탐색기 링크.
+keywords: [Status Network 컨트랙트, 테스트넷 주소, 스마트 컨트랙트, 브릿지 컨트랙트, L1 컨트랙트, L2 컨트랙트, 블록체인 인프라]
 ---
 
 # 테스트넷 컨트랙트
@@ -12,14 +12,14 @@ keywords: [Status Network 컨트랙트, 테스트넷 주소, 스마트 컨트랙
 
 이 컨트랙트들은 Sepolia 테스트넷에 배포되어 있습니다. [Sepolia Etherscan](https://sepolia.etherscan.io)에서 확인할 수 있습니다.
 
-### 브리지 컨트랙트
+### 브릿지 컨트랙트
 - **Rollup Contract**
   - 주소: [`0x0Bf464f24D867ff0B20aE8f9C353a589138D6836`](https://sepolia.etherscan.io/address/0x0bf464f24d867ff0b20ae8f9c353a589138d6836)
   - 목적: L2의 유효성, DA 및 L1에서 L2로의 메시징을 관리
 
 - **L1 Token Bridge Proxy**
   - 주소: [`0x01b44C5Ea321f921D93476cf54Aa8460db17a548`](https://sepolia.etherscan.io/address/0x01b44C5Ea321f921D93476cf54Aa8460db17a548)
-  - 목적: L1에서 토큰 브리징 작업을 관리
+  - 목적: L1에서 토큰 브릿지 작업을 관리
 
 ### 핵심 인프라
 - **L1 Postman**
@@ -38,14 +38,14 @@ keywords: [Status Network 컨트랙트, 테스트넷 주소, 스마트 컨트랙
 
 이 컨트랙트들은 Status Network 테스트넷에 배포되어 있습니다. [Status Network Explorer](https://sepoliascan.status.network)에서 확인할 수 있습니다.
 
-### 브리지 컨트랙트
+### 브릿지 컨트랙트
 - **L2 Message Service**
   - 주소: [`0xe74Bd8db0440533F8915042D980AbAA86085821c`](https://sepoliascan.status.network/address/0xe74Bd8db0440533F8915042D980AbAA86085821c)
   - 목적: L2에서 L1로의 메시징을 관리
   
 - **L2 Token Bridge Proxy**
   - 주소: [`0xbC7f9571152a8e21942b2aEa4831a27f1149af19`](https://sepoliascan.status.network/address/0xbC7f9571152a8e21942b2aEa4831a27f1149af19)
-  - 목적: L2에서 토큰 브리징 작업을 관리
+  - 목적: L2에서 토큰 브릿지 작업을 관리
 
 ### 인프라 컨트랙트
 - **L2 Faucet**
