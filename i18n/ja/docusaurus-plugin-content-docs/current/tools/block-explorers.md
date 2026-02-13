@@ -1,35 +1,25 @@
-# Status Networkテストネットエクスプローラー
+---
+title: ブロックエクスプローラー
+description: トランザクションの確認、コントラクトの検証、ネットワーク活動のモニタリングのための Status Network ブロックエクスプローラー。
+keywords: [ブロックエクスプローラー, トランザクション追跡, スマートコントラクト検証]
+---
 
-Status Networkブロックエクスプローラーは[sepoliascan.status.network](https://sepoliascan.status.network)で利用できます。
+# ブロックエクスプローラー
 
-### 機能
-- トランザクションの詳細とステータスの確認
-- トークンの転送と残高の追跡
-- スマートコントラクトのソースコード検証
-- ガス価格とネットワークアクティビティの監視
-- 検証済みスマートコントラクトの表示と対話
-- 任意のアドレスのトークン保有状況の追跡
+## Status Network メインネット
 
-## Sepoliaエクスプローラー（レイヤー1）
+*近日公開予定。*
 
-Sepolia（レイヤー1）上のトランザクションを追跡するには、[Sepolia Etherscan](https://sepolia.etherscan.io)を使用します。
+## Status Network テストネット (Sepolia)
 
-これは特に以下の用途に便利です：
-- L1からL2へのブリッジトランザクションの監視
-- トークンの入出金の追跡
-- L1コントラクトの対話の確認
+| エクスプローラー | URL | 機能 |
+|----------|-----|----------|
+| Sepoliascan | [sepoliascan.status.network](https://sepoliascan.status.network) | トランザクション検索、スマートコントラクトの検証と対話、残高追跡 |
 
-## コントラクト検証
+コントラクト検証については、Sepoliascan の[コントラクト検証](https://sepoliascan.status.network/contract-verification)ページをご覧ください。
 
-Status Networkエクスプローラーでスマートコントラクトを検証するには：
+Sepolia での L1 活動は [Sepolia Etherscan](https://sepolia.etherscan.io) で追跡できます。
 
-1. [コントラクト検証](https://sepoliascan.status.network/contract-verification)に移動
-2. コントラクトアドレスを入力
-3. ソースコードをアップロードしコンパイル詳細を提供
-4. 検証のために送信
+## Status Network テストネット (Hoodi)
 
-検証が完了すると、コントラクトのソースコードが公開され、ユーザーはエクスプローラーを通じて直接対話できるようになります。
-
-## API アクセス
-
-Status Networkエクスプローラーは開発者向けにAPIエンドポイントを提供しています。APIのドキュメントは近日公開予定です。
+*近日公開予定。*

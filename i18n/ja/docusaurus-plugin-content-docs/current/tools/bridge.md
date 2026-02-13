@@ -1,13 +1,12 @@
-# Status Networkテストネットブリッジ
+---
+title: Status Network ブリッジ
+description: Sepolia と Status Network テストネット間のトークン転送のための Status Network ブリッジ使用ガイド。
+keywords: [Status Network ブリッジ, トークンブリッジ, クロスチェーン転送, L1 L2 ブリッジ, Sepolia ブリッジ]
+---
 
-Status Networkテストネットブリッジを使用すると、Sepolia（レイヤー1）とStatus Networkテストネット（レイヤー2）間でトークンを転送できます。ブリッジインターフェースは[bridge.status.network](https://bridge.status.network)で利用できます。
+# Status Network テストネットブリッジ
 
-## 概要
-
-ブリッジは以下を可能にする重要なインフラストラクチャコンポーネントとして機能します：
-- SepoliaからStatus Networkテストネットへのトークン転送
-- Status NetworkテストネットからSepoliaへのトークン引き出し
-- L1とL2間のメッセージ受け渡し
+Status Network テストネットブリッジを使用すると、Sepolia（レイヤー1）と Status Network テストネット（レイヤー2）間でトークンを転送しメッセージを受け渡しできます。ブリッジインターフェースは [bridge.status.network](https://bridge.status.network) で利用できます。
 
 ## ブリッジコントラクト
 
@@ -19,8 +18,8 @@ Status Networkテストネットブリッジを使用すると、Sepolia（レ�
 
 ## 機能
 
-- **トークンブリッジング**: ネットワーク間でERC-20トークンを転送
-- **ETHブリッジング**: SepoliaとStatus Network間でETHをブリッジ
+- **トークンブリッジング**: ネットワーク間で ERC-20 トークンを転送
+- **ETH ブリッジング**: Sepolia と Status Network 間で ETH をブリッジ
 - **トランザクション追跡**: ブリッジトランザクションのステータスを監視
 - **ガス見積もり**: ブリッジ前に推定ガスコストを確認
 
@@ -35,11 +34,11 @@ Status Networkテストネットブリッジを使用すると、Sepolia（レ�
 ## ブリッジトランザクションの監視
 
 以下を使用してブリッジトランザクションを監視できます：
-- L2トランザクションには[Status Networkエクスプローラー](https://sepoliascan.status.network)
-- L1トランザクションには[Sepolia Etherscan](https://sepolia.etherscan.io)
+- L2 トランザクションには [Status Network エクスプローラー](https://sepoliascan.status.network)
+- L1 トランザクションには [Sepolia Etherscan](https://sepolia.etherscan.io)
 
 ## サポート
 
 ブリッジ使用中に問題が発生した場合：
 - 一般的な解決策については[ブリッジングガイド](/overview/general-info/bridge/bridging-testnet)をチェック
-- サポートについては[Telegramコミュニティ](https://t.me/statusl2)に参加
+- サポートについては [Telegram コミュニティ](https://t.me/statusl2)に参加

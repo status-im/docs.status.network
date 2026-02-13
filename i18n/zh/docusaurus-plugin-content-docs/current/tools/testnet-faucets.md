@@ -4,6 +4,8 @@ description: 获取用于 Status Network 开发的测试网 ETH 或 STT。通过
 keywords: [Status Network 水龙头, 测试网 ETH, 测试代币, STT, Sepolia 水龙头, 区块链测试, 开发代币]
 ---
 
+# 测试网水龙头
+
 要开始在 Status Network 测试网上进行开发，您可能需要一些测试网 ETH 或测试资产。
 
 ## Status Network 测试网 ETH 水龙头

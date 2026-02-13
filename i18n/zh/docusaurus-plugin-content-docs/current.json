@@ -27,6 +27,10 @@
     "message": "工具",
     "description": "The label for category TOOLS in sidebar toolsSidebar"
   },
+  "sidebar.toolsSidebar.category.PARTNERS": {
+    "message": "合作伙伴",
+    "description": "The label for category PARTNERS in sidebar toolsSidebar"
+  },
   "sidebar.buildForKarmaSidebar.category.BUILD FOR KARMA": {
     "message": "开发",
     "description": "The label for category BUILD FOR KARMA in sidebar buildForKarmaSidebar"
@@ -90,6 +94,10 @@
   "sidebar.toolsSidebar.doc.🔎 Block Explorers": {
     "message": "🔎 区块浏览器",
     "description": "The label for the doc item 🔎 Block Explorers in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🤝 Infrastructure Partners": {
+    "message": "🤝 基础设施合作伙伴",
+    "description": "The label for the doc item 🤝 Infrastructure Partners in sidebar toolsSidebar"
   },
   "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
     "message": "🎩 使用 Hardhat",

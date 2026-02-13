@@ -35,7 +35,7 @@ Sepolia ETH を入手したら、[Status Network ブリッジ](https://bridge.st
 
 ## Status Network STT フォーセット
 
-Status Test Token (STT) は SNT の 테스트넷 에 상당하는 것입니다. Status Network テストネットのエコシステム内でテストアセットとして使用されます。
+Status Test Token (STT) は SNT のテストネット版です。Status Network テストネットのエコシステム内でテストアセットとして使用されます。
 
 ### 詳細
 

@@ -27,6 +27,10 @@
     "message": "도구",
     "description": "The label for category TOOLS in sidebar toolsSidebar"
   },
+  "sidebar.toolsSidebar.category.PARTNERS": {
+    "message": "파트너",
+    "description": "The label for category PARTNERS in sidebar toolsSidebar"
+  },
   "sidebar.buildForKarmaSidebar.category.BUILD FOR KARMA": {
     "message": "개발하기",
     "description": "The label for category BUILD FOR KARMA in sidebar buildForKarmaSidebar"
@@ -90,6 +94,10 @@
   "sidebar.toolsSidebar.doc.🔎 Block Explorers": {
     "message": "🔎 블록 익스플로러",
     "description": "The label for the doc item 🔎 Block Explorers in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🤝 Infrastructure Partners": {
+    "message": "🤝 인프라 파트너",
+    "description": "The label for the doc item 🤝 Infrastructure Partners in sidebar toolsSidebar"
   },
   "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
     "message": "🎩 Hardhat 사용하기",
