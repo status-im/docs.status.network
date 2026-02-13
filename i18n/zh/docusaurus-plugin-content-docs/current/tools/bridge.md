@@ -1,13 +1,12 @@
+---
+title: Status Network 跨链桥
+description: 使用 Status Network 跨链桥在 Sepolia 和 Status Network 测试网之间转移代币的完整指南。
+keywords: [Status Network 跨链桥, 代币跨链, 跨链转账, L1 L2 跨链桥, Sepolia 跨链桥]
+---
+
 # Status Network 测试网跨链桥
 
-Status Network 测试网跨链桥允许用户在 Sepolia（第一层）和 Status Network 测试网（第二层）之间转移代币。跨链桥界面可在 [bridge.status.network](https://bridge.status.network) 访问。
-
-## 概述
-
-跨链桥作为关键基础设施组件，支持以下功能：
-- 从 Sepolia 向 Status Network 测试网转移代币
-- 从 Status Network 测试网向 Sepolia 提取代币
-- L1 和 L2 之间的消息传递
+Status Network 测试网跨链桥允许用户在 Sepolia（第一层）和 Status Network 测试网（第二层）之间转移代币和传递消息。跨链桥界面可在 [bridge.status.network](https://bridge.status.network) 访问。
 
 ## 跨链桥合约
 
@@ -22,7 +21,7 @@ Status Network 测试网跨链桥允许用户在 Sepolia（第一层）和 Statu
 - **代币跨链**: 在网络间转移 ERC-20 代币
 - **ETH 跨链**: 在 Sepolia 和 Status Network 之间跨链 ETH
 - **交易追踪**: 监控您的跨链交易状态
-- **gas 估算**: 跨链前查看预估 gas 费用
+- **Gas 估算**: 跨链前查看预估 Gas 费用
 
 ## 支持的代币
 
