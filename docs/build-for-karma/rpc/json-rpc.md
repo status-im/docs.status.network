@@ -20,11 +20,14 @@ import TabItem from '@theme/TabItem';
 Status Network is based on Linea zkEVM, meaning **most JSON-RPC methods behave exactly like a standard EVM node**.
 For the canonical list of supported methods and their standard semantics, refer to the [Linea JSON-RPC API reference](https://docs.linea.build/api/reference).
 
-## The important difference: `linea_estimateGas`
+## The important difference: Karma-aware fee estimation
 
-Status Network customizes `linea_estimateGas` to make gas estimation incorporate our **Karma** system.
-Status Network requires a fundamentally different approach to gas estimation than other EVM chains (including Linea) due to its gaslessness.
-This is why we’ve customized how `linea_estimateGas` works and builders **must use `linea_estimateGas` instead of `eth_estimateGas`** when estimating fees for end-user transactions on Status Network.
+On Linea, [`linea_estimateGas`](https://docs.linea.build/api/reference/linea-estimategas) is already the recommended way to estimate gas.
+It returns `gasLimit`, `baseFeePerGas`, and `priorityFeePerGas` in a **single call**, where the fee fields account for compressed transaction size, layer-1 verification costs, and the L1/L2 gas-price ratio - factors that `eth_estimateGas` and other `eth_` namespace methods do not capture.
+
+Status Network extends `linea_estimateGas` further so that the fee fields also incorporate our **Karma** system: fees may be reduced to zero for eligible users, or increased for deny-listed users.
+
+This is why builders should use `linea_estimateGas` when estimating transaction costs or pre-filling EIP-1559 fee fields for users on Status Network.
 
 :::info
 For a detailed explanation of Karma and its impact on gas fees and transaction privileges, see the [Karmic Tokenomics](../../overview/tokenomics/karmic-tokenomics) page.
@@ -34,30 +37,33 @@ For the technical details of how our gasless system is implemented and enforced,
 
 ### Status Network changes to `linea_estimateGas`
 
-Status Network extends `linea_estimateGas` with Karma-aware behavior so the estimate can depend on the sender address `from`'s Karma balance.
+Status Network extends the base Linea `linea_estimateGas` with Karma-aware behavior so the returned **fee fields** can depend on the sender address `from`'s Karma balance.
+The `gasLimit` calculation is unchanged from the base Linea implementation (which itself uses the standard `eth_estimateGas` logic internally).
 
-Concretely, Status Network’s `linea_estimateGas`:
+Concretely, Status Network's `linea_estimateGas`:
 
-- **Applies deny-list premium estimation**: if the sender is on the deny list, the node computes a normal estimate and then applies a premium multiplier to the gas estimation.
-- **Returns gasless estimates for eligible users**: if the sender has available Karma quota, the method returns a “gasless” estimate (zero fee fields).
+- **Applies deny-list premium**: if the sender is on the deny list, the node computes the normal fee estimate and then applies a premium multiplier to the **fee fields**.
+- **Returns gasless estimates for eligible users**: if the sender has available Karma quota, the method returns zero `baseFeePerGas` and `priorityFeePerGas`.
 
 The above logic lives in our modified `LineaEstimateGas` implementation open-sourced around [this section in the Status Network monorepo](https://github.com/status-im/status-network-monorepo/blob/v1.0.1/besu-plugins/linea-sequencer/sequencer/src/main/java/net/consensys/linea/rpc/methods/LineaEstimateGas.java#L218).
 
-### `linea_estimateGas` vs `eth_estimateGas`
+### Status Network RPC differences
 
-In addition to Status Network’s Karma-aware behavior, `linea_estimateGas` differs from `eth_estimateGas` in the same way it does on Linea.
-See [Linea’s reference](https://docs.linea.build/api/reference/linea-estimategas) for details on the differences.
+On base Linea, `linea_estimateGas` is already the recommended method because it returns fee fields that account for L1 verification costs and data compression - something `eth_estimateGas` and other `eth_` namespace calls do not provide.
+Status Network's fork extends `linea_estimateGas` further to be Karma-aware; all other JSON-RPC methods retain their standard semantics.
 
-If you keep using `eth_estimateGas` on Status Network, common failure modes include:
+That means using the traditional fee flow with `eth_` methods (for example `eth_gasPrice`, `eth_maxPriorityFeePerGas`, or `eth_feeHistory`) can lead to **inaccurate** fee suggestions: they miss both Linea's L2-specific pricing and Status Network's Karma adjustments.
 
-- Your app may display and request fees for a user who should be gasless.
-- Your app may underestimate cost for a user who is temporarily forced into premium pricing, resulting in reverted transactions.
+Use `linea_estimateGas` as the single source of truth for `gasLimit`, `baseFeePerGas`, and `priorityFeePerGas` on Status Network.
+
+See [Linea's gas-fee guide](https://docs.linea.build/network/how-to/gas-fees) and [Linea's `linea_estimateGas` reference](https://docs.linea.build/api/reference/linea-estimategas) for the base Linea behavior.
 
 ## `linea_estimateGas` request/response shape
 
 ### Request
 
-`linea_estimateGas` takes the **same primary transaction call object** you pass to `eth_estimateGas`.
+`linea_estimateGas` takes the **same transaction call object** as `eth_estimateGas`.
+It returns `gasLimit` (using the same EVM execution logic as `eth_estimateGas`) together with fee fields that reflect both Linea's L2-specific pricing and Status Network's Karma rules - all in a single response.
 
 :::important
 **Always include `from`.** Without it, the node can’t apply Karma/quota/deny-list logic.
@@ -65,15 +71,36 @@ If you keep using `eth_estimateGas` on Status Network, common failure modes incl
 
 ### Response
 
-Unlike `eth_estimateGas` which returns a single hex quantity value of `gasLimit`, `linea_estimateGas` returns an object including:
+`linea_estimateGas` returns an object including:
 
-- `gasLimit`: hex quantity (estimated gas limit to use)
-- `baseFeePerGas`: hex quantity (base fee for the next block)
-- `priorityFeePerGas`: hex quantity (suggested priority fee)
+- `gasLimit`: hex quantity - estimated gas units for EVM execution (same calculation as `eth_estimateGas`)
+- `baseFeePerGas`: hex quantity - base fee for the next block, accounting for Karma rules on Status Network
+- `priorityFeePerGas`: hex quantity - suggested priority fee, accounting for Karma rules on Status Network
+
+These fee fields may differ significantly from the values returned by `eth_` namespace calls such as `eth_gasPrice`, `eth_maxPriorityFeePerGas`, or `eth_feeHistory`, which are not aware of Linea's L2-specific pricing or Status Network's Karma adjustments.
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="estimate-gas-response-shape">
-  <TabItem value="eth" label="eth_estimateGas">
+  <TabItem value="linea" label="linea_estimateGas (single call)">
+
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "gasLimit": "0x5208",
+    "baseFeePerGas": "0x0",
+    "priorityFeePerGas": "0x0"
+  }
+}
+```
+
+  </TabItem>
+  <TabItem value="eth" label="Standard EVM (multiple calls)">
+
+Standard EVM flows require multiple separate `eth_` calls to gather gas limit and fee data:
+
+**eth_estimateGas**
 
 ```json
 {
@@ -83,17 +110,26 @@ Unlike `eth_estimateGas` which returns a single hex quantity value of `gasLimit`
 }
 ```
 
-  </TabItem>
-  <TabItem value="linea" label="linea_estimateGas">
+**eth_maxPriorityFeePerGas**
 
 ```json
 {
   "jsonrpc": "2.0",
-  "id": 1,
+  "id": 2,
+  "result": "0x59682f00"
+}
+```
+
+**eth_getBlockByNumber**
+
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 3,
   "result": {
-    "gasLimit": "0x5208",
+    "number": ...,
     "baseFeePerGas": "0x3b9aca00",
-    "priorityFeePerGas": "0x59682f00"
+    ...
   }
 }
 ```
@@ -102,9 +138,9 @@ Unlike `eth_estimateGas` which returns a single hex quantity value of `gasLimit`
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-## Migration guide from EIP-1559 estimation flow to Status Network's gas estimation flow
+## Migration guide: from multiple `eth_` calls to `linea_estimateGas`
 
-This section shows how to migrate from the common “EIP‑1559 via `eth_` methods” flow to Status Network’s Karma-aware flow.
+This section shows how to migrate from the common "EIP-1559 via multiple `eth_` calls" flow to a single `linea_estimateGas` call, which provides more accurate L2-specific fee data and Karma-aware pricing on Status Network.
 
 ### Before: common EIP-1559 estimation flow on EVM chains using `eth_` namespaces
 
@@ -215,7 +251,7 @@ console.log({
 
 ### After: Status Network gas estimation flow using `linea_estimateGas`
 
-On Status Network, you should **replace the above multiple RPC calls with a single call** to `linea_estimateGas`, because the correct estimate depends on Karma:
+On Status Network, you should source fee suggestions from `linea_estimateGas`, because the correct fee recommendation depends on Karma:
 
 - accounts may be eligible for **gasless** transactions
 - deny-listed accounts may need to pay a **premium gas fee**
@@ -307,5 +343,5 @@ console.log({
 <!-- markdownlint-enable MD033 -->
 
 :::tip Tooling integration
-Many Ethereum libraries default to `eth_estimateGas` internally (for example, `provider.estimateGas(...)`). On Status Network, keep using those libraries for standard `eth_` methods, but **fetch estimates via `linea_estimateGas` explicitly** wherever you display fees or prefill EIP-1559 transaction fields for users.
+Many Ethereum libraries call `eth_estimateGas` internally (for example, `provider.estimateGas(...)`).  On Status Network, keep using those libraries for standard `eth_` methods, but **fetch estimates via `linea_estimateGas` explicitly for gas limit and fee fields** wherever you build or display transaction parameters for users.
 :::
