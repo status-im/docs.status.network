@@ -7,7 +7,9 @@ keywords: [Status Network, Gasless Transactions, Linea, RLN, Rate Limiting Nulli
 
 Status Network aims to introduce gasless transactions at scale. The key component of this gasless approach is Vac's [Rate Limiting Nullifier](https://vac.dev/rln), which permits transaction rate limitation without the need for traditional gas fees. The document describes the architecture and integration elements needed to safely enable gasless transactions.
 
-The implementation code for these gasless transactions is available in the [Status Network monorepo](https://github.com/status-im/status-network-monorepo?tab=readme-ov-file#architecture-components).
+The implementation code for gasless transactions is available in the [Status Network monorepo](https://github.com/status-im/status-network-monorepo?tab=readme-ov-file#architecture-components).
+
+For more information on operational level implementation of our gaslessness, refer to [Karma integration guide](/build-for-karma/guides/index)
 
 ## RLN
 
@@ -32,20 +34,28 @@ graph TD
     B -->|Soulbound Token| C{Tier Assignment}
 
     subgraph "Tier Limits"
-        D[Basic]
-        E[Active]
-        F[Regular]
-        G[Power User]
-        H[High-Throughput]
-        I[S-Tier]
+        T1[Entry]
+        T2[Newbie]
+        T3[Basic]
+        T4[Active]
+        T5[Regular]
+        T6[Power User]
+        T7[Pro User]
+        T8[High-Throughput]
+        T9[S-Tier]
+        T10[Legendary]
     end
 
-    C --> D
-    C --> E
-    C --> F
-    C --> G
-    C --> H
-    C --> I
+    C --> T1
+    C --> T2
+    C --> T3
+    C --> T4
+    C --> T5
+    C --> T6
+    C --> T7
+    C --> T8
+    C --> T9
+    C --> T10
 
     %% RLN Flow
     A -->|Submits Gasless Tx| J[RPC Node]
@@ -94,7 +104,7 @@ graph TD
     class A wallet
     class B,L karma
     class C tier
-    class D,E,F,G,H,I tierNode
+    class T1,T2,T3,T4,T5,T6,T7,T8,T9,T10 tierNode
     class J,K,K1,K2,K3,M,N,O rln
     class P,Q,R,S,T,U,V,W sequencer
     class X,Y,Z,AA gas
@@ -143,4 +153,4 @@ Concretely, Status Network's `linea_estimateGas`:
 
 The above logic lives in our modified `LineaEstimateGas` implementation open-sourced around [this section in the Status Network monorepo](https://github.com/status-im/status-network-monorepo/blob/v1.0.1/besu-plugins/linea-sequencer/sequencer/src/main/java/net/consensys/linea/rpc/methods/LineaEstimateGas.java#L218).
 
-For further explanation on why it is important to use `linea_estimateGas` instead of `eth_estimateGas` to make gasless transactions on Status Network, refer to the [JSON-RPC docs](../../build-for-karma/rpc/json-rpc.md).
+For Karma-aware fee estimation behavior and `linea_estimateGas` specifics, see [JSON-RPC API](/build-for-karma/rpc/json-rpc).
