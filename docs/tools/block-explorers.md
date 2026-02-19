@@ -4,8 +4,6 @@ description: Status Network block explorer for viewing transactions, verifying c
 keywords: [block explorer, transaction tracking, smart contract verification]
 ---
 
-# Block Explorers
-
 ## Status Network Mainnet
 
 *Coming soon.*

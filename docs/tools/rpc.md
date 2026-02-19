@@ -6,8 +6,6 @@ keywords: [Status Network RPC, JSON-RPC, blockchain API, web3 configuration, Met
 
 import AddToMetaMask from '@site/src/components/AddToMetaMask';
 
-# RPC Endpoints
-
 The Status Network provides public RPC (Remote Procedure Call) endpoints that allow you to interact with the network.
 
 ## Public RPC URL
