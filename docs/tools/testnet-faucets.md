@@ -4,8 +4,6 @@ description: Get testnet ETH or STT for Status Network development. Complete gui
 keywords: [Status Network faucet, testnet ETH, test tokens, STT, Sepolia faucet, blockchain testing, development tokens]
 ---
 
-# Testnet Faucets
-
 To get started on Status Network testnet, you may need some testnet ETH or test assets.
 
 ## Status Network Testnet ETH Faucet

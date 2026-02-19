@@ -5,8 +5,6 @@ keywords: [Status Network, infrastructure, partners, oracles, indexing, RPC, acc
 sidebar_position: 6
 ---
 
-# Infrastructure Partners
-
 :::note Coming Soon
 Status Network is actively onboarding infrastructure partners across the categories below. This page will be updated as integrations go live.
 :::
