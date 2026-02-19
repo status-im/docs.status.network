@@ -436,5 +436,113 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "homepage.layout.title": {
+    "message": "Status Network 文档",
+    "description": "Homepage layout title"
+  },
+  "homepage.layout.description": {
+    "message": "Status Network 文档 — 首个原生免 Gas 的以太坊 L2，为开发者提供可持续的公共资助。",
+    "description": "Homepage layout description"
+  },
+  "homepage.hero.subtitle": {
+    "message": "欢迎来到",
+    "description": "Homepage hero subtitle"
+  },
+  "homepage.hero.title": {
+    "message": "Status Network 文档",
+    "description": "Homepage hero title"
+  },
+  "homepage.hero.description": {
+    "message": "首个原生免 Gas 的以太坊 L2 — 专为社交应用和游戏优化，为开发者提供可持续的公共资助。",
+    "description": "Homepage hero description"
+  },
+  "homepage.docs.sectionTitle": {
+    "message": "浏览文档",
+    "description": "Homepage docs section title"
+  },
+  "homepage.docs.sectionSubtitle": {
+    "message": "立即开始在 Status Network 上开发。",
+    "description": "Homepage docs section subtitle"
+  },
+  "homepage.docCards.overview.title": {
+    "message": "概览",
+    "description": "Homepage docs card title for Overview"
+  },
+  "homepage.docCards.overview.description": {
+    "message": "了解 Status Network 的架构、免 Gas 交易、代币经济学以及可持续的公共资助模式。",
+    "description": "Homepage docs card description for Overview"
+  },
+  "homepage.docCards.overview.linkText": {
+    "message": "了解更多",
+    "description": "Homepage docs card link text for Overview"
+  },
+  "homepage.docCards.build.title": {
+    "message": "Build for Karma",
+    "description": "Homepage docs card title for Build for Karma"
+  },
+  "homepage.docCards.build.description": {
+    "message": "部署合约、集成 Karma 和构建免 Gas 应用的指南、教程和参考文档。",
+    "description": "Homepage docs card description for Build for Karma"
+  },
+  "homepage.docCards.build.linkText": {
+    "message": "了解更多",
+    "description": "Homepage docs card link text for Build for Karma"
+  },
+  "homepage.docCards.tools.title": {
+    "message": "工具",
+    "description": "Homepage docs card title for Tools"
+  },
+  "homepage.docCards.tools.description": {
+    "message": "RPC 端点、跨链桥、测试网水龙头、区块浏览器和基础设施合作伙伴。",
+    "description": "Homepage docs card description for Tools"
+  },
+  "homepage.docCards.tools.linkText": {
+    "message": "了解更多",
+    "description": "Homepage docs card link text for Tools"
+  },
+  "homepage.quickStart.title": {
+    "message": "准备开始构建？",
+    "description": "Homepage quick start title"
+  },
+  "homepage.quickStart.description": {
+    "message": "设置钱包，获取测试网代币，几分钟内部署您的第一个合约。",
+    "description": "Homepage quick start description"
+  },
+  "homepage.quickStart.button": {
+    "message": "快速开始",
+    "description": "Homepage quick start button label"
+  },
+  "homepage.community.sectionTitle": {
+    "message": "与我们联系",
+    "description": "Homepage community section title"
+  },
+  "homepage.community.sectionSubtitle": {
+    "message": "了解 Status Network 社区的最新动态。",
+    "description": "Homepage community section subtitle"
+  },
+  "homepage.community.telegram.title": {
+    "message": "加入我们的 Telegram",
+    "description": "Homepage community card title for Telegram"
+  },
+  "homepage.community.telegram.description": {
+    "message": "与其他 Status Network 开发者交流并获取支持。",
+    "description": "Homepage community card description for Telegram"
+  },
+  "homepage.community.github.title": {
+    "message": "在 GitHub 上查看",
+    "description": "Homepage community card title for GitHub"
+  },
+  "homepage.community.github.description": {
+    "message": "探索源代码并为生态系统做贡献。",
+    "description": "Homepage community card description for GitHub"
+  },
+  "homepage.community.official.title": {
+    "message": "官方链接",
+    "description": "Homepage community card title for official links"
+  },
+  "homepage.community.official.description": {
+    "message": "网站、社交频道和所有官方资源汇总。",
+    "description": "Homepage community card description for official links"
   }
 }
