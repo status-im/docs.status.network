@@ -436,5 +436,113 @@
   "theme.tags.tagsPageTitle": {
     "message": "タグ",
     "description": "The title of the tag list page"
+  },
+  "homepage.layout.title": {
+    "message": "Status Network ドキュメント",
+    "description": "Homepage layout title"
+  },
+  "homepage.layout.description": {
+    "message": "Status Network ドキュメント — 初のネイティブガスレス Ethereum L2、ビルダーに持続可能な公的資金を提供。",
+    "description": "Homepage layout description"
+  },
+  "homepage.hero.subtitle": {
+    "message": "ようこそ",
+    "description": "Homepage hero subtitle"
+  },
+  "homepage.hero.title": {
+    "message": "Status Network ドキュメント",
+    "description": "Homepage hero title"
+  },
+  "homepage.hero.description": {
+    "message": "初のネイティブガスレス Ethereum L2 — ソーシャルアプリやゲームに最適化され、ビルダーに持続可能な公的資金を提供します。",
+    "description": "Homepage hero description"
+  },
+  "homepage.docs.sectionTitle": {
+    "message": "ドキュメントを探す",
+    "description": "Homepage docs section title"
+  },
+  "homepage.docs.sectionSubtitle": {
+    "message": "今すぐ Status Network での開発を始めましょう。",
+    "description": "Homepage docs section subtitle"
+  },
+  "homepage.docCards.overview.title": {
+    "message": "概要",
+    "description": "Homepage docs card title for Overview"
+  },
+  "homepage.docCards.overview.description": {
+    "message": "Status Network のアーキテクチャ、ガスレス取引、トークノミクス、持続可能な公的資金モデルについて。",
+    "description": "Homepage docs card description for Overview"
+  },
+  "homepage.docCards.overview.linkText": {
+    "message": "詳細を見る",
+    "description": "Homepage docs card link text for Overview"
+  },
+  "homepage.docCards.build.title": {
+    "message": "Build for Karma",
+    "description": "Homepage docs card title for Build for Karma"
+  },
+  "homepage.docCards.build.description": {
+    "message": "コントラクトのデプロイ、Karma の統合、ガスレスアプリの構築に関するガイド、チュートリアル、リファレンス。",
+    "description": "Homepage docs card description for Build for Karma"
+  },
+  "homepage.docCards.build.linkText": {
+    "message": "詳細を見る",
+    "description": "Homepage docs card link text for Build for Karma"
+  },
+  "homepage.docCards.tools.title": {
+    "message": "ツール",
+    "description": "Homepage docs card title for Tools"
+  },
+  "homepage.docCards.tools.description": {
+    "message": "RPC エンドポイント、ブリッジ、テストネットフォーセット、ブロックエクスプローラー、インフラパートナー。",
+    "description": "Homepage docs card description for Tools"
+  },
+  "homepage.docCards.tools.linkText": {
+    "message": "詳細を見る",
+    "description": "Homepage docs card link text for Tools"
+  },
+  "homepage.quickStart.title": {
+    "message": "ビルドの準備はできましたか？",
+    "description": "Homepage quick start title"
+  },
+  "homepage.quickStart.description": {
+    "message": "ウォレットを設定し、テストネットトークンを取得して、数分で最初のコントラクトをデプロイしましょう。",
+    "description": "Homepage quick start description"
+  },
+  "homepage.quickStart.button": {
+    "message": "クイックスタート",
+    "description": "Homepage quick start button label"
+  },
+  "homepage.community.sectionTitle": {
+    "message": "コミュニティ",
+    "description": "Homepage community section title"
+  },
+  "homepage.community.sectionSubtitle": {
+    "message": "Status Network コミュニティの最新情報をチェックしましょう。",
+    "description": "Homepage community section subtitle"
+  },
+  "homepage.community.telegram.title": {
+    "message": "Telegram に参加",
+    "description": "Homepage community card title for Telegram"
+  },
+  "homepage.community.telegram.description": {
+    "message": "他の Status Network ビルダーと交流し、サポートを受けましょう。",
+    "description": "Homepage community card description for Telegram"
+  },
+  "homepage.community.github.title": {
+    "message": "GitHub で見る",
+    "description": "Homepage community card title for GitHub"
+  },
+  "homepage.community.github.description": {
+    "message": "ソースコードを確認し、エコシステムに貢献しましょう。",
+    "description": "Homepage community card description for GitHub"
+  },
+  "homepage.community.official.title": {
+    "message": "公式リンク",
+    "description": "Homepage community card title for official links"
+  },
+  "homepage.community.official.description": {
+    "message": "ウェブサイト、ソーシャルチャンネル、すべての公式リソースを一か所に。",
+    "description": "Homepage community card description for official links"
   }
 }
