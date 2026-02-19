@@ -16,7 +16,7 @@ function getDocCards() {
       description: translate({
         id: 'homepage.docCards.overview.description',
         message:
-          "Learn about Status Network's architecture, gasless transactions, tokenomics, and the sustainable public funding model.",
+          "Learn about Status Network's architecture, gasless transactions, tokenomics, and the sustainable public funding model",
         description: 'Homepage docs card description for Overview',
       }),
       link: '/overview',
@@ -37,7 +37,7 @@ function getDocCards() {
       description: translate({
         id: 'homepage.docCards.build.description',
         message:
-          'Guides, tutorials, and references for deploying contracts, integrating Karma, and building gasless apps.',
+          'Guides, tutorials, and references for deploying contracts, integrating Karma, and building gasless apps',
         description: 'Homepage docs card description for Build for Karma',
       }),
       link: '/build-for-karma',
@@ -58,7 +58,7 @@ function getDocCards() {
       description: translate({
         id: 'homepage.docCards.tools.description',
         message:
-          'RPC endpoints, bridges, testnet faucets, block explorers, and infrastructure partners.',
+          'RPC endpoints, bridges, testnet faucets, block explorers, and infrastructure partners',
         description: 'Homepage docs card description for Tools',
       }),
       link: '/tools',
@@ -83,7 +83,7 @@ function getCommunityLinks() {
       }),
       description: translate({
         id: 'homepage.community.telegram.description',
-        message: 'Connect with other Status Network builders and get support.',
+        message: 'Connect with other Status Network builders and get support',
         description: 'Homepage community card description for Telegram',
       }),
       href: 'https://t.me/statusl2',
@@ -96,7 +96,7 @@ function getCommunityLinks() {
       }),
       description: translate({
         id: 'homepage.community.github.description',
-        message: 'Explore the source code and contribute to the ecosystem.',
+        message: 'Explore the source code and contribute to the ecosystem',
         description: 'Homepage community card description for GitHub',
       }),
       href: 'https://github.com/status-im',
@@ -109,7 +109,7 @@ function getCommunityLinks() {
       }),
       description: translate({
         id: 'homepage.community.official.description',
-        message: 'Website, social channels, and all official resources in one place.',
+        message: 'Website, social channels, and all official resources in one place',
         description: 'Homepage community card description for official links',
       }),
       href: '/overview/other/official-links',
@@ -147,8 +147,7 @@ function Hero() {
             id="homepage.hero.description"
             description="Homepage hero description"
           >
-            The first natively gasless Ethereum L2 — optimized for social apps and
-            games, with sustainable public funding for builders.
+            Fully gasless Ethereum L2 with composable privacy and built-in spam protection for humans and bots
           </Translate>
         </p>
       </div>
@@ -174,7 +173,7 @@ function DocCards() {
           id="homepage.docs.sectionSubtitle"
           description="Homepage docs section subtitle"
         >
-          Start developing on Status Network today.
+          Start developing on Status Network today
         </Translate>
       </p>
       <div className={styles.cardGrid}>
@@ -213,7 +212,7 @@ function QuickStart() {
               description="Homepage quick start description"
             >
               Set up your wallet, grab testnet tokens, and deploy your first
-              contract in minutes.
+              contract in minutes
             </Translate>
           </p>
         </div>
@@ -252,7 +251,7 @@ function Community() {
           id="homepage.community.sectionSubtitle"
           description="Homepage community section subtitle"
         >
-          Keep up to date with the latest from the Status Network community.
+          Keep up to date with the latest from the Status Network community
         </Translate>
       </p>
       <div className={styles.communityGrid}>
@@ -284,7 +283,7 @@ export default function Home(): React.JSX.Element {
       description={translate({
         id: 'homepage.layout.description',
         message:
-          'Documentation for Status Network — the first natively gasless Ethereum L2 with sustainable public funding for builders.',
+          'Documentation for Status Network — fully gasless Ethereum L2 with composable privacy and built-in spam protection for humans and bots',
         description: 'Homepage layout description',
       })}
     >

@@ -442,7 +442,7 @@
     "description": "Homepage layout title"
   },
   "homepage.layout.description": {
-    "message": "Status Network 문서 — 최초의 네이티브 가스리스 이더리움 L2, 빌더를 위한 지속 가능한 공공 자금 제공.",
+    "message": "Status Network 문서 — 조합 가능한 프라이버시와 내장형 스팸 방지 기능을 갖춘 완전한 가스리스 이더리움 L2, 인간과 봇 모두를 위해 설계되었습니다",
     "description": "Homepage layout description"
   },
   "homepage.hero.subtitle": {
@@ -454,7 +454,7 @@
     "description": "Homepage hero title"
   },
   "homepage.hero.description": {
-    "message": "최초의 네이티브 가스리스 이더리움 L2 — 소셜 앱과 게임에 최적화되어 빌더를 위한 지속 가능한 공공 자금을 제공합니다.",
+    "message": "조합 가능한 프라이버시와 내장형 스팸 방지 기능을 갖춘 완전한 가스리스 이더리움 L2, 인간과 봇 모두를 위해 설계되었습니다",
     "description": "Homepage hero description"
   },
   "homepage.docs.sectionTitle": {
@@ -462,7 +462,7 @@
     "description": "Homepage docs section title"
   },
   "homepage.docs.sectionSubtitle": {
-    "message": "지금 바로 스테이터스 네트워크에서 개발을 시작하세요.",
+    "message": "지금 바로 스테이터스 네트워크에서 개발을 시작하세요",
     "description": "Homepage docs section subtitle"
   },
   "homepage.docCards.overview.title": {
@@ -470,7 +470,7 @@
     "description": "Homepage docs card title for Overview"
   },
   "homepage.docCards.overview.description": {
-    "message": "스테이터스 네트워크의 아키텍처, 가스리스 트랜잭션, 토큰이코노믹스, 지속 가능한 공공 자금 모델에 대해 알아보세요.",
+    "message": "스테이터스 네트워크의 아키텍처, 가스리스 트랜잭션, 토큰이코노믹스, 지속 가능한 공공 자금 모델에 대해 알아보세요",
     "description": "Homepage docs card description for Overview"
   },
   "homepage.docCards.overview.linkText": {
@@ -482,7 +482,7 @@
     "description": "Homepage docs card title for Build for Karma"
   },
   "homepage.docCards.build.description": {
-    "message": "컨트랙트 배포, Karma 적용 및 가스리스 앱 구축을 위한 가이드, 튜토리얼, 레퍼런스.",
+    "message": "컨트랙트 배포, Karma 적용 및 가스리스 앱 구축을 위한 가이드, 튜토리얼, 레퍼런스",
     "description": "Homepage docs card description for Build for Karma"
   },
   "homepage.docCards.build.linkText": {
@@ -494,7 +494,7 @@
     "description": "Homepage docs card title for Tools"
   },
   "homepage.docCards.tools.description": {
-    "message": "RPC 엔드포인트, 브릿지, 테스트넷 파우셋, 블록 익스플로러, 인프라 파트너.",
+    "message": "RPC 엔드포인트, 브릿지, 테스트넷 파우셋, 블록 익스플로러, 인프라 파트너",
     "description": "Homepage docs card description for Tools"
   },
   "homepage.docCards.tools.linkText": {
@@ -506,7 +506,7 @@
     "description": "Homepage quick start title"
   },
   "homepage.quickStart.description": {
-    "message": "지갑을 설정하고 테스트넷 토큰을 받아 몇 분 만에 첫 번째 컨트랙트를 배포하세요.",
+    "message": "지갑을 설정하고 테스트넷 토큰을 받아 몇 분 만에 첫 번째 컨트랙트를 배포하세요",
     "description": "Homepage quick start description"
   },
   "homepage.quickStart.button": {
@@ -518,7 +518,7 @@
     "description": "Homepage community section title"
   },
   "homepage.community.sectionSubtitle": {
-    "message": "스테이터스 네트워크 커뮤니티의 최신 소식을 확인하세요.",
+    "message": "스테이터스 네트워크 커뮤니티의 최신 소식을 확인하세요",
     "description": "Homepage community section subtitle"
   },
   "homepage.community.telegram.title": {
@@ -526,7 +526,7 @@
     "description": "Homepage community card title for Telegram"
   },
   "homepage.community.telegram.description": {
-    "message": "다른 스테이터스 네트워크 빌더들과 교류하고 지원을 받으세요.",
+    "message": "다른 스테이터스 네트워크 빌더들과 교류하고 지원을 받으세요",
     "description": "Homepage community card description for Telegram"
   },
   "homepage.community.github.title": {
@@ -534,7 +534,7 @@
     "description": "Homepage community card title for GitHub"
   },
   "homepage.community.github.description": {
-    "message": "소스 코드를 탐색하고 생태계에 기여하세요.",
+    "message": "소스 코드를 탐색하고 생태계에 기여하세요",
     "description": "Homepage community card description for GitHub"
   },
   "homepage.community.official.title": {
@@ -542,7 +542,7 @@
     "description": "Homepage community card title for official links"
   },
   "homepage.community.official.description": {
-    "message": "웹사이트, 소셜 채널, 모든 공식 리소스를 한 곳에서 확인하세요.",
+    "message": "웹사이트, 소셜 채널, 모든 공식 리소스를 한 곳에서 확인하세요",
     "description": "Homepage community card description for official links"
   }
 }

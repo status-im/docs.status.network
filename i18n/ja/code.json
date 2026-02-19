@@ -442,7 +442,7 @@
     "description": "Homepage layout title"
   },
   "homepage.layout.description": {
-    "message": "Status Network ドキュメント — 初のネイティブガスレス Ethereum L2、ビルダーに持続可能な公的資金を提供。",
+    "message": "Status Network ドキュメント — コンポーザブルなプライバシーと組み込みのスパム保護を備えた、ヒトとボットのための完全ガスレス Ethereum L2",
     "description": "Homepage layout description"
   },
   "homepage.hero.subtitle": {
@@ -454,7 +454,7 @@
     "description": "Homepage hero title"
   },
   "homepage.hero.description": {
-    "message": "初のネイティブガスレス Ethereum L2 — ソーシャルアプリやゲームに最適化され、ビルダーに持続可能な公的資金を提供します。",
+    "message": "コンポーザブルなプライバシーと組み込みのスパム保護を備えた、ヒトとボットのための完全ガスレス Ethereum L2",
     "description": "Homepage hero description"
   },
   "homepage.docs.sectionTitle": {
@@ -462,7 +462,7 @@
     "description": "Homepage docs section title"
   },
   "homepage.docs.sectionSubtitle": {
-    "message": "今すぐ Status Network での開発を始めましょう。",
+    "message": "今すぐ Status Network での開発を始めましょう",
     "description": "Homepage docs section subtitle"
   },
   "homepage.docCards.overview.title": {
@@ -470,7 +470,7 @@
     "description": "Homepage docs card title for Overview"
   },
   "homepage.docCards.overview.description": {
-    "message": "Status Network のアーキテクチャ、ガスレス取引、トークノミクス、持続可能な公的資金モデルについて。",
+    "message": "Status Network のアーキテクチャ、ガスレス取引、トークノミクス、持続可能な公的資金モデルについて",
     "description": "Homepage docs card description for Overview"
   },
   "homepage.docCards.overview.linkText": {
@@ -482,7 +482,7 @@
     "description": "Homepage docs card title for Build for Karma"
   },
   "homepage.docCards.build.description": {
-    "message": "コントラクトのデプロイ、Karma の統合、ガスレスアプリの構築に関するガイド、チュートリアル、リファレンス。",
+    "message": "コントラクトのデプロイ、Karma の統合、ガスレスアプリの構築に関するガイド、チュートリアル、リファレンス",
     "description": "Homepage docs card description for Build for Karma"
   },
   "homepage.docCards.build.linkText": {
@@ -494,7 +494,7 @@
     "description": "Homepage docs card title for Tools"
   },
   "homepage.docCards.tools.description": {
-    "message": "RPC エンドポイント、ブリッジ、テストネットフォーセット、ブロックエクスプローラー、インフラパートナー。",
+    "message": "RPC エンドポイント、ブリッジ、テストネットフォーセット、ブロックエクスプローラー、インフラパートナー",
     "description": "Homepage docs card description for Tools"
   },
   "homepage.docCards.tools.linkText": {
@@ -506,7 +506,7 @@
     "description": "Homepage quick start title"
   },
   "homepage.quickStart.description": {
-    "message": "ウォレットを設定し、テストネットトークンを取得して、数分で最初のコントラクトをデプロイしましょう。",
+    "message": "ウォレットを設定し、テストネットトークンを取得して、数分で最初のコントラクトをデプロイしましょう",
     "description": "Homepage quick start description"
   },
   "homepage.quickStart.button": {
@@ -518,7 +518,7 @@
     "description": "Homepage community section title"
   },
   "homepage.community.sectionSubtitle": {
-    "message": "Status Network コミュニティの最新情報をチェックしましょう。",
+    "message": "Status Network コミュニティの最新情報をチェックしましょう",
     "description": "Homepage community section subtitle"
   },
   "homepage.community.telegram.title": {
@@ -526,7 +526,7 @@
     "description": "Homepage community card title for Telegram"
   },
   "homepage.community.telegram.description": {
-    "message": "他の Status Network ビルダーと交流し、サポートを受けましょう。",
+    "message": "他の Status Network ビルダーと交流し、サポートを受けましょう",
     "description": "Homepage community card description for Telegram"
   },
   "homepage.community.github.title": {
@@ -534,7 +534,7 @@
     "description": "Homepage community card title for GitHub"
   },
   "homepage.community.github.description": {
-    "message": "ソースコードを確認し、エコシステムに貢献しましょう。",
+    "message": "ソースコードを確認し、エコシステムに貢献しましょう",
     "description": "Homepage community card description for GitHub"
   },
   "homepage.community.official.title": {
@@ -542,7 +542,7 @@
     "description": "Homepage community card title for official links"
   },
   "homepage.community.official.description": {
-    "message": "ウェブサイト、ソーシャルチャンネル、すべての公式リソースを一か所に。",
+    "message": "ウェブサイト、ソーシャルチャンネル、すべての公式リソースを一か所に",
     "description": "Homepage community card description for official links"
   }
 }
