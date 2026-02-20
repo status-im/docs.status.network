@@ -103,6 +103,10 @@
     "message": "⛽ 无Gas交易整合",
     "description": "The label for the doc item ⛽ Gasless Integration in sidebar buildForKarmaSidebar"
   },
+  "sidebar.buildForKarmaSidebar.doc.🔰 Reputation Integration": {
+    "message": "🔰 声誉整合",
+    "description": "The label for the doc item 🔰 Reputation Integration in sidebar buildForKarmaSidebar"
+  },
   "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
     "message": "🎩 使用 Hardhat",
     "description": "The label for the doc item 🎩 Using Hardhat in sidebar buildForKarmaSidebar"
