@@ -31,9 +31,9 @@
     "message": "合作伙伴",
     "description": "The label for category PARTNERS in sidebar toolsSidebar"
   },
-  "sidebar.buildForKarmaSidebar.category.BUILD FOR KARMA": {
-    "message": "开发",
-    "description": "The label for category BUILD FOR KARMA in sidebar buildForKarmaSidebar"
+  "sidebar.buildForKarmaSidebar.category.USING KARMA": {
+    "message": "使用 Karma",
+    "description": "The label for category USING KARMA in sidebar buildForKarmaSidebar"
   },
   "sidebar.buildForKarmaSidebar.category.🚀 Deploying a Smart Contract": {
     "message": "🚀 部署智能合约",
@@ -98,6 +98,10 @@
   "sidebar.toolsSidebar.doc.🤝 Infrastructure Partners": {
     "message": "🤝 基础设施合作伙伴",
     "description": "The label for the doc item 🤝 Infrastructure Partners in sidebar toolsSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.⛽ Gasless Integration": {
+    "message": "⛽ 无Gas交易整合",
+    "description": "The label for the doc item ⛽ Gasless Integration in sidebar buildForKarmaSidebar"
   },
   "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
     "message": "🎩 使用 Hardhat",

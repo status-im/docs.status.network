@@ -31,9 +31,9 @@
     "message": "파트너",
     "description": "The label for category PARTNERS in sidebar toolsSidebar"
   },
-  "sidebar.buildForKarmaSidebar.category.BUILD FOR KARMA": {
-    "message": "개발하기",
-    "description": "The label for category BUILD FOR KARMA in sidebar buildForKarmaSidebar"
+  "sidebar.buildForKarmaSidebar.category.USING KARMA": {
+    "message": "카르마 사용하기",
+    "description": "The label for category USING KARMA in sidebar buildForKarmaSidebar"
   },
   "sidebar.buildForKarmaSidebar.category.🚀 Deploying a Smart Contract": {
     "message": "🚀 스마트 컨트랙트 배포",
@@ -98,6 +98,10 @@
   "sidebar.toolsSidebar.doc.🤝 Infrastructure Partners": {
     "message": "🤝 인프라 파트너",
     "description": "The label for the doc item 🤝 Infrastructure Partners in sidebar toolsSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.⛽ Gasless Integration": {
+    "message": "⛽ 가스리스 적용하기",
+    "description": "The label for the doc item ⛽ Gasless Integration in sidebar buildForKarmaSidebar"
   },
   "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
     "message": "🎩 Hardhat 사용하기",
