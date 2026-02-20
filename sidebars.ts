@@ -135,6 +135,18 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'USING KARMA',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'build-for-karma/guides/gasless-integration',
+          label: '⛽ Gasless Integration',
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: 'DEPLOYING CONTRACTS',
       collapsed: false,
       items: [
