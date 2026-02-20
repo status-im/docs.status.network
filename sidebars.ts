@@ -143,6 +143,11 @@ const sidebars: SidebarsConfig = {
           id: 'build-for-karma/guides/gasless-integration',
           label: '⛽ Gasless Integration',
         },
+        {
+          type: 'doc',
+          id: 'build-for-karma/guides/reputation-integration',
+          label: '🔰 Reputation Integration',
+        },
       ],
     },
     {

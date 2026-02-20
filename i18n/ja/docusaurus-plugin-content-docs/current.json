@@ -103,6 +103,10 @@
     "message": "⛽ ガスレス統合",
     "description": "The label for the doc item ⛽ Gasless Integration in sidebar buildForKarmaSidebar"
   },
+  "sidebar.buildForKarmaSidebar.doc.🔰 Reputation Integration": {
+    "message": "🔰 レピュテーション統合",
+    "description": "The label for the doc item 🔰 Reputation Integration in sidebar buildForKarmaSidebar"
+  },
   "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
     "message": "🎩 Hardhatの使用",
     "description": "The label for the doc item 🎩 Using Hardhat in sidebar buildForKarmaSidebar"

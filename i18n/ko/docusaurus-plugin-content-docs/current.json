@@ -103,6 +103,10 @@
     "message": "⛽ 가스리스 적용하기",
     "description": "The label for the doc item ⛽ Gasless Integration in sidebar buildForKarmaSidebar"
   },
+  "sidebar.buildForKarmaSidebar.doc.🔰 Reputation Integration": {
+    "message": "🔰 평판 적용하기",
+    "description": "The label for the doc item 🔰 Reputation Integration in sidebar buildForKarmaSidebar"
+  },
   "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
     "message": "🎩 Hardhat 사용하기",
     "description": "The label for the doc item 🎩 Using Hardhat in sidebar buildForKarmaSidebar"
