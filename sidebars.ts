@@ -33,12 +33,12 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'overview/tokenomics/public-funding',
           label: '💰 Public Funding',
-        },  
+        },
         {
           type: 'doc',
           id: 'overview/tokenomics/karmic-tokenomics',
           label: '🐉 Karmic Tokenomics',
-        },       
+        },
         {
           type: 'doc',
           id: 'overview/tokenomics/snt-staking',
@@ -125,12 +125,11 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'BUILD FOR KARMA',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'build-for-karma/build-for-karma-index',
+      },
       items: [
-        {
-          type: 'doc',
-          id: 'build-for-karma/index',
-          label: '🛠 Build for Karma',
-        },
         {
           type: 'doc',
           id: 'build-for-karma/why-status-network',
@@ -163,6 +162,10 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'DEPLOYING CONTRACTS',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'build-for-karma/deploying-contracts/deploying-contracts-index',
+      },
       items: [
         {
           type: 'doc',
