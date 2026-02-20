@@ -131,12 +131,16 @@ The Deny List temporarily restricts users exceeding quotas or engaging in spam:
 - Users can bypass restrictions by paying premium gas fees
 - Paying premium fees removes users from the list and earns additional Karma
 
-### `linea_estimateGas` RPC Modification
+## `linea_estimateGas` RPC Modification
 
-The linea_estimateGas method is customised to account for users on the Deny List:
+Status Network extends the base Linea `linea_estimateGas` with Karma-aware behavior so the returned **fee fields** can depend on the sender address `from`'s Karma balance.
+The `gasLimit` calculation is unchanged from the base Linea implementation (which itself uses the standard `eth_estimateGas` logic internally).
 
-- Checks user's Deny List status
-- Adds premium gas multipliers if needed
-- Provides transparency and accurate gas estimations to the users
+Concretely, Status Network's `linea_estimateGas`:
+
+- **Applies deny-list premium**: if the sender is on the deny list, the node computes the normal fee estimate and then applies a premium multiplier to the **fee fields**.
+- **Returns gasless estimates for eligible users**: if the sender has available Karma quota, the method returns zero `baseFeePerGas` and `priorityFeePerGas`.
+
+The above logic lives in our modified `LineaEstimateGas` implementation open-sourced around [this section in the Status Network monorepo](https://github.com/status-im/status-network-monorepo/blob/v1.0.1/besu-plugins/linea-sequencer/sequencer/src/main/java/net/consensys/linea/rpc/methods/LineaEstimateGas.java#L218).
 
 For further explanation on why it is important to use `linea_estimateGas` instead of `eth_estimateGas` to make gasless transactions on Status Network, refer to the [JSON-RPC docs](../../build-for-karma/rpc/json-rpc.md).

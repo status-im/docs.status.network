@@ -31,9 +31,9 @@
     "message": "パートナー",
     "description": "The label for category PARTNERS in sidebar toolsSidebar"
   },
-  "sidebar.buildForKarmaSidebar.category.BUILD FOR KARMA": {
-    "message": "開発する",
-    "description": "The label for category BUILD FOR KARMA in sidebar buildForKarmaSidebar"
+  "sidebar.buildForKarmaSidebar.category.USING KARMA": {
+    "message": "Karmaを使う",
+    "description": "The label for category USING KARMA in sidebar buildForKarmaSidebar"
   },
   "sidebar.buildForKarmaSidebar.category.🚀 Deploying a Smart Contract": {
     "message": "🚀 スマートコントラクトのデプロイ",
@@ -98,6 +98,14 @@
   "sidebar.toolsSidebar.doc.🤝 Infrastructure Partners": {
     "message": "🤝 インフラパートナー",
     "description": "The label for the doc item 🤝 Infrastructure Partners in sidebar toolsSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.⛽ Gasless Integration": {
+    "message": "⛽ ガスレス統合",
+    "description": "The label for the doc item ⛽ Gasless Integration in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🔰 Reputation Integration": {
+    "message": "🔰 レピュテーション統合",
+    "description": "The label for the doc item 🔰 Reputation Integration in sidebar buildForKarmaSidebar"
   },
   "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
     "message": "🎩 Hardhatの使用",
