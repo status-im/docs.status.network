@@ -31,13 +31,25 @@
     "message": "파트너",
     "description": "The label for category PARTNERS in sidebar toolsSidebar"
   },
+  "sidebar.buildForKarmaSidebar.category.BUILD FOR KARMA": {
+    "message": "카르마를 위해 개발하기",
+    "description": "The label for category BUILD FOR KARMA in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🛠 Build for Karma": {
+    "message": "🛠 Karma 빌드 가이드",
+    "description": "The label for the doc item 🛠 Build for Karma in sidebar buildForKarmaSidebar"
+  },
   "sidebar.buildForKarmaSidebar.category.USING KARMA": {
-    "message": "카르마 사용하기",
+    "message": "카르마 사용",
     "description": "The label for category USING KARMA in sidebar buildForKarmaSidebar"
   },
-  "sidebar.buildForKarmaSidebar.category.🚀 Deploying a Smart Contract": {
-    "message": "🚀 스마트 컨트랙트 배포",
-    "description": "The label for category 🚀 Deploying a Smart Contract in sidebar buildForKarmaSidebar"
+  "sidebar.buildForKarmaSidebar.category.DEPLOYING CONTRACTS": {
+    "message": "컨트랙트 배포",
+    "description": "The label for category DEPLOYING CONTRACTS in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.category.RPC": {
+    "message": "RPC",
+    "description": "The label for category RPC in sidebar buildForKarmaSidebar"
   },
   "sidebar.homeSidebar.category.OTHER DOCS": {
     "message": "기타 문서",
@@ -154,6 +166,10 @@
   "sidebar.homeSidebar.doc.💰 Pre-Deposit Vault Contracts": {
     "message": "💰 사전예치 금고 컨트랙트",
     "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar homeSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🔌 JSON-RPC API": {
+    "message": "🔌 JSON-RPC API",
+    "description": "The label for the doc item 🔌 JSON-RPC API in sidebar buildForKarmaSidebar"
   },
   "sidebar.buildForKarmaSidebar.doc.🌐 Running an RPC node": {
     "message": "🌐 RPC 노드 운영하기",
