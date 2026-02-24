@@ -1,6 +1,6 @@
 ---
-title: Reputation Integration Guide
-description: How to read Karma tiers, gate features by reputation, and build Karma-aware smart contracts and frontends on Status Network.
+title: レピュテーション統合ガイド
+description: Status NetworkでKarmaティアを読み取り、レピュテーションで機能をゲーティングし、Karma対応のスマートコントラクトとフロントエンドを構築する方法。
 keywords: [Karma, integration, smart contract, soulbound token, reputation, tiers, gasless, Status Network, developer guide]
 slug: /build-for-karma/guides/reputation-integration
 sidebar_position: 4
@@ -9,16 +9,16 @@ sidebar_position: 4
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Karma is Status Network's soulbound reputation token. Every address earns Karma through genuine network participation such as staking SNT, bridging assets, providing liquidity, using apps, or paying premium gas fees. Karma cannot be bought, sold, or transferred.
+KarmaはStatus Networkのソウルバウンドレピュテーショントークンです。すべてのアドレスは、SNTステーキング、アセットのブリッジ、流動性提供、アプリの使用、プレミアムガス手数料の支払いなど、ネットワークへの真正な参加を通じてKarmaを獲得します。Karmaは購入、売却、転送することができません。
 
-This guide covers how to read Karma data and build apps that respond to a user's reputation tier.
+このガイドでは、Karmaデータの読み取り方法と、ユーザーのレピュテーションティアに応じたアプリの構築方法を説明します。
 
-## Reading Karma On-Chain
+## オンチェーンでのKarma読み取り
 
-Karma state is split across two contracts:
+Karmaの状態は2つのコントラクトに分かれています:
 
-- **Karma** — the soulbound ERC-20 token. `balanceOf` returns the net balance after any slashing. Transfers and approvals always revert.
-- **KarmaTiers** — maps balances to tiers. Call `getTierIdByKarmaBalance(balance)` then `getTierById(tierId)` to resolve a user's tier and its `txPerEpoch` quota.
+- **Karma** — ソウルバウンドERC-20トークン。`balanceOf`はスラッシング後の純残高を返します。転送と承認は常にリバートします。
+- **KarmaTiers** — 残高をティアにマッピングします。`getTierIdByKarmaBalance(balance)`を呼び出してから`getTierById(tierId)`を呼び出し、ユーザーのティアとその`txPerEpoch`クォータを解決します。
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-reading">
@@ -111,14 +111,14 @@ const KARMA_TIERS_ABI = [
 const karma      = new ethers.Contract(KARMA_ADDRESS,       KARMA_ABI,       provider);
 const karmaTiers = new ethers.Contract(KARMA_TIERS_ADDRESS, KARMA_TIERS_ABI, provider);
 
-// Read a user's Karma balance and resolve their tier
+// ユーザーのKarma残高を読み取り、ティアを解決
 const balance = await karma.balanceOf(userAddress);
 const tierId  = await karmaTiers.getTierIdByKarmaBalance(balance);
 const tier    = await karmaTiers.getTierById(tierId);
 
-console.log(`Karma balance:      ${ethers.formatEther(balance)} KARMA`);
-console.log(`Tier:               ${tier.name} (ID ${tierId})`);
-console.log(`Tx quota per epoch: ${tier.txPerEpoch}`);
+console.log(`Karma残高:          ${ethers.formatEther(balance)} KARMA`);
+console.log(`ティア:             ${tier.name} (ID ${tierId})`);
+console.log(`エポックあたりのTx: ${tier.txPerEpoch}`);
 ```
 
   </TabItem>
@@ -174,7 +174,7 @@ const karmaTiersAbi = [
   },
 ] as const;
 
-// Two sequential reads: balance → tier ID → tier details
+// 2回の順次読み取り: 残高 → ティアID → ティア詳細
 const balance = await client.readContract({
   address: KARMA_ADDRESS,
   abi:     karmaAbi,
@@ -196,25 +196,23 @@ const tier = await client.readContract({
   args: [tierId],
 });
 
-console.log(`Tier:               ${tier.name} (ID ${tierId})`);
-console.log(`Tx quota per epoch: ${tier.txPerEpoch}`);
+console.log(`ティア:             ${tier.name} (ID ${tierId})`);
+console.log(`エポックあたりのTx: ${tier.txPerEpoch}`);
 ```
 
   </TabItem>
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-:::note Contract Addresses
-Karma and KarmaTiers contract addresses for testnet are published on the [Contract Addresses](/overview/general-info/contract-addresses/testnet-contracts) page.
+:::note コントラクトアドレス
+KarmaとKarmaTiersのテストネットコントラクトアドレスは[コントラクトアドレス](/overview/general-info/contract-addresses/testnet-contracts)ページに掲載されています。
 :::
 
-## Possible Integration Patterns
+## 考えられる統合パターン
 
-### Feature Gating
+### 機能ゲーティング
 
-Unlock features based on Karma tier.
-The `onlyTier` modifier you can check from the [Reading Karma On-Chain](#reading-karma-on-chain) section can restrict access at the contract level.
-Alternatively, you can use `tierId` in your code to gate features:
+Karmaティアに基づいて機能をアンロックします。[オンチェーンでのKarma読み取り](#オンチェーンでのkarma読み取り)セクションの`onlyTier`モディファイアがコントラクトレベルでアクセスを制御します:
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-gating">
@@ -230,7 +228,7 @@ function accessPremiumContent() external onlyTier(3) {
   <TabItem value="ethers" label="ethers.js">
 
 ```js
-// Resolve tier from Karma balance, then gate UI features
+// Karma残高からティアを解決し、UI機能をゲーティング
 const balance = await karma.balanceOf(userAddress);
 const tierId  = await karmaTiers.getTierIdByKarmaBalance(balance);
 
@@ -270,9 +268,9 @@ if (tierId >= 3) {
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-### Dynamic Pricing
+### ダイナミックプライシング
 
-Offer discounts or better rates to high-Karma users:
+高Karmaユーザーに割引やより良いレートを提供します:
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-pricing">
@@ -291,14 +289,14 @@ function calculateFee(address user, uint256 baseAmount) public view returns (uin
   <TabItem value="ethers" label="ethers.js">
 
 ```js
-// Compute the discounted fee on the client-side from the user's current tier
+// ユーザーの現在のティアからクライアント側で割引手数料を計算
 const balance  = await karma.balanceOf(userAddress);
 const tierId   = await karmaTiers.getTierIdByKarmaBalance(balance);
 
-const discount = BigInt(tierId) * 5n;                        // 5% per tier
+const discount = BigInt(tierId) * 5n;                        // ティアごとに5%割引
 const fee      = baseAmount * (100n - discount) / 100n;
 
-console.log(`Tier ${tierId}: ${discount}% discount → fee = ${fee}`);
+console.log(`ティア ${tierId}: ${discount}% 割引 → 手数料 = ${fee}`);
 ```
 
   </TabItem>
@@ -319,26 +317,26 @@ const tierId = await client.readContract({
   args: [balance],
 });
 
-const discount = BigInt(tierId) * 5n;                        // 5% per tier
+const discount = BigInt(tierId) * 5n;                        // ティアごとに5%割引
 const fee      = baseAmount * (100n - discount) / 100n;
 
-console.log(`Tier ${tierId}: ${discount}% discount → fee = ${fee}`);
+console.log(`ティア ${tierId}: ${discount}% 割引 → 手数料 = ${fee}`);
 ```
 
   </TabItem>
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-### Reputation Display
+### レピュテーション表示
 
-Show Karma tier as a trust index in your UI by reading the tier name directly from the `KarmaTiers` contract:
+`KarmaTiers`コントラクトから直接名前を読み取って、UIにKarmaティアを信頼シグナルとして表示します:
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-display">
   <TabItem value="ethers" label="ethers.js">
 
 ```js
-// Fetch tier name on-chain — no hardcoded array needed
+// オンチェーンでティア名を取得 — ハードコードされた配列は不要
 const balance = await karma.balanceOf(userAddress);
 const tierId  = await karmaTiers.getTierIdByKarmaBalance(balance);
 const tier    = await karmaTiers.getTierById(tierId);
@@ -347,7 +345,7 @@ function KarmaBadge({ tierName }) {
   return <span className="karma-badge">{tierName}</span>;
 }
 
-// Usage
+// 使用方法
 <KarmaBadge tierName={tier.name} />
 ```
 
@@ -380,7 +378,7 @@ function KarmaBadge({ tierName }: { tierName: string }) {
   return <span className="karma-badge">{tierName}</span>;
 }
 
-// Usage
+// 使用方法
 <KarmaBadge tierName={tier.name} />
 ```
 
@@ -388,9 +386,9 @@ function KarmaBadge({ tierName }: { tierName: string }) {
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-### Weighted Governance
+### 加重ガバナンス
 
-Use Karma for vote weighting in your app's governance:
+アプリのガバナンスでKarmaを投票の重み付けに使用します:
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-governance">
@@ -407,11 +405,11 @@ function vote(uint256 proposalId, bool support) external {
   <TabItem value="ethers" label="ethers.js">
 
 ```js
-// Read the user's Karma balance as their vote weight, then submit
+// ユーザーのKarma残高を投票の重みとして読み取り、送信
 const weight = await karma.balanceOf(userAddress);
-console.log(`Voting with weight: ${ethers.formatEther(weight)} KARMA`);
+console.log(`投票の重み: ${ethers.formatEther(weight)} KARMA`);
 
-// Call your governance contract
+// ガバナンスコントラクトを呼び出し
 const tx = await governanceContract.vote(proposalId, support);
 await tx.wait();
 ```
@@ -422,16 +420,16 @@ await tx.wait();
 ```ts
 import { formatEther, parseAbi } from 'viem';
 
-// Read vote weight from Karma balance
+// Karma残高から投票の重みを読み取り
 const weight = await client.readContract({
   address: KARMA_ADDRESS,
   abi:     karmaAbi,
   functionName: 'balanceOf',
   args: [userAddress],
 });
-console.log(`Voting with weight: ${formatEther(weight)} KARMA`);
+console.log(`投票の重み: ${formatEther(weight)} KARMA`);
 
-// Submit vote via your governance contract
+// ガバナンスコントラクトを通じて投票を送信
 const { request } = await client.simulateContract({
   address: GOVERNANCE_ADDRESS,
   abi:     parseAbi(['function vote(uint256 proposalId, bool support) external']),
@@ -446,8 +444,8 @@ await walletClient.writeContract(request);
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-## Next Steps
+## 次のステップ
 
-- Refer to [Gasless Integration](/build-for-karma/guides/gasless-integration) to integrate Karma in making gasless transaction
-- Check out [Karmic Tokenomics](/overview/tokenomics/karmic-tokenomics) to see a breakdown of how Karma is earned and used
-- Go to [Gasless Transactions](/overview/general-info/gasless-transactions) to understand the technical details of the RLN-based gasless system
+- [ガスレス統合](/build-for-karma/guides/gasless-integration)を参照して、ガスレストランザクションにKarmaを統合する方法を学ぶ
+- [カルミックトークノミクス](/overview/tokenomics/karmic-tokenomics)でKarmaの獲得と使用の仕組みを確認する
+- [ガスレストランザクション](/overview/general-info/gasless-transactions)でRLNベースのガスレスシステムの技術的詳細を理解する

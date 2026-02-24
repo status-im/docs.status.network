@@ -1,6 +1,6 @@
 ---
-title: Reputation Integration Guide
-description: How to read Karma tiers, gate features by reputation, and build Karma-aware smart contracts and frontends on Status Network.
+title: 声誉集成指南
+description: 如何在 Status Network 上读取 Karma 层级、按声誉门控功能、以及构建 Karma 感知的智能合约和前端。
 keywords: [Karma, integration, smart contract, soulbound token, reputation, tiers, gasless, Status Network, developer guide]
 slug: /build-for-karma/guides/reputation-integration
 sidebar_position: 4
@@ -9,16 +9,16 @@ sidebar_position: 4
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Karma is Status Network's soulbound reputation token. Every address earns Karma through genuine network participation such as staking SNT, bridging assets, providing liquidity, using apps, or paying premium gas fees. Karma cannot be bought, sold, or transferred.
+Karma 是 Status Network 的灵魂绑定声誉代币。每个地址通过真实的网络参与来赚取 Karma，例如质押 SNT、桥接资产、提供流动性、使用应用或支付高级 Gas 费用。Karma 不能被购买、出售或转让。
 
-This guide covers how to read Karma data and build apps that respond to a user's reputation tier.
+本指南介绍如何读取 Karma 数据以及构建响应用户声誉层级的应用。
 
-## Reading Karma On-Chain
+## 链上读取 Karma
 
-Karma state is split across two contracts:
+Karma 状态分布在两个合约中:
 
-- **Karma** — the soulbound ERC-20 token. `balanceOf` returns the net balance after any slashing. Transfers and approvals always revert.
-- **KarmaTiers** — maps balances to tiers. Call `getTierIdByKarmaBalance(balance)` then `getTierById(tierId)` to resolve a user's tier and its `txPerEpoch` quota.
+- **Karma** — 灵魂绑定 ERC-20 代币。`balanceOf` 返回扣除任何削减后的净余额。转账和授权始终会回退。
+- **KarmaTiers** — 将余额映射到层级。调用 `getTierIdByKarmaBalance(balance)` 然后 `getTierById(tierId)` 来解析用户的层级及其 `txPerEpoch` 配额。
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-reading">
@@ -111,14 +111,14 @@ const KARMA_TIERS_ABI = [
 const karma      = new ethers.Contract(KARMA_ADDRESS,       KARMA_ABI,       provider);
 const karmaTiers = new ethers.Contract(KARMA_TIERS_ADDRESS, KARMA_TIERS_ABI, provider);
 
-// Read a user's Karma balance and resolve their tier
+// 读取用户的 Karma 余额并解析其层级
 const balance = await karma.balanceOf(userAddress);
 const tierId  = await karmaTiers.getTierIdByKarmaBalance(balance);
 const tier    = await karmaTiers.getTierById(tierId);
 
-console.log(`Karma balance:      ${ethers.formatEther(balance)} KARMA`);
-console.log(`Tier:               ${tier.name} (ID ${tierId})`);
-console.log(`Tx quota per epoch: ${tier.txPerEpoch}`);
+console.log(`Karma 余额:       ${ethers.formatEther(balance)} KARMA`);
+console.log(`层级:              ${tier.name} (ID ${tierId})`);
+console.log(`每周期交易配额:     ${tier.txPerEpoch}`);
 ```
 
   </TabItem>
@@ -174,7 +174,7 @@ const karmaTiersAbi = [
   },
 ] as const;
 
-// Two sequential reads: balance → tier ID → tier details
+// 两次顺序读取: 余额 → 层级 ID → 层级详情
 const balance = await client.readContract({
   address: KARMA_ADDRESS,
   abi:     karmaAbi,
@@ -196,25 +196,23 @@ const tier = await client.readContract({
   args: [tierId],
 });
 
-console.log(`Tier:               ${tier.name} (ID ${tierId})`);
-console.log(`Tx quota per epoch: ${tier.txPerEpoch}`);
+console.log(`层级:              ${tier.name} (ID ${tierId})`);
+console.log(`每周期交易配额:     ${tier.txPerEpoch}`);
 ```
 
   </TabItem>
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-:::note Contract Addresses
-Karma and KarmaTiers contract addresses for testnet are published on the [Contract Addresses](/overview/general-info/contract-addresses/testnet-contracts) page.
+:::note 合约地址
+Karma 和 KarmaTiers 的测试网合约地址发布在[合约地址](/overview/general-info/contract-addresses/testnet-contracts)页面。
 :::
 
-## Possible Integration Patterns
+## 可能的集成模式
 
-### Feature Gating
+### 功能门控
 
-Unlock features based on Karma tier.
-The `onlyTier` modifier you can check from the [Reading Karma On-Chain](#reading-karma-on-chain) section can restrict access at the contract level.
-Alternatively, you can use `tierId` in your code to gate features:
+基于 Karma 层级解锁功能。[链上读取 Karma](#链上读取-karma) 部分中的 `onlyTier` 修饰器在合约层面强制执行访问控制:
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-gating">
@@ -230,7 +228,7 @@ function accessPremiumContent() external onlyTier(3) {
   <TabItem value="ethers" label="ethers.js">
 
 ```js
-// Resolve tier from Karma balance, then gate UI features
+// 从 Karma 余额解析层级，然后门控 UI 功能
 const balance = await karma.balanceOf(userAddress);
 const tierId  = await karmaTiers.getTierIdByKarmaBalance(balance);
 
@@ -270,9 +268,9 @@ if (tierId >= 3) {
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-### Dynamic Pricing
+### 动态定价
 
-Offer discounts or better rates to high-Karma users:
+为高 Karma 用户提供折扣或更优惠的费率:
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-pricing">
@@ -291,14 +289,14 @@ function calculateFee(address user, uint256 baseAmount) public view returns (uin
   <TabItem value="ethers" label="ethers.js">
 
 ```js
-// Compute the discounted fee on the client-side from the user's current tier
+// 从用户当前层级在客户端计算折扣费用
 const balance  = await karma.balanceOf(userAddress);
 const tierId   = await karmaTiers.getTierIdByKarmaBalance(balance);
 
-const discount = BigInt(tierId) * 5n;                        // 5% per tier
+const discount = BigInt(tierId) * 5n;                        // 每层 5% 折扣
 const fee      = baseAmount * (100n - discount) / 100n;
 
-console.log(`Tier ${tierId}: ${discount}% discount → fee = ${fee}`);
+console.log(`层级 ${tierId}: ${discount}% 折扣 → 费用 = ${fee}`);
 ```
 
   </TabItem>
@@ -319,26 +317,26 @@ const tierId = await client.readContract({
   args: [balance],
 });
 
-const discount = BigInt(tierId) * 5n;                        // 5% per tier
+const discount = BigInt(tierId) * 5n;                        // 每层 5% 折扣
 const fee      = baseAmount * (100n - discount) / 100n;
 
-console.log(`Tier ${tierId}: ${discount}% discount → fee = ${fee}`);
+console.log(`层级 ${tierId}: ${discount}% 折扣 → 费用 = ${fee}`);
 ```
 
   </TabItem>
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-### Reputation Display
+### 声誉展示
 
-Show Karma tier as a trust index in your UI by reading the tier name directly from the `KarmaTiers` contract:
+通过直接从 `KarmaTiers` 合约读取名称，在 UI 中将 Karma 层级显示为信任信号:
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-display">
   <TabItem value="ethers" label="ethers.js">
 
 ```js
-// Fetch tier name on-chain — no hardcoded array needed
+// 从链上获取层级名称 — 无需硬编码数组
 const balance = await karma.balanceOf(userAddress);
 const tierId  = await karmaTiers.getTierIdByKarmaBalance(balance);
 const tier    = await karmaTiers.getTierById(tierId);
@@ -347,7 +345,7 @@ function KarmaBadge({ tierName }) {
   return <span className="karma-badge">{tierName}</span>;
 }
 
-// Usage
+// 使用
 <KarmaBadge tierName={tier.name} />
 ```
 
@@ -380,7 +378,7 @@ function KarmaBadge({ tierName }: { tierName: string }) {
   return <span className="karma-badge">{tierName}</span>;
 }
 
-// Usage
+// 使用
 <KarmaBadge tierName={tier.name} />
 ```
 
@@ -388,9 +386,9 @@ function KarmaBadge({ tierName }: { tierName: string }) {
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-### Weighted Governance
+### 加权治理
 
-Use Karma for vote weighting in your app's governance:
+在应用的治理中使用 Karma 进行投票加权:
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-governance">
@@ -407,11 +405,11 @@ function vote(uint256 proposalId, bool support) external {
   <TabItem value="ethers" label="ethers.js">
 
 ```js
-// Read the user's Karma balance as their vote weight, then submit
+// 读取用户的 Karma 余额作为投票权重，然后提交
 const weight = await karma.balanceOf(userAddress);
-console.log(`Voting with weight: ${ethers.formatEther(weight)} KARMA`);
+console.log(`投票权重: ${ethers.formatEther(weight)} KARMA`);
 
-// Call your governance contract
+// 调用您的治理合约
 const tx = await governanceContract.vote(proposalId, support);
 await tx.wait();
 ```
@@ -422,16 +420,16 @@ await tx.wait();
 ```ts
 import { formatEther, parseAbi } from 'viem';
 
-// Read vote weight from Karma balance
+// 从 Karma 余额读取投票权重
 const weight = await client.readContract({
   address: KARMA_ADDRESS,
   abi:     karmaAbi,
   functionName: 'balanceOf',
   args: [userAddress],
 });
-console.log(`Voting with weight: ${formatEther(weight)} KARMA`);
+console.log(`投票权重: ${formatEther(weight)} KARMA`);
 
-// Submit vote via your governance contract
+// 通过治理合约提交投票
 const { request } = await client.simulateContract({
   address: GOVERNANCE_ADDRESS,
   abi:     parseAbi(['function vote(uint256 proposalId, bool support) external']),
@@ -446,8 +444,8 @@ await walletClient.writeContract(request);
 </Tabs>
 <!-- markdownlint-enable MD033 -->
 
-## Next Steps
+## 下一步
 
-- Refer to [Gasless Integration](/build-for-karma/guides/gasless-integration) to integrate Karma in making gasless transaction
-- Check out [Karmic Tokenomics](/overview/tokenomics/karmic-tokenomics) to see a breakdown of how Karma is earned and used
-- Go to [Gasless Transactions](/overview/general-info/gasless-transactions) to understand the technical details of the RLN-based gasless system
+- 参阅[无 Gas 集成](/build-for-karma/guides/gasless-integration)了解如何在无 Gas 交易中集成 Karma
+- 查看[因果代币经济学](/overview/tokenomics/karmic-tokenomics)了解 Karma 的获取和使用机制
+- 前往[无 Gas 交易](/overview/general-info/gasless-transactions)了解基于 RLN 的无 Gas 系统的技术细节
