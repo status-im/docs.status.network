@@ -6,6 +6,29 @@ keywords: [Karma token, Karmic tokenomics, Status Network governance, non-transf
 
 In some Eastern traditions, Karma represents the principle that one's past actions shape their future state. Similarly, on Status Network, every positive action and contribution accumulates Karma, granting greater influence over the network's funding and incentives. Karma ($KARMA) is a non-transferable governance token that rewards staking, bridging, providing liquidity, and building. The more a user or an app contributes to the L2 in liquidity or activity, the more voting power they earn over funding allocations, liquidity incentives, and network roadmap and parameters.
 
+## Karma Tiers
+
+Karma tiers determine the gasless transaction quota for each address. Higher tiers get more free transactions per epoch.
+
+### Current Tier Model (Testnet)
+
+| Tier | Daily Quota | Equivalent Rate | Karma Range |
+|---|---|---|---|
+| Entry | 1 tx/day | 1 tx every 24 hours | 1-2 |
+| Newbie | 5 tx/day | 1 tx every ~5 hours | 2-49 |
+| Basic | 15 tx/day | 1 tx every 90 minutes | 50-499 |
+| Active | 96 tx/day | 1 tx every 15 minutes | 500-4999 |
+| Regular | 480 tx/day | 1 tx every 3 minutes | 5000-19999 |
+| Power User | 960 tx/day | 1 tx every 90 seconds | 20000-99999 |
+| Pro User | 10080 tx/day | 1 tx every 9 seconds | 100000-499999 |
+| High-Throughput | 108000 tx/day | 1 TPS | 500000-4999999 |
+| S-Tier | 240000 tx/day | 5 TPS | 5000000-9999999 |
+| Legendary | 480000 tx/day | 10 TPS | 10000000 and more |
+
+:::info Testnet-only model
+This tier model is currently used for testnet alignment. The exact quota numbers per tier will be governed by Karma holders in the future and may change.
+:::
+
 ## How Karma is Earned
 
 Karma is minted through six primary mechanisms and cannot be acquired, ensuring that no entity—including the Status team—has any advantage in getting access to it. Everyone earns Karma under the same rules, based solely on their contributions to the network, ensuring it remains a pure representation of meaningful engagement within the network:

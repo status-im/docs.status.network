@@ -137,6 +137,10 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'USING KARMA',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'build-for-karma/guides/index',
+      },
       items: [
         {
           type: 'doc',
