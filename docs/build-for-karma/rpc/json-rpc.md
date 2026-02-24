@@ -46,7 +46,7 @@ Use `linea_estimateGas` as the single source of truth for `gasLimit`, `baseFeePe
 See [Linea's gas-fee guide](https://docs.linea.build/network/how-to/gas-fees) and [Linea's `linea_estimateGas` reference](https://docs.linea.build/api/reference/linea-estimategas) for the base Linea behavior.
 
 :::info
-For detailed integration guidance including code examples, migration steps, and common pitfalls, see the [Gasless Integration](/build-for-karma/gasless-integration) guide.
+For detailed integration guidance including code examples, migration steps, and common pitfalls, see the [Gasless Integration](/build-for-karma/guides/gasless-integration) guide.
 :::
 
 ### Additional resources

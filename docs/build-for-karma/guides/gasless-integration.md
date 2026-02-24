@@ -2,7 +2,7 @@
 title: Gasless Integration Guide
 description: Practical integration guide for building gasless UX on Status Network.
 keywords: [gasless, linea_estimateGas, Status Network, deny list, builder, zero gas, UX]
-slug: /build-for-karma/gasless-integration
+slug: /build-for-karma/guides/gasless-integration
 sidebar_position: 5
 ---
 
@@ -362,4 +362,4 @@ When sender is deny-listed (exceeded quota or RLN policy):
 ## Next steps
 
 - [JSON-RPC API](/build-for-karma/rpc/json-rpc)
-- [Reputation Integration](/build-for-karma/reputation-integration)
+- [Reputation Integration](/build-for-karma/guides/reputation-integration)

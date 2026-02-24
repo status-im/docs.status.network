@@ -2,7 +2,7 @@
 title: Reputation Integration Guide
 description: How to read Karma tiers, gate features by reputation, and build Karma-aware smart contracts and frontends on Status Network.
 keywords: [Karma, integration, smart contract, soulbound token, reputation, tiers, gasless, Status Network, developer guide]
-slug: /build-for-karma/reputation-integration
+slug: /build-for-karma/guides/reputation-integration
 sidebar_position: 4
 ---
 
@@ -446,6 +446,6 @@ await walletClient.writeContract(request);
 
 ## Next Steps
 
-- Refer to [Gasless Integration](/build-for-karma/gasless-integration) to integrate Karma in making gasless transaction
+- Refer to [Gasless Integration](/build-for-karma/guides/gasless-integration) to integrate Karma in making gasless transaction
 - Check out [Karmic Tokenomics](/overview/tokenomics/karmic-tokenomics) to see a breakdown of how Karma is earned and used
 - Go to [Gasless Transactions](/overview/general-info/gasless-transactions) to understand the technical details of the RLN-based gasless system
