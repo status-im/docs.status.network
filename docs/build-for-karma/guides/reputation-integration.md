@@ -216,6 +216,8 @@ Unlock features based on Karma tier.
 The `onlyTier` modifier you can check from the [Reading Karma On-Chain](#reading-karma-on-chain) section can restrict access at the contract level.
 Alternatively, you can use `tierId` in your code to gate features:
 
+> **Catalog idea:** [Karma-Gated Content Feed](/build-for-karma/what-to-build) — a ready-to-scope app built entirely around this pattern.
+
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-gating">
   <TabItem value="solidity" label="Solidity">
@@ -273,6 +275,8 @@ if (tierId >= 3) {
 ### Dynamic Pricing
 
 Offer discounts or better rates to high-Karma users:
+
+> **Catalog idea:** [Karma-Tiered NFT Marketplace](/build-for-karma/what-to-build) — a marketplace where fees and access windows scale automatically with a buyer's Karma tier.
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-pricing">
@@ -333,6 +337,8 @@ console.log(`Tier ${tierId}: ${discount}% discount → fee = ${fee}`);
 
 Show Karma tier as a trust index in your UI by reading the tier name directly from the `KarmaTiers` contract:
 
+> **Catalog idea:** [Gasless Micro-Blogging Platform](/build-for-karma/what-to-build) — a social feed with Karma trust badges embedded in profiles and posts.
+
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-display">
   <TabItem value="ethers" label="ethers.js">
@@ -391,6 +397,8 @@ function KarmaBadge({ tierName }: { tierName: string }) {
 ### Weighted Governance
 
 Use Karma for vote weighting in your app's governance:
+
+> **Catalog idea:** [DAO Proposal & Karma-Weighted Voting App](/build-for-karma/what-to-build) — polling and signal voting with optional Karma-weighted participation.
 
 <!-- markdownlint-disable MD033 -->
 <Tabs groupId="karma-governance">

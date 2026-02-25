@@ -135,6 +135,11 @@ const sidebars: SidebarsConfig = {
           id: 'build-for-karma/why-status-network',
           label: '🌟 Why Status Network',
         },
+        {
+          type: 'doc',
+          id: 'build-for-karma/what-to-build',
+          label: '💡 What to Build',
+        },
       ],
     },
     {
