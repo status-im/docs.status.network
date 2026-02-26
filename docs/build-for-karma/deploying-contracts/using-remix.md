@@ -15,7 +15,7 @@ Before you begin, ensure you have:
 - **Web Browser**: A modern web browser like Chrome or Firefox
 - **MetaMask**: Install the [MetaMask](https://metamask.io) browser extension
 - **Testnet ETH**: You'll need Status Network testnet ETH
-  - Get Status Network testnet ETH from our [Faucet](/tools/testnet-faucets)
+  - Get Status Network testnet ETH from our [Faucet](/tools/core-infrastructure/testnet-faucets)
 - **Network Configuration**: Add Status Network testnet to MetaMask following our [Add Network guide](/overview/general-info/add-status-network)
 
 ## Steps

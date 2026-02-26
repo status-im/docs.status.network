@@ -2,6 +2,7 @@
 title: Block Explorers
 description: Status Network block explorer for viewing transactions, verifying contracts, and monitoring network activity.
 keywords: [block explorer, transaction tracking, smart contract verification]
+slug: /tools/core-infrastructure/block-explorers
 ---
 
 ## Status Network Mainnet

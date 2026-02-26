@@ -132,7 +132,7 @@ Status Network is built on the [Linea zkEVM](https://linea.build) stack. This me
 
 - Deploy existing Solidity contracts without modification
 - Use standard Ethereum tooling like Hardhat, Foundry, ethers.js, viem, etc.
-- use standard JSON-RPC methods (except for some methods related to gas fee. Refer to [JSON-RPC API](/build-for-karma/rpc/json-rpc/) for more information.)
+- use standard JSON-RPC methods (except for some methods related to gas fee. Refer to [JSON-RPC API](/tools/rpc/json-rpc) for more information.)
 - Zero-knowledge proof-based security inherited from Linea's rollup architecture
 
 No custom VM. No non-standard opcodes. No rewriting your contracts or backends.

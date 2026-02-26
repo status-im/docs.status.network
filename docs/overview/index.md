@@ -42,7 +42,7 @@ Status Network is natively integrated with Status Wallet, Keycard, Waku and Code
 Wants to skip the explanation part and go straight to building? Here's how to get started:
 
 1. [Add Status Network to Your Wallet](/overview/general-info/add-status-network)
-2. [Get Testnet ETH](/tools/testnet-faucets)
+2. [Get Testnet ETH](/tools/core-infrastructure/testnet-faucets)
 3. [Bridge Assets](/overview/general-info/bridge/bridging-testnet)
 4. [Deploy Your First Contract](/build-for-karma/deploying-contracts/using-remix)
 
