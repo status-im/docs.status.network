@@ -9,7 +9,7 @@ Status Network aims to introduce gasless transactions at scale. The key componen
 
 The implementation code for gasless transactions is available in the [Status Network monorepo](https://github.com/status-im/status-network-monorepo?tab=readme-ov-file#architecture-components).
 
-For more information on operational level implementation of our gaslessness, refer to [Karma integration guide](/build-for-karma/guides/index)
+For more information on operational level implementation of our gaslessness, refer to [Karma integration guide](/build-for-karma/guides)
 
 ## RLN
 
@@ -153,4 +153,4 @@ Concretely, Status Network's `linea_estimateGas`:
 
 The above logic lives in our modified `LineaEstimateGas` implementation open-sourced around [this section in the Status Network monorepo](https://github.com/status-im/status-network-monorepo/blob/v1.0.1/besu-plugins/linea-sequencer/sequencer/src/main/java/net/consensys/linea/rpc/methods/LineaEstimateGas.java#L218).
 
-For Karma-aware fee estimation behavior and `linea_estimateGas` specifics, see [JSON-RPC API](/build-for-karma/rpc/json-rpc).
+For Karma-aware fee estimation behavior and `linea_estimateGas` specifics, see [JSON-RPC API](/tools/rpc/json-rpc).

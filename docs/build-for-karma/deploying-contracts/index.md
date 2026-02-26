@@ -10,7 +10,7 @@ sidebar_position: 1
 Status Network is fully EVM-compatible, so you can deploy contracts using any standard Ethereum toolchain. Pick the tool that fits your workflow and follow the step-by-step guide to get your first contract live on the testnet.
 
 :::tip Before you start
-Make sure you've [added Status Network to your wallet](/overview/general-info/add-status-network) and grabbed some [testnet ETH](/tools/testnet-faucets).
+Make sure you've [added Status Network to your wallet](/overview/general-info/add-status-network) and grabbed some [testnet ETH](/tools/core-infrastructure/testnet-faucets).
 :::
 
 ## Choose a Deployment Tool
@@ -68,5 +68,5 @@ Make sure you've [added Status Network to your wallet](/overview/general-info/ad
 
 Once your contract is live, here are your next steps:
 
-- [Integrate gasless transactions](/build-for-karma/gasless-integration) through Karma so your users never pay gas
-- [Read reputation integration guide](/build-for-karma/reputation-integration) to build reputation-aware features using Karma
+- [Integrate gasless transactions](/build-for-karma/guides/gasless-integration) through Karma so your users never pay gas
+- [Read reputation integration guide](/build-for-karma/guides/reputation-integration) to build reputation-aware features using Karma

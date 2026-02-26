@@ -194,23 +194,6 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    {
-      type: 'category',
-      label: 'RPC',
-      collapsed: false,
-      items: [
-        {
-          type: 'doc',
-          id: 'build-for-karma/rpc/json-rpc',
-          label: '🔌 JSON-RPC API',
-        },
-        {
-          type: 'doc',
-          id: 'build-for-karma/rpc/running-an-rpc',
-          label: '🌐 Running an RPC node',
-        },
-      ],
-    },
   ],
   toolsSidebar: [
     {
@@ -223,24 +206,48 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         {
-          type: 'doc',
-          id: 'tools/rpc',
-          label: '🔌 RPC',
+          type: 'category',
+          label: 'CORE INFRASTRUCTURE',
+          collapsed: false,
+          items: [
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/rpc-endpoints',
+              label: '📡 RPC Endpoints',
+            },
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/bridge',
+              label: '🌉 Bridge',
+            },
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/testnet-faucets',
+              label: '🚰 Testnet Faucets',
+            },
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/block-explorers',
+              label: '🔎 Block Explorers',
+            },
+          ],
         },
         {
-          type: 'doc',
-          id: 'tools/bridge',
-          label: '🌉 Bridge',
-        },
-        {
-          type: 'doc',
-          id: 'tools/testnet-faucets',
-          label: '🚰 Testnet Faucets',
-        },
-        {
-          type: 'doc',
-          id: 'tools/block-explorers',
-          label: '🔎 Block Explorers',
+          type: 'category',
+          label: 'RPC',
+          collapsed: false,
+          items: [
+            {
+              type: 'doc',
+              id: 'tools/rpc/json-rpc',
+              label: '🔌 JSON-RPC API',
+            },
+            {
+              type: 'doc',
+              id: 'tools/rpc/running-an-rpc',
+              label: '🌐 Running an RPC Node',
+            },
+          ],
         },
       ],
     },
