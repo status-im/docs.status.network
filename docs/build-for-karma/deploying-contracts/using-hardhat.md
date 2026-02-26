@@ -15,7 +15,7 @@ Before you begin, ensure you have the following:
 - **Node.js and npm**: Download and install from the [official Node.js website](https://nodejs.org/)
 - **Ethereum Wallet**: MetaMask or another wallet with a private key for Status Network testnet
 - **Testnet ETH**: You'll need Status Network testnet ETH
-  - Get Status Network testnet ETH from our [Faucet](/tools/testnet-faucets)
+  - Get Status Network testnet ETH from our [Faucet](/tools/core-infrastructure/testnet-faucets)
 - **Basic Knowledge**: Familiarity with Solidity, Hardhat, and command line
 
 ## What You'll Accomplish

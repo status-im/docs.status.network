@@ -15,7 +15,7 @@ Status Network provides gasless transactions at the protocol level. You do not n
 Use `linea_estimateGas` RPC method as the source of truth for gas fee when preparing transaction UX.
 :::
 
-For other JSON-RPC method reference, see [JSON-RPC API](/build-for-karma/rpc/json-rpc).
+For other JSON-RPC method reference, see [JSON-RPC API](/tools/rpc/json-rpc).
 
 ## Karma-aware fee estimation
 
@@ -361,5 +361,5 @@ When sender is deny-listed (exceeded quota or RLN policy):
 
 ## Next steps
 
-- [JSON-RPC API](/build-for-karma/rpc/json-rpc)
+- [JSON-RPC API](/tools/rpc/json-rpc)
 - [Reputation Integration](/build-for-karma/guides/reputation-integration)

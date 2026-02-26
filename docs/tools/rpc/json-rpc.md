@@ -18,7 +18,7 @@ Status Network is based on Linea zkEVM, meaning **most JSON-RPC methods behave e
 
 For the canonical list of supported methods and their standard semantics, refer to the following official documentations:
 
-- **[Ethereum JSON-RPC API](https://ethereum.github.io/execution-apis/api-documented/)** — standard Ethereum RPC methods
+- **[Ethereum JSON-RPC API Reference](https://ethereum.github.io/execution-apis/)** — standard Ethereum RPC methods
 - **[Linea JSON-RPC API Reference](https://docs.linea.build/api/reference)** — Linea-specific methods, including `linea_estimateGas`
 
 ## Status Network extensions

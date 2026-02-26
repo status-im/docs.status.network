@@ -2,6 +2,7 @@
 title: Testnet Faucets
 description: Get testnet ETH or STT for Status Network development. Complete guide to obtaining test tokens through Status Network faucets and Sepolia faucets for bridging.
 keywords: [Status Network faucet, testnet ETH, test tokens, STT, Sepolia faucet, blockchain testing, development tokens]
+slug: /tools/core-infrastructure/testnet-faucets
 ---
 
 To get started on Status Network testnet, you may need some testnet ETH or test assets.
