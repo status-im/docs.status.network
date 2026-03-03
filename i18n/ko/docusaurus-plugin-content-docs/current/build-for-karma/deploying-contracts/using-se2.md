@@ -14,7 +14,7 @@ keywords: [Scaffold-ETH 2, 스마트 컨트랙트 배포, Status Network 개발,
 - **Foundry** (선택사항): Foundry 워크플로우를 선택하는 경우
 - **Ethereum 지갑** (선택사항): 테스트용 EVM 지갑 개인 키, 없어도 가능
 
-> **참고**: Status Network는 가스 없는 트랜잭션을 지원하므로 테스트넷 ETH는 선택사항입니다. 여전히 테스트넷 ETH가 필요하다면 [Faucet](/tools/testnet-faucets)를 참고하세요.
+> **참고**: Status Network는 가스 없는 트랜잭션을 지원하므로 테스트넷 ETH는 선택사항입니다. 여전히 테스트넷 ETH가 필요하다면 [Faucet](/tools/core-infrastructure/testnet-faucets)를 참고하세요.
 
 ## 빠른 시작
 

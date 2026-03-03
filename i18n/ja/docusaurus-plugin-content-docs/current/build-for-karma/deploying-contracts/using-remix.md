@@ -9,7 +9,7 @@
 - **Webブラウザ**: ChromeやFirefoxなどの最新のブラウザ
 - **MetaMask**: [MetaMask](https://metamask.io)ブラウザ拡張機能をインストール
 - **テストネットETH**: Status NetworkテストネットのETHが必要です
-  - Status NetworkテストネットのETHは[フォーセット](/tools/testnet-faucets)から入手できます
+  - Status NetworkテストネットのETHは[フォーセット](/tools/core-infrastructure/testnet-faucets)から入手できます
 - **ネットワーク設定**: [ネットワーク追加ガイド](/overview/general-info/add-status-network)に従ってMetaMaskにStatus Networkテストネットを追加
 
 ## 手順

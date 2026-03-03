@@ -9,7 +9,7 @@
 - **Node.jsとnpm**: [公式Node.jsウェブサイト](https://nodejs.org/)からダウンロードしてインストール
 - **Ethereumウォレット**: Status Networkテストネット用のプライベートキーを持つMetaMaskまたは他のウォレット
 - **テストネットETH**: Status NetworkテストネットのETHが必要です
-  - Status NetworkテストネットのETHは[フォーセット](/tools/testnet-faucets)から入手できます
+  - Status NetworkテストネットのETHは[フォーセット](/tools/core-infrastructure/testnet-faucets)から入手できます
 - **基本知識**: Solidity、Hardhat、コマンドラインの基礎知識
 
 ## 達成目標

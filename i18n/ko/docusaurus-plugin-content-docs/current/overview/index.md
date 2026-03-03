@@ -42,7 +42,7 @@ Status Network는 Status Wallet, Keycard, Waku, Codex 등 [IFT](https://free.tec
 설명 부분을 건너뛰고 바로 구축을 시작하고 싶으신가요? 시작하는 방법은 다음과 같습니다:
 
 1. [Status Network를 지갑에 추가](/overview/general-info/add-status-network)
-2. [테스트넷 ETH 받기](/tools/testnet-faucets)
+2. [테스트넷 ETH 받기](/tools/core-infrastructure/testnet-faucets)
 3. [자산 브릿지하기](/overview/general-info/bridge/bridging-testnet)
 4. [첫 번째 컨트랙트 배포하기](/build-for-karma/deploying-contracts/using-remix)
 

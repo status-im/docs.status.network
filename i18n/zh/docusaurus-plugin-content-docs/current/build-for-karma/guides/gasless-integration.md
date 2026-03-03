@@ -15,7 +15,7 @@ Status Network 在协议层面提供无 Gas 交易。你不需要 paymasters 或
 使用 `linea_estimateGas` RPC 方法作为准备交易 UX 时 Gas 费用的唯一数据来源。
 :::
 
-其他 JSON-RPC 方法参考，请参阅 [JSON-RPC API](/build-for-karma/rpc/json-rpc)。
+其他 JSON-RPC 方法参考，请参阅 [JSON-RPC API](/tools/rpc/json-rpc)。
 
 ## 具有 Karma 感知能力的费用估算
 
@@ -361,5 +361,5 @@ console.log({
 
 ## 下一步
 
-- [JSON-RPC API](/build-for-karma/rpc/json-rpc)
+- [JSON-RPC API](/tools/rpc/json-rpc)
 - [声誉集成](/build-for-karma/guides/reputation-integration)

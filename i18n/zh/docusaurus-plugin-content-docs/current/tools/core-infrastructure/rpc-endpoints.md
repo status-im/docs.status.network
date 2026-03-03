@@ -1,3 +1,7 @@
+---
+slug: /tools/core-infrastructure/rpc-endpoints
+---
+
 # RPC 端点
 
 Status Network 提供公共 RPC（远程过程调用）端点，允许您与网络进行交互。

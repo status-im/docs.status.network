@@ -9,7 +9,7 @@
 - **Node.js 和 npm**: 从[官方 Node.js 网站](https://nodejs.org/)下载并安装
 - **以太坊钱包**: MetaMask 或其他具有 Status Network 测试网私钥的钱包
 - **测试网 ETH**: 您需要 Status Network 测试网 ETH
-  - 从我们的[水龙头](/tools/testnet-faucets)获取 Status Network 测试网 ETH
+  - 从我们的[水龙头](/tools/core-infrastructure/testnet-faucets)获取 Status Network 测试网 ETH
 - **基础知识**: 熟悉 Solidity、Hardhat 和命令行
 
 ## 您将完成

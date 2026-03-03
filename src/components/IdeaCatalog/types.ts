@@ -1,3 +1,5 @@
+import {translate} from '@docusaurus/Translate';
+
 export const Category = {
   reputation: 'reputation',
   privacy: 'privacy',
@@ -9,7 +11,7 @@ export type Category = (typeof Category)[keyof typeof Category];
 
 export const StatusPrimitive = {
   gasless: 'gasless',
-  karma: 'karma',
+  reputation: 'reputation',
   privacy: 'privacy',
 } as const;
 export type StatusPrimitive = (typeof StatusPrimitive)[keyof typeof StatusPrimitive];
@@ -88,55 +90,83 @@ export interface Idea {
   opsBurden: OpsBurden;
 }
 
-export const categoryLabels: Record<Category, string> = {
-  reputation: 'Reputation',
-  privacy: 'Privacy',
-  social: 'Social',
-  games: 'Games',
-  defi: 'DeFi',
+const categoryLabels: Record<Category, string> = {
+  reputation: translate({id: 'ideaCatalog.category.reputation', message: 'Reputation'}),
+  privacy: translate({id: 'ideaCatalog.category.privacy', message: 'Privacy'}),
+  social: translate({id: 'ideaCatalog.category.social', message: 'Social'}),
+  games: translate({id: 'ideaCatalog.category.games', message: 'Games'}),
+  defi: translate({id: 'ideaCatalog.category.defi', message: 'DeFi'}),
 };
 
-export const difficultyLabels: Record<Difficulty, string> = {
-  'Low-Med': 'Low-Med',
-  Med: 'Med',
-  'Med-High': 'Med-High',
-  High: 'High',
+const difficultyLabels: Record<Difficulty, string> = {
+  'Low-Med': translate({id: 'ideaCatalog.difficulty.lowMed', message: 'Low-Med'}),
+  Med: translate({id: 'ideaCatalog.difficulty.med', message: 'Med'}),
+  'Med-High': translate({id: 'ideaCatalog.difficulty.medHigh', message: 'Med-High'}),
+  High: translate({id: 'ideaCatalog.difficulty.high', message: 'High'}),
 };
 
-export const userSegmentLabels: Record<UserSegment, string> = {
-  consumer: 'Consumer',
-  'community-creator': 'Community/Creator',
-  'dao-org-ops': 'DAO/Org Ops',
-  'trader-defi': 'Trader/DeFi',
+const userSegmentLabels: Record<UserSegment, string> = {
+  consumer: translate({id: 'ideaCatalog.userSegment.consumer', message: 'Consumer'}),
+  'community-creator': translate({id: 'ideaCatalog.userSegment.communityCreator', message: 'Community/Creator'}),
+  'dao-org-ops': translate({id: 'ideaCatalog.userSegment.daoOrgOps', message: 'DAO/Org Ops'}),
+  'trader-defi': translate({id: 'ideaCatalog.userSegment.traderDefi', message: 'Trader/DeFi'}),
 };
 
-export const domainExpertiseLabels: Record<DomainExpertise, string> = {
-  'community-design': 'Community Design',
-  'defi-mechanisms': 'DeFi Mechanisms',
-  privacy: 'Privacy',
-  'payments-finops': 'Payments/FinOps',
-  'consumer-product': 'Consumer Product',
+const domainExpertiseLabels: Record<DomainExpertise, string> = {
+  'community-design': translate({id: 'ideaCatalog.domainExpertise.communityDesign', message: 'Community Design'}),
+  'defi-mechanisms': translate({id: 'ideaCatalog.domainExpertise.defiMechanisms', message: 'DeFi Mechanisms'}),
+  privacy: translate({id: 'ideaCatalog.domainExpertise.privacy', message: 'Privacy'}),
+  'payments-finops': translate({id: 'ideaCatalog.domainExpertise.paymentsFinops', message: 'Payments/FinOps'}),
+  'consumer-product': translate({id: 'ideaCatalog.domainExpertise.consumerProduct', message: 'Consumer Product'}),
 };
 
-export const capitalReqLabels: Record<CapitalReq, string> = {
-  none: 'None',
-  'operating-treasury': 'Operating Treasury',
-  'seed-liquidity': 'Seed Liquidity',
-  'deep-liquidity': 'Deep Liquidity',
+const capitalReqLabels: Record<CapitalReq, string> = {
+  none: translate({id: 'ideaCatalog.capitalReq.none', message: 'None'}),
+  'operating-treasury': translate({id: 'ideaCatalog.capitalReq.operatingTreasury', message: 'Operating Treasury'}),
+  'seed-liquidity': translate({id: 'ideaCatalog.capitalReq.seedLiquidity', message: 'Seed Liquidity'}),
+  'deep-liquidity': translate({id: 'ideaCatalog.capitalReq.deepLiquidity', message: 'Deep Liquidity'}),
 };
 
-export const statusPrimitiveLabels: Record<StatusPrimitive, string> = {
-  gasless: 'Gasless UX',
-  karma: 'Karma Reputation',
-  privacy: 'Privacy Primitives',
+const statusPrimitiveLabels: Record<StatusPrimitive, string> = {
+  gasless: translate({id: 'ideaCatalog.statusPrimitive.gasless', message: 'Gasless UX'}),
+  reputation: translate({id: 'ideaCatalog.statusPrimitive.reputation', message: 'Reputation'}),
+  privacy: translate({id: 'ideaCatalog.statusPrimitive.privacy', message: 'Privacy Primitives'}),
 };
 
-export const builderProfileLabels: Record<BuilderProfile, string> = {
-  'frontend-dev': 'Frontend / App Dev',
-  'contract-dev': 'Smart Contract Dev',
-  'full-stack': 'Full-Stack',
-  'protocol-dev': 'Protocol / Cryptography',
+const builderProfileLabels: Record<BuilderProfile, string> = {
+  'frontend-dev': translate({id: 'ideaCatalog.builderProfile.frontendDev', message: 'Frontend / App Dev'}),
+  'contract-dev': translate({id: 'ideaCatalog.builderProfile.contractDev', message: 'Smart Contract Dev'}),
+  'full-stack': translate({id: 'ideaCatalog.builderProfile.fullStack', message: 'Full-Stack'}),
+  'protocol-dev': translate({id: 'ideaCatalog.builderProfile.protocolDev', message: 'Protocol / Cryptography'}),
 };
+
+export function getCategoryLabels(): Record<Category, string> {
+  return categoryLabels;
+}
+
+export function getDifficultyLabels(): Record<Difficulty, string> {
+  return difficultyLabels;
+}
+
+export function getUserSegmentLabels(): Record<UserSegment, string> {
+  return userSegmentLabels;
+}
+
+export function getDomainExpertiseLabels(): Record<DomainExpertise, string> {
+  return domainExpertiseLabels;
+}
+
+export function getCapitalReqLabels(): Record<CapitalReq, string> {
+  return capitalReqLabels;
+}
+
+export function getStatusPrimitiveLabels(): Record<StatusPrimitive, string> {
+  return statusPrimitiveLabels;
+}
+
+export function getBuilderProfileLabels(): Record<BuilderProfile, string> {
+  return builderProfileLabels;
+}
 
 export const categoryColors: Record<Category, string> = {
   reputation: 'var(--status-purple)',
@@ -148,6 +178,6 @@ export const categoryColors: Record<Category, string> = {
 
 export const statusPrimitiveColors: Record<StatusPrimitive, string> = {
   gasless: 'var(--status-blue)',
-  karma: 'var(--status-purple)',
+  reputation: 'var(--status-purple)',
   privacy: 'var(--status-green)',
 };
