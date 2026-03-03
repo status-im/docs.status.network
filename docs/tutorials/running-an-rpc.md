@@ -4,8 +4,6 @@ description: Complete guide to setting up and running your own RPC node for Stat
 keywords: [RPC node, Status Network RPC, blockchain node, WebSocket, wss, self-hosted RPC, network infrastructure, Status L2 RPC tools]
 ---
 
-# Running Your Own RPC Node
-
 This tutorial will guide you through the process of setting up and running your own Remote Procedure Call (RPC) node for Status Network. By running your own RPC node, you can gain greater control over your interactions with the Status Network, enhance privacy, and reduce reliance on third-party services.
 
 ## Getting Started
@@ -13,18 +11,50 @@ This tutorial will guide you through the process of setting up and running your 
 The [Status Network RPC Tools repository](https://github.com/status-im/status-l2-rpc-tools) provides all the necessary tooling, genesis files, and setup scripts to run your own RPC node.
 
 ### Complete Setup Guide
+
 For detailed setup instructions, prerequisites, system requirements, and step-by-step guidance, please refer to the [**official README**](https://github.com/status-im/status-l2-rpc-tools/blob/master/README.md) in the repository.
 
 ## Node Options
 
 The setup script provides two node implementations to choose from:
 
-- **Besu Node**: Runs on port `8545` (http://localhost:8545)
-- **Geth Node**: Runs on port `8445` (http://localhost:8445)
+- **Besu Node**: Runs on port `8545`
+- **Geth Node**: Runs on port `8445`
 
 You can run either one or both simultaneously depending on your needs.
 
+## Production RPC Topologies
+
+Use the following topology guidance for production-grade routing, reliability, and performance.
+
+For write-capable RPC setups, mutability-related flows will require static IP allowlisting by Status Network because the RLN prover is currently a constrained entity.
+
+### Write-Capable RPC
+
+- **Minimal**: Run 1 Besu client.
+- **Recommended**: Run 2 clients simultaneously (Besu + Geth).
+- **Besu-required methods**:
+  - `linea_estimateGas`
+  - `linea_getTransactionExclusionStatusV1`
+  - `eth_sendTransaction`
+  - `eth_sendRawTransaction`
+  - `eth_maxPriorityFeePerGas`
+  - `eth_gasPrice`
+- **Routing rule**: Route all other methods to Geth for better read performance.
+
+### Read-Only RPC
+
+- **Minimal**: Run 1 Besu client.
+- **Recommended**: Run 2 clients simultaneously (Besu + Geth).
+- **Besu-required methods**:
+  - `linea_estimateGas`
+  - `linea_getTransactionExclusionStatusV1`
+  - `eth_maxPriorityFeePerGas`
+  - `eth_gasPrice`
+- **Routing rule**: Route all other methods to Geth for better read performance.
+
 ## Verifying Your Node
+
 In the examples below, replace `<YOUR_CLIENT_PORT>` with `8545` if using Besu, or `8445` if using Geth.
 
 ### Basic Verification
@@ -58,6 +88,7 @@ curl -X POST \
 ```
 
 An up-to-date and healthy node should show:
+
 - `eth_blockNumber` matches a trusted reference (like the public RPC or block explorer)
 - `eth_syncing` returns `false` (fully synced)
 - `net_peerCount` is greater than 0 (connected to peers)
@@ -87,7 +118,6 @@ ws://localhost:8446  # Geth
 {"jsonrpc":"2.0","method":"eth_unsubscribe","params":["0x..."],"id":1}
 ```
 
-
 ## Advanced Features
 
 ### Batch Requests
@@ -102,10 +132,8 @@ Your node supports batch JSON-RPC requests for improved efficiency:
 
 Be aware of methods that may require longer response times:
 
-| Method | Response Time | Notes |
-|--------|---------------|-------|
-| `eth_getLogs` (large ranges) | 200ms to several seconds | Use bounded ranges and bloom filters |
-| `eth_estimateGas` | 200ms to several seconds | May be slower under load or with complex contracts |
+- `eth_getLogs` (large ranges): 200ms to several seconds. Use bounded ranges and bloom filters.
+- `eth_estimateGas`: 200ms to several seconds. May be slower under load or with complex contracts.
 
 :::tip Performance Tip
 For production use, start with low-thousands read RPS and scale horizontally based on your specific workload and hardware tests.
@@ -116,6 +144,7 @@ For production use, start with low-thousands read RPS and scale horizontally bas
 ### Common Issues
 
 1. **Port Already in Use**
+
    ```bash
    # Check what's using port 8545 (Besu) or 8445 (Geth)
    lsof -i :8545
@@ -126,6 +155,7 @@ For production use, start with low-thousands read RPS and scale horizontally bas
    ```
 
 2. **Docker Container Issues**
+
    ```bash
    # Check running containers
    docker ps
