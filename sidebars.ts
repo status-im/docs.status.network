@@ -264,6 +264,46 @@ const sidebars: SidebarsConfig = {
       ],
     },
   ],
+  lpSidebar: [
+    {
+      type: 'category',
+      label: 'LIQUIDITY PROVIDERS',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'lp/index',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'lp/why-provide-liquidity',
+          label: '🤝 Why Provide Liquidity',
+        },
+        {
+          type: 'doc',
+          id: 'lp/faq',
+          label: '❓ FAQ',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'LP TOKENOMICS',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'lp/lp-tokenomics/karmic-tokenomics',
+          label: '🪙 Karmic Tokenomics',
+        },
+        {
+          type: 'doc',
+          id: 'lp/lp-tokenomics/minting-rate-explained',
+          label: '📈 Minting Rate Explained',
+        },
+      ],
+    },
+  ],
 };
 
 export default sidebars;
