@@ -86,6 +86,11 @@ const config: Config = {
           activeBasePath: 'tools',
         },
         {
+          label: 'Liquidity Providers',
+          to: '/lp',
+          activeBasePath: 'lp',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
           className: 'language-dropdown',
