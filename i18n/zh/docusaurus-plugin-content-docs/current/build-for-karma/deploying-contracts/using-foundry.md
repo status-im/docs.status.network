@@ -9,7 +9,7 @@
 - **Foundry**: 从[官方 Foundry 文档](https://book.getfoundry.sh/getting-started/installation)安装
 - **以太坊钱包**: Status Network 测试网的私钥
 - **测试网 ETH**: 您需要 Status Network 测试网 ETH
-  - 从我们的[水龙头](/tools/testnet-faucets)获取 Status Network 测试网 ETH
+  - 从我们的[水龙头](/tools/core-infrastructure/testnet-faucets)获取 Status Network 测试网 ETH
 - **基础知识**: 熟悉 Solidity 和命令行
 
 ## 您将完成

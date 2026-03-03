@@ -9,7 +9,7 @@
 - **网络浏览器**: Chrome 或 Firefox 等现代浏览器
 - **MetaMask**: 安装 [MetaMask](https://metamask.io) 浏览器扩展
 - **测试网 ETH**: 您需要 Status Network 测试网 ETH
-  - 从我们的[水龙头](/tools/testnet-faucets)获取 Status Network 测试网 ETH
+  - 从我们的[水龙头](/tools/core-infrastructure/testnet-faucets)获取 Status Network 测试网 ETH
 - **网络配置**: 按照我们的[添加网络指南](/overview/general-info/add-status-network)将 Status Network 测试网添加到 MetaMask
 
 ## 步骤

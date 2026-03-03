@@ -42,7 +42,7 @@ Status NetworkはStatus Wallet、Keycard、Waku、Codexなど、[IFT](https://fr
 説明部分をスキップして直接開発を始めたいですか？以下が始め方です：
 
 1. [Status NetworkをウォレットへAdd](/overview/general-info/add-status-network)
-2. [テストネットETHを入手](/tools/testnet-faucets)
+2. [テストネットETHを入手](/tools/core-infrastructure/testnet-faucets)
 3. [アセットをブリッジ](/overview/general-info/bridge/bridging-testnet)
 4. [最初のコントラクトをデプロイ](/build-for-karma/deploying-contracts/using-remix)
 

@@ -14,7 +14,7 @@ keywords: [Scaffold-ETH 2, スマートコントラクトデプロイ, Status Ne
 - **Foundry** (オプション): Foundryワークフローを選択する場合
 - **Ethereumウォレット** (オプション): テスト用のEVMウォレットの秘密鍵ですが、持っていなくても問題ありません
 
-> **注意**: Status Networkはガスレス取引をサポートしているため、テストネットETHはオプションです。それでもテストネットETHが必要な場合は、[Faucet](/tools/testnet-faucets)から取得してください。
+> **注意**: Status Networkはガスレス取引をサポートしているため、テストネットETHはオプションです。それでもテストネットETHが必要な場合は、[Faucet](/tools/core-infrastructure/testnet-faucets)から取得してください。
 
 ## クイックスタート
 

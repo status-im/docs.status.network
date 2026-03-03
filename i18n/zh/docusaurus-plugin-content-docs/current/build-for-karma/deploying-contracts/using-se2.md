@@ -14,7 +14,7 @@ keywords: [Scaffold-ETH 2, 智能合约部署, Status Network开发, Foundry, Ha
 - **Foundry** (可选): 如果选择Foundry工作流
 - **以太坊钱包** (可选): 用于测试的EVM钱包私钥，但没有也没关系
 
-> **注意**: Status Network支持无gas交易，因此测试网ETH是可选的。如果您仍然需要测试网ETH，请从我们的[水龙头](/tools/testnet-faucets)获取。
+> **注意**: Status Network支持无gas交易，因此测试网ETH是可选的。如果您仍然需要测试网ETH，请从我们的[水龙头](/tools/core-infrastructure/testnet-faucets)获取。
 
 ## 快速开始
 

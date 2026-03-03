@@ -15,10 +15,10 @@ Status Network でのビルドとテストに必要な基本サービス：
 
 | ツール | 説明 | リンク |
 |---|---|---|
-| **RPC エンドポイント** | パブリック JSON-RPC および WebSocket アクセス | [RPC →](/tools/rpc) |
-| **ブリッジ** | Ethereum Sepolia と Status Network 間のアセット転送 | [ブリッジ →](/tools/bridge) |
-| **テストネットフォーセット** | 開発用テストネットアセットの取得 | [フォーセット →](/tools/testnet-faucets) |
-| **ブロックエクスプローラー** | トランザクション、コントラクト、ネットワーク活動の閲覧 | [エクスプローラー →](/tools/block-explorers) |
+| **RPC エンドポイント** | パブリック JSON-RPC および WebSocket アクセス | [RPC →](/tools/core-infrastructure/rpc-endpoints) |
+| **ブリッジ** | Ethereum Sepolia と Status Network 間のアセット転送 | [ブリッジ →](/tools/core-infrastructure/bridge) |
+| **テストネットフォーセット** | 開発用テストネットアセットの取得 | [フォーセット →](/tools/core-infrastructure/testnet-faucets) |
+| **ブロックエクスプローラー** | トランザクション、コントラクト、ネットワーク活動の閲覧 | [エクスプローラー →](/tools/core-infrastructure/block-explorers) |
 
 ## インフラストラクチャパートナー
 

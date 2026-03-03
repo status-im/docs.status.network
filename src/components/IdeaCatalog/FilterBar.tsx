@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Translate, {translate} from '@docusaurus/Translate';
 import type {
   Category,
   StatusPrimitive,
@@ -9,13 +10,13 @@ import type {
   CapitalReq,
 } from './types';
 import {
-  categoryLabels,
-  statusPrimitiveLabels,
-  builderProfileLabels,
-  difficultyLabels,
-  userSegmentLabels,
-  domainExpertiseLabels,
-  capitalReqLabels,
+  getCategoryLabels,
+  getStatusPrimitiveLabels,
+  getBuilderProfileLabels,
+  getDifficultyLabels,
+  getUserSegmentLabels,
+  getDomainExpertiseLabels,
+  getCapitalReqLabels,
 } from './types';
 
 export interface Filters {
@@ -67,26 +68,26 @@ export default function FilterBar({
     <div className="idea-catalog-filters">
       {/* Primary filters */}
       <FilterGroup
-        label="Category"
-        options={categoryLabels}
+        label={translate({id: 'ideaCatalog.filter.category', message: 'Category'})}
+        options={getCategoryLabels()}
         selected={filters.categories}
         onToggle={(v) => toggle('categories', v)}
       />
       <FilterGroup
-        label="Status Primitives"
-        options={statusPrimitiveLabels}
+        label={translate({id: 'ideaCatalog.filter.statusPrimitives', message: 'Status Primitives'})}
+        options={getStatusPrimitiveLabels()}
         selected={filters.superpowers}
         onToggle={(v) => toggle('superpowers', v)}
       />
       <FilterGroup
-        label="Builder Profile"
-        options={builderProfileLabels}
+        label={translate({id: 'ideaCatalog.filter.builderProfile', message: 'Builder Profile'})}
+        options={getBuilderProfileLabels()}
         selected={filters.builderProfiles}
         onToggle={(v) => toggle('builderProfiles', v)}
       />
       <FilterGroup
-        label="Difficulty"
-        options={difficultyLabels}
+        label={translate({id: 'ideaCatalog.filter.difficulty', message: 'Difficulty'})}
+        options={getDifficultyLabels()}
         selected={filters.difficulties}
         onToggle={(v) => toggle('difficulties', v)}
       />
@@ -99,27 +100,29 @@ export default function FilterBar({
         aria-expanded={showAdvanced}
         aria-controls="idea-catalog-advanced-filters"
       >
-        {showAdvanced ? 'Fewer filters' : 'More filters'}
+        {showAdvanced
+          ? translate({id: 'ideaCatalog.filter.fewerFilters', message: 'Fewer filters'})
+          : translate({id: 'ideaCatalog.filter.moreFilters', message: 'More filters'})}
       </button>
 
       {/* Advanced filters */}
       {showAdvanced && (
         <div className="idea-catalog-advanced" id="idea-catalog-advanced-filters">
           <FilterGroup
-            label="Domain Expertise"
-            options={domainExpertiseLabels}
+            label={translate({id: 'ideaCatalog.filter.domainExpertise', message: 'Domain Expertise'})}
+            options={getDomainExpertiseLabels()}
             selected={filters.domainExpertises}
             onToggle={(v) => toggle('domainExpertises', v)}
           />
           <FilterGroup
-            label="User Segment"
-            options={userSegmentLabels}
+            label={translate({id: 'ideaCatalog.filter.userSegment', message: 'User Segment'})}
+            options={getUserSegmentLabels()}
             selected={filters.userSegments}
             onToggle={(v) => toggle('userSegments', v)}
           />
           <FilterGroup
-            label="Capital Requirement"
-            options={capitalReqLabels}
+            label={translate({id: 'ideaCatalog.filter.capitalRequirement', message: 'Capital Requirement'})}
+            options={getCapitalReqLabels()}
             selected={filters.capitalReqs}
             onToggle={(v) => toggle('capitalReqs', v)}
           />
@@ -129,7 +132,12 @@ export default function FilterBar({
       {/* Result count + clear */}
       <div className="idea-catalog-status">
         <span>
-          Showing {visibleCount} of {totalCount} ideas
+          <Translate
+            id="ideaCatalog.status.showing"
+            values={{visibleCount, totalCount}}
+          >
+            {'Showing {visibleCount} of {totalCount} ideas'}
+          </Translate>
         </span>
         {hasAnyFilter && (
           <button
@@ -137,7 +145,7 @@ export default function FilterBar({
             className="idea-catalog-clear"
             onClick={() => onChange(emptyFilters)}
           >
-            Clear all
+            <Translate id="ideaCatalog.status.clearAll">Clear all</Translate>
           </button>
         )}
       </div>

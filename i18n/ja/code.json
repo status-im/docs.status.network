@@ -544,5 +544,445 @@
   "homepage.community.official.description": {
     "message": "ウェブサイト、ソーシャルチャンネル、すべての公式リソースを一か所に",
     "description": "Homepage community card description for official links"
+  },
+  "ideaCatalog.filter.category": {
+    "message": "カテゴリ",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.statusPrimitives": {
+    "message": "Status固有機能",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.builderProfile": {
+    "message": "ビルダープロフィール",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.difficulty": {
+    "message": "難易度",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.fewerFilters": {
+    "message": "フィルターを閉じる",
+    "description": "Toggle button label"
+  },
+  "ideaCatalog.filter.moreFilters": {
+    "message": "フィルターをもっと見る",
+    "description": "Toggle button label"
+  },
+  "ideaCatalog.filter.domainExpertise": {
+    "message": "ドメイン専門性",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.userSegment": {
+    "message": "ユーザーセグメント",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.capitalRequirement": {
+    "message": "資本要件",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.status.showing": {
+    "message": "{totalCount}件中{visibleCount}件を表示",
+    "description": "Status text"
+  },
+  "ideaCatalog.status.clearAll": {
+    "message": "すべてクリア",
+    "description": "Clear all filters button"
+  },
+  "ideaCatalog.card.whyStatus": {
+    "message": "Why Status:",
+    "description": "Card detail label"
+  },
+  "ideaCatalog.card.mvpScope": {
+    "message": "MVPスコープ：",
+    "description": "Card detail label"
+  },
+  "ideaCatalog.card.security": {
+    "message": "セキュリティ",
+    "description": "Card meta badge label"
+  },
+  "ideaCatalog.card.opsBurden": {
+    "message": "運用負担",
+    "description": "Card meta badge label"
+  },
+  "ideaCatalog.empty.message": {
+    "message": "現在のフィルターに一致するアイデアはありません。",
+    "description": "Empty state message"
+  },
+  "ideaCatalog.empty.clearAll": {
+    "message": "すべてのフィルターをクリア",
+    "description": "Empty state clear button"
+  },
+  "ideaCatalog.category.reputation": {
+    "message": "レピュテーション",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.privacy": {
+    "message": "プライバシー",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.social": {
+    "message": "ソーシャル",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.games": {
+    "message": "ゲーム",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.defi": {
+    "message": "DeFi",
+    "description": "Category label"
+  },
+  "ideaCatalog.statusPrimitive.gasless": {
+    "message": "ガスレス",
+    "description": "Status primitive label"
+  },
+  "ideaCatalog.statusPrimitive.reputation": {
+    "message": "評判",
+    "description": "Status primitive label"
+  },
+  "ideaCatalog.statusPrimitive.privacy": {
+    "message": "プライバシー",
+    "description": "Status primitive label"
+  },
+  "ideaCatalog.builderProfile.frontendDev": {
+    "message": "Web / モバイル開発",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.builderProfile.contractDev": {
+    "message": "スマートコントラクト開発",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.builderProfile.fullStack": {
+    "message": "フルスタック",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.builderProfile.protocolDev": {
+    "message": "プロトコル / 暗号学",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.difficulty.lowMed": {
+    "message": "低〜中",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.difficulty.med": {
+    "message": "中",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.difficulty.medHigh": {
+    "message": "中〜高",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.difficulty.high": {
+    "message": "高",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.userSegment.consumer": {
+    "message": "コンシューマー",
+    "description": "User segment label"
+  },
+  "ideaCatalog.userSegment.communityCreator": {
+    "message": "コミュニティ/クリエイター",
+    "description": "User segment label"
+  },
+  "ideaCatalog.userSegment.daoOrgOps": {
+    "message": "DAO/組織運営",
+    "description": "User segment label"
+  },
+  "ideaCatalog.userSegment.traderDefi": {
+    "message": "トレーダー/DeFi",
+    "description": "User segment label"
+  },
+  "ideaCatalog.domainExpertise.communityDesign": {
+    "message": "コミュニティデザイン",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.defiMechanisms": {
+    "message": "DeFiメカニズム",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.privacy": {
+    "message": "プライバシー",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.paymentsFinops": {
+    "message": "決済/FinOps",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.consumerProduct": {
+    "message": "コンシューマープロダクト",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.capitalReq.none": {
+    "message": "不要",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.capitalReq.operatingTreasury": {
+    "message": "運用資金",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.capitalReq.seedLiquidity": {
+    "message": "シード流動性",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.capitalReq.deepLiquidity": {
+    "message": "深い流動性",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.title": {
+    "message": "Karmaゲート付きコンテンツフィード",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.what": {
+    "message": "クリエイターが最小Karmaティアを満たすフォロワーにのみ表示される投稿を公開するソーシャルフィード。Substackとオンチェーンレピュテーションの融合。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.whyStatus": {
+    "message": "Karmaティアはオンチェーンで解決されるため、アクセス制御はトラストレス。サブスクリプション課金なし、プラットフォームロックインなし、Sybil耐性を設計。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.mvp": {
+    "message": "公開＋ゲート付き投稿のあるフィード、ティアチェックミドルウェア（オプションでオンチェーン）、Karmaティア別のオーディエンス内訳を表示するクリエイターダッシュボード。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.title": {
+    "message": "Karmaブースト付きイールドボールト",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.what": {
+    "message": "より高いKarmaティアの預金者がブーストされたAPYを受け取るDeFiボールト。初期サポーターとアクティブ参加者がより良いリターンを得る。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.whyStatus": {
+    "message": "ネイティブレピュテーショングラフにより、ボールトはトークン加重投票やオフチェーンの許可リストではなく、実証済みの参加度に基づいて報酬を配分できる。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.mvp": {
+    "message": "2つのイールドティアを持つ単一資産ボールト、預金時のオンチェーンKarmaティア検索、ティア別の実効APYを表示するダッシュボード。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.title": {
+    "message": "Karmaバウンティボード",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.what": {
+    "message": "Karma閾値を超えるユーザーのみがタスクを申請できるバウンティマーケットプレイス。プロジェクトチームが作業（バグ報告、翻訳、オンボーディングガイド）を投稿し、認証された貢献者に報酬を支払う。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.whyStatus": {
+    "message": "Karmaゲートによりスパムボットや低品質の提出を排除し、バウンティ発行者は申請者がネットワークに実際の実績を持つことを信頼できる。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.mvp": {
+    "message": "バウンティ一覧ページ、Karmaゲート付き申請フロー、提出物レビューパネル、承認時のオンチェーン支払い。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.title": {
+    "message": "Karmaティア付きNFTマーケットプレイス",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.what": {
+    "message": "出品者・購入者のKarmaティアに基づいて出品手数料、ロイヤリティ、先行アクセス期間が調整されるNFTマーケットプレイス。信頼された参加者には自動的に有利な条件が適用される。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.whyStatus": {
+    "message": "チェックアウト時のオンチェーン tier resolution により、動的価格設定がトラストレスに適用される。クーポンコードもバックエンド許可リストも不要。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.mvp": {
+    "message": "NFT出品＋購入フロー（ティア付き手数料スケジュール）、チェックアウト時のオンチェーン tier check、購入者ティア別の売上を表示する出品者分析。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.title": {
+    "message": "ステルスアドレス決済",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.what": {
+    "message": "リンク不可能な支出パスを持つ使い捨て受信アドレス。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.whyStatus": {
+    "message": "プライバシープリミティブ＋低摩擦トランザクションUX。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.mvp": {
+    "message": "アドレス生成、受信フロー、プライベート支出フロー。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.privatePayroll.title": {
+    "message": "プライベート給与・貯蓄",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.privatePayroll.what": {
+    "message": "残高と受取人を公開しない給与・貯蓄レール。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.privatePayroll.whyStatus": {
+    "message": "公開台帳が期待に応えられない現実世界のニーズ。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.privatePayroll.mvp": {
+    "message": "雇用主支払いバッチ＋受取人請求＋シールド付きボールト。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.title": {
+    "message": "シールド付きマイクロ決済 / カードレイヤー",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.what": {
+    "message": "金額・参加者を隠した低額決済とサブスクリプション。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.whyStatus": {
+    "message": "Gasless相互作用により頻繁な決済が実現可能。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.mvp": {
+    "message": "定期認証付きプライベートチップ/サブスクリプションフロー。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.privateLending.title": {
+    "message": "プライベート貸借",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.privateLending.what": {
+    "message": "公開ポジション漏洩を避ける借入・貸出フロー。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.privateLending.whyStatus": {
+    "message": "プライバシー＋Karmaベースの信頼シグナル。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.privateLending.mvp": {
+    "message": "1種類の担保、1種類の借入資産、プライベートヘルスチェック。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.privateMultisig.title": {
+    "message": "プライベート多重署名",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.privateMultisig.what": {
+    "message": "署名者、閾値、取引詳細が隠蔽される多重署名機能。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.privateMultisig.whyStatus": {
+    "message": "プライバシー重視の組織でもオンチェーンで運営可能。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.privateMultisig.mvp": {
+    "message": "ポリシー設定＋署名フロー＋選択的開示付き実行ログ。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.socialMiniApp.title": {
+    "message": "Gaslessマイクロブログプラットフォーム",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.socialMiniApp.what": {
+    "message": "すべての投稿、返信、いいねがユーザーに無料のオンチェーンアクションとなるTwitter風マイクロブログ。Karmaバッジで信頼された声を可視化。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.socialMiniApp.whyStatus": {
+    "message": "Gaslessトランザクションにより投稿・アクションごとの経済が実現可能。Karmaバッジは任意の青チェックシステムを、実際のネットワーク参加に基づくレピュテーションに置き換える。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.socialMiniApp.mvp": {
+    "message": "タイムライン、投稿/返信/いいねアクション、Karma信頼バッジ付きユーザープロフィール、基本コンテンツモデレーション。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.title": {
+    "message": "ファンパスプラットフォーム",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.what": {
+    "message": "クリエイターが限定コンテンツ、グループチャット、IRLイベントアクセスをアンロックする無料デジタルパスをミントするプラットフォーム。ファンはGaslessでパスを収集。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.whyStatus": {
+    "message": "ゼロコストのミントと請求により、コミュニティパスからのペイウォール摩擦を排除。クリエイターはファンにガス代を払わせることなくオーディエンスを拡大できる。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.mvp": {
+    "message": "パスミント付きクリエイターページ、ファン請求フロー、パスゲート付きコンテンツセクション、パス検証によるイベントチェックイン。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.communityGovernance.title": {
+    "message": "DAO提案・Karma加重投票アプリ",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.communityGovernance.what": {
+    "message": "コミュニティメンバーが提案を提出し、Karmaティアに比例した重みで投票するガバナンスアプリ。アクティブな貢献者は受動的なホルダーより大きな声を持つ。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.communityGovernance.whyStatus": {
+    "message": "Karma加重投票はトークン蓄積ではなく実際の参加を報酬。Gasless投票はほとんどのDAOで投票率を抑えるコスト障壁を除去。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.communityGovernance.mvp": {
+    "message": "提案提出フォーム、オンチェーン集計付きKarma加重投票、ティア別参加内訳付き結果ダッシュボード。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.title": {
+    "message": "フォグオブウォー征服ゲーム",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.what": {
+    "message": "部隊の位置がプライベートステートで隠され、すべての移動がGaslessオンチェーントランザクションとなる六角グリッド領土争奪ゲーム。Riskボードゲームに本物のオンチェーンフォグオブウォーを融合。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.whyStatus": {
+    "message": "プライバシープリミティブにより真の隠蔽情報（クライアントサイドのフォグのみではない）を実現。Gasless移動により戦略ゲームの迅速な往来が経済的に可能に。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.mvp": {
+    "message": "フォグオブウォー付き六角マップ、1種類のユニット、プライベート部隊配置、ターン解決、マッチリーダーボード。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.predictionMarket.title": {
+    "message": "予測市場",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.predictionMarket.what": {
+    "message": "低摩擦のエントリーとプライベート参加者ポジションを持つ市場。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.predictionMarket.whyStatus": {
+    "message": "より良い市場参加とコピートレード行動の減少。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.predictionMarket.mvp": {
+    "message": "市場作成＋ポジションエントリー＋決済＋基本分析。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.title": {
+    "message": "Karmaティア付きスワップルーター",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.what": {
+    "message": "最良のオンチェーンプールを経由して取引をルーティングし、高Karmaユーザーに手数料削減と優先実行を提供するスワップインターフェース。DEXレイヤーに組み込まれたロイヤルティプログラム。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.whyStatus": {
+    "message": "Karmaティアによりルーターがトラストレスに手数料割引を提供。ネイティブ流動性との緊密な統合により、外部アグリゲーターの依存なしでより良いレートを実現。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.mvp": {
+    "message": "ティア付き手数料表示付きトークンスワップUI、Karma対応ルーティングロジック、LPポジションパネル、ティア別の節約手数料を表示する取引履歴。",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.publicFundingInterface.title": {
+    "message": "パブリックファンディングインターフェース",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.publicFundingInterface.what": {
+    "message": "エンドツーエンドのgrant発見、提案、投票、追跡ダッシュボード。",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.publicFundingInterface.whyStatus": {
+    "message": "エコシステム成長フライホイールを直接支援。",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.publicFundingInterface.mvp": {
+    "message": "提案ボード＋投票画面＋grant進捗トラッカー。",
+    "description": "Idea mvp"
   }
 }

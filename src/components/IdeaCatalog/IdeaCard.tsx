@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import {translate} from '@docusaurus/Translate';
 import type { Idea, Difficulty } from './types';
 import {
-  categoryLabels,
+  getCategoryLabels,
   categoryColors,
-  statusPrimitiveLabels,
+  getStatusPrimitiveLabels,
   statusPrimitiveColors,
-  builderProfileLabels,
-  domainExpertiseLabels,
-  userSegmentLabels,
+  getBuilderProfileLabels,
+  getDomainExpertiseLabels,
+  getUserSegmentLabels,
 } from './types';
 
 interface IdeaCardProps {
@@ -24,6 +25,12 @@ const difficultyColor: Record<Difficulty, string> = {
 export default function IdeaCard({ idea }: IdeaCardProps): JSX.Element {
   const [expanded, setExpanded] = useState(false);
   const detailId = `idea-card-detail-${idea.id}`;
+
+  const categoryLabels = getCategoryLabels();
+  const statusPrimitiveLabels = getStatusPrimitiveLabels();
+  const builderProfileLabels = getBuilderProfileLabels();
+  const domainExpertiseLabels = getDomainExpertiseLabels();
+  const userSegmentLabels = getUserSegmentLabels();
 
   return (
     <div
@@ -110,14 +117,14 @@ export default function IdeaCard({ idea }: IdeaCardProps): JSX.Element {
       {expanded && (
         <div className="idea-card__detail" id={detailId} role="region" aria-label={`${idea.title} details`}>
           <div className="idea-card__detail-section">
-            <strong>Why Status:</strong> {idea.whyStatus}
+            <strong>{translate({id: 'ideaCatalog.card.whyStatus', message: 'Why Status:'})}</strong> {idea.whyStatus}
           </div>
           <div className="idea-card__detail-section">
-            <strong>MVP Scope:</strong> {idea.mvp}
+            <strong>{translate({id: 'ideaCatalog.card.mvpScope', message: 'MVP Scope:'})}</strong> {idea.mvp}
           </div>
           <div className="idea-card__detail-meta">
-            <MetaBadge label="Security" value={idea.securityCriticality} />
-            <MetaBadge label="Ops Burden" value={idea.opsBurden} />
+            <MetaBadge label={translate({id: 'ideaCatalog.card.security', message: 'Security'})} value={idea.securityCriticality} />
+            <MetaBadge label={translate({id: 'ideaCatalog.card.opsBurden', message: 'Ops Burden'})} value={idea.opsBurden} />
           </div>
         </div>
       )}

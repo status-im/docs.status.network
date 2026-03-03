@@ -1,11 +1,11 @@
 import React, { useState, useMemo } from 'react';
+import Translate, {translate} from '@docusaurus/Translate';
 import { ideas } from './ideaData';
 import type { Idea } from './types';
 import FilterBar, { emptyFilters, type Filters } from './FilterBar';
 import IdeaCard from './IdeaCard';
 
 function matchesFilters(idea: Idea, filters: Filters): boolean {
-  // AND across dimensions, OR within a dimension
   if (filters.categories.length > 0 && !filters.categories.includes(idea.category)) return false;
   if (
     filters.superpowers.length > 0 &&
@@ -51,13 +51,17 @@ export default function IdeaCatalog(): JSX.Element {
       </div>
       {filtered.length === 0 && (
         <p className="idea-catalog-empty">
-          No ideas match the current filters.{' '}
+          <Translate id="ideaCatalog.empty.message">
+            No ideas match the current filters.
+          </Translate>{' '}
           <button
             type="button"
             className="idea-catalog-clear"
             onClick={() => setFilters(emptyFilters)}
           >
-            Clear all filters
+            <Translate id="ideaCatalog.empty.clearAll">
+              Clear all filters
+            </Translate>
           </button>
         </p>
       )}
