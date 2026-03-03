@@ -9,7 +9,7 @@
 - **Foundry**: [公式Foundryブック](https://book.getfoundry.sh/getting-started/installation)からインストール
 - **Ethereumウォレット**: Status Networkテストネット用のプライベートキー
 - **テストネットETH**: Status NetworkテストネットのETHが必要です
-  - Status NetworkテストネットのETHは[フォーセット](/tools/testnet-faucets)から入手できます
+  - Status NetworkテストネットのETHは[フォーセット](/tools/core-infrastructure/testnet-faucets)から入手できます
 - **基本知識**: Solidityとコマンドラインの基礎知識
 
 ## 達成目標

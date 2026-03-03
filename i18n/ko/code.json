@@ -544,5 +544,445 @@
   "homepage.community.official.description": {
     "message": "웹사이트, 소셜 채널, 모든 공식 리소스를 한 곳에서 확인하세요",
     "description": "Homepage community card description for official links"
+  },
+  "ideaCatalog.filter.category": {
+    "message": "카테고리",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.statusPrimitives": {
+    "message": "스테이터스 고유 기능",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.builderProfile": {
+    "message": "빌더 프로필",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.difficulty": {
+    "message": "난이도",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.fewerFilters": {
+    "message": "필터 접기",
+    "description": "Toggle button label"
+  },
+  "ideaCatalog.filter.moreFilters": {
+    "message": "필터 더보기",
+    "description": "Toggle button label"
+  },
+  "ideaCatalog.filter.domainExpertise": {
+    "message": "도메인 전문성",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.userSegment": {
+    "message": "사용자 계층",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.capitalRequirement": {
+    "message": "자본 요건",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.status.showing": {
+    "message": "{totalCount}개 중 {visibleCount}개 표시",
+    "description": "Status text"
+  },
+  "ideaCatalog.status.clearAll": {
+    "message": "모두 지우기",
+    "description": "Clear all filters button"
+  },
+  "ideaCatalog.card.whyStatus": {
+    "message": "Why Status:",
+    "description": "Card detail label"
+  },
+  "ideaCatalog.card.mvpScope": {
+    "message": "MVP 범위:",
+    "description": "Card detail label"
+  },
+  "ideaCatalog.card.security": {
+    "message": "보안",
+    "description": "Card meta badge label"
+  },
+  "ideaCatalog.card.opsBurden": {
+    "message": "운영 부담",
+    "description": "Card meta badge label"
+  },
+  "ideaCatalog.empty.message": {
+    "message": "현재 필터에 맞는 아이디어가 없습니다.",
+    "description": "Empty state message"
+  },
+  "ideaCatalog.empty.clearAll": {
+    "message": "모든 필터 지우기",
+    "description": "Empty state clear button"
+  },
+  "ideaCatalog.category.reputation": {
+    "message": "평판",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.privacy": {
+    "message": "프라이버시",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.social": {
+    "message": "소셜",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.games": {
+    "message": "게임",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.defi": {
+    "message": "DeFi",
+    "description": "Category label"
+  },
+  "ideaCatalog.statusPrimitive.gasless": {
+    "message": "가스리스",
+    "description": "Status primitive label"
+  },
+  "ideaCatalog.statusPrimitive.reputation": {
+    "message": "평판",
+    "description": "Status primitive label"
+  },
+  "ideaCatalog.statusPrimitive.privacy": {
+    "message": "프라이버시",
+    "description": "Status primitive label"
+  },
+  "ideaCatalog.builderProfile.frontendDev": {
+    "message": "웹 / 모바일 개발",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.builderProfile.contractDev": {
+    "message": "스마트 컨트랙트 개발",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.builderProfile.fullStack": {
+    "message": "풀스택",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.builderProfile.protocolDev": {
+    "message": "프로토콜 / 암호학",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.difficulty.lowMed": {
+    "message": "낮음-중간",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.difficulty.med": {
+    "message": "중간",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.difficulty.medHigh": {
+    "message": "중간-높음",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.difficulty.high": {
+    "message": "높음",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.userSegment.consumer": {
+    "message": "소비자",
+    "description": "User segment label"
+  },
+  "ideaCatalog.userSegment.communityCreator": {
+    "message": "커뮤니티/크리에이터",
+    "description": "User segment label"
+  },
+  "ideaCatalog.userSegment.daoOrgOps": {
+    "message": "DAO/조직 운영",
+    "description": "User segment label"
+  },
+  "ideaCatalog.userSegment.traderDefi": {
+    "message": "트레이더/DeFi",
+    "description": "User segment label"
+  },
+  "ideaCatalog.domainExpertise.communityDesign": {
+    "message": "커뮤니티 디자인",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.defiMechanisms": {
+    "message": "DeFi 메커니즘",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.privacy": {
+    "message": "프라이버시",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.paymentsFinops": {
+    "message": "결제/FinOps",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.consumerProduct": {
+    "message": "소비자 제품",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.capitalReq.none": {
+    "message": "없음",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.capitalReq.operatingTreasury": {
+    "message": "운영 자금",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.capitalReq.seedLiquidity": {
+    "message": "시드 유동성",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.capitalReq.deepLiquidity": {
+    "message": "깊은 유동성",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.title": {
+    "message": "카르마로 제한된 콘텐츠 피드",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.what": {
+    "message": "크리에이터가 최소 카르마 등급을 충족하는 팔로워에게만 보이는 게시물을 발행하는 소셜 피드. 일종의 Substack + 온체인 평판",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.whyStatus": {
+    "message": "카르마 등급이 온체인에서 해결되므로 신뢰 없이도 접근 제어가 가능합니다. 구독 결제, 플랫폼 제약 따위 없으며, 시빌 공격 저항적입니다",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.mvp": {
+    "message": "공개된 + 제한된 피드, 티어 확인 미들웨어(온체인 가능), 카르마 등급별 청중 구성을 보여주는 크리에이터 대시보드.",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.title": {
+    "message": "카르마로 부스트된 수익 볼트",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.what": {
+    "message": "높은 카르마 등급 예치자의 APY가 인상되는 DeFi 금고. 초기 지지자와 적극적인 참여자들이 더 나은 수익을 얻을 수 있는 메커니즘",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.whyStatus": {
+    "message": "네이티브 평판 그래프로 금고가 토큰에 기반한 가중 투표나 오프체인 허용 목록과 같은 방식 대신 검증된 참여로 보상 가중치를 매길 수 있습니다.",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.mvp": {
+    "message": "단일 자산 금고에 두 개의 수익 티어, 예치 시 온체인 카르마 등급 확인, 티어별로 다른 유효 APY를 보여주는 대시보드.",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.title": {
+    "message": "카르마 현상금 시장",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.what": {
+    "message": "카르마 임계값 이상의 사용자만 작업을 청구할 수 있는 현상금 시장. 프로젝트 팀이 작업(버그 리포트, 번역, 온보딩 가이드)을 게시하고 검증된 기여자에게 보상금을 지급",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.whyStatus": {
+    "message": "카르마 관문이 스팸 봇과 저품질 제출을 걸러내어, 현상금 발행자가 청구인이 네트워크에서 실제 실적이 있다는 확신을 갖게 합니다.",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.mvp": {
+    "message": "현상금 목록 페이지, 카르마로 제한된 청구 플로우, 제출 검토 패널, 승인에 따른 온체인 지불.",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.title": {
+    "message": "카르마 등급제 NFT 마켓플레이스",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.what": {
+    "message": "구매자와 판매자의 카르마 등급에 따라 리스팅 수수료, 로열티, 얼리 액세스 기간이 조정되는 NFT 마켓플레이스. 신뢰받는 참여자가 자동으로 더 나은 조건을 받는 구조",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.whyStatus": {
+    "message": "결제 시 온체인 티어 검증으로 동적 가격이 적용됩니다. 쿠폰 코드 X, 백엔드 허용 목록 X.",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.mvp": {
+    "message": "NFT 리스팅 + 구매 플로우, 티어별 수수료 일정, 결제 시 온체인 티어 체크, 구매자 티어별 매출을 보여주는 판매자 분석.",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.title": {
+    "message": "스텔스 주소 결제",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.what": {
+    "message": "지출 경로를 숨길 수 있는 일회용 수신 주소.",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.whyStatus": {
+    "message": "프라이버시 프리미티브 + 마찰이 적은 트랜잭션 UX.",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.mvp": {
+    "message": "주소 생성, 수신 플로우, 비공개의 지출 플로우가 구현된 시스템",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.privatePayroll.title": {
+    "message": "프라이빗 급여 및 저축",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.privatePayroll.what": {
+    "message": "잔액과 수령인을 노출하지 않는 급여 및 저축 서비스",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.privatePayroll.whyStatus": {
+    "message": "비공개적인 급여 지급과 저축을 요구하는 실질적인 수요에 미치지 못하는 현대의 블록체인들의 공개성",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.privatePayroll.mvp": {
+    "message": "고용주의 일괄 지급 + 수령인의 청구 + 차폐 금고 구조",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.title": {
+    "message": "차폐 소액 결제 / 카드 레이어",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.what": {
+    "message": "금액 및 참여자를 숨길 수 있는 소액 결제 및 구독 서비스",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.whyStatus": {
+    "message": "가스리스 상호작용 덕분에 빈번한 결제가 가능해집니다",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.mvp": {
+    "message": "비공개 팁/구독 플로우와 반복 승인이 있는 시스템",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.privateLending.title": {
+    "message": "비공개 대출 및 차입",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.privateLending.what": {
+    "message": "공개적인 포지션 유출을 막는 차입/대출 플로우가 구현된 시스템",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.privateLending.whyStatus": {
+    "message": "프라이버시 + 카르마 기반 신용이 기본적으로 탑재됨",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.privateLending.mvp": {
+    "message": "단일 담보 유형, 단일 차입 자산, 비공개적 헬스체크",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.privateMultisig.title": {
+    "message": "프라이빗 다중서명",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.privateMultisig.what": {
+    "message": "서명자, 임계값, 트랜잭션 등의 세부사항이 숨겨진 다중서명 기능",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.privateMultisig.whyStatus": {
+    "message": "프라이버시에 민감한 조직도 온체인에서 운영할 수 있게 됩니다",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.privateMultisig.mvp": {
+    "message": "정책 설정 + 서명 플로우 + 선택적으로 공개가 가능한 실행 로그 구현",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.socialMiniApp.title": {
+    "message": "가스리스 마이크로블로그 플랫폼",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.socialMiniApp.what": {
+    "message": "Twitter 스타일 마이크로블로그로, 모든 게시·답글·좋아요가 온체인에서 작동하면서도 비용이 들지 않고, 카르마 배지로 신뢰할 수 있는 목소리들을 부각시킬 수 있습니다",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.socialMiniApp.whyStatus": {
+    "message": "가스리스 트랜잭션으로 게시 당 액션 경제적이며, 카르마 배지가 임의의 블루체크 시스템을 실제 네트워크 참여로 얻은 평판으로 대체합니다",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.socialMiniApp.mvp": {
+    "message": "타임라인 피드, 게시/답글/좋아요 액션, 카르마 신뢰 배지가 있는 사용자 프로필, 기본 콘텐츠 관리 컨트롤 구현",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.title": {
+    "message": "팬 패스 플랫폼",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.what": {
+    "message": "크리에이터가 독점 콘텐츠, 그룹 채팅, 오프라인 행사 등의 접근을 제공하게 되는 무료 디지털 패스를 민팅하는 플랫폼. 팬은 가스비 없이 패스를 수집할 수 있습니다",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.whyStatus": {
+    "message": "무료 민팅과 무료 청구로 커뮤니티 패스의 페이월 마찰이 제거되어, 크리에이터가 팬에게 가스 비용을 요구하지 않으면서 보다 쉽게 팬층을 키울 수 있습니다",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.mvp": {
+    "message": "패스 민팅이 있는 크리에이터 페이지, 팬 청구 플로우, 패스로 제한된 콘텐츠 섹션, 패스 검증을 통한 행사 체크인 기능 구현",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.communityGovernance.title": {
+    "message": "DAO 제안 & 카르마 가중 투표 앱",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.communityGovernance.what": {
+    "message": "커뮤니티 구성원이 제안을 제출하고 카르마 등급에 비례한 가중치로 투표하는 거버넌스 앱. 간단한 방식으로 적극 기여자가 수동 보유자보다 더 큰 목소리를 냅니다",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.communityGovernance.whyStatus": {
+    "message": "카르마 가중 투표가 토큰 축적보다 실제 참여를 보상하고, 가스리스 투표가 대부분 DAO에서 투표율을 억누르는 비용 장벽을 제거합니다.",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.communityGovernance.mvp": {
+    "message": "제안 제출 폼, 온체인 집계가 있는 카르마 가중 투표, 티어별로 참여 구성을 보여주는 결과 대시보드.",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.title": {
+    "message": "전장의 안개 정복 게임",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.what": {
+    "message": "육각형 그리드 영토 지배 게임으로, 부대 위치가 프라이빗 상태로 숨겨지고 모든 이동이 Gasless 온체인 트랜잭션입니다 — Risk 보드 게임에 온체인 실제 전장의 안개를 더한 것을 생각해 보세요.",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.whyStatus": {
+    "message": "프라이버시 프리미티브로 클라이언트 측 안개가 아닌 진정한 숨겨진 정보가 가능하며, Gasless 이동으로 전략 게임의 빠른 주고받기가 경제적으로 실현 가능해집니다.",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.mvp": {
+    "message": "전장의 안개가 있는 육각형 맵, 단일 유닛 유형, 프라이빗 부대 배치, 턴 해결, 매치 리더보드.",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.predictionMarket.title": {
+    "message": "예측 시장",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.predictionMarket.what": {
+    "message": "저마찰 진입과 프라이빗 참여자 포지션이 있는 시장.",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.predictionMarket.whyStatus": {
+    "message": "더 나은 시장 참여와 더 적은 카피 트레이딩 행동을 유도합니다",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.predictionMarket.mvp": {
+    "message": "시장 생성 + 포지션 진입 + 결산 + 기본 분석.",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.title": {
+    "message": "Karma 등급별 스왑 라우터",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.what": {
+    "message": "최고 온체인 풀을 통해 거래를 라우팅하고 고-Karma 사용자에게 수수료 감면과 우선 실행을 제공하는 스왑 인터페이스 — DEX 레이어에 구워진 로열티 프로그램",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.whyStatus": {
+    "message": "카르마 등급으로 라우터가 신뢰 없이도 수수료 할인을 제공하고, 네이티브 유동성과의 긴밀한 통합으로 외부 애그리게이터 의존 없이 더 나은 비율을 제공합니다",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.mvp": {
+    "message": "티어별 수수료 표시가 있는 토큰 스왑 UI, 카르마 인식 라우팅 로직, LP 포지션 패널, 티어별 절약 수수료를 보여주는 거래 내역",
+    "description": "Idea mvp"
+  },
+  "ideaCatalog.idea.publicFundingInterface.title": {
+    "message": "공공 자금 인터페이스",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.publicFundingInterface.what": {
+    "message": "보조금 발견, 제안, 투표, 추적 대시보드의 엔드투엔드 기능 구현",
+    "description": "Idea what"
+  },
+  "ideaCatalog.idea.publicFundingInterface.whyStatus": {
+    "message": "생태계 성장 플라이휠을 직접 지원하는 구조",
+    "description": "Idea whyStatus"
+  },
+  "ideaCatalog.idea.publicFundingInterface.mvp": {
+    "message": "제안 게시판 + 투표 화면 + 보조금 진행 추적 기능 구현",
+    "description": "Idea mvp"
   }
 }

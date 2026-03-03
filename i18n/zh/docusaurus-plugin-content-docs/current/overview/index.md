@@ -42,7 +42,7 @@ Status Network 原生集成了 Status Wallet、Keycard、Waku 和 Codex，这些
 想跳过解释部分直接开始构建吗？以下是开始的方法：
 
 1. [将 Status Network 添加到您的钱包](/overview/general-info/add-status-network)
-2. [获取测试网 ETH](/tools/testnet-faucets)
+2. [获取测试网 ETH](/tools/core-infrastructure/testnet-faucets)
 3. [跨链资产](/overview/general-info/bridge/bridging-testnet)
 4. [部署您的第一个合约](/build-for-karma/deploying-contracts/using-remix)
 

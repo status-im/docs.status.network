@@ -14,7 +14,7 @@ The [Status Network Scaffold-ETH 2 extension](https://github.com/status-im/statu
 - **Foundry** (optional): If you choose the Foundry workflow
 - **Ethereum Wallet** (optional): An EVM wallet private key for test, but it's okay if you don't have one
 
-> **Note**: Status Network supports gasless transactions, so testnet ETH is optional. If you still need testnet ETH, get it from our [Faucet](/tools/testnet-faucets).
+> **Note**: Status Network supports gasless transactions, so testnet ETH is optional. If you still need testnet ETH, get it from our [Faucet](/tools/core-infrastructure/testnet-faucets).
 
 ## Quick Start
 

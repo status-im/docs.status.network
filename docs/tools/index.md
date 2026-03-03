@@ -13,12 +13,20 @@ A complete reference of developer tools, infrastructure services, and integratio
 
 Essential services for building and testing on Status Network:
 
-| Tool | Description | Link |
-|---|---|---|
-| **RPC Endpoints** | Public JSON-RPC and WebSocket access | [RPC →](/tools/rpc) |
-| **Bridge** | Transfer assets between Ethereum Sepolia and Status Network | [Bridge →](/tools/bridge) |
-| **Testnet Faucets** | Get testnet assets for development | [Faucets →](/tools/testnet-faucets) |
-| **Block Explorers** | Browse transactions, contracts, and network activity | [Explorers →](/tools/block-explorers) |
+| Tool | Description |
+|---|---|
+| [**RPC Endpoints**](/tools/core-infrastructure/rpc-endpoints) | Public JSON-RPC access and RPC documentation |
+| [**Bridge**](/tools/core-infrastructure/bridge) | Transfer assets between Ethereum Sepolia and Status Network |
+| [**Testnet Faucets**](/tools/core-infrastructure/testnet-faucets) | Get testnet assets for development |
+| [**Block Explorers**](/tools/core-infrastructure/block-explorers) | Browse transactions, contracts, and network activity |
+
+## RPC
+
+For RPC documentation including public endpoints, JSON-RPC API reference, and self-hosted node setup, start with:
+
+- [RPC Endpoints](/tools/core-infrastructure/rpc-endpoints) — public endpoint URL, setup examples, rate limits, and supported methods overview
+- [JSON-RPC API](/tools/rpc/json-rpc) — method reference and Status Network-specific RPC behavior
+- [Running an RPC Node](/tools/rpc/running-an-rpc) — self-hosted node setup and operations guidance
 
 ## Infrastructure Partners
 

@@ -15,7 +15,7 @@ Status Networkはプロトコルレベルでガスレストランザクション
 トランザクションUXを準備する際、ガス手数料の信頼できるソースとして`linea_estimateGas` RPCメソッドを使用してください。
 :::
 
-その他のJSON-RPCメソッドのリファレンスについては、[JSON-RPC API](/build-for-karma/rpc/json-rpc)を参照してください。
+その他のJSON-RPCメソッドのリファレンスについては、[JSON-RPC API](/tools/rpc/json-rpc)を参照してください。
 
 ## Karma対応の手数料推定
 
@@ -361,5 +361,5 @@ console.log({
 
 ## 次のステップ
 
-- [JSON-RPC API](/build-for-karma/rpc/json-rpc)
+- [JSON-RPC API](/tools/rpc/json-rpc)
 - [レピュテーション統合](/build-for-karma/guides/reputation-integration)

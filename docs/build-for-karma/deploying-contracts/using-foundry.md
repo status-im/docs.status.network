@@ -15,7 +15,7 @@ Before you begin, ensure you have the following:
 - **Foundry**: Install from the [official Foundry book](https://book.getfoundry.sh/getting-started/installation)
 - **Ethereum Wallet**: A private key for Status Network testnet
 - **Testnet ETH**: You'll need Status Network testnet ETH
-  - Get Status Network testnet ETH from our [Faucet](/tools/testnet-faucets)
+  - Get Status Network testnet ETH from our [Faucet](/tools/core-infrastructure/testnet-faucets)
 - **Basic Knowledge**: Familiarity with Solidity and command line
 
 ## What You'll Accomplish

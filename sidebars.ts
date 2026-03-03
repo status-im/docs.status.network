@@ -33,12 +33,12 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'overview/tokenomics/public-funding',
           label: '💰 Public Funding',
-        },  
+        },
         {
           type: 'doc',
           id: 'overview/tokenomics/karmic-tokenomics',
           label: '🐉 Karmic Tokenomics',
-        },       
+        },
         {
           type: 'doc',
           id: 'overview/tokenomics/snt-staking',
@@ -125,11 +125,20 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'BUILD FOR KARMA',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'build-for-karma/build-for-karma-index',
+      },
       items: [
         {
           type: 'doc',
-          id: 'build-for-karma/index',
-          label: '🛠 Build for Karma',
+          id: 'build-for-karma/why-status-network',
+          label: '🌟 Why Status Network',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/what-to-build',
+          label: '💡 What to Build',
         },
       ],
     },
@@ -158,6 +167,10 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'DEPLOYING CONTRACTS',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'build-for-karma/deploying-contracts/deploying-contracts-index',
+      },
       items: [
         {
           type: 'doc',
@@ -181,23 +194,6 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    {
-      type: 'category',
-      label: 'RPC',
-      collapsed: false,
-      items: [
-        {
-          type: 'doc',
-          id: 'build-for-karma/rpc/json-rpc',
-          label: '🔌 JSON-RPC API',
-        },
-        {
-          type: 'doc',
-          id: 'build-for-karma/rpc/running-an-rpc',
-          label: '🌐 Running an RPC node',
-        },
-      ],
-    },
   ],
   toolsSidebar: [
     {
@@ -210,24 +206,48 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         {
-          type: 'doc',
-          id: 'tools/rpc',
-          label: '🔌 RPC',
+          type: 'category',
+          label: 'CORE INFRASTRUCTURE',
+          collapsed: false,
+          items: [
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/rpc-endpoints',
+              label: '📡 RPC Endpoints',
+            },
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/bridge',
+              label: '🌉 Bridge',
+            },
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/testnet-faucets',
+              label: '🚰 Testnet Faucets',
+            },
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/block-explorers',
+              label: '🔎 Block Explorers',
+            },
+          ],
         },
         {
-          type: 'doc',
-          id: 'tools/bridge',
-          label: '🌉 Bridge',
-        },
-        {
-          type: 'doc',
-          id: 'tools/testnet-faucets',
-          label: '🚰 Testnet Faucets',
-        },
-        {
-          type: 'doc',
-          id: 'tools/block-explorers',
-          label: '🔎 Block Explorers',
+          type: 'category',
+          label: 'RPC',
+          collapsed: false,
+          items: [
+            {
+              type: 'doc',
+              id: 'tools/rpc/json-rpc',
+              label: '🔌 JSON-RPC API',
+            },
+            {
+              type: 'doc',
+              id: 'tools/rpc/running-an-rpc',
+              label: '🌐 Running an RPC Node',
+            },
+          ],
         },
       ],
     },
