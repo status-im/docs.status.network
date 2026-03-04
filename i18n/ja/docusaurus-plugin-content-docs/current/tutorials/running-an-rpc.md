@@ -19,10 +19,40 @@ keywords: [RPCノード, Status Network RPC, ブロックチェーンノード, 
 
 セットアップスクリプトは、選択可能な2つのノード実装を提供します：
 
-- **Besuノード**: ポート`8545`で実行 (http://localhost:8545)
-- **Gethノード**: ポート`8445`で実行 (http://localhost:8445)
+- **Besuノード**: `http://localhost:8545`で実行
+- **Gethノード**: `http://localhost:8445`で実行
 
 必要に応じて、どちらか一方または両方を同時に実行できます。
+
+## 本番向けRPCトポロジー
+
+本番環境でのルーティング、可用性、パフォーマンスのために、以下のトポロジー指針を使用してください。
+
+チェーンの変更に関わるフローに対応する書き込み可能RPC構成では、Status Network による静的IPの許可リスト登録が必要になる場合があります。詳細についてはチームまでお問い合わせください。
+
+### 書き込み可能RPC
+
+- **最小構成**: Besuクライアントを1台実行
+- **推奨構成**: Besu + Geth の2台を同時実行
+- **Besu必須メソッド**:
+  - `linea_estimateGas`
+  - `linea_getTransactionExclusionStatusV1`
+  - `eth_sendTransaction`
+  - `eth_sendRawTransaction`
+  - `eth_maxPriorityFeePerGas`
+  - `eth_gasPrice`
+- **ルーティングルール**: それ以外のメソッドは読み取り性能のため Geth にルーティング
+
+### 読み取り専用RPC
+
+- **最小構成**: Besuクライアントを1台実行
+- **推奨構成**: Besu + Geth の2台を同時実行
+- **Besu必須メソッド**:
+  - `linea_estimateGas`
+  - `linea_getTransactionExclusionStatusV1`
+  - `eth_maxPriorityFeePerGas`
+  - `eth_gasPrice`
+- **ルーティングルール**: それ以外のメソッドは Geth にルーティング
 
 ## ノードの検証
 以下の例では、Besuを使用している場合は`<YOUR_CLIENT_PORT>`を`8545`に、Gethを使用している場合は`8445`に置き換えてください。
@@ -102,10 +132,8 @@ ws://localhost:8446  # Geth
 
 レスポンス時間が長くなる可能性のあるメソッドに注意してください：
 
-| メソッド | レスポンス時間 | 備考 |
-|--------|---------------|-------|
-| `eth_getLogs` (大きな範囲) | 200msから数秒 | 制限された範囲とブルームフィルタを使用 |
-| `eth_estimateGas` | 200msから数秒 | 負荷が高い場合や複雑なコントラクトの場合は遅くなる可能性あり |
+- `eth_getLogs` (大きな範囲): 200msから数秒。制限された範囲とブルームフィルタを使用してください。
+- `eth_estimateGas`: 200msから数秒。負荷が高い場合や複雑なコントラクトの場合は遅くなる可能性があります。
 
 :::tip パフォーマンスのヒント
 本番環境では、数千程度の読み取りRPSから始めて、特定のワークロードとハードウェアテストに基づいて水平スケーリングしてください。
@@ -218,4 +246,3 @@ RPCノードのパフォーマンスを最適化するには：
 - [Status Network RPCツールリポジトリ](https://github.com/status-im/status-l2-rpc-tools) - セットアップガイドとスクリプトを含む公式リポジトリ
 - [Status Networkドキュメント](https://docs.status.network/) - 公式ドキュメント
 - [Status Networkブロックエクスプローラー](https://sepoliascan.status.network) - Sepoliaテストネットエクスプローラー
-
