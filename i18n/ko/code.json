@@ -613,6 +613,38 @@
     "message": "모든 필터 지우기",
     "description": "Empty state clear button"
   },
+  "ideaCatalog.securityCriticality.low": {
+    "message": "낮음",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.securityCriticality.medium": {
+    "message": "중간",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.securityCriticality.high": {
+    "message": "높음",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.securityCriticality.critical": {
+    "message": "중요",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.opsBurden.low": {
+    "message": "낮음",
+    "description": "Ops burden label"
+  },
+  "ideaCatalog.opsBurden.medium": {
+    "message": "중간",
+    "description": "Ops burden label"
+  },
+  "ideaCatalog.opsBurden.high": {
+    "message": "높음",
+    "description": "Ops burden label"
+  },
+  "ideaCatalog.opsBurden.veryHigh": {
+    "message": "매우 높음",
+    "description": "Ops burden label"
+  },
   "ideaCatalog.category.reputation": {
     "message": "평판",
     "description": "Category label"
@@ -646,7 +678,7 @@
     "description": "Status primitive label"
   },
   "ideaCatalog.builderProfile.frontendDev": {
-    "message": "웹 / 모바일 개발",
+    "message": "웹 / 앱 개발",
     "description": "Builder profile label"
   },
   "ideaCatalog.builderProfile.contractDev": {

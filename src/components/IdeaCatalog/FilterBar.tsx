@@ -10,13 +10,13 @@ import type {
   CapitalReq,
 } from './types';
 import {
-  getCategoryLabels,
-  getStatusPrimitiveLabels,
-  getBuilderProfileLabels,
-  getDifficultyLabels,
-  getUserSegmentLabels,
-  getDomainExpertiseLabels,
-  getCapitalReqLabels,
+  builderProfileLabels,
+  capitalReqLabels,
+  categoryLabels,
+  difficultyLabels,
+  domainExpertiseLabels,
+  statusPrimitiveLabels,
+  userSegmentLabels,
 } from './types';
 
 export interface Filters {
@@ -69,25 +69,25 @@ export default function FilterBar({
       {/* Primary filters */}
       <FilterGroup
         label={translate({id: 'ideaCatalog.filter.category', message: 'Category'})}
-        options={getCategoryLabels()}
+        options={categoryLabels}
         selected={filters.categories}
         onToggle={(v) => toggle('categories', v)}
       />
       <FilterGroup
         label={translate({id: 'ideaCatalog.filter.statusPrimitives', message: 'Status Primitives'})}
-        options={getStatusPrimitiveLabels()}
+        options={statusPrimitiveLabels}
         selected={filters.superpowers}
         onToggle={(v) => toggle('superpowers', v)}
       />
       <FilterGroup
         label={translate({id: 'ideaCatalog.filter.builderProfile', message: 'Builder Profile'})}
-        options={getBuilderProfileLabels()}
+        options={builderProfileLabels}
         selected={filters.builderProfiles}
         onToggle={(v) => toggle('builderProfiles', v)}
       />
       <FilterGroup
         label={translate({id: 'ideaCatalog.filter.difficulty', message: 'Difficulty'})}
-        options={getDifficultyLabels()}
+        options={difficultyLabels}
         selected={filters.difficulties}
         onToggle={(v) => toggle('difficulties', v)}
       />
@@ -110,19 +110,19 @@ export default function FilterBar({
         <div className="idea-catalog-advanced" id="idea-catalog-advanced-filters">
           <FilterGroup
             label={translate({id: 'ideaCatalog.filter.domainExpertise', message: 'Domain Expertise'})}
-            options={getDomainExpertiseLabels()}
+            options={domainExpertiseLabels}
             selected={filters.domainExpertises}
             onToggle={(v) => toggle('domainExpertises', v)}
           />
           <FilterGroup
             label={translate({id: 'ideaCatalog.filter.userSegment', message: 'User Segment'})}
-            options={getUserSegmentLabels()}
+            options={userSegmentLabels}
             selected={filters.userSegments}
             onToggle={(v) => toggle('userSegments', v)}
           />
           <FilterGroup
             label={translate({id: 'ideaCatalog.filter.capitalRequirement', message: 'Capital Requirement'})}
-            options={getCapitalReqLabels()}
+            options={capitalReqLabels}
             selected={filters.capitalReqs}
             onToggle={(v) => toggle('capitalReqs', v)}
           />
