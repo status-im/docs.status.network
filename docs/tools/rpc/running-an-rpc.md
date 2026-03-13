@@ -18,10 +18,40 @@ For detailed setup instructions, prerequisites, system requirements, and step-by
 
 The setup script provides two node implementations to choose from:
 
-- **Besu Node**: Runs on port `8545` (http://localhost:8545)
-- **Geth Node**: Runs on port `8445` (http://localhost:8445)
+- **Besu Node**: Runs on port `8545`
+- **Geth Node**: Runs on port `8445`
 
 You can run either one or both simultaneously depending on your needs.
+
+## Production RPC Topologies
+
+Use the following topology guidance for production-grade routing, reliability, and performance.
+
+For write-capable RPC setups, mutability-related flows will require static IP allowlisting by Status Network because the RLN prover is currently a constrained entity.
+
+### Write-Capable RPC
+
+- **Minimal**: Run 1 Besu client.
+- **Recommended**: Run 2 clients simultaneously (Besu + Geth).
+- **Besu-required methods**:
+  - `linea_estimateGas`
+  - `linea_getTransactionExclusionStatusV1`
+  - `eth_sendTransaction`
+  - `eth_sendRawTransaction`
+  - `eth_maxPriorityFeePerGas`
+  - `eth_gasPrice`
+- **Routing rule**: Route all other methods to Geth for better read performance.
+
+### Read-Only RPC
+
+- **Minimal**: Run 1 Besu client.
+- **Recommended**: Run 2 clients simultaneously (Besu + Geth).
+- **Besu-required methods**:
+  - `linea_estimateGas`
+  - `linea_getTransactionExclusionStatusV1`
+  - `eth_maxPriorityFeePerGas`
+  - `eth_gasPrice`
+- **Routing rule**: Route all other methods to Geth for better read performance.
 
 ## Verifying Your Node
 
@@ -58,6 +88,7 @@ curl -X POST \
 ```
 
 An up-to-date and healthy node should show:
+
 - `eth_blockNumber` matches a trusted reference (like the public RPC or block explorer)
 - `eth_syncing` returns `false` (fully synced)
 - `net_peerCount` is greater than 0 (connected to peers)
@@ -101,10 +132,8 @@ Your node supports batch JSON-RPC requests for improved efficiency:
 
 Be aware of methods that may require longer response times:
 
-| Method | Response Time | Notes |
-|--------|---------------|-------|
-| `eth_getLogs` (large ranges) | 200ms to several seconds | Use bounded ranges and bloom filters |
-| `eth_estimateGas` | 200ms to several seconds | May be slower under load or with complex contracts |
+- `eth_getLogs` (large ranges): 200ms to several seconds. Use bounded ranges and bloom filters.
+- `eth_estimateGas`: 200ms to several seconds. May be slower under load or with complex contracts.
 
 :::tip Performance Tip
 For production use, start with low-thousands read RPS and scale horizontally based on your specific workload and hardware tests.
@@ -115,6 +144,7 @@ For production use, start with low-thousands read RPS and scale horizontally bas
 ### Common Issues
 
 1. **Port Already in Use**
+
    ```bash
    # Check what's using port 8545 (Besu) or 8445 (Geth)
    lsof -i :8545
@@ -125,6 +155,7 @@ For production use, start with low-thousands read RPS and scale horizontally bas
    ```
 
 2. **Docker Container Issues**
+
    ```bash
    # Check running containers
    docker ps

@@ -230,17 +230,9 @@ const config: Config = {
               from: '/tutorials/deploying-contracts/using-foundry',
               to: '/build-for-karma/deploying-contracts/using-foundry',
             },
+            // Old tutorials paths to tools
             {
               from: '/tutorials/running-an-rpc',
-              to: '/tools/rpc/running-an-rpc',
-            },
-            // Old build-for-karma RPC paths to new tools/rpc paths
-            {
-              from: '/build-for-karma/rpc/json-rpc',
-              to: '/tools/rpc/json-rpc',
-            },
-            {
-              from: '/build-for-karma/rpc/running-an-rpc',
               to: '/tools/rpc/running-an-rpc',
             },
             // Old root-level paths to overview

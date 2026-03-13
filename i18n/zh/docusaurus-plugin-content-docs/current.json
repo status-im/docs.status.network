@@ -91,10 +91,6 @@
     "message": "Karma 开发",
     "description": "The label for category BUILD FOR KARMA in sidebar buildForKarmaSidebar"
   },
-  "sidebar.buildForKarmaSidebar.doc.🛠 Build for Karma": {
-    "message": "🛠 Karma 开发指南",
-    "description": "The label for the doc item 🛠 Build for Karma in sidebar buildForKarmaSidebar"
-  },
   "sidebar.buildForKarmaSidebar.doc.🌟 Why Status Network": {
     "message": "🌟 为什么选择 Status Network",
     "description": "The label for the doc item 🌟 Why Status Network in sidebar buildForKarmaSidebar"
