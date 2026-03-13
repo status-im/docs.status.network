@@ -9,9 +9,11 @@ keywords: [Status Network, 가스리스 트랜잭션, Linea, RLN, Rate Limiting 
 
 Status Network는 대규모 가스리스 트랜잭션 도입을 목표로 합니다. 이 가스리스 접근 방식의 핵심 구성 요소는 Vac의 Rate Limiting Nullifier로, 기존 가스 수수료 없이도 트랜잭션 속도 제한을 가능하게 합니다. 이 문서는 가스리스 트랜잭션을 안전하게 활성화하는 데 필요한 아키텍처와 통합 요소를 설명합니다.
 
-이러한 가스리스 트랜잭션의 구현 코드는 [Status Network 모노레포](https://github.com/status-im/status-network-monorepo)에서 확인할 수 있습니다.
+가스리스 트랜잭션의 구현 코드는 [Status Network 모노레포](https://github.com/status-im/status-network-monorepo?tab=readme-ov-file#architecture-components)에서 확인할 수 있습니다.
 
-### 1.2 RLN
+가스리스의 운영 수준 구현에 대한 자세한 내용은 [Karma 통합 가이드](/build-for-karma/guides)를 참조하세요.
+
+## RLN
 
 RLN은 위반이 발생하지 않는 한 사용자 프라이버시를 손상시키지 않으면서 스팸을 방지하도록 설계된 영지식 시스템입니다. ZKP와 Shamir의 비밀 공유를 통해 시행되는 암호화 속도 제한으로 기존 가스 수수료를 대체합니다.
 
@@ -21,7 +23,7 @@ RLN 특성:
 - **Shamir의 비밀 공유 및 Nullifier:** 사용자는 트랜잭션에 대한 고유한 nullifier를 생성하는 데 사용되는 비밀 키를 보유합니다. 사용자가 에포크(예: 블록 또는 타임스탬프) 내에서 트랜잭션 제한을 초과하면 비밀 키가 복구 가능해져 노출됩니다.
 - **스팸 탐지:** 제한을 초과하는 사용자는 효과적으로 자신의 비밀을 공개하게 되어 거부 목록 포함, 향후 높은 가스 비용 또는 잠재적인 토큰 슬래싱과 같은 처벌을 받게 됩니다.
 
-### 1.3. RLN 멤버십 관리
+### RLN 멤버십 관리
 
 RLN은 대규모 멤버십 증명을 효율적으로 처리하기 위해 희소 머클 트리를 사용합니다. 벤치마킹 연구에 따르면 100만 계정을 지원하는 높이 20의 트리가 증명 생성 및 검증에 최적의 성능을 제공합니다. 100만 계정을 초과하는 확장성을 위해 레지스트리와 함께 여러 SMT를 사용하여 사용자를 적절한 트리로 안내할 수 있습니다.
 
@@ -34,20 +36,28 @@ graph TD
     B -->|소울바운드 토큰| C{티어 할당}
 
     subgraph "티어 제한"
-        D[Basic]
-        E[Active]
-        F[Regular]
-        G[Power User]
-        H[High-Throughput]
-        I[S-Tier]
+        T1[Entry]
+        T2[Newbie]
+        T3[Basic]
+        T4[Active]
+        T5[Regular]
+        T6[Power User]
+        T7[Pro User]
+        T8[High-Throughput]
+        T9[S-Tier]
+        T10[Legendary]
     end
 
-    C --> D
-    C --> E
-    C --> F
-    C --> G
-    C --> H
-    C --> I
+    C --> T1
+    C --> T2
+    C --> T3
+    C --> T4
+    C --> T5
+    C --> T6
+    C --> T7
+    C --> T8
+    C --> T9
+    C --> T10
 
     %% RLN 플로우
     A -->|가스리스 Tx 제출| J[RPC 노드]
@@ -96,15 +106,15 @@ graph TD
     class A wallet
     class B,L karma
     class C tier
-    class D,E,F,G,H,I tierNode
+    class T1,T2,T3,T4,T5,T6,T7,T8,T9,T10 tierNode
     class J,K,K1,K2,K3,M,N,O rln
     class P,Q,R,S,T,U,V,W sequencer
     class X,Y,Z,AA gas
 ```
 
-## 3. 시스템 구성 요소
+## 시스템 구성 요소
 
-### 3.1 Prover
+### Prover
 
 Prover는 세 가지 서비스로 구성된 시스템입니다:
 
@@ -114,7 +124,7 @@ Prover는 세 가지 서비스로 구성된 시스템입니다:
 
 이러한 서비스는 안전한 자격 증명 관리, 증명 생성 및 트랜잭션 추적을 보장하며, gRPC는 Sequencer와의 저지연 통신을 가능하게 합니다.
 
-### 3.2 RLN Verifier
+### RLN Verifier
 
 RLN Verifier는 sequencer 내부의 besu 플러그인으로, Java Native Interface를 통해 RLN의 Zerokit Rust 라이브러리를 활용합니다. 
 Verifier는:
@@ -125,7 +135,7 @@ Verifier는:
 
 검증에 실패한 트랜잭션은 거부되며, 사용자는 일시적으로 거부 목록에 추가될 수 있습니다.
 
-### 3.3 거부 목록
+### 거부 목록
 
 거부 목록은 할당량을 초과하거나 스팸에 참여하는 사용자를 일시적으로 제한합니다:
 
@@ -133,10 +143,16 @@ Verifier는:
 - 사용자는 프리미엄 가스 수수료를 지불하여 제한을 우회할 수 있습니다
 - 프리미엄 수수료를 지불하면 사용자가 목록에서 제거되고 추가 Karma를 획득합니다
 
-### 3.4 `linea_estimateGas` RPC 수정
+## `linea_estimateGas` RPC 수정
 
-linea_estimateGas 메서드는 거부 목록의 사용자를 고려하도록 사용자 정의됩니다:
+Status Network는 기본 Linea `linea_estimateGas`를 Karma 인식 동작으로 확장하여, 반환되는 **수수료 필드**가 발신자 주소 `from`의 Karma 잔액에 따라 달라질 수 있습니다.
+`gasLimit` 계산은 기본 Linea 구현(내부적으로 표준 `eth_estimateGas` 로직을 사용)에서 변경되지 않았습니다.
 
-- 사용자의 거부 목록 상태를 확인합니다
-- 필요한 경우 프리미엄 가스 배수를 추가합니다
-- 사용자에게 투명성과 정확한 가스 추정을 제공합니다 
+구체적으로, Status Network의 `linea_estimateGas`는:
+
+- **거부 목록 프리미엄 적용**: 발신자가 거부 목록에 있는 경우, 노드는 정상 수수료 추정을 계산한 다음 **수수료 필드**에 프리미엄 배수를 적용합니다.
+- **적격 사용자에게 가스리스 추정 반환**: 발신자에게 사용 가능한 Karma 할당량이 있는 경우, 메서드는 0의 `baseFeePerGas`와 `priorityFeePerGas`를 반환합니다.
+
+위 로직은 [Status Network 모노레포의 이 섹션](https://github.com/status-im/status-network-monorepo/blob/v1.0.1/besu-plugins/linea-sequencer/sequencer/src/main/java/net/consensys/linea/rpc/methods/LineaEstimateGas.java#L218)에서 오픈소스로 공개된 수정된 `LineaEstimateGas` 구현에 포함되어 있습니다.
+
+Karma 인식 수수료 추정 동작과 `linea_estimateGas` 세부 사항은 [JSON-RPC API](/tools/rpc/json-rpc)를 참조하세요.

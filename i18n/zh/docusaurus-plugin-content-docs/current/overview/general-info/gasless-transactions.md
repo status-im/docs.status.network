@@ -9,9 +9,11 @@ keywords: [Status Network, 无Gas交易, Linea, RLN, Rate Limiting Nullifier, Ka
 
 Status Network旨在大规模引入无Gas交易。这种无Gas方法的关键组件是Vac的速率限制无效器（Rate Limiting Nullifier），它允许在不需要传统Gas费用的情况下进行交易速率限制。本文档描述了安全启用无Gas交易所需的架构和集成元素。
 
-这些无Gas交易的实现代码可在[Status Network代码库](https://github.com/status-im/status-network-monorepo)中找到。
+无Gas交易的实现代码可在[Status Network代码库](https://github.com/status-im/status-network-monorepo?tab=readme-ov-file#architecture-components)中找到。
 
-### 1.2 RLN
+有关无Gas运营级别实现的更多信息，请参阅[Karma集成指南](/build-for-karma/guides)。
+
+## RLN
 
 RLN是一个零知识系统，旨在在不违规的情况下防止垃圾邮件而不损害用户隐私。它通过ZKP和Shamir秘密共享执行的加密速率限制来替代传统的Gas费用。
 
@@ -21,7 +23,7 @@ RLN特征：
 - **Shamir秘密共享和无效器：** 用户持有用于为交易生成唯一无效器的秘密密钥。如果用户在一个时期（例如，区块或时间戳）内超过其交易限制，他们的秘密密钥将变得可恢复，从而暴露他们。
 - **垃圾邮件检测：** 超过限制的用户有效地泄露了他们的秘密，导致诸如拒绝列表包含、未来更高的Gas成本或潜在的代币削减等惩罚。
 
-### 1.3. RLN成员管理
+### RLN成员管理
 
 RLN使用稀疏默克尔树来高效处理大规模成员证明。基准研究确定，支持100万账户的高度为20的树为证明生成和验证提供了最佳性能。对于超过100万账户的可扩展性，可以使用多个SMT和注册表来引导用户到适当的树。
 
@@ -34,20 +36,28 @@ graph TD
     B -->|灵魂绑定代币| C{等级分配}
 
     subgraph "等级限制"
-        D[Basic]
-        E[Active]
-        F[Regular]
-        G[Power User]
-        H[High-Throughput]
-        I[S-Tier]
+        T1[Entry]
+        T2[Newbie]
+        T3[Basic]
+        T4[Active]
+        T5[Regular]
+        T6[Power User]
+        T7[Pro User]
+        T8[High-Throughput]
+        T9[S-Tier]
+        T10[Legendary]
     end
 
-    C --> D
-    C --> E
-    C --> F
-    C --> G
-    C --> H
-    C --> I
+    C --> T1
+    C --> T2
+    C --> T3
+    C --> T4
+    C --> T5
+    C --> T6
+    C --> T7
+    C --> T8
+    C --> T9
+    C --> T10
 
     %% RLN流程
     A -->|提交无Gas交易| J[RPC节点]
@@ -96,15 +106,15 @@ graph TD
     class A wallet
     class B,L karma
     class C tier
-    class D,E,F,G,H,I tierNode
+    class T1,T2,T3,T4,T5,T6,T7,T8,T9,T10 tierNode
     class J,K,K1,K2,K3,M,N,O rln
     class P,Q,R,S,T,U,V,W sequencer
     class X,Y,Z,AA gas
 ```
 
-## 3. 系统组件
+## 系统组件
 
-### 3.1 Prover
+### Prover
 
 Prover是一个由三个服务组成的系统：
 
@@ -114,7 +124,7 @@ Prover是一个由三个服务组成的系统：
 
 这些服务确保安全的凭据管理、证明生成和交易跟踪，gRPC使与Sequencer的低延迟通信成为可能。
 
-### 3.2 RLN验证器
+### RLN验证器
 
 RLN验证器是sequencer内部的besu插件，通过Java本机接口利用RLN的Zerokit Rust库。
 验证器：
@@ -125,7 +135,7 @@ RLN验证器是sequencer内部的besu插件，通过Java本机接口利用RLN的
 
 验证失败的交易将被拒绝，用户可能会被临时添加到拒绝列表中。
 
-### 3.3 拒绝列表
+### 拒绝列表
 
 拒绝列表临时限制超过配额或参与垃圾邮件的用户：
 
@@ -133,10 +143,16 @@ RLN验证器是sequencer内部的besu插件，通过Java本机接口利用RLN的
 - 用户可以通过支付高级Gas费用来绕过限制
 - 支付高级费用会将用户从列表中移除并获得额外的Karma
 
-### 3.4 `linea_estimateGas` RPC修改
+## `linea_estimateGas` RPC修改
 
-linea_estimateGas方法被定制以考虑拒绝列表上的用户：
+Status Network扩展了基础Linea `linea_estimateGas`，使其具备Karma感知行为，因此返回的**手续费字段**可能取决于发送者地址`from`的Karma余额。
+`gasLimit`的计算与基础Linea实现保持不变（其内部使用标准的`eth_estimateGas`逻辑）。
 
-- 检查用户的拒绝列表状态
-- 根据需要添加高级Gas倍数
-- 为用户提供透明度和准确的Gas估算
+具体来说，Status Network的`linea_estimateGas`：
+
+- **应用拒绝列表溢价**：如果发送者在拒绝列表上，节点会计算正常的费用估算，然后对**手续费字段**应用溢价倍数。
+- **为符合条件的用户返回无Gas估算**：如果发送者有可用的Karma配额，该方法返回零`baseFeePerGas`和`priorityFeePerGas`。
+
+上述逻辑包含在我们修改的`LineaEstimateGas`实现中，开源于[Status Network代码库的这一部分](https://github.com/status-im/status-network-monorepo/blob/v1.0.1/besu-plugins/linea-sequencer/sequencer/src/main/java/net/consensys/linea/rpc/methods/LineaEstimateGas.java#L218)。
+
+有关Karma感知费用估算行为和`linea_estimateGas`的详细信息，请参阅[JSON-RPC API](/tools/rpc/json-rpc)。

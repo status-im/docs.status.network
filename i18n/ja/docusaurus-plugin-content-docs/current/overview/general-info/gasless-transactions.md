@@ -9,9 +9,11 @@ keywords: [Status Network, ガスレストランザクション, Linea, RLN, Rat
 
 Status Networkは大規模なガスレストランザクションの導入を目指しています。このガスレスアプローチの主要コンポーネントは、VacのRate Limiting Nullifierで、従来のガス手数料を必要とせずにトランザクション速度制限を可能にします。この文書では、ガスレストランザクションを安全に有効にするために必要なアーキテクチャと統合要素について説明します。
 
-これらのガスレストランザクションの実装コードは、[Status Networkモノレポ](https://github.com/status-im/status-network-monorepo)で利用可能です。
+ガスレストランザクションの実装コードは、[Status Networkモノレポ](https://github.com/status-im/status-network-monorepo?tab=readme-ov-file#architecture-components)で利用可能です。
 
-### 1.2 RLN
+ガスレスの運用レベルの実装についての詳細は、[Karma統合ガイド](/build-for-karma/guides)を参照してください。
+
+## RLN
 
 RLNは、違反が発生しない限りユーザーのプライバシーを損なうことなくスパムを防ぐように設計されたゼロ知識システムです。ZKPとShamirの秘密分散を通じて実行される暗号化速度制限で従来のガス手数料を置き換えます。
 
@@ -21,7 +23,7 @@ RLNの特徴：
 - **Shamirの秘密分散とNullifier：** ユーザーはトランザクションの一意のnullifierを生成するために使用される秘密鍵を保持します。ユーザーがエポック（ブロックやタイムスタンプなど）内でトランザクション制限を超えると、秘密鍵が回復可能になり、露出します。
 - **スパム検出：** 制限を超えるユーザーは効果的に自分の秘密を明かすことになり、拒否リストへの追加、将来の高いガス費用、または潜在的なトークンスラッシングなどのペナルティを受けます。
 
-### 1.3. RLNメンバーシップ管理
+### RLNメンバーシップ管理
 
 RLNは大規模なメンバーシップ証明を効率的に処理するためにスパースマークルツリーを使用します。ベンチマーク研究により、100万アカウントをサポートする高さ20のツリーが証明生成と検証に最適なパフォーマンスを提供することが判明しました。100万アカウントを超えるスケーラビリティのために、レジストリと共に複数のSMTを使用してユーザーを適切なツリーに誘導できます。
 
@@ -34,20 +36,28 @@ graph TD
     B -->|ソウルバウンドトークン| C{ティア割り当て}
 
     subgraph "ティア制限"
-        D[Basic]
-        E[Active]
-        F[Regular]
-        G[Power User]
-        H[High-Throughput]
-        I[S-Tier]
+        T1[Entry]
+        T2[Newbie]
+        T3[Basic]
+        T4[Active]
+        T5[Regular]
+        T6[Power User]
+        T7[Pro User]
+        T8[High-Throughput]
+        T9[S-Tier]
+        T10[Legendary]
     end
 
-    C --> D
-    C --> E
-    C --> F
-    C --> G
-    C --> H
-    C --> I
+    C --> T1
+    C --> T2
+    C --> T3
+    C --> T4
+    C --> T5
+    C --> T6
+    C --> T7
+    C --> T8
+    C --> T9
+    C --> T10
 
     %% RLNフロー
     A -->|ガスレスTx送信| J[RPCノード]
@@ -96,15 +106,15 @@ graph TD
     class A wallet
     class B,L karma
     class C tier
-    class D,E,F,G,H,I tierNode
+    class T1,T2,T3,T4,T5,T6,T7,T8,T9,T10 tierNode
     class J,K,K1,K2,K3,M,N,O rln
     class P,Q,R,S,T,U,V,W sequencer
     class X,Y,Z,AA gas
 ```
 
-## 3. システムコンポーネント
+## システムコンポーネント
 
-### 3.1 Prover
+### Prover
 
 Proverは3つのサービスで構成されるシステムです：
 
@@ -114,7 +124,7 @@ Proverは3つのサービスで構成されるシステムです：
 
 これらのサービスは安全な認証情報管理、証明生成、トランザクション追跡を保証し、gRPCがSequencerとの低遅延通信を可能にします。
 
-### 3.2 RLN Verifier
+### RLN Verifier
 
 RLN Verifierはsequencer内のbesuプラグインで、Java Native Interfaceを介してRLNのZerokit Rustライブラリを活用します。
 Verifierは：
@@ -125,7 +135,7 @@ Verifierは：
 
 検証に失敗したトランザクションは拒否され、ユーザーは一時的に拒否リストに追加される場合があります。
 
-### 3.3 拒否リスト
+### 拒否リスト
 
 拒否リストはクォータを超過したりスパムに関与したりするユーザーを一時的に制限します：
 
@@ -133,10 +143,16 @@ Verifierは：
 - ユーザーはプレミアムガス手数料を支払うことで制限を回避できます
 - プレミアム手数料を支払うとユーザーがリストから削除され、追加のKarmaを獲得します
 
-### 3.4 `linea_estimateGas` RPC修正
+## `linea_estimateGas` RPC修正
 
-linea_estimateGasメソッドは拒否リストのユーザーを考慮するようにカスタマイズされています：
+Status Networkは、ベースのLinea `linea_estimateGas`をKarma対応の動作で拡張しており、返される**手数料フィールド**は送信者アドレス`from`のKarma残高に依存する場合があります。
+`gasLimit`の計算は、ベースのLinea実装（内部的に標準の`eth_estimateGas`ロジックを使用）から変更されていません。
 
-- ユーザーの拒否リストステータスをチェックします
-- 必要に応じてプレミアムガス倍率を追加します
-- ユーザーに透明性と正確なガス推定を提供します
+具体的には、Status Networkの`linea_estimateGas`は：
+
+- **拒否リストプレミアムの適用**: 送信者が拒否リストに掲載されている場合、ノードは通常の手数料見積もりを計算し、**手数料フィールド**にプレミアム倍率を適用します。
+- **対象ユーザーへのガスレス見積もりの返却**: 送信者に利用可能なKarmaクォータがある場合、メソッドはゼロの`baseFeePerGas`と`priorityFeePerGas`を返します。
+
+上記のロジックは、[Status Networkモノレポのこのセクション](https://github.com/status-im/status-network-monorepo/blob/v1.0.1/besu-plugins/linea-sequencer/sequencer/src/main/java/net/consensys/linea/rpc/methods/LineaEstimateGas.java#L218)でオープンソース化されている修正版`LineaEstimateGas`実装に含まれています。
+
+Karma対応の手数料見積もり動作と`linea_estimateGas`の詳細については、[JSON-RPC API](/tools/rpc/json-rpc)を参照してください。
