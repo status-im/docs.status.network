@@ -124,7 +124,7 @@ Status Network is built with technology from the [Institute of Free Technology (
 
 We align with IFT's vision in technology to build public goods to safegauard civil liberties in the digital age. Status Network will add on privacy focused modules leveraging our gaslessness.
 
-Read more → [Status Network and Privacy](/overview/general-info/privacy)
+<!-- todo: Read more → [Status Network and Privacy](/overview/general-info/privacy) -->
 
 ## Full EVM Equivalence
 

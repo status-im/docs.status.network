@@ -124,7 +124,7 @@ Status Networkは[Institute of Free Technology（IFT）](https://free.technology
 
 私たちは、デジタル時代の市民的自由を守る公共財を構築するというIFTの技術ビジョンに沿っています。Status Networkはガスレス性を活かしたプライバシー重視モジュールを追加していきます。
 
-詳細 → [Status Networkとプライバシー](/overview/general-info/privacy)
+<!-- 詳細 → [Status Networkとプライバシー](/overview/general-info/privacy) -->
 
 ## 完全なEVM等価性
 

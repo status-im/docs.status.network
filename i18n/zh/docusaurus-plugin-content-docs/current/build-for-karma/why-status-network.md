@@ -124,7 +124,7 @@ Status Network 采用 [自由技术研究所 (IFT)](https://free.technology) 的
 
 我们与 IFT 在技术愿景上一致，致力于构建保障数字时代公民自由的公共产品。Status Network 将基于我们的无 Gas 特性增加注重隐私的模块。
 
-了解更多 → [Status Network 与隐私](/overview/general-info/privacy)
+<!-- 了解更多 → [Status Network 与隐私](/overview/general-info/privacy) -->
 
 ## 完全 EVM 等效
 
