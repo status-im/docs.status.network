@@ -1,0 +1,43 @@
+---
+title: Status Network Testnet Bridge
+description: Complete guide to using the Status Network bridge for transferring tokens between Sepolia and Status Network testnet. Learn about supported tokens, bridging process, and monitoring transactions.
+keywords: [Status Network bridge, token bridge, cross-chain transfer, L1 L2 bridge, token bridging, Sepolia bridge]
+slug: /tools/core-infrastructure/bridge
+---
+
+The Status Network Testnet Bridge allows users to transfer tokens and pass messages between Sepolia (Layer 1) and Status Network testnet (Layer 2). The bridge interface is available at [bridge.status.network](https://bridge.status.network).
+
+## Bridge Contracts
+
+### Layer 1 (Sepolia)
+- **Token Bridge**: [`0x01b44C5Ea321f921D93476cf54Aa8460db17a548`](https://sepolia.etherscan.io/address/0x01b44C5Ea321f921D93476cf54Aa8460db17a548)
+
+### Layer 2 (Status Network)
+- **Token Bridge**: [`0xbC7f9571152a8e21942b2aEa4831a27f1149af19`](https://sepoliascan.status.network/address/0xbC7f9571152a8e21942b2aEa4831a27f1149af19)
+
+## Features
+
+- **Token Bridging**: Transfer ERC-20 tokens between networks
+- **ETH Bridging**: Bridge ETH between Sepolia and Status Network
+- **Transaction Tracking**: Monitor the status of your bridge transactions
+- **Gas Estimation**: See estimated gas costs before bridging
+
+## Supported Tokens
+
+For the most up-to-date list of supported tokens and their contract addresses, please refer to our [Token List Repository](https://github.com/status-im/status-network-token-list).
+
+## Using the Bridge
+
+For detailed instructions on how to use the bridge, including step-by-step guides and important security considerations, please refer to our [Bridging Guide](/overview/general-info/bridge/bridging-testnet).
+
+## Monitoring Bridge Transactions
+
+You can monitor your bridge transactions using:
+- [Status Network Explorer](https://sepoliascan.status.network) for L2 transactions
+- [Sepolia Etherscan](https://sepolia.etherscan.io) for L1 transactions
+
+## Support
+
+If you encounter any issues while using the bridge:
+- Check our [Bridging Guide](/overview/general-info/bridge/bridging-testnet) for common solutions
+- Join our [Telegram Community](https://t.me/statusl2) for assistance

@@ -3,148 +3,176 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.INTRODUCTION": {
+  "sidebar.homeSidebar.category.INTRODUCTION": {
     "message": "はじめに",
-    "description": "The label for category INTRODUCTION in sidebar tutorialSidebar"
+    "description": "The label for category INTRODUCTION in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.TOKENOMICS": {
+  "sidebar.homeSidebar.category.TOKENOMICS": {
     "message": "トークノミクス",
-    "description": "The label for category TOKENOMICS in sidebar tutorialSidebar"
+    "description": "The label for category TOKENOMICS in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.GENERAL INFO": {
+  "sidebar.homeSidebar.category.GENERAL INFO": {
     "message": "一般情報",
-    "description": "The label for category GENERAL INFO in sidebar tutorialSidebar"
+    "description": "The label for category GENERAL INFO in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.🏡 Contract Addresses": {
+  "sidebar.homeSidebar.category.🏡 Contract Addresses": {
     "message": "🏡 コントラクトアドレス",
-    "description": "The label for category 🏡 Contract Addresses in sidebar tutorialSidebar"
+    "description": "The label for category 🏡 Contract Addresses in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.🌉 Bridge": {
+  "sidebar.homeSidebar.category.🌉 Bridge": {
     "message": "🌉 ブリッジ",
-    "description": "The label for category 🌉 Bridge in sidebar tutorialSidebar"
+    "description": "The label for category 🌉 Bridge in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.TOOLS": {
-    "message": "ツール",
-    "description": "The label for category TOOLS in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.TUTORIALS": {
-    "message": "チュートリアル",
-    "description": "The label for category TUTORIALS in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.🚀 Deploying a Smart Contract": {
-    "message": "🚀 スマートコントラクトのデプロイ",
-    "description": "The label for category 🚀 Deploying a Smart Contract in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.OTHER DOCS": {
+  "sidebar.homeSidebar.category.OTHER DOCS": {
     "message": "その他のドキュメント",
-    "description": "The label for category OTHER DOCS in sidebar tutorialSidebar"
+    "description": "The label for category OTHER DOCS in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🏠 Home": {
-    "message": "🏠 ホーム",
-    "description": "The label for the doc item 🏠 Home in sidebar tutorialSidebar, linking to the doc index"
+  "sidebar.homeSidebar.doc.🌴 Home": {
+    "message": "🌴 ホーム",
+    "description": "The label for the doc item 🌴 Home in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.⚡ Quick Start": {
+  "sidebar.homeSidebar.doc.⚡ Quick Start": {
     "message": "⚡ クイックスタート",
-    "description": "The label for the doc item ⚡ Quick Start in sidebar tutorialSidebar"
+    "description": "The label for the doc item ⚡ Quick Start in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💎 SNT Token": {
-    "message": "💎 SNT Token",
-    "description": "The label for the doc item 💎 SNT Token in sidebar tutorialSidebar, linking to the doc tokenomics/snt-token"
-  },
-  "sidebar.tutorialSidebar.doc.💠 Karma Token": {
-    "message": "💠 Karma Token",
-    "description": "The label for the doc item 💠 Karma Token in sidebar tutorialSidebar, linking to the doc tokenomics/karma-token"
-  },
-  "sidebar.tutorialSidebar.doc.🌐 Network Details": {
-    "message": "🌐 ネットワーク詳細",
-    "description": "The label for the doc item 🌐 Network Details in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.➕ Add Status Network": {
-    "message": "➕ Status ネットワークの追加",
-    "description": "The label for the doc item ➕ Add Status Network in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.💰 Tokens": {
-    "message": "💰 トークン",
-    "description": "The label for the doc item 💰 Tokens in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🧪 Testnet Contracts": {
-    "message": "🧪 テストネットコントラクト",
-    "description": "The label for the doc item 🧪 Testnet Contracts in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🧪 Bridging Testnet": {
-    "message": "🧪 テストネットブリッジ",
-    "description": "The label for the doc item 🧪 Bridging Testnet in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🔌 RPC": {
-    "message": "🔌 RPC",
-    "description": "The label for the doc item 🔌 RPC in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🌉 Bridge": {
-    "message": "🌉 ブリッジ",
-    "description": "The label for the doc item 🌉 Bridge in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🚰 Testnet Faucets": {
-    "message": "🚰 テストネットフォーセット",
-    "description": "The label for the doc item 🚰 Testnet Faucets in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🔎 Block Explorers": {
-    "message": "🔎 ブロックエクスプローラー",
-    "description": "The label for the doc item 🔎 Block Explorers in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🎩 Using Hardhat": {
-    "message": "🎩 Hardhatの使用",
-    "description": "The label for the doc item 🎩 Using Hardhat in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.⚒️ Using Foundry": {
-    "message": "⚒️ Foundryの使用",
-    "description": "The label for the doc item ⚒️ Using Foundry in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🎛️ Using Remix": {
-    "message": "🎛️ Remixの使用",
-    "description": "The label for the doc item 🎛️ Using Remix in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🏗 Using Scaffold-ETH 2": {
-    "message": "🏗 Scaffold-ETH 2 使用",
-    "description": "The label for the doc item 🏗 Using Scaffold-ETH 2 in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🔗 Official Links": {
-    "message": "🔗 公式リンク",
-    "description": "The label for the doc item 🔗 Official Links in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🌴 Home": {
-    "message": "🌴 Home",
-    "description": "The label for the doc item 🌴 Home in sidebar tutorialSidebar, linking to the doc index"
-  },
-  "sidebar.tutorialSidebar.doc.🤝 Economic Model": {
+  "sidebar.homeSidebar.doc.🤝 Economic Model": {
     "message": "🤝 経済モデル",
-    "description": "The label for the doc item 🤝 Economic Model in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🤝 Economic Model in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💰 Public Funding": {
+  "sidebar.homeSidebar.doc.💰 Public Funding": {
     "message": "💰 公募資金",
-    "description": "The label for the doc item 💰 Public Funding in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💰 Public Funding in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🐉 Karmic Tokenomics": {
+  "sidebar.homeSidebar.doc.🐉 Karmic Tokenomics": {
     "message": "🐉 カルミックトークノミクス",
-    "description": "The label for the doc item 🐉 Karmic Tokenomics in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🐉 Karmic Tokenomics in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💎 SNT Staking": {
+  "sidebar.homeSidebar.doc.💎 SNT Staking": {
     "message": "💎 SNTステーキング",
-    "description": "The label for the doc item 💎 SNT Staking in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💎 SNT Staking in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💰 Pre-Deposits": {
+  "sidebar.homeSidebar.doc.💰 Pre-Deposits": {
     "message": "💰 事前預入",
-    "description": "The label for the doc item 💰 Pre-Deposits in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💰 Pre-Deposits in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🪙 Tokens": {
+  "sidebar.homeSidebar.doc.🌐 Network Details": {
+    "message": "🌐 ネットワーク詳細",
+    "description": "The label for the doc item 🌐 Network Details in sidebar homeSidebar"
+  },
+  "sidebar.homeSidebar.doc.⛽ Gasless Transactions": {
+    "message": "⛽ ガスレストランザクション",
+    "description": "The label for the doc item ⛽ Gasless Transactions in sidebar homeSidebar"
+  },
+  "sidebar.homeSidebar.doc.➕ Add Status Network": {
+    "message": "➕ Status ネットワークの追加",
+    "description": "The label for the doc item ➕ Add Status Network in sidebar homeSidebar"
+  },
+  "sidebar.homeSidebar.doc.🪙 Tokens": {
     "message": "🪙 トークン",
-    "description": "The label for the doc item 🪙 Tokens in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🪙 Tokens in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💰 Pre-Deposit Vault Contracts": {
+  "sidebar.homeSidebar.doc.🧪 Testnet Contracts": {
+    "message": "🧪 テストネットコントラクト",
+    "description": "The label for the doc item 🧪 Testnet Contracts in sidebar homeSidebar"
+  },
+  "sidebar.homeSidebar.doc.💰 Pre-Deposit Vault Contracts": {
     "message": "💰 プリ・デポジット金庫コントラクト",
-    "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🌐 Running an RPC node": {
+  "sidebar.homeSidebar.doc.🧪 Bridging Testnet": {
+    "message": "🧪 テストネットブリッジ",
+    "description": "The label for the doc item 🧪 Bridging Testnet in sidebar homeSidebar"
+  },
+  "sidebar.homeSidebar.doc.🔗 Official Links": {
+    "message": "🔗 公式リンク",
+    "description": "The label for the doc item 🔗 Official Links in sidebar homeSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.category.BUILD FOR KARMA": {
+    "message": "Karma開発",
+    "description": "The label for category BUILD FOR KARMA in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🌟 Why Status Network": {
+    "message": "🌟 なぜStatus Networkか",
+    "description": "The label for the doc item 🌟 Why Status Network in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.💡 What to Build": {
+    "message": "💡 アイデアカタログ",
+    "description": "The label for the doc item 💡 What to Build in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.category.USING KARMA": {
+    "message": "Karmaを使う",
+    "description": "The label for category USING KARMA in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.⛽ Gasless Integration": {
+    "message": "⛽ ガスレス統合",
+    "description": "The label for the doc item ⛽ Gasless Integration in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🔰 Reputation Integration": {
+    "message": "🔰 レピュテーション統合",
+    "description": "The label for the doc item 🔰 Reputation Integration in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.category.DEPLOYING CONTRACTS": {
+    "message": "コントラクトのデプロイ",
+    "description": "The label for category DEPLOYING CONTRACTS in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
+    "message": "🎩 Hardhatの使用",
+    "description": "The label for the doc item 🎩 Using Hardhat in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.⚒️ Using Foundry": {
+    "message": "⚒️ Foundryの使用",
+    "description": "The label for the doc item ⚒️ Using Foundry in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🎛️ Using Remix": {
+    "message": "🎛️ Remixの使用",
+    "description": "The label for the doc item 🎛️ Using Remix in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🏗 Using Scaffold-ETH 2": {
+    "message": "🏗 Scaffold-ETH 2 使用",
+    "description": "The label for the doc item 🏗 Using Scaffold-ETH 2 in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.toolsSidebar.category.TOOLS": {
+    "message": "ツール",
+    "description": "The label for category TOOLS in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.category.CORE INFRASTRUCTURE": {
+    "message": "コアインフラストラクチャ",
+    "description": "The label for category CORE INFRASTRUCTURE in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.📡 RPC Endpoints": {
+    "message": "📡 RPCエンドポイント",
+    "description": "The label for the doc item 📡 RPC Endpoints in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🌉 Bridge": {
+    "message": "🌉 ブリッジ",
+    "description": "The label for the doc item 🌉 Bridge in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🚰 Testnet Faucets": {
+    "message": "🚰 テストネットフォーセット",
+    "description": "The label for the doc item 🚰 Testnet Faucets in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🔎 Block Explorers": {
+    "message": "🔎 ブロックエクスプローラー",
+    "description": "The label for the doc item 🔎 Block Explorers in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.category.RPC": {
+    "message": "RPC",
+    "description": "The label for category RPC in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🔌 JSON-RPC API": {
+    "message": "🔌 JSON-RPC API",
+    "description": "The label for the doc item 🔌 JSON-RPC API in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🌐 Running an RPC Node": {
     "message": "🌐 RPCノードの運用",
-    "description": "The label for the doc item 🌐 Running an RPC node in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🌐 Running an RPC Node in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.category.PARTNERS": {
+    "message": "パートナー",
+    "description": "The label for category PARTNERS in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🤝 Infrastructure Partners": {
+    "message": "🤝 インフラパートナー",
+    "description": "The label for the doc item 🤝 Infrastructure Partners in sidebar toolsSidebar"
   }
 }

@@ -1,7 +1,7 @@
 import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  tutorialSidebar: [
+  homeSidebar: [
     {
       type: 'category',
       label: 'INTRODUCTION',
@@ -9,12 +9,12 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'index',
+          id: 'overview/index',
           label: '🌴 Home',
         },
         {
           type: 'doc',
-          id: 'introduction/quick-start',
+          id: 'overview/introduction/quick-start',
           label: '⚡ Quick Start',
         },
       ],
@@ -26,27 +26,27 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'tokenomics/economic-model',
+          id: 'overview/tokenomics/economic-model',
           label: '🤝 Economic Model',
         },
         {
           type: 'doc',
-          id: 'tokenomics/public-funding',
+          id: 'overview/tokenomics/public-funding',
           label: '💰 Public Funding',
-        },  
+        },
         {
           type: 'doc',
-          id: 'tokenomics/karmic-tokenomics',
+          id: 'overview/tokenomics/karmic-tokenomics',
           label: '🐉 Karmic Tokenomics',
-        },       
+        },
         {
           type: 'doc',
-          id: 'tokenomics/snt-staking',
+          id: 'overview/tokenomics/snt-staking',
           label: '💎 SNT Staking',
         },
         {
           type: 'doc',
-          id: 'tokenomics/pre-deposits',
+          id: 'overview/tokenomics/pre-deposits',
           label: '💰 Pre-Deposits',
         },
       ],
@@ -58,17 +58,17 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'general-info/network-details',
+          id: 'overview/general-info/network-details',
           label: '🌐 Network Details',
         },
         {
           type: 'doc',
-          id: 'general-info/gasless-transactions',
+          id: 'overview/general-info/gasless-transactions',
           label: '⛽ Gasless Transactions',
         },
         {
           type: 'doc',
-          id: 'general-info/add-status-network',
+          id: 'overview/general-info/add-status-network',
           label: '➕ Add Status Network',
         },
         {
@@ -78,17 +78,17 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'doc',
-              id: 'general-info/contract-addresses/tokens',
+              id: 'overview/general-info/contract-addresses/tokens',
               label: '🪙 Tokens',
             },
             {
               type: 'doc',
-              id: 'general-info/contract-addresses/testnet-contracts',
+              id: 'overview/general-info/contract-addresses/testnet-contracts',
               label: '🧪 Testnet Contracts',
             },
             {
               type: 'doc',
-              id: 'general-info/contract-addresses/pre-deposit',
+              id: 'overview/general-info/contract-addresses/pre-deposit',
               label: '💰 Pre-Deposit Vault Contracts',
             },
           ],
@@ -100,76 +100,10 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'doc',
-              id: 'general-info/bridge/bridging-testnet',
+              id: 'overview/general-info/bridge/bridging-testnet',
               label: '🧪 Bridging Testnet',
             },
           ],
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'TOOLS',
-      collapsed: false,
-      items: [
-        {
-          type: 'doc',
-          id: 'tools/rpc',
-          label: '🔌 RPC',
-        },
-        {
-          type: 'doc',
-          id: 'tools/bridge',
-          label: '🌉 Bridge',
-        },
-        {
-          type: 'doc',
-          id: 'tools/testnet-faucets',
-          label: '🚰 Testnet Faucets',
-        },
-        {
-          type: 'doc',
-          id: 'tools/block-explorers',
-          label: '🔎 Block Explorers',
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'TUTORIALS',
-      collapsed: false,
-      items: [
-        {
-          type: 'category',
-          label: '🚀 Deploying a Smart Contract',
-          collapsed: false,
-          items: [
-            {
-              type: 'doc',
-              id: 'tutorials/deploying-contracts/using-hardhat',
-              label: '🎩 Using Hardhat',
-            },
-            {
-              type: 'doc',
-              id: 'tutorials/deploying-contracts/using-foundry',
-              label: '⚒️ Using Foundry',
-            },
-            {
-              type: 'doc',
-              id: 'tutorials/deploying-contracts/using-remix',
-              label: '🎛️ Using Remix',
-            },
-            {
-              type: 'doc',
-              id: 'tutorials/deploying-contracts/using-se2',
-              label: '🏗 Using Scaffold-ETH 2',
-            },
-          ],
-        },
-        {
-          type: 'doc',
-          id: 'tutorials/running-an-rpc',
-          label: '🌐 Running an RPC node',
         },
       ],
     },
@@ -180,8 +114,152 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'other/official-links',
+          id: 'overview/other/official-links',
           label: '🔗 Official Links',
+        },
+      ],
+    },
+  ],
+  buildForKarmaSidebar: [
+    {
+      type: 'category',
+      label: 'BUILD FOR KARMA',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'build-for-karma/build-for-karma-index',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'build-for-karma/why-status-network',
+          label: '🌟 Why Status Network',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/what-to-build',
+          label: '💡 What to Build',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'USING KARMA',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'build-for-karma/guides/index',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'build-for-karma/guides/gasless-integration',
+          label: '⛽ Gasless Integration',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/guides/reputation-integration',
+          label: '🔰 Reputation Integration',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'DEPLOYING CONTRACTS',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'build-for-karma/deploying-contracts/deploying-contracts-index',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-hardhat',
+          label: '🎩 Using Hardhat',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-foundry',
+          label: '⚒️ Using Foundry',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-remix',
+          label: '🎛️ Using Remix',
+        },
+        {
+          type: 'doc',
+          id: 'build-for-karma/deploying-contracts/using-se2',
+          label: '🏗 Using Scaffold-ETH 2',
+        },
+      ],
+    },
+  ],
+  toolsSidebar: [
+    {
+      type: 'category',
+      label: 'TOOLS',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'tools/tools-index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: 'CORE INFRASTRUCTURE',
+          collapsed: false,
+          items: [
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/rpc-endpoints',
+              label: '📡 RPC Endpoints',
+            },
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/bridge',
+              label: '🌉 Bridge',
+            },
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/testnet-faucets',
+              label: '🚰 Testnet Faucets',
+            },
+            {
+              type: 'doc',
+              id: 'tools/core-infrastructure/block-explorers',
+              label: '🔎 Block Explorers',
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'RPC',
+          collapsed: false,
+          items: [
+            {
+              type: 'doc',
+              id: 'tools/rpc/json-rpc',
+              label: '🔌 JSON-RPC API',
+            },
+            {
+              type: 'doc',
+              id: 'tools/rpc/running-an-rpc',
+              label: '🌐 Running an RPC Node',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'PARTNERS',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'tools/infrastructure',
+          label: '🤝 Infrastructure Partners',
         },
       ],
     },
