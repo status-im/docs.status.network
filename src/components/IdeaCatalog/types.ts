@@ -7,6 +7,7 @@ export const Category = {
   games: 'games',
   defi: 'defi',
 } as const;
+
 export type Category = (typeof Category)[keyof typeof Category];
 
 export const StatusPrimitive = {
@@ -14,6 +15,7 @@ export const StatusPrimitive = {
   reputation: 'reputation',
   privacy: 'privacy',
 } as const;
+
 export type StatusPrimitive = (typeof StatusPrimitive)[keyof typeof StatusPrimitive];
 
 export const BuilderProfile = {
@@ -22,6 +24,7 @@ export const BuilderProfile = {
   fullStack: 'full-stack',
   protocolDev: 'protocol-dev',
 } as const;
+
 export type BuilderProfile = (typeof BuilderProfile)[keyof typeof BuilderProfile];
 
 export const Difficulty = {
@@ -30,6 +33,7 @@ export const Difficulty = {
   medHigh: 'Med-High',
   high: 'High',
 } as const;
+
 export type Difficulty = (typeof Difficulty)[keyof typeof Difficulty];
 
 export const UserSegment = {
@@ -38,6 +42,7 @@ export const UserSegment = {
   daoOrgOps: 'dao-org-ops',
   traderDefi: 'trader-defi',
 } as const;
+
 export type UserSegment = (typeof UserSegment)[keyof typeof UserSegment];
 
 export const DomainExpertise = {
@@ -47,6 +52,7 @@ export const DomainExpertise = {
   paymentsFinops: 'payments-finops',
   consumerProduct: 'consumer-product',
 } as const;
+
 export type DomainExpertise = (typeof DomainExpertise)[keyof typeof DomainExpertise];
 
 export const CapitalReq = {
@@ -55,6 +61,7 @@ export const CapitalReq = {
   seedLiquidity: 'seed-liquidity',
   deepLiquidity: 'deep-liquidity',
 } as const;
+
 export type CapitalReq = (typeof CapitalReq)[keyof typeof CapitalReq];
 
 export const SecurityCriticality = {
@@ -63,7 +70,9 @@ export const SecurityCriticality = {
   high: 'High',
   critical: 'Critical',
 } as const;
-export type SecurityCriticality = (typeof SecurityCriticality)[keyof typeof SecurityCriticality];
+
+export type SecurityCriticality =
+  (typeof SecurityCriticality)[keyof typeof SecurityCriticality];
 
 export const OpsBurden = {
   low: 'Low',
@@ -71,6 +80,7 @@ export const OpsBurden = {
   high: 'High',
   veryHigh: 'Very High',
 } as const;
+
 export type OpsBurden = (typeof OpsBurden)[keyof typeof OpsBurden];
 
 export interface Idea {
@@ -90,94 +100,87 @@ export interface Idea {
   opsBurden: OpsBurden;
 }
 
-const categoryLabels: Record<Category, string> = {
-  reputation: translate({id: 'ideaCatalog.category.reputation', message: 'Reputation'}),
-  privacy: translate({id: 'ideaCatalog.category.privacy', message: 'Privacy'}),
-  social: translate({id: 'ideaCatalog.category.social', message: 'Social'}),
-  games: translate({id: 'ideaCatalog.category.games', message: 'Games'}),
-  defi: translate({id: 'ideaCatalog.category.defi', message: 'DeFi'}),
-};
+export const categoryLabels = {
+  [Category.reputation]: translate({id: 'ideaCatalog.category.reputation', message: 'Reputation'}),
+  [Category.privacy]: translate({id: 'ideaCatalog.category.privacy', message: 'Privacy'}),
+  [Category.social]: translate({id: 'ideaCatalog.category.social', message: 'Social'}),
+  [Category.games]: translate({id: 'ideaCatalog.category.games', message: 'Games'}),
+  [Category.defi]: translate({id: 'ideaCatalog.category.defi', message: 'DeFi'}),
+} satisfies Record<Category, string>;
 
-const difficultyLabels: Record<Difficulty, string> = {
-  'Low-Med': translate({id: 'ideaCatalog.difficulty.lowMed', message: 'Low-Med'}),
-  Med: translate({id: 'ideaCatalog.difficulty.med', message: 'Med'}),
-  'Med-High': translate({id: 'ideaCatalog.difficulty.medHigh', message: 'Med-High'}),
-  High: translate({id: 'ideaCatalog.difficulty.high', message: 'High'}),
-};
+export const difficultyLabels = {
+  [Difficulty.lowMed]: translate({id: 'ideaCatalog.difficulty.lowMed', message: 'Low-Med'}),
+  [Difficulty.med]: translate({id: 'ideaCatalog.difficulty.med', message: 'Med'}),
+  [Difficulty.medHigh]: translate({id: 'ideaCatalog.difficulty.medHigh', message: 'Med-High'}),
+  [Difficulty.high]: translate({id: 'ideaCatalog.difficulty.high', message: 'High'}),
+} satisfies Record<Difficulty, string>;
 
-const userSegmentLabels: Record<UserSegment, string> = {
-  consumer: translate({id: 'ideaCatalog.userSegment.consumer', message: 'Consumer'}),
-  'community-creator': translate({id: 'ideaCatalog.userSegment.communityCreator', message: 'Community/Creator'}),
-  'dao-org-ops': translate({id: 'ideaCatalog.userSegment.daoOrgOps', message: 'DAO/Org Ops'}),
-  'trader-defi': translate({id: 'ideaCatalog.userSegment.traderDefi', message: 'Trader/DeFi'}),
-};
+export const userSegmentLabels = {
+  [UserSegment.consumer]: translate({id: 'ideaCatalog.userSegment.consumer', message: 'Consumer'}),
+  [UserSegment.communityCreator]: translate({id: 'ideaCatalog.userSegment.communityCreator', message: 'Community/Creator'}),
+  [UserSegment.daoOrgOps]: translate({id: 'ideaCatalog.userSegment.daoOrgOps', message: 'DAO/Org Ops'}),
+  [UserSegment.traderDefi]: translate({id: 'ideaCatalog.userSegment.traderDefi', message: 'Trader/DeFi'}),
+} satisfies Record<UserSegment, string>;
 
-const domainExpertiseLabels: Record<DomainExpertise, string> = {
-  'community-design': translate({id: 'ideaCatalog.domainExpertise.communityDesign', message: 'Community Design'}),
-  'defi-mechanisms': translate({id: 'ideaCatalog.domainExpertise.defiMechanisms', message: 'DeFi Mechanisms'}),
-  privacy: translate({id: 'ideaCatalog.domainExpertise.privacy', message: 'Privacy'}),
-  'payments-finops': translate({id: 'ideaCatalog.domainExpertise.paymentsFinops', message: 'Payments/FinOps'}),
-  'consumer-product': translate({id: 'ideaCatalog.domainExpertise.consumerProduct', message: 'Consumer Product'}),
-};
+export const domainExpertiseLabels = {
+  [DomainExpertise.communityDesign]: translate({id: 'ideaCatalog.domainExpertise.communityDesign', message: 'Community Design'}),
+  [DomainExpertise.defiMechanisms]: translate({id: 'ideaCatalog.domainExpertise.defiMechanisms', message: 'DeFi Mechanisms'}),
+  [DomainExpertise.privacy]: translate({id: 'ideaCatalog.domainExpertise.privacy', message: 'Privacy'}),
+  [DomainExpertise.paymentsFinops]: translate({id: 'ideaCatalog.domainExpertise.paymentsFinops', message: 'Payments/FinOps'}),
+  [DomainExpertise.consumerProduct]: translate({id: 'ideaCatalog.domainExpertise.consumerProduct', message: 'Consumer Product'}),
+} satisfies Record<DomainExpertise, string>;
 
-const capitalReqLabels: Record<CapitalReq, string> = {
-  none: translate({id: 'ideaCatalog.capitalReq.none', message: 'None'}),
-  'operating-treasury': translate({id: 'ideaCatalog.capitalReq.operatingTreasury', message: 'Operating Treasury'}),
-  'seed-liquidity': translate({id: 'ideaCatalog.capitalReq.seedLiquidity', message: 'Seed Liquidity'}),
-  'deep-liquidity': translate({id: 'ideaCatalog.capitalReq.deepLiquidity', message: 'Deep Liquidity'}),
-};
+export const capitalReqLabels = {
+  [CapitalReq.none]: translate({id: 'ideaCatalog.capitalReq.none', message: 'None'}),
+  [CapitalReq.operatingTreasury]: translate({id: 'ideaCatalog.capitalReq.operatingTreasury', message: 'Operating Treasury'}),
+  [CapitalReq.seedLiquidity]: translate({id: 'ideaCatalog.capitalReq.seedLiquidity', message: 'Seed Liquidity'}),
+  [CapitalReq.deepLiquidity]: translate({id: 'ideaCatalog.capitalReq.deepLiquidity', message: 'Deep Liquidity'}),
+} satisfies Record<CapitalReq, string>;
 
-const statusPrimitiveLabels: Record<StatusPrimitive, string> = {
-  gasless: translate({id: 'ideaCatalog.statusPrimitive.gasless', message: 'Gasless UX'}),
-  reputation: translate({id: 'ideaCatalog.statusPrimitive.reputation', message: 'Reputation'}),
-  privacy: translate({id: 'ideaCatalog.statusPrimitive.privacy', message: 'Privacy Primitives'}),
-};
+export const statusPrimitiveLabels = {
+  [StatusPrimitive.gasless]: translate({id: 'ideaCatalog.statusPrimitive.gasless', message: 'Gasless UX'}),
+  [StatusPrimitive.reputation]: translate({id: 'ideaCatalog.statusPrimitive.reputation', message: 'Reputation'}),
+  [StatusPrimitive.privacy]: translate({id: 'ideaCatalog.statusPrimitive.privacy', message: 'Privacy Primitives'}),
+} satisfies Record<StatusPrimitive, string>;
 
-const builderProfileLabels: Record<BuilderProfile, string> = {
-  'frontend-dev': translate({id: 'ideaCatalog.builderProfile.frontendDev', message: 'Frontend / App Dev'}),
-  'contract-dev': translate({id: 'ideaCatalog.builderProfile.contractDev', message: 'Smart Contract Dev'}),
-  'full-stack': translate({id: 'ideaCatalog.builderProfile.fullStack', message: 'Full-Stack'}),
-  'protocol-dev': translate({id: 'ideaCatalog.builderProfile.protocolDev', message: 'Protocol / Cryptography'}),
-};
+export const builderProfileLabels = {
+  [BuilderProfile.frontendDev]: translate({id: 'ideaCatalog.builderProfile.frontendDev', message: 'Web / Mobile Dev'}),
+  [BuilderProfile.contractDev]: translate({id: 'ideaCatalog.builderProfile.contractDev', message: 'Smart Contract Dev'}),
+  [BuilderProfile.fullStack]: translate({id: 'ideaCatalog.builderProfile.fullStack', message: 'Full-Stack'}),
+  [BuilderProfile.protocolDev]: translate({id: 'ideaCatalog.builderProfile.protocolDev', message: 'Protocol / Cryptography'}),
+} satisfies Record<BuilderProfile, string>;
 
-export function getCategoryLabels(): Record<Category, string> {
-  return categoryLabels;
-}
+export const securityCriticalityLabels = {
+  [SecurityCriticality.low]: translate({id: 'ideaCatalog.securityCriticality.low', message: 'Low'}),
+  [SecurityCriticality.medium]: translate({id: 'ideaCatalog.securityCriticality.medium', message: 'Medium'}),
+  [SecurityCriticality.high]: translate({id: 'ideaCatalog.securityCriticality.high', message: 'High'}),
+  [SecurityCriticality.critical]: translate({id: 'ideaCatalog.securityCriticality.critical', message: 'Critical'}),
+} satisfies Record<SecurityCriticality, string>;
 
-export function getDifficultyLabels(): Record<Difficulty, string> {
-  return difficultyLabels;
-}
+export const opsBurdenLabels = {
+  [OpsBurden.low]: translate({id: 'ideaCatalog.opsBurden.low', message: 'Low'}),
+  [OpsBurden.medium]: translate({id: 'ideaCatalog.opsBurden.medium', message: 'Medium'}),
+  [OpsBurden.high]: translate({id: 'ideaCatalog.opsBurden.high', message: 'High'}),
+  [OpsBurden.veryHigh]: translate({id: 'ideaCatalog.opsBurden.veryHigh', message: 'Very High'}),
+} satisfies Record<OpsBurden, string>;
 
-export function getUserSegmentLabels(): Record<UserSegment, string> {
-  return userSegmentLabels;
-}
+export const difficultyColors = {
+  [Difficulty.lowMed]: 'var(--status-green)',
+  [Difficulty.med]: 'var(--status-blue)',
+  [Difficulty.medHigh]: 'var(--status-orange)',
+  [Difficulty.high]: 'var(--status-pink)',
+} satisfies Record<Difficulty, string>;
 
-export function getDomainExpertiseLabels(): Record<DomainExpertise, string> {
-  return domainExpertiseLabels;
-}
+export const categoryColors = {
+  [Category.reputation]: 'var(--status-purple)',
+  [Category.privacy]: 'var(--status-green)',
+  [Category.social]: 'var(--status-blue)',
+  [Category.games]: 'var(--status-orange)',
+  [Category.defi]: 'var(--status-yellow)',
+} satisfies Record<Category, string>;
 
-export function getCapitalReqLabels(): Record<CapitalReq, string> {
-  return capitalReqLabels;
-}
-
-export function getStatusPrimitiveLabels(): Record<StatusPrimitive, string> {
-  return statusPrimitiveLabels;
-}
-
-export function getBuilderProfileLabels(): Record<BuilderProfile, string> {
-  return builderProfileLabels;
-}
-
-export const categoryColors: Record<Category, string> = {
-  reputation: 'var(--status-purple)',
-  privacy: 'var(--status-green)',
-  social: 'var(--status-blue)',
-  games: 'var(--status-orange)',
-  defi: 'var(--status-yellow)',
-};
-
-export const statusPrimitiveColors: Record<StatusPrimitive, string> = {
-  gasless: 'var(--status-blue)',
-  reputation: 'var(--status-purple)',
-  privacy: 'var(--status-green)',
-};
+export const statusPrimitiveColors = {
+  [StatusPrimitive.gasless]: 'var(--status-blue)',
+  [StatusPrimitive.reputation]: 'var(--status-purple)',
+  [StatusPrimitive.privacy]: 'var(--status-green)',
+} satisfies Record<StatusPrimitive, string>;

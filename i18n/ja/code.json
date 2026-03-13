@@ -613,6 +613,38 @@
     "message": "すべてのフィルターをクリア",
     "description": "Empty state clear button"
   },
+  "ideaCatalog.securityCriticality.low": {
+    "message": "低",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.securityCriticality.medium": {
+    "message": "中",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.securityCriticality.high": {
+    "message": "高",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.securityCriticality.critical": {
+    "message": "重大",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.opsBurden.low": {
+    "message": "低",
+    "description": "Ops burden label"
+  },
+  "ideaCatalog.opsBurden.medium": {
+    "message": "中",
+    "description": "Ops burden label"
+  },
+  "ideaCatalog.opsBurden.high": {
+    "message": "高",
+    "description": "Ops burden label"
+  },
+  "ideaCatalog.opsBurden.veryHigh": {
+    "message": "非常に高い",
+    "description": "Ops burden label"
+  },
   "ideaCatalog.category.reputation": {
     "message": "レピュテーション",
     "description": "Category label"
@@ -646,7 +678,7 @@
     "description": "Status primitive label"
   },
   "ideaCatalog.builderProfile.frontendDev": {
-    "message": "Web / モバイル開発",
+    "message": "Web / アプリ開発",
     "description": "Builder profile label"
   },
   "ideaCatalog.builderProfile.contractDev": {
