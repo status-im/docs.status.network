@@ -3,148 +3,176 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.INTRODUCTION": {
+  "sidebar.homeSidebar.category.INTRODUCTION": {
     "message": "소개",
-    "description": "The label for category INTRODUCTION in sidebar tutorialSidebar"
+    "description": "The label for category INTRODUCTION in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.TOKENOMICS": {
+  "sidebar.homeSidebar.category.TOKENOMICS": {
     "message": "토크노믹스",
-    "description": "The label for category TOKENOMICS in sidebar tutorialSidebar"
+    "description": "The label for category TOKENOMICS in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.GENERAL INFO": {
+  "sidebar.homeSidebar.category.GENERAL INFO": {
     "message": "일반 정보",
-    "description": "The label for category GENERAL INFO in sidebar tutorialSidebar"
+    "description": "The label for category GENERAL INFO in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.🏡 Contract Addresses": {
+  "sidebar.homeSidebar.category.🏡 Contract Addresses": {
     "message": "🏡 컨트랙트 주소",
-    "description": "The label for category 🏡 Contract Addresses in sidebar tutorialSidebar"
+    "description": "The label for category 🏡 Contract Addresses in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.🌉 Bridge": {
+  "sidebar.homeSidebar.category.🌉 Bridge": {
     "message": "🌉 브릿지",
-    "description": "The label for category 🌉 Bridge in sidebar tutorialSidebar"
+    "description": "The label for category 🌉 Bridge in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.category.TOOLS": {
-    "message": "도구",
-    "description": "The label for category TOOLS in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.TUTORIALS": {
-    "message": "튜토리얼",
-    "description": "The label for category TUTORIALS in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.🚀 Deploying a Smart Contract": {
-    "message": "🚀 스마트 컨트랙트 배포",
-    "description": "The label for category 🚀 Deploying a Smart Contract in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.OTHER DOCS": {
+  "sidebar.homeSidebar.category.OTHER DOCS": {
     "message": "기타 문서",
-    "description": "The label for category OTHER DOCS in sidebar tutorialSidebar"
+    "description": "The label for category OTHER DOCS in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🏠 Home": {
-    "message": "🏠 홈",
-    "description": "The label for the doc item 🏠 Home in sidebar tutorialSidebar"
+  "sidebar.homeSidebar.doc.🌴 Home": {
+    "message": "🌴 홈",
+    "description": "The label for the doc item 🌴 Home in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.⚡ Quick Start": {
+  "sidebar.homeSidebar.doc.⚡ Quick Start": {
     "message": "⚡ 빠른 시작",
-    "description": "The label for the doc item ⚡ Quick Start in sidebar tutorialSidebar"
+    "description": "The label for the doc item ⚡ Quick Start in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💎 SNT Token": {
-    "message": "💎 SNT Token",
-    "description": "The label for the doc item 💎 SNT Token in sidebar tutorialSidebar, linking to the doc tokenomics/snt-token"
-  },
-  "sidebar.tutorialSidebar.doc.💠 Karma Token": {
-    "message": "💠 Karma Token",
-    "description": "The label for the doc item 💠 Karma Token in sidebar tutorialSidebar, linking to the doc tokenomics/karma-token"
-  },
-  "sidebar.tutorialSidebar.doc.🌐 Network Details": {
-    "message": "🌐 네트워크 세부정보",
-    "description": "The label for the doc item 🌐 Network Details in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.➕ Add Status Network": {
-    "message": "➕ Status 네트워크 추가",
-    "description": "The label for the doc item ➕ Add Status Network in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.💰 Tokens": {
-    "message": "💰 토큰",
-    "description": "The label for the doc item 💰 Tokens in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🧪 Testnet Contracts": {
-    "message": "🧪 테스트넷 컨트랙트",
-    "description": "The label for the doc item 🧪 Testnet Contracts in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🧪 Bridging Testnet": {
-    "message": "🧪 테스트넷 브릿징",
-    "description": "The label for the doc item 🧪 Bridging Testnet in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🔌 RPC": {
-    "message": "🔌 RPC",
-    "description": "The label for the doc item 🔌 RPC in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🌉 Bridge": {
-    "message": "🌉 브릿지",
-    "description": "The label for the doc item 🌉 Bridge in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🚰 Testnet Faucets": {
-    "message": "🚰 테스트넷 파우셋",
-    "description": "The label for the doc item 🚰 Testnet Faucets in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🔎 Block Explorers": {
-    "message": "🔎 블록 익스플로러",
-    "description": "The label for the doc item 🔎 Block Explorers in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🎩 Using Hardhat": {
-    "message": "🎩 Hardhat 사용하기",
-    "description": "The label for the doc item 🎩 Using Hardhat in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.⚒️ Using Foundry": {
-    "message": "⚒️ Foundry 사용하기",
-    "description": "The label for the doc item ⚒️ Using Foundry in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🎛️ Using Remix": {
-    "message": "🎛️ Remix 사용하기",
-    "description": "The label for the doc item 🎛️ Using Remix in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🏗 Using Scaffold-ETH 2": {
-    "message": "🏗 Scaffold-ETH 2 사용하기",
-    "description": "The label for the doc item 🏗 Using Scaffold-ETH 2 in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🔗 Official Links": {
-    "message": "🔗 공식 링크",
-    "description": "The label for the doc item 🔗 Official Links in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.doc.🌴 Home": {
-    "message": "🌴 Home",
-    "description": "The label for the doc item 🌴 Home in sidebar tutorialSidebar, linking to the doc index"
-  },
-  "sidebar.tutorialSidebar.doc.🤝 Economic Model": {
+  "sidebar.homeSidebar.doc.🤝 Economic Model": {
     "message": "🤝 경제 모델",
-    "description": "The label for the doc item 🤝 Economic Model in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🤝 Economic Model in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💰 Public Funding": {
+  "sidebar.homeSidebar.doc.💰 Public Funding": {
     "message": "💰 공공 자금",
-    "description": "The label for the doc item 💰 Public Funding in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💰 Public Funding in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🐉 Karmic Tokenomics": {
+  "sidebar.homeSidebar.doc.🐉 Karmic Tokenomics": {
     "message": "🐉 카르마 토크노믹스",
-    "description": "The label for the doc item 🐉 Karmic Tokenomics in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🐉 Karmic Tokenomics in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💎 SNT Staking": {
+  "sidebar.homeSidebar.doc.💎 SNT Staking": {
     "message": "💎 SNT 스테이킹",
-    "description": "The label for the doc item 💎 SNT Staking in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💎 SNT Staking in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💰 Pre-Deposits": {
+  "sidebar.homeSidebar.doc.💰 Pre-Deposits": {
     "message": "💰 사전예치",
-    "description": "The label for the doc item 💰 Pre-Deposits in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💰 Pre-Deposits in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🪙 Tokens": {
+  "sidebar.homeSidebar.doc.🌐 Network Details": {
+    "message": "🌐 네트워크 세부정보",
+    "description": "The label for the doc item 🌐 Network Details in sidebar homeSidebar"
+  },
+  "sidebar.homeSidebar.doc.⛽ Gasless Transactions": {
+    "message": "⛽ 가스리스 트랜잭션",
+    "description": "The label for the doc item ⛽ Gasless Transactions in sidebar homeSidebar"
+  },
+  "sidebar.homeSidebar.doc.➕ Add Status Network": {
+    "message": "➕ Status 네트워크 추가",
+    "description": "The label for the doc item ➕ Add Status Network in sidebar homeSidebar"
+  },
+  "sidebar.homeSidebar.doc.🪙 Tokens": {
     "message": "🪙 토큰",
-    "description": "The label for the doc item 🪙 Tokens in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🪙 Tokens in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.💰 Pre-Deposit Vault Contracts": {
+  "sidebar.homeSidebar.doc.🧪 Testnet Contracts": {
+    "message": "🧪 테스트넷 컨트랙트",
+    "description": "The label for the doc item 🧪 Testnet Contracts in sidebar homeSidebar"
+  },
+  "sidebar.homeSidebar.doc.💰 Pre-Deposit Vault Contracts": {
     "message": "💰 사전예치 금고 컨트랙트",
-    "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar tutorialSidebar"
+    "description": "The label for the doc item 💰 Pre-Deposit Vault Contracts in sidebar homeSidebar"
   },
-  "sidebar.tutorialSidebar.doc.🌐 Running an RPC node": {
+  "sidebar.homeSidebar.doc.🧪 Bridging Testnet": {
+    "message": "🧪 테스트넷 브릿징",
+    "description": "The label for the doc item 🧪 Bridging Testnet in sidebar homeSidebar"
+  },
+  "sidebar.homeSidebar.doc.🔗 Official Links": {
+    "message": "🔗 공식 링크",
+    "description": "The label for the doc item 🔗 Official Links in sidebar homeSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.category.BUILD FOR KARMA": {
+    "message": "카르마를 위해 개발하기",
+    "description": "The label for category BUILD FOR KARMA in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🌟 Why Status Network": {
+    "message": "🌟 왜 스테이터스 네트워크인가",
+    "description": "The label for the doc item 🌟 Why Status Network in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.💡 What to Build": {
+    "message": "💡 아이디어 카탈로그",
+    "description": "The label for the doc item 💡 What to Build in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.category.USING KARMA": {
+    "message": "카르마 사용",
+    "description": "The label for category USING KARMA in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.⛽ Gasless Integration": {
+    "message": "⛽ 가스리스 적용하기",
+    "description": "The label for the doc item ⛽ Gasless Integration in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🔰 Reputation Integration": {
+    "message": "🔰 평판 적용하기",
+    "description": "The label for the doc item 🔰 Reputation Integration in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.category.DEPLOYING CONTRACTS": {
+    "message": "컨트랙트 배포",
+    "description": "The label for category DEPLOYING CONTRACTS in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🎩 Using Hardhat": {
+    "message": "🎩 Hardhat 사용하기",
+    "description": "The label for the doc item 🎩 Using Hardhat in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.⚒️ Using Foundry": {
+    "message": "⚒️ Foundry 사용하기",
+    "description": "The label for the doc item ⚒️ Using Foundry in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🎛️ Using Remix": {
+    "message": "🎛️ Remix 사용하기",
+    "description": "The label for the doc item 🎛️ Using Remix in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.buildForKarmaSidebar.doc.🏗 Using Scaffold-ETH 2": {
+    "message": "🏗 Scaffold-ETH 2 사용하기",
+    "description": "The label for the doc item 🏗 Using Scaffold-ETH 2 in sidebar buildForKarmaSidebar"
+  },
+  "sidebar.toolsSidebar.category.TOOLS": {
+    "message": "도구",
+    "description": "The label for category TOOLS in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.category.CORE INFRASTRUCTURE": {
+    "message": "핵심 인프라",
+    "description": "The label for category CORE INFRASTRUCTURE in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.📡 RPC Endpoints": {
+    "message": "📡 RPC 엔드포인트",
+    "description": "The label for the doc item 📡 RPC Endpoints in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🌉 Bridge": {
+    "message": "🌉 브릿지",
+    "description": "The label for the doc item 🌉 Bridge in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🚰 Testnet Faucets": {
+    "message": "🚰 테스트넷 파우셋",
+    "description": "The label for the doc item 🚰 Testnet Faucets in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🔎 Block Explorers": {
+    "message": "🔎 블록 익스플로러",
+    "description": "The label for the doc item 🔎 Block Explorers in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.category.RPC": {
+    "message": "RPC",
+    "description": "The label for category RPC in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🔌 JSON-RPC API": {
+    "message": "🔌 JSON-RPC API",
+    "description": "The label for the doc item 🔌 JSON-RPC API in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🌐 Running an RPC Node": {
     "message": "🌐 RPC 노드 운영하기",
-    "description": "The label for the doc item 🌐 Running an RPC node in sidebar tutorialSidebar"
+    "description": "The label for the doc item 🌐 Running an RPC Node in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.category.PARTNERS": {
+    "message": "파트너",
+    "description": "The label for category PARTNERS in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🤝 Infrastructure Partners": {
+    "message": "🤝 인프라 파트너",
+    "description": "The label for the doc item 🤝 Infrastructure Partners in sidebar toolsSidebar"
   }
 }
