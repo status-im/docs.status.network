@@ -174,5 +174,9 @@
   "sidebar.toolsSidebar.doc.🤝 Infrastructure Partners": {
     "message": "🤝 인프라 파트너",
     "description": "The label for the doc item 🤝 Infrastructure Partners in sidebar toolsSidebar"
+  },
+  "sidebar.toolsSidebar.doc.🔀 Ethereum Differences": {
+    "message": "🔀 이더리움과의 차이점",
+    "description": "The label for the doc item 🔀 Ethereum Differences in sidebar toolsSidebar"
   }
 }
