@@ -436,5 +436,585 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "homepage.layout.title": {
+    "message": "Status Network 文档",
+    "description": "Homepage layout title"
+  },
+  "homepage.layout.description": {
+    "message": "Status Network 文档 — 面向人类与机器人，完全免 Gas 的 Ethereum L2，具备可组合隐私与内置垃圾信息防护",
+    "description": "Homepage layout description"
+  },
+  "homepage.hero.subtitle": {
+    "message": "欢迎来到",
+    "description": "Homepage hero subtitle"
+  },
+  "homepage.hero.title": {
+    "message": "Status Network 文档",
+    "description": "Homepage hero title"
+  },
+  "homepage.hero.description": {
+    "message": "面向人类与机器人，完全免 Gas 的 Ethereum L2，具备可组合隐私与内置垃圾信息防护",
+    "description": "Homepage hero description"
+  },
+  "homepage.docs.sectionTitle": {
+    "message": "浏览文档",
+    "description": "Homepage docs section title"
+  },
+  "homepage.docs.sectionSubtitle": {
+    "message": "立即开始在 Status Network 上开发",
+    "description": "Homepage docs section subtitle"
+  },
+  "homepage.docCards.overview.title": {
+    "message": "概览",
+    "description": "Homepage docs card title for Overview"
+  },
+  "homepage.docCards.overview.description": {
+    "message": "了解 Status Network 的架构、免 Gas 交易、代币经济学以及可持续的公共资助模式",
+    "description": "Homepage docs card description for Overview"
+  },
+  "homepage.docCards.overview.linkText": {
+    "message": "了解更多",
+    "description": "Homepage docs card link text for Overview"
+  },
+  "homepage.docCards.build.title": {
+    "message": "Build for Karma",
+    "description": "Homepage docs card title for Build for Karma"
+  },
+  "homepage.docCards.build.description": {
+    "message": "部署合约、集成 Karma 和构建免 Gas 应用的指南、教程和参考文档",
+    "description": "Homepage docs card description for Build for Karma"
+  },
+  "homepage.docCards.build.linkText": {
+    "message": "了解更多",
+    "description": "Homepage docs card link text for Build for Karma"
+  },
+  "homepage.docCards.tools.title": {
+    "message": "工具",
+    "description": "Homepage docs card title for Tools"
+  },
+  "homepage.docCards.tools.description": {
+    "message": "RPC 端点、跨链桥、测试网水龙头、区块浏览器和基础设施合作伙伴",
+    "description": "Homepage docs card description for Tools"
+  },
+  "homepage.docCards.tools.linkText": {
+    "message": "了解更多",
+    "description": "Homepage docs card link text for Tools"
+  },
+  "homepage.quickStart.title": {
+    "message": "准备开始构建？",
+    "description": "Homepage quick start title"
+  },
+  "homepage.quickStart.description": {
+    "message": "设置钱包，获取测试网代币，几分钟内部署您的第一个合约",
+    "description": "Homepage quick start description"
+  },
+  "homepage.quickStart.button": {
+    "message": "快速开始",
+    "description": "Homepage quick start button label"
+  },
+  "homepage.community.sectionTitle": {
+    "message": "与我们联系",
+    "description": "Homepage community section title"
+  },
+  "homepage.community.sectionSubtitle": {
+    "message": "了解 Status Network 社区的最新动态",
+    "description": "Homepage community section subtitle"
+  },
+  "homepage.community.telegram.title": {
+    "message": "加入我们的 Telegram",
+    "description": "Homepage community card title for Telegram"
+  },
+  "homepage.community.telegram.description": {
+    "message": "与其他 Status Network 开发者交流并获取支持",
+    "description": "Homepage community card description for Telegram"
+  },
+  "homepage.community.github.title": {
+    "message": "在 GitHub 上查看",
+    "description": "Homepage community card title for GitHub"
+  },
+  "homepage.community.github.description": {
+    "message": "探索源代码并为生态系统做贡献",
+    "description": "Homepage community card description for GitHub"
+  },
+  "homepage.community.official.title": {
+    "message": "官方链接",
+    "description": "Homepage community card title for official links"
+  },
+  "homepage.community.official.description": {
+    "message": "网站、社交频道和所有官方资源汇总",
+    "description": "Homepage community card description for official links"
+  },
+  "ideaCatalog.filter.category": {
+    "message": "分类",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.statusPrimitives": {
+    "message": "Status 特色功能",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.builderProfile": {
+    "message": "开发者类型",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.difficulty": {
+    "message": "难度",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.fewerFilters": {
+    "message": "收起筛选",
+    "description": "Toggle button label"
+  },
+  "ideaCatalog.filter.moreFilters": {
+    "message": "更多筛选",
+    "description": "Toggle button label"
+  },
+  "ideaCatalog.filter.domainExpertise": {
+    "message": "领域专长",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.userSegment": {
+    "message": "用户群体",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.filter.capitalRequirement": {
+    "message": "资金需求",
+    "description": "Filter group label"
+  },
+  "ideaCatalog.status.showing": {
+    "message": "显示 {visibleCount} / {totalCount} 个创意",
+    "description": "Status text showing filtered count"
+  },
+  "ideaCatalog.status.clearAll": {
+    "message": "清除全部",
+    "description": "Clear all filters button"
+  },
+  "ideaCatalog.card.whyStatus": {
+    "message": "Why Status:",
+    "description": "Card detail label"
+  },
+  "ideaCatalog.card.mvpScope": {
+    "message": "MVP 范围：",
+    "description": "Card detail label"
+  },
+  "ideaCatalog.card.security": {
+    "message": "安全性",
+    "description": "Card meta badge label"
+  },
+  "ideaCatalog.card.opsBurden": {
+    "message": "运维负担",
+    "description": "Card meta badge label"
+  },
+  "ideaCatalog.empty.message": {
+    "message": "没有符合当前筛选条件的创意。",
+    "description": "Empty state message"
+  },
+  "ideaCatalog.empty.clearAll": {
+    "message": "清除所有筛选",
+    "description": "Empty state clear button"
+  },
+  "ideaCatalog.securityCriticality.low": {
+    "message": "低",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.securityCriticality.medium": {
+    "message": "中",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.securityCriticality.high": {
+    "message": "高",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.securityCriticality.critical": {
+    "message": "关键",
+    "description": "Security criticality label"
+  },
+  "ideaCatalog.opsBurden.low": {
+    "message": "低",
+    "description": "Ops burden label"
+  },
+  "ideaCatalog.opsBurden.medium": {
+    "message": "中",
+    "description": "Ops burden label"
+  },
+  "ideaCatalog.opsBurden.high": {
+    "message": "高",
+    "description": "Ops burden label"
+  },
+  "ideaCatalog.opsBurden.veryHigh": {
+    "message": "非常高",
+    "description": "Ops burden label"
+  },
+  "ideaCatalog.category.reputation": {
+    "message": "声誉",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.privacy": {
+    "message": "隐私",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.social": {
+    "message": "社交",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.games": {
+    "message": "游戏",
+    "description": "Category label"
+  },
+  "ideaCatalog.category.defi": {
+    "message": "DeFi",
+    "description": "Category label"
+  },
+  "ideaCatalog.statusPrimitive.gasless": {
+    "message": "无Gas",
+    "description": "Status primitive label"
+  },
+  "ideaCatalog.statusPrimitive.reputation": {
+    "message": "声誉",
+    "description": "Status primitive label"
+  },
+  "ideaCatalog.statusPrimitive.privacy": {
+    "message": "隐私",
+    "description": "Status primitive label"
+  },
+  "ideaCatalog.builderProfile.frontendDev": {
+    "message": "Web / 应用开发",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.builderProfile.contractDev": {
+    "message": "智能合约开发",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.builderProfile.fullStack": {
+    "message": "全栈开发",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.builderProfile.protocolDev": {
+    "message": "协议 / 密码学",
+    "description": "Builder profile label"
+  },
+  "ideaCatalog.difficulty.lowMed": {
+    "message": "低-中",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.difficulty.med": {
+    "message": "中",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.difficulty.medHigh": {
+    "message": "中-高",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.difficulty.high": {
+    "message": "高",
+    "description": "Difficulty label"
+  },
+  "ideaCatalog.userSegment.consumer": {
+    "message": "消费者",
+    "description": "User segment label"
+  },
+  "ideaCatalog.userSegment.communityCreator": {
+    "message": "社区/创作者",
+    "description": "User segment label"
+  },
+  "ideaCatalog.userSegment.daoOrgOps": {
+    "message": "DAO/组织运营",
+    "description": "User segment label"
+  },
+  "ideaCatalog.userSegment.traderDefi": {
+    "message": "交易者/DeFi",
+    "description": "User segment label"
+  },
+  "ideaCatalog.domainExpertise.communityDesign": {
+    "message": "社区设计",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.defiMechanisms": {
+    "message": "DeFi 机制",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.privacy": {
+    "message": "隐私",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.paymentsFinops": {
+    "message": "支付/财务运营",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.domainExpertise.consumerProduct": {
+    "message": "消费产品",
+    "description": "Domain expertise label"
+  },
+  "ideaCatalog.capitalReq.none": {
+    "message": "无",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.capitalReq.operatingTreasury": {
+    "message": "运营资金",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.capitalReq.seedLiquidity": {
+    "message": "种子流动性",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.capitalReq.deepLiquidity": {
+    "message": "深度流动性",
+    "description": "Capital requirement label"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.title": {
+    "message": "Karma 门控内容流",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.what": {
+    "message": "一个社交信息流，创作者发布的帖子仅对满足最低 Karma 等级的关注者可见 —— 类似 Substack 与链上声誉的结合。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.whyStatus": {
+    "message": "Karma 等级在链上解析，因此访问控制是去信任的 —— 无需订阅计费，无平台锁定，且天然抗 Sybil 攻击。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.karmaGatedAccess.mvp": {
+    "message": "包含公开和门控帖子的信息流、等级检查中间件（可能在链上）、显示按 Karma 等级分类受众的创作者仪表板。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.title": {
+    "message": "Karma 增强收益金库",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.what": {
+    "message": "一个 DeFi 金库，Karma 等级较高的存款人可获得更高的 APY —— 早期支持者和活跃参与者获得更好的回报。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.whyStatus": {
+    "message": "原生声誉图谱让金库可以根据经过验证的参与度来分配奖励权重，而非依赖代币加权投票或链下白名单。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.karmaLiquidityProtocol.mvp": {
+    "message": "单资产金库，含两个收益等级、存款时链上 Karma 等级查询、以及按等级显示有效 APY 的仪表板。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.title": {
+    "message": "Karma 悬赏平台",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.what": {
+    "message": "一个悬赏市场，只有 Karma 达到阈值的用户才能领取任务 —— 项目团队发布工作（Bug 报告、翻译、引导指南）并向经过验证的贡献者付费。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.whyStatus": {
+    "message": "Karma 门控过滤掉垃圾机器人和低质量提交，让悬赏发布者确信认领者在网络上有真实的记录。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.karmaIncentiveMarket.mvp": {
+    "message": "悬赏列表页面、Karma 门控认领流程、提交审核面板、以及审批后的链上支付。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.title": {
+    "message": "Karma 分级 NFT 市场",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.what": {
+    "message": "一个 NFT 市场，上架费、版税和抢先访问窗口根据买卖双方的 Karma 等级自动调整 —— 受信任的参与者自动获得更好的条件。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.whyStatus": {
+    "message": "结账时的链上等级解析意味着动态定价是去信任执行的 —— 无需优惠码，无需后端白名单。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.karmaDynamicPricing.mvp": {
+    "message": "NFT 上架 + 购买流程（含分级费用方案）、结账时链上等级检查、以及显示按买家等级统计销售的卖家分析。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.title": {
+    "message": "隐身地址支付",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.what": {
+    "message": "带有不可关联支出路径的一次性接收地址。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.whyStatus": {
+    "message": "隐私原语 + 低摩擦交易体验。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.stealthAddressPayments.mvp": {
+    "message": "地址生成、接收流程和隐私支出流程。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.privatePayroll.title": {
+    "message": "隐私薪资与储蓄",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.privatePayroll.what": {
+    "message": "不暴露余额和收款人的薪资和储蓄通道。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.privatePayroll.whyStatus": {
+    "message": "公开账本无法满足预期的现实需求。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.privatePayroll.mvp": {
+    "message": "雇主批量支付 + 收款人领取 + 屏蔽金库。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.title": {
+    "message": "屏蔽微交易 / 卡层",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.what": {
+    "message": "隐藏金额/参与者的小额支付和订阅。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.whyStatus": {
+    "message": "无Gas交互使频繁支付变得可行。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.shieldedMicrotransactions.mvp": {
+    "message": "带有重复授权的隐私打赏/订阅流程。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.privateLending.title": {
+    "message": "隐私借贷",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.privateLending.what": {
+    "message": "避免公开头寸泄露的借贷流程。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.privateLending.whyStatus": {
+    "message": "隐私 + 基于 Karma 的信任信号。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.privateLending.mvp": {
+    "message": "一种抵押品类型、一种借贷资产、隐私健康检查。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.privateMultisig.title": {
+    "message": "隐私多重签名",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.privateMultisig.what": {
+    "message": "签名者、阈值和交易详情被隐藏的多重签名功能。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.privateMultisig.whyStatus": {
+    "message": "注重隐私的组织仍然可以在链上运营。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.privateMultisig.mvp": {
+    "message": "策略设置 + 签名流程 + 带选择性披露的执行日志。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.socialMiniApp.title": {
+    "message": "无Gas微博平台",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.socialMiniApp.what": {
+    "message": "一个类 Twitter 的微博，每次发帖、回复和点赞都是用户零成本的链上操作 —— 用 Karma 徽章展示受信任的声音。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.socialMiniApp.whyStatus": {
+    "message": "无Gas交易使按操作计费的经济模型可行；Karma 徽章用通过实际网络参与获得的声誉取代了任意的蓝标系统。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.socialMiniApp.mvp": {
+    "message": "时间线信息流、发帖/回复/点赞操作、带 Karma 信任徽章的用户个人资料、以及基本内容审核控制。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.title": {
+    "message": "粉丝通行证平台",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.what": {
+    "message": "一个平台，创作者铸造免费数字通行证来解锁独家内容、群聊和线下活动入场 —— 粉丝以无Gas方式收集通行证。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.whyStatus": {
+    "message": "零成本铸造和领取消除了社区通行证的付费墙摩擦，让创作者无需要求粉丝支付Gas即可扩大受众。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.creatorEconomyToolkit.mvp": {
+    "message": "创作者页面（含通行证铸造）、粉丝领取流程、通行证门控内容区域、以及通过通行证验证的活动签到。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.communityGovernance.title": {
+    "message": "DAO 提案与 Karma 加权投票应用",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.communityGovernance.what": {
+    "message": "一个治理应用，社区成员提交提案并按其 Karma 等级的权重投票 —— 活跃贡献者比被动持有者拥有更大的话语权。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.communityGovernance.whyStatus": {
+    "message": "Karma 加权投票奖励真实参与而非代币积累，无Gas投票消除了抑制大多数 DAO 投票率的成本壁垒。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.communityGovernance.mvp": {
+    "message": "提案提交表单、链上计票的 Karma 加权投票、按等级显示参与分布的结果仪表板。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.title": {
+    "message": "战争迷雾征服游戏",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.what": {
+    "message": "一个六角格领地控制游戏，军队位置通过隐私状态隐藏，每次移动都是无Gas的链上交易 —— 类似带有真正链上战争迷雾的 Risk 桌游。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.whyStatus": {
+    "message": "隐私原语实现真正的隐藏信息（不仅仅是客户端迷雾），无Gas移动使策略游戏的快速来回在经济上可行。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.onchainStrategyGame.mvp": {
+    "message": "带战争迷雾的六角地图、一种单位类型、隐私军队部署、回合结算和匹配排行榜。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.predictionMarket.title": {
+    "message": "预测市场",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.predictionMarket.what": {
+    "message": "低摩擦参与和隐私参与者头寸的市场。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.predictionMarket.whyStatus": {
+    "message": "更好的市场参与度和更少的跟单行为。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.predictionMarket.mvp": {
+    "message": "市场创建 + 头寸入场 + 结算 + 基础分析。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.title": {
+    "message": "Karma 分级交换路由器",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.what": {
+    "message": "一个交换界面，通过最优链上池路由交易，为高 Karma 用户提供降低的手续费和优先执行 —— 将忠诚计划融入 DEX 层。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.whyStatus": {
+    "message": "Karma 等级让路由器以去信任方式提供手续费折扣，与原生流动性的紧密集成意味着无需依赖外部聚合器即可获得更好的汇率。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.nativeDexCompanion.mvp": {
+    "message": "带分级手续费显示的代币交换界面、Karma 感知路由逻辑、LP 头寸面板、以及显示按等级节省手续费的交易历史。",
+    "description": "MVP scope"
+  },
+  "ideaCatalog.idea.publicFundingInterface.title": {
+    "message": "公共资助界面",
+    "description": "Idea title"
+  },
+  "ideaCatalog.idea.publicFundingInterface.what": {
+    "message": "端到端的资助发现、提案、投票和跟踪仪表板。",
+    "description": "Idea summary"
+  },
+  "ideaCatalog.idea.publicFundingInterface.whyStatus": {
+    "message": "直接支持生态系统增长飞轮。",
+    "description": "Why Status explanation"
+  },
+  "ideaCatalog.idea.publicFundingInterface.mvp": {
+    "message": "提案面板 + 投票界面 + 资助进度追踪器。",
+    "description": "MVP scope"
   }
 }

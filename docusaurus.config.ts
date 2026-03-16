@@ -1,5 +1,7 @@
 import type * as Preset from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
   title: 'Status Network Documentation',
@@ -42,9 +44,10 @@ const config: Config = {
           editUrl: 'https://github.com/status-im/docs.status.network/tree/develop',
           routeBasePath: '/',
           showLastUpdateTime: true,
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: false,
-        pages: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -67,6 +70,21 @@ const config: Config = {
         src: 'img/sn_logo.svg',
       },
       items: [
+        {
+          label: 'Overview',
+          to: '/overview',
+          activeBasePath: 'overview',
+        },
+        {
+          label: 'Build for Karma',
+          to: '/build-for-karma',
+          activeBasePath: 'build-for-karma',
+        },
+        {
+          label: 'Tools',
+          to: '/tools',
+          activeBasePath: 'tools',
+        },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -190,7 +208,93 @@ const config: Config = {
           scriptSrc: 'https://umami.bi.status.im/script.js',
           dataDomains: 'docs.status.network',
         },
-      ]
+      ],
+      [
+        '@docusaurus/plugin-client-redirects',
+        {
+          redirects: [
+            // Old tutorials paths to build-for-karma
+            {
+              from: '/tutorials/deploying-contracts/using-se2',
+              to: '/build-for-karma/deploying-contracts/using-se2',
+            },
+            {
+              from: '/tutorials/deploying-contracts/using-remix',
+              to: '/build-for-karma/deploying-contracts/using-remix',
+            },
+            {
+              from: '/tutorials/deploying-contracts/using-hardhat',
+              to: '/build-for-karma/deploying-contracts/using-hardhat',
+            },
+            {
+              from: '/tutorials/deploying-contracts/using-foundry',
+              to: '/build-for-karma/deploying-contracts/using-foundry',
+            },
+            // Old tutorials paths to tools
+            {
+              from: '/tutorials/running-an-rpc',
+              to: '/tools/rpc/running-an-rpc',
+            },
+            // Old root-level paths to overview
+            {
+              from: '/introduction/quick-start',
+              to: '/overview/introduction/quick-start',
+            },
+            {
+              from: '/general-info/add-status-network',
+              to: '/overview/general-info/add-status-network',
+            },
+            {
+              from: '/general-info/network-details',
+              to: '/overview/general-info/network-details',
+            },
+            {
+              from: '/general-info/gasless-transactions',
+              to: '/overview/general-info/gasless-transactions',
+            },
+            {
+              from: '/general-info/bridge/bridging-testnet',
+              to: '/overview/general-info/bridge/bridging-testnet',
+            },
+            {
+              from: '/general-info/contract-addresses/tokens',
+              to: '/overview/general-info/contract-addresses/tokens',
+            },
+            {
+              from: '/general-info/contract-addresses/testnet-contracts',
+              to: '/overview/general-info/contract-addresses/testnet-contracts',
+            },
+            {
+              from: '/general-info/contract-addresses/pre-deposit',
+              to: '/overview/general-info/contract-addresses/pre-deposit',
+            },
+            {
+              from: '/tokenomics/economic-model',
+              to: '/overview/tokenomics/economic-model',
+            },
+            {
+              from: '/tokenomics/public-funding',
+              to: '/overview/tokenomics/public-funding',
+            },
+            {
+              from: '/tokenomics/karmic-tokenomics',
+              to: '/overview/tokenomics/karmic-tokenomics',
+            },
+            {
+              from: '/tokenomics/snt-staking',
+              to: '/overview/tokenomics/snt-staking',
+            },
+            {
+              from: '/tokenomics/pre-deposits',
+              to: '/overview/tokenomics/pre-deposits',
+            },
+            {
+              from: '/other/official-links',
+              to: '/overview/other/official-links',
+            },
+          ],
+        },
+      ],
   ]
 } satisfies Config;
 

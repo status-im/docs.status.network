@@ -1,0 +1,156 @@
+---
+sidebar_label: '⛽ Gasless Transactions'
+title: Gasless Transactions on Status Network
+description: Learn how Status Network implements gasless transactions using RLN (Rate Limiting Nullifier), and Karma tiers for spam prevention and fair usage.
+keywords: [Status Network, Gasless Transactions, Linea, RLN, Rate Limiting Nullifier, Karma, Zero-Knowledge Proofs, ZKP, Soulbound Tokens, Blockchain, Layer 2, L2, Spam Prevention]
+---
+
+Status Network aims to introduce gasless transactions at scale. The key component of this gasless approach is Vac's [Rate Limiting Nullifier](https://vac.dev/rln), which permits transaction rate limitation without the need for traditional gas fees. The document describes the architecture and integration elements needed to safely enable gasless transactions.
+
+The implementation code for gasless transactions is available in the [Status Network monorepo](https://github.com/status-im/status-network-monorepo?tab=readme-ov-file#architecture-components).
+
+For more information on operational level implementation of our gaslessness, refer to [Karma integration guide](/build-for-karma/guides)
+
+## RLN
+
+[RLN](https://vac.dev/rln) is a zero-knowledge system designed to prevent spam without compromising user privacy unless a violation occurs. It replaces traditional gas fees with cryptographic rate limits enforced via ZKPs and Shamir's Secret Sharing.
+
+RLN characteristics:
+
+- **Zero-Knowledge Proofs:** Users generate ZKPs verifying their RLN group membership without revealing their identity. The group membership indicates the maximum gasless transaction throughput for each tier.
+- **Shamir's Secret Sharing and Nullifiers:** Users hold a secret key used to generate unique nullifiers for transactions. If a user exceeds their transaction limit within an epoch (e.g., block or timestamp), their secret key becomes recoverable, exposing them.
+- **Spam Detection:** Users exceeding limits effectively reveal their secret, leading to penalties like Deny List inclusion, higher future gas costs, or potential token slashing.
+
+### RLN Membership Management
+
+RLN uses Sparse Merkle Trees to efficiently handle large-scale membership proofs. A benchmarking study determined that a tree height of 20, supporting 1 million accounts, provides optimal performance for proof generation and verification. For scalability beyond 1 million accounts, multiple SMTs can be used with a registry to direct users to the appropriate tree.
+
+The Prover includes a Registrar Service that listens for events from the Karma Contract, where Karma is allocated to new addresses. Upon detecting such an event, the Registrar Service onboards the user to the RLN Membership Contract by generating and registering their RLN credentials (identitySecretHash and identityCommitment). The RLN Prover Service generates proofs for transactions, which are streamed via gRPC to the RLN Verifier in the Sequencer. The Verifier stores these proofs in memory and matches them with incoming transactions based on transaction hashes, as the process is asynchronous.
+
+```mermaid
+graph TD
+    A[User Wallet] -->|First L2 Action via Whitelisted App| B(Karma Issued)
+    A -->|Bridges into SN| B
+    B -->|Soulbound Token| C{Tier Assignment}
+
+    subgraph "Tier Limits"
+        T1[Entry]
+        T2[Newbie]
+        T3[Basic]
+        T4[Active]
+        T5[Regular]
+        T6[Power User]
+        T7[Pro User]
+        T8[High-Throughput]
+        T9[S-Tier]
+        T10[Legendary]
+    end
+
+    C --> T1
+    C --> T2
+    C --> T3
+    C --> T4
+    C --> T5
+    C --> T6
+    C --> T7
+    C --> T8
+    C --> T9
+    C --> T10
+
+    %% RLN Flow
+    A -->|Submits Gasless Tx| J[RPC Node]
+    J -->|Forwards Tx Data| K[Prover]
+    subgraph "Prover Services"
+        K --> K1[Registrar Service]
+        K --> K2[RLN Prover Service]
+        K --> K3[Karma API Service]
+        K1 -->|Listens for Karma Events| L[Karma Contract]
+        K1 -->|Onboards User| M[RLN Membership Contract]
+        K2 -->|Generates RLN Proof| N[gRPC Stream]
+        K3 -->|Tracks Tx and Karma Tiers| O[Storage]
+    end
+    J -->|Sends Tx| P[Sequencer]
+    N -->|Streams RLN Proof| P
+
+    %% Sequencer Section
+    subgraph "Sequencer Operations"
+        P --> Q[RLN Verifier Plugin]
+        Q -->|Subscribes to gRPC Stream| N
+        Q -->|Stores Proofs In-Memory| R{Match Tx Hash}
+        R -->|Validates RLN Proof| S{Quota Check}
+        S -->|Within Limit| T[Add to Mempool]
+        S -->|Exceeds Limit| U[Deny List]
+        U -->|Flags Address| V[Premium Gas Required]
+        Q -->|Spam Detected| W[Slash RLN Stake]
+    end
+
+    %% Gas Estimation Flow
+    A -->|Requests Gas Estimate| X[Modified linea_estimateGas RPC]
+    X -->|Queries| U
+    U -->|Address Listed| Y[Apply Premium Gas Multiplier]
+    Y -->|Pay Premium Gas| Z[Remove from Deny List]
+    Z -->|Earn Karma| B
+    U -->|Address Not Listed| AA[Standard Gas Estimate]
+
+    %% Styling
+    classDef wallet fill:#FFD700,stroke:#DAA520,color:#333
+    classDef karma fill:#98FB98,stroke:#2E8B57,color:#333
+    classDef tier fill:#87CEFA,stroke:#4682B4,color:#333
+    classDef tierNode fill:#ADD8E6,stroke:#4682B4,color:#333
+    classDef rln fill:#FFB6C1,stroke:#DB7093,color:#333
+    classDef sequencer fill:#DDA0DD,stroke:#BA55D3,color:#333
+    classDef gas fill:#FFA07A,stroke:#FF4500,color:#333
+
+    class A wallet
+    class B,L karma
+    class C tier
+    class T1,T2,T3,T4,T5,T6,T7,T8,T9,T10 tierNode
+    class J,K,K1,K2,K3,M,N,O rln
+    class P,Q,R,S,T,U,V,W sequencer
+    class X,Y,Z,AA gas
+```
+
+## System Components
+
+### Prover
+
+The Prover is a system comprising three services:
+
+1. **Registrar Service**: Listens for Karma allocation events from the Karma Contract. When a new address receives Karma, it onboards the user to the RLN Membership Contract by generating RLN credentials and registering them.
+2. **RLN Prover Service**: Generates RLN proofs for transactions using the Zerokit library. Proofs are streamed directly to the RLN Verifier in the Sequencer via a gRPC stream.
+3. **Karma API Service**: Tracks transactions made by users within an epoch and maintains their Karma tier status. It stores transaction data in an internal database for efficient querying and tier management.
+
+These services ensure secure credential management, proof generation, and transaction tracking, with gRPC enabling low-latency communication with the Sequencer.
+
+### RLN Verifier
+
+The RLN Verifier is a besu plugin inside the sequencer, leveraging RLN's Zerokit Rust library via Java Native Interface.
+The Verifier:
+
+- Subscribes to the gRPC stream from the RLN Prover Service to receive RLN proofs as they are generated.
+- Stores proofs in memory and matches them with incoming transactions based on transaction hashes, accounting for the asynchronous arrival of transactions (via RPC Node) and proofs (via gRPC).
+- Verifies proof authenticity, nullifier uniqueness, and user transaction quotas.
+
+Transactions failing verification are rejected, and users may be temporarily added to the Deny List.
+
+### Deny List
+
+The Deny List temporarily restricts users exceeding quotas or engaging in spam:
+
+- Entries expire after a set duration (e.g., hours or days) based on the throughput tiers
+- Users can bypass restrictions by paying premium gas fees
+- Paying premium fees removes users from the list and earns additional Karma
+
+## `linea_estimateGas` RPC Modification
+
+Status Network extends the base Linea `linea_estimateGas` with Karma-aware behavior so the returned **fee fields** can depend on the sender address `from`'s Karma balance.
+The `gasLimit` calculation is unchanged from the base Linea implementation (which itself uses the standard `eth_estimateGas` logic internally).
+
+Concretely, Status Network's `linea_estimateGas`:
+
+- **Applies deny-list premium**: if the sender is on the deny list, the node computes the normal fee estimate and then applies a premium multiplier to the **fee fields**.
+- **Returns gasless estimates for eligible users**: if the sender has available Karma quota, the method returns zero `baseFeePerGas` and `priorityFeePerGas`.
+
+The above logic lives in our modified `LineaEstimateGas` implementation open-sourced around [this section in the Status Network monorepo](https://github.com/status-im/status-network-monorepo/blob/v1.0.1/besu-plugins/linea-sequencer/sequencer/src/main/java/net/consensys/linea/rpc/methods/LineaEstimateGas.java#L218).
+
+For Karma-aware fee estimation behavior and `linea_estimateGas` specifics, see [JSON-RPC API](/tools/rpc/json-rpc).
