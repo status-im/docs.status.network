@@ -1,7 +1,7 @@
 ---
 id: index
-title: Status Network · Gasless L2
-description: Status Network is a gasless Layer 2 blockchain network enabling seamless, fee-free decentralized applications. Start building with easy wallet setup, faucets, and deployment tools.
+title: Status Network Overview: The Gasless Layer 2 Solution
+description: Explore Status Network, a gasless Ethereum L2 using RLN for spam protection. Earn Karma reputation to unlock free transactions and native yield governance.
 keywords: [Status Network, Layer 2, gasless blockchain, ethereum scaling, L2, validium, web3 development, dapp development, blockchain development]
 slug: /overview
 sidebar_position: 1
