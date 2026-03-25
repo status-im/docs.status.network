@@ -1,11 +1,13 @@
 ---
-title: What to Build on Status Network
-description: A scan-first catalog of high-leverage app ideas for Status Network, organized by category, effort, and delivery profile.
+title: 'What to Build: High-Leverage Ideas for Status Network'
+description: 'Explore app ideas for Status Network: private DeFi, gasless social apps, and agentic markets. Leverage Karma reputation and RLN-based spam protection.'
 keywords: [Status Network, app ideas, builder ideas, Karma apps, privacy apps, gasless apps, DeFi, social apps, games, MVP]
 sidebar_position: 3
 ---
 
 import IdeaCatalog from '@site/src/components/IdeaCatalog/IdeaCatalog';
+
+# What to Build on Status Network
 
 Status Network combines gasless UX, Karma reputation, and privacy primitives.
 This unlocks products that are hard to build well on any other chains.

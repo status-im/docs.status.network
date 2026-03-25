@@ -1,7 +1,7 @@
 ---
 id: network-details
-title: Status Network Details & Configuration
-description: Official network details for Status Network testnet including RPC endpoints, Chain ID, and configuration information for wallets and development environments.
+title: 'Network Details: Status Network Chain ID & Config'
+description: Official network configuration for Status Network. Find Chain IDs, RPC URLs, and block explorer links for wallet setup and developer environment config.
 keywords: [Status Network, network details, RPC endpoint, Chain ID, testnet configuration, blockchain network, MetaMask setup]
 ---
 

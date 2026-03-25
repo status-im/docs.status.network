@@ -277,13 +277,13 @@ export default function Home(): React.JSX.Element {
     <Layout
       title={translate({
         id: 'homepage.layout.title',
-        message: 'Status Network Documentation',
+        message: 'Status Network Docs: Gasless L2 & Reputation System',
         description: 'Homepage layout title',
       })}
       description={translate({
         id: 'homepage.layout.description',
         message:
-          'Documentation for Status Network — fully gasless Ethereum L2 with composable privacy and built-in spam protection for humans and bots',
+          'Official Status Network docs for the gasless Ethereum L2. Learn about Karma reputation, RLN spam protection, and native yield for both humans and bots.',
         description: 'Homepage layout description',
       })}
     >

@@ -1,11 +1,13 @@
 ---
 id: build-for-karma-index
-title: Build for Karma
-description: Everything builders need to ship on Status Network — guides for gasless and reputation integration, deployment tutorials, and app ideas.
+title: 'Build for Karma: Developer Guides for the Gasless L2'
+description: Ship on Status Network using our guides for gasless integration and Karma reputation. Access tools for contract deployment and private agentic workflows.
 keywords: [Status Network, builder guides, Karma, gasless integration, reputation, deploy contracts, app ideas, developer documentation]
 slug: /build-for-karma
 sidebar_position: 1
 ---
+
+# Build for Karma
 
 This section is your builder hub for Status Network. Whether you want to understand the benefits of building here, explore what to build, learn how to implement gasless transactions, or deploy your first smart contract — everything you need for Karma-focused building is here.
 

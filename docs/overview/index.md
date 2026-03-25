@@ -1,7 +1,7 @@
 ---
 id: index
-title: Status Network · Gasless L2
-description: Status Network is a gasless Layer 2 blockchain network enabling seamless, fee-free decentralized applications. Start building with easy wallet setup, faucets, and deployment tools.
+title: 'Status Network Overview: The Gasless Layer 2 Solution'
+description: Explore Status Network, a gasless Ethereum L2 using RLN for spam protection. Earn Karma reputation to unlock free transactions and native yield governance.
 keywords: [Status Network, Layer 2, gasless blockchain, ethereum scaling, L2, validium, web3 development, dapp development, blockchain development]
 slug: /overview
 sidebar_position: 1
@@ -13,11 +13,11 @@ Status Network is the first natively gasless Ethereum L2, optimized for social a
 
 ## Key Features
 
-- **Gasless Transactions** 
+- **Gasless Transactions**
 
 Developers can create seamless experiences and users can transact freely without worrying about gas fees.
 
-- **Native Yield and Fees** 
+- **Native Yield and Fees**
 
 To sustain the L2 operation and support developers, Status Network is funded through a combination of native yield and fees coming from its native apps, starting with a DEX.
 
@@ -49,6 +49,7 @@ Wants to skip the explanation part and go straight to building? Here's how to ge
 ## Support & Resources
 
 Connect with our community and access the resources you need:
+
 - Join our [Telegram Builder's Community](https://t.me/statusl2)
 - View [Network Details](/overview/general-info/network-details)
 - Browse [Contract Addresses](/overview/general-info/contract-addresses/testnet-contracts)

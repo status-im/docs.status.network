@@ -4,7 +4,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
-  title: 'Status Network Documentation',
+  title: 'Status Network Docs',
   tagline: 'The Social Playground',
   url: 'https://docs.status.network',
   baseUrl: '/',
@@ -97,25 +97,28 @@ const config: Config = {
       // General SEO
       {
         name: 'description',
-        content: 'Documentation for Status Network - The gasless network with sustainable funding for app builders. Launch and scale your social apps and games with truly free transactions.',
+        content:
+          'Official Status Network docs for the gasless Ethereum L2. Learn about Karma reputation, RLN spam protection, and native yield for both humans and bots.',
       },
       {
         name: 'keywords',
-        content: 'status network, blockchain, web3, documentation, gasless transactions, social network, cryptocurrency',
+        content:
+          'status network, gasless ethereum, layer 2, L2, karma, RLN, reputation, web3 documentation, blockchain, gasless transactions, native yield',
       },
       {
         name: 'author',
         content: 'Status Network',
       },
-      
+
       // OpenGraph tags
       {
         property: 'og:title',
-        content: 'Status Network Documentation',
+        content: 'Status Network Docs: Gasless L2 & Reputation System',
       },
       {
         property: 'og:description',
-        content: 'Documentation for Status Network - The gasless network with sustainable funding for app builders. Launch and scale your social apps and games with truly free transactions.',
+        content:
+          'Official Status Network docs for the gasless Ethereum L2. Learn about Karma reputation, RLN spam protection, and native yield for both humans and bots.',
       },
       {
         property: 'og:image',
@@ -131,9 +134,9 @@ const config: Config = {
       },
       {
         property: 'og:site_name',
-        content: 'Status Network Documentation',
+        content: 'Status Network Docs',
       },
-      
+
       // Twitter Card tags
       {
         name: 'twitter:card',
@@ -145,11 +148,12 @@ const config: Config = {
       },
       {
         name: 'twitter:title',
-        content: 'Status Network Documentation',
+        content: 'Status Network Docs: Gasless L2 & Reputation System',
       },
       {
         name: 'twitter:description',
-        content: 'Documentation for Status Network - The gasless network with sustainable funding for app builders. Launch and scale your social apps and games with truly free transactions.',
+        content:
+          'Official Status Network docs for the gasless Ethereum L2. Learn about Karma reputation, RLN spam protection, and native yield for both humans and bots.',
       },
       {
         name: 'twitter:image',

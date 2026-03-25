@@ -1,6 +1,6 @@
 ---
-title: Gasless Integration Guide
-description: Practical integration guide for building gasless UX on Status Network.
+title: 'Gasless Integration Guide: Building Zero-Fee Web3 UX'
+description: Integrate gasless UX on Status Network. Use the linea_estimateGas method and Karma-aware fee estimation to build seamless, fee-free dApps for all users.
 keywords: [gasless, linea_estimateGas, Status Network, deny list, builder, zero gas, UX]
 slug: /build-for-karma/guides/gasless-integration
 sidebar_position: 5
@@ -8,6 +8,8 @@ sidebar_position: 5
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
+# Gasless Integration Guide
 
 Status Network provides gasless transactions at the protocol level. You do not need paymasters or relayers. As a builder, the core task is to estimate and present fees correctly per sender state.
 

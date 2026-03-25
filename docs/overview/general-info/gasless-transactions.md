@@ -1,9 +1,11 @@
 ---
 sidebar_label: '⛽ Gasless Transactions'
-title: Gasless Transactions on Status Network
-description: Learn how Status Network implements gasless transactions using RLN (Rate Limiting Nullifier), and Karma tiers for spam prevention and fair usage.
+title: 'Gasless Transactions: RLN & Reputation-Based Access'
+description: How Status Network enables gasless transactions using Rate Limiting Nullifiers (RLN). Decouple identity from execution with ephemeral, private accounts.
 keywords: [Status Network, Gasless Transactions, Linea, RLN, Rate Limiting Nullifier, Karma, Zero-Knowledge Proofs, ZKP, Soulbound Tokens, Blockchain, Layer 2, L2, Spam Prevention]
 ---
+
+# Gasless Transactions on Status Network
 
 Status Network aims to introduce gasless transactions at scale. The key component of this gasless approach is Vac's [Rate Limiting Nullifier](https://vac.dev/rln), which permits transaction rate limitation without the need for traditional gas fees. The document describes the architecture and integration elements needed to safely enable gasless transactions.
 

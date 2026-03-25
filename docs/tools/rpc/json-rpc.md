@@ -1,6 +1,6 @@
 ---
-title: JSON-RPC API
-description: Status Network JSON-RPC API reference for builders.
+title: 'JSON-RPC API: Status Network Extensions & Reference'
+description: Status Network JSON-RPC API reference. Explore custom extensions for gasless transactions, RLN proofs, and Karma-aware fee estimation for developers.
 keywords:
   [
     Status Network,
@@ -13,6 +13,8 @@ keywords:
     gasless,
   ]
 ---
+
+# JSON-RPC API
 
 Status Network is based on Linea zkEVM, meaning **most JSON-RPC methods behave exactly like a standard EVM node**.
 

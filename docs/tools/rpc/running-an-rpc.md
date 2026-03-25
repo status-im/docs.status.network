@@ -1,8 +1,10 @@
 ---
-title: Running Your Own RPC Node
-description: Complete guide to setting up and running your own RPC node for Status Network using the official RPC tools. Learn about node setup, configuration, and maintenance.
+title: 'Run an RPC Node: Self-Host Status Network Infra'
+description: Guide to setting up a self-hosted RPC node for Status Network. Learn about node configuration, maintenance, and providing reliable infra for gasless apps.
 keywords: [RPC node, Status Network RPC, blockchain node, WebSocket, wss, self-hosted RPC, network infrastructure, Status L2 RPC tools]
 ---
+
+# Running Your Own RPC Node
 
 This tutorial will guide you through the process of setting up and running your own Remote Procedure Call (RPC) node for Status Network. By running your own RPC node, you can gain greater control over your interactions with the Status Network, enhance privacy, and reduce reliance on third-party services.
 
