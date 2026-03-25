@@ -249,6 +249,18 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
+        {
+          type: 'category',
+          label: 'ETHEREUM COMPATIBILITY',
+          collapsed: false,
+          items: [
+            {
+              type: 'doc',
+              id: 'tools/ethereum-compatibility/ethereum-differences',
+              label: '🔀 Ethereum Differences',
+            },
+          ],
+        },
       ],
     },
     {

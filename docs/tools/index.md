@@ -28,6 +28,12 @@ For RPC documentation including public endpoints, JSON-RPC API reference, and se
 - [JSON-RPC API](/tools/rpc/json-rpc) — method reference and Status Network-specific RPC behavior
 - [Running an RPC Node](/tools/rpc/running-an-rpc) — self-hosted node setup and operations guidance
 
+## Ethereum Compatibility
+
+Status Network is built on the Linea zkEVM stack and is largely EVM-equivalent. For details on the specific differences from Ethereum mainnet — including opcodes, precompiles, and transaction types — see:
+
+- [Ethereum Differences](/tools/ethereum-compatibility/ethereum-differences) — comprehensive breakdown of execution-level differences
+
 ## Infrastructure Partners
 
 Status Network is onboarding infrastructure partners across indexing, oracles, data providers, wallets, security, and more. See the full list of categories and how to use them on the [Infrastructure Partners](/tools/infrastructure) page.

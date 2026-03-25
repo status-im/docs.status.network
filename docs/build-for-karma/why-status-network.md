@@ -135,4 +135,6 @@ Status Network is built on the [Linea zkEVM](https://linea.build) stack. This me
 - use standard JSON-RPC methods (except for some methods related to gas fee. Refer to [JSON-RPC API](/tools/rpc/json-rpc) for more information.)
 - Zero-knowledge proof-based security inherited from Linea's rollup architecture
 
-No custom VM. No non-standard opcodes. No rewriting your contracts or backends.
+No custom VM.
+No rewriting your contracts or backends.
+While the developer experience is identical to Ethereum, there are minor [execution-level differences](/tools/ethereum-compatibility/ethereum-differences) inherited from the Linea zkEVM stack (e.g., some opcodes return L2-specific values). These do not affect standard contract deployment or testing.

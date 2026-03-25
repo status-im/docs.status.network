@@ -13,6 +13,10 @@ Status Network is fully EVM-compatible, so you can deploy contracts using any st
 Make sure you've [added Status Network to your wallet](/overview/general-info/add-status-network) and grabbed some [testnet ETH](/tools/core-infrastructure/testnet-faucets).
 :::
 
+:::tip Porting from Ethereum mainnet?
+Status Network is EVM-compatible, but there are minor execution-level differences inherited from the Linea zkEVM stack. See [Ethereum Differences](/tools/ethereum-compatibility/ethereum-differences) for details on opcodes, precompiles, and transaction types.
+:::
+
 ## Choose a Deployment Tool
 
 <div className="deploy-card-grid">

@@ -55,3 +55,4 @@ For detailed integration guidance including code examples, migration steps, and 
 - [Linea's `linea_estimateGas` reference](https://docs.linea.build/api/reference/linea-estimategas)
 - [Karmic Tokenomics](/overview/tokenomics/karmic-tokenomics) — how Karma impacts gas fees
 - [Gasless Transactions](/overview/general-info/gasless-transactions) — technical details of the RLN-based gasless system
+- [Ethereum Differences](/tools/ethereum-compatibility/ethereum-differences) — opcode, precompile, and transaction type differences from Ethereum mainnet
