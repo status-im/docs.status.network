@@ -1,6 +1,6 @@
 ---
-title: Using Remix with Status Network
-description: Learn how to deploy smart contracts on Status Network using Remix IDE. Beginner-friendly guide with step-by-step instructions for contract deployment and interaction.
+title: 'Using Remix IDE: Deploy Gasless Contracts on Status'
+description: A beginner-friendly guide to deploying Solidity contracts on Status Network via Remix IDE. Setup your wallet and interact with our gasless L2 testnet.
 keywords: [Remix IDE, smart contract deployment, Status Network development, blockchain tutorial, web3 development, solidity]
 ---
 

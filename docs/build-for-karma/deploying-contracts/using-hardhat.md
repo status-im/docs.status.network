@@ -1,6 +1,6 @@
 ---
-title: Using Hardhat with Status Network
-description: Step-by-step tutorial for deploying smart contracts on Status Network using Hardhat and TypeScript. Learn about project setup, configuration, and contract deployment.
+title: 'Using Hardhat: Smart Contract Deployment on Status'
+description: Tutorial for deploying on Status Network using Hardhat and TypeScript. Configure your environment for gasless transactions and reputation-aware dApps.
 keywords: [Hardhat tutorial, smart contract deployment, Status Network development, TypeScript, blockchain development, web3 development]
 ---
 

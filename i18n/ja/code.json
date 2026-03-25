@@ -438,11 +438,11 @@
     "description": "The title of the tag list page"
   },
   "homepage.layout.title": {
-    "message": "Status Network ドキュメント",
+    "message": "Status Network ドキュメント：ガスレス L2 とレピュテーション",
     "description": "Homepage layout title"
   },
   "homepage.layout.description": {
-    "message": "Status Network ドキュメント — コンポーザブルなプライバシーと組み込みのスパム保護を備えた、ヒトとボットのための完全ガスレス Ethereum L2",
+    "message": "ガスレス Ethereum L2 の公式 Status Network ドキュメントです。Karma の評判、RLN によるスパム対策、人間とボット双方のネイティブ利回りについて学べます。",
     "description": "Homepage layout description"
   },
   "homepage.hero.subtitle": {

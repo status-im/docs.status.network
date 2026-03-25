@@ -1,6 +1,6 @@
 ---
-title: Quick Start
-description: Get started with Status Network in under 10 minutes. Learn how to deploy your first smart contract using Remix IDE, get test ETH, and interact with the network.
+title: 'Quick Start Guide: Deploy on Status Network Gasless L2'
+description: Get started on Status Network in under 10 minutes. Deploy smart contracts using Remix, fetch test ETH, and interact with our gasless execution environment.
 keywords: [Status Network tutorial, quick start, smart contract deployment, Remix IDE, blockchain development, testnet setup, MetaMask configuration]
 ---
 

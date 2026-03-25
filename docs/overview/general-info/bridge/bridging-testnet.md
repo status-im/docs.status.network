@@ -1,6 +1,6 @@
 ---
-title: Bridging to Status Network Testnet
-description: Learn how to bridge tokens between Sepolia and Status Network testnet using the official Status Network bridge. Complete guide with prerequisites and step-by-step instructions.
+title: 'Bridging Guide: Transfer Assets to Status Testnet'
+description: Step-by-step instructions for bridging tokens to Status Network. Learn the process for moving assets from Sepolia to our reputation-based gasless L2.
 keywords: [Status Network bridge, token bridge, cross-chain bridge, Sepolia bridge, L2 bridge, testnet bridge, blockchain bridge]
 ---
 

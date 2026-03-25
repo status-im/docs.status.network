@@ -1,8 +1,10 @@
 ---
-title: Pre-Deposits
-description: Technical overview of Status Network's pre-deposit vault architecture, including Aragon-based vaults for SNT, LINEA, and ETH, and Generic Protocol integration for stablecoin deposits.
+title: 'Pre-Deposits: Vault Architecture & Yield Strategies'
+description: Technical overview of Status Network pre-deposit vaults. Earn Karma by bridging SNT, ETH, or stablecoins into Aragon-based yield-generating strategies.
 keywords: [Status Network, pre-deposits, vaults, Aragon, Generic Protocol, Karma, GUSD, stablecoin, yield, ETH, SNT, LINEA, Lido, Morpho]
 ---
+
+# Pre-Deposits
 
 Status Network runs a pre-deposit campaign to bootstrap liquidity and early Karma distribution ahead of mainnet. Two distinct vault systems power the campaign:
 

@@ -1,6 +1,6 @@
 ---
-title: Public Funding
-description: Overview of Status Network's public funding mechanism, including the apps funding pool, how funding is allocated, and why sustainable funding is crucial for blockchain applications.
+title: 'Public Funding: Yield Allocation & Developer Grants'
+description: "Overview of Status Network's funding pool. Learn how native yield is governed by Karma holders to fund builders, liquidity, and public goods on our L2."
 keywords: [Status Network funding, apps funding pool, blockchain funding, public goods, developer incentives, community governance, sustainable funding]
 ---
 

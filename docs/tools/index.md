@@ -1,11 +1,13 @@
 ---
 id: tools-index
-title: Tools & Infrastructure
-description: Developer tools, infrastructure services, and integrations available on Status Network — RPC endpoints, bridges, faucets, explorers, and partner integrations.
+title: 'Tools & Infrastructure: Build on the Gasless Network'
+description: 'Developer tools for Status Network: RPC endpoints, bridges, and faucets. Build private, spam-resistant dApps using our native reputation-based execution.'
 keywords: [Status Network, developer tools, RPC, bridge, faucet, block explorer, infrastructure]
 slug: /tools
 sidebar_position: 1
 ---
+
+# Tools & Infrastructure
 
 A complete reference of developer tools, infrastructure services, and integrations available on Status Network.
 

@@ -1,6 +1,6 @@
 ---
-title: Reputation Integration Guide
-description: How to read Karma tiers, gate features by reputation, and build Karma-aware smart contracts and frontends on Status Network.
+title: 'Reputation Guide: Read Karma Tiers & Smart Contracts'
+description: Learn to read Karma tiers on-chain. Build reputation-aware smart contracts that gate features and enable gasless interactions based on user contribution.
 keywords: [Karma, integration, smart contract, soulbound token, reputation, tiers, gasless, Status Network, developer guide]
 slug: /build-for-karma/guides/reputation-integration
 sidebar_position: 4
@@ -8,6 +8,8 @@ sidebar_position: 4
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
+# Reputation Integration Guide
 
 Karma is Status Network's soulbound reputation token. Every address earns Karma through genuine network participation such as staking SNT, bridging assets, providing liquidity, using apps, or paying premium gas fees. Karma cannot be bought, sold, or transferred.
 

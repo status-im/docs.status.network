@@ -1,6 +1,6 @@
 ---
-title: Testnet Contracts
-description: Comprehensive list of Status Network testnet contract addresses, including bridge contracts, core infrastructure, and L2 contracts with their purposes and links to block explorers.
+title: 'Testnet Contracts: Core Status Network Addresses'
+description: Official list of testnet contract addresses for Status Network. Access bridge, infrastructure, and core reputation contracts for developer integration.
 keywords: [Status Network contracts, testnet addresses, smart contracts, bridge contracts, L1 contracts, L2 contracts, blockchain infrastructure]
 ---
 

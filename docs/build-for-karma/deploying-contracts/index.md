@@ -1,11 +1,13 @@
 ---
 id: deploying-contracts-index
-title: Deploy Your First Contract
-description: Choose your preferred deployment tool to get a smart contract live on Status Network. Guides available for Hardhat, Foundry, Remix, and Scaffold-ETH 2.
+title: 'Deploy Your First Contract: Gasless Development Guide'
+description: Choose your deployment tool for Status Network. Step-by-step guides for Hardhat, Foundry, and Remix to get your smart contracts live on our gasless L2.
 keywords: [deploy smart contract, Status Network, Hardhat, Foundry, Remix, Scaffold-ETH 2, blockchain deployment, EVM]
 slug: /build-for-karma/deploying-contracts
 sidebar_position: 1
 ---
+
+# Deploy Your First Contract
 
 Status Network is fully EVM-compatible, so you can deploy contracts using any standard Ethereum toolchain. Pick the tool that fits your workflow and follow the step-by-step guide to get your first contract live on the testnet.
 
