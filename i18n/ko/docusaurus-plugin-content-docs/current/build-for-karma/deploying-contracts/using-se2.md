@@ -1,7 +1,14 @@
 ---
-title: Status Network에서 Scaffold-ETH 2 사용하기
-description: 사전 설정된 Scaffold-ETH 2 확장을 사용하여 Status Network에서 스마트 컨트랙트를 빠르게 배포하는 가이드입니다.
-keywords: [Scaffold-ETH 2, 스마트 컨트랙트 배포, Status Network 개발, Foundry, Hardhat, NextJS, web3 개발]
+title: 'Status Network에서 Scaffold-ETH 2 사용하기'
+description: '사전 설정된 Scaffold-ETH 2 확장을 사용하여 Status Network에서 스마트 컨트랙트를 빠르게 배포하는 가이드입니다.'
+keywords:
+  - 'Scaffold-ETH 2'
+  - '스마트 컨트랙트 배포'
+  - 'Status Network 개발'
+  - 'Foundry'
+  - 'Hardhat'
+  - 'NextJS'
+  - 'web3 개발'
 ---
 
 # Scaffold-ETH 2를 사용한 스마트 컨트랙트 배포

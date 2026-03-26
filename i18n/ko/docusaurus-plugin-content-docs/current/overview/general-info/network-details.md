@@ -1,3 +1,16 @@
+---
+id: 'network-details'
+title: '네트워크 세부정보'
+description: 'Official network configuration for Status Network. Find Chain IDs, RPC URLs, and block explorer links for wallet setup and developer environment config.'
+keywords:
+  - 'Status Network'
+  - 'network details'
+  - 'RPC endpoint'
+  - 'Chain ID'
+  - 'testnet configuration'
+  - 'blockchain network'
+  - 'MetaMask setup'
+---
 # 네트워크 세부정보
 
 ## Status 테스트넷

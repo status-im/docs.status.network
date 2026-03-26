@@ -1,3 +1,15 @@
+---
+title: 'Status Network 테스트넷으로 브릿지하기'
+description: 'Step-by-step instructions for bridging tokens to Status Network. Learn the process for moving assets from Sepolia to our reputation-based gasless L2.'
+keywords:
+  - 'Status Network bridge'
+  - 'token bridge'
+  - 'cross-chain bridge'
+  - 'Sepolia bridge'
+  - 'L2 bridge'
+  - 'testnet bridge'
+  - 'blockchain bridge'
+---
 # Status Network 테스트넷으로 브릿지하기
 
 Status Network 브릿지를 사용하면 Sepolia와 Status Network 테스트넷 간에 토큰을 전송할 수 있습니다. 브릿지는 [bridge.status.network](https://bridge.status.network)에 배포되어 있습니다.

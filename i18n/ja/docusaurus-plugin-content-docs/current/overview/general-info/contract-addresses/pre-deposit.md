@@ -1,7 +1,11 @@
 ---
-title: プリ・デポジットキャンペーンコントラクト
-description: Status Networkプリ・デポジットキャンペーンのボールトアドレス一覧。
-keywords: [Status Network, プリ・デポジット, キャンペーン, ボールト]
+title: 'プリ・デポジットキャンペーンコントラクト'
+description: 'Status Networkプリ・デポジットキャンペーンのボールトアドレス一覧。'
+keywords:
+  - 'Status Network'
+  - 'プリ・デポジット'
+  - 'キャンペーン'
+  - 'ボールト'
 ---
 
 # プリ・デポジット・ボールトコントラクト

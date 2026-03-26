@@ -1,7 +1,13 @@
 ---
-title: Status Network ブリッジ
-description: Sepolia と Status Network テストネット間のトークン転送のための Status Network ブリッジ使用ガイド。
-keywords: [Status Network ブリッジ, トークンブリッジ, クロスチェーン転送, L1 L2 ブリッジ, Sepolia ブリッジ]
+title: 'Status Network ブリッジ'
+description: 'Sepolia と Status Network テストネット間のトークン転送のための Status Network ブリッジ使用ガイド。'
+keywords:
+  - 'Status Network ブリッジ'
+  - 'トークンブリッジ'
+  - 'クロスチェーン転送'
+  - 'L1 L2 ブリッジ'
+  - 'Sepolia ブリッジ'
+slug: '/tools/core-infrastructure/bridge'
 ---
 
 # Status Network テストネットブリッジ

@@ -1,3 +1,15 @@
+---
+title: '快速开始'
+description: 'Get started on Status Network in under 10 minutes. Deploy smart contracts using Remix, fetch test ETH, and interact with our gasless execution environment.'
+keywords:
+  - 'Status Network tutorial'
+  - 'quick start'
+  - 'smart contract deployment'
+  - 'Remix IDE'
+  - 'blockchain development'
+  - 'testnet setup'
+  - 'MetaMask configuration'
+---
 # 快速开始
 
 在本节中，我们将帮助您在 10 分钟内在 **Status Network 测试网**上部署一个示例合约。

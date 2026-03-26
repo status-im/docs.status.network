@@ -1,7 +1,15 @@
 ---
-title: 테스트넷 파우셋
-description: Status Network 개발을 위한 테스트넷 ETH 또는 STT를 받으세요. Status Network 파우셋 및 Sepolia 파우셋을 통한 테스트 토큰 획득에 대한 전체 가이드입니다.
-keywords: [Status Network 파우셋, 테스트넷 ETH, 테스트 토큰, STT, Sepolia 파우셋, 블록체인 테스트, 개발용 토큰]
+title: '테스트넷 파우셋'
+description: 'Status Network 개발을 위한 테스트넷 ETH 또는 STT를 받으세요. Status Network 파우셋 및 Sepolia 파우셋을 통한 테스트 토큰 획득에 대한 전체 가이드입니다.'
+keywords:
+  - 'Status Network 파우셋'
+  - '테스트넷 ETH'
+  - '테스트 토큰'
+  - 'STT'
+  - 'Sepolia 파우셋'
+  - '블록체인 테스트'
+  - '개발용 토큰'
+slug: '/tools/core-infrastructure/testnet-faucets'
 ---
 
 Status Network 테스트넷을 시작하려면 테스트넷 ETH 또는 테스트 자산이 필요할 수 있습니다.

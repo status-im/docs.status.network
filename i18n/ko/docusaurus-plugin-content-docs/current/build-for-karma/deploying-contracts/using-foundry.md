@@ -1,3 +1,15 @@
+---
+title: 'Foundry를 사용하여 스마트 컨트랙트 배포하기'
+description: 'Comprehensive guide to using Foundry on Status Network. Deploy, test, and interact with smart contracts on our gasless L2 using Forge and Cast tools.'
+keywords:
+  - 'Foundry tutorial'
+  - 'smart contract deployment'
+  - 'Status Network development'
+  - 'blockchain testing'
+  - 'Solidity development'
+  - 'web3 development'
+  - 'Foundry testing'
+---
 # Foundry를 사용하여 스마트 컨트랙트 배포하기
 
 이 튜토리얼에서는 Foundry를 사용하여 Status Network 테스트넷에 스마트 컨트랙트를 배포하는 과정을 안내합니다.

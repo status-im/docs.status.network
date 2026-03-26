@@ -1,8 +1,18 @@
 ---
-title: 独自のRPCノードの運用
-description: 公式RPCツールを使用してStatus Network用の独自RPCノードをセットアップし、運用するための完全ガイド。ノードのセットアップ、設定、メンテナンスについて学びます。
-keywords: [RPCノード, Status Network RPC, ブロックチェーンノード, WebSocket, wss, セルフホストRPC, ネットワークインフラ, Status L2 RPCツール]
+title: '独自のRPCノードの運用'
+description: '公式RPCツールを使用してStatus Network用の独自RPCノードをセットアップし、運用するための完全ガイド。ノードのセットアップ、設定、メンテナンスについて学びます。'
+keywords:
+  - 'RPCノード'
+  - 'Status Network RPC'
+  - 'ブロックチェーンノード'
+  - 'WebSocket'
+  - 'wss'
+  - 'セルフホストRPC'
+  - 'ネットワークインフラ'
+  - 'Status L2 RPCツール'
 ---
+
+# 独自のRPCノードの運用
 
 このチュートリアルでは、Status Network用の独自のRemote Procedure Call (RPC)ノードをセットアップして運用するプロセスをガイドします。独自のRPCノードを運用することで、Status Networkとのやり取りをより強力に制御し、プライバシーを強化し、サードパーティサービスへの依存を減らすことができます。
 

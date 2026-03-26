@@ -1,7 +1,14 @@
 ---
-title: 在Status Network上使用Scaffold-ETH 2
-description: 使用预配置的Scaffold-ETH 2扩展在Status Network上部署智能合约的快速入门指南。
-keywords: [Scaffold-ETH 2, 智能合约部署, Status Network开发, Foundry, Hardhat, NextJS, web3开发]
+title: '在Status Network上使用Scaffold-ETH 2'
+description: '使用预配置的Scaffold-ETH 2扩展在Status Network上部署智能合约的快速入门指南。'
+keywords:
+  - 'Scaffold-ETH 2'
+  - '智能合约部署'
+  - 'Status Network开发'
+  - 'Foundry'
+  - 'Hardhat'
+  - 'NextJS'
+  - 'web3开发'
 ---
 
 # 使用Scaffold-ETH 2部署智能合约

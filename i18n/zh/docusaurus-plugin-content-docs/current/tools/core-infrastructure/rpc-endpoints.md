@@ -1,5 +1,14 @@
 ---
-slug: /tools/core-infrastructure/rpc-endpoints
+title: 'Status Network RPC: Public Endpoints & Configuration'
+description: 'Access official Status Network RPC endpoints. Configure MetaMask or your dApp for gasless execution using our rate-limited, privacy-preserving infrastructure.'
+keywords:
+  - 'Status Network RPC'
+  - 'JSON-RPC'
+  - 'blockchain API'
+  - 'web3 configuration'
+  - 'MetaMask setup'
+  - 'blockchain development'
+slug: '/tools/core-infrastructure/rpc-endpoints'
 ---
 
 # RPC 端点

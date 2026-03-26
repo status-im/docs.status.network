@@ -1,11 +1,21 @@
 ---
-id: build-for-karma-index
-title: Build for Karma
-description: Status Network에서 빌드하는 데 필요한 모든 것 — 가스리스 및 평판 통합 가이드, 배포 튜토리얼, 앱 아이디어.
-keywords: [Status Network, builder guides, Karma, gasless integration, reputation, deploy contracts, app ideas, developer documentation]
-slug: /build-for-karma
+id: 'build-for-karma-index'
+title: 'Build for Karma'
+description: 'Status Network에서 빌드하는 데 필요한 모든 것 — 가스리스 및 평판 통합 가이드, 배포 튜토리얼, 앱 아이디어.'
+keywords:
+  - 'Status Network'
+  - '빌더 가이드'
+  - 'Karma'
+  - '가스리스 연동'
+  - '평판'
+  - '컨트랙트 배포'
+  - '앱 아이디어'
+  - '개발자 문서'
+slug: '/build-for-karma'
 sidebar_position: 1
 ---
+
+# Build for Karma
 
 이 섹션은 스테이터스 네트워크의 빌더 허브입니다. 이곳에서 빌드하는 이점을 이해하고, 무엇을 만들지 탐색하고, 가스리스 트랜잭션 구현 방법을 배우거나, 첫 번째 스마트 컨트랙트를 배포하는 등, 카르마를 중점으로 둔 개발에 필요한 모든 것이 여기에 있습니다.
 

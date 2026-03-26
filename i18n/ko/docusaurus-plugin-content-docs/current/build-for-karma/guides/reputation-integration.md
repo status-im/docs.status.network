@@ -1,13 +1,24 @@
 ---
-title: 평판 적용 가이드
-description: Status Network에서 카르마 티어를 읽고, 평판에 따라 기능을 제한하고, 카르마가 적용된 스마트 컨트랙트와 프론트엔드를 구축하는 방법.
-keywords: [카르마, 적용, 스마트 컨트랙트, 소울바운드 토큰, 평판, 계층, 가스리스, 스테이터스 네트워크, 개발자 가이드]
-slug: /build-for-karma/guides/reputation-integration
+title: '평판 적용 가이드'
+description: 'Status Network에서 카르마 티어를 읽고, 평판에 따라 기능을 제한하고, 카르마가 적용된 스마트 컨트랙트와 프론트엔드를 구축하는 방법.'
+keywords:
+  - '카르마'
+  - '적용'
+  - '스마트 컨트랙트'
+  - '소울바운드 토큰'
+  - '평판'
+  - '계층'
+  - '가스리스'
+  - '스테이터스 네트워크'
+  - '개발자 가이드'
+slug: '/build-for-karma/guides/reputation-integration'
 sidebar_position: 4
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
+# 평판 적용 가이드
 
 카르마는 Status Network의 소울바운드 평판 토큰입니다. 인간과 봇을 포함한 모든 이의 계정은 SNT 스테이킹, 자산 브릿징, 유동성 제공, 앱 사용, 프리미엄 가스비 지불 등 실제 네트워크 참여를 통해 카르마를 획득합니다. 카르마는 구매, 판매 또는 전송할 수 없습니다.
 

@@ -1,9 +1,19 @@
 ---
-title: なぜStatus Networkで構築するのか
-description: Status Networkで構築する理由 — ガスレス取引、Karmaレピュテーション、持続可能な公共資金、他L2との比較。
-keywords: [Status Network, why build, L2 comparison, gasless, Karma, public funding, developer advantages, Linea zkEVM]
+title: 'なぜ Status で構築するか：人間とボットのためのガスレス実行'
+description: 'Status Networkで構築する理由：予測可能なコスト、ゼロガス実行、ブロック単位の流動性リバランスツールによるボットのLVR低減。'
+keywords:
+  - 'Status Network'
+  - '構築理由'
+  - 'L2比較'
+  - 'ガスレス'
+  - 'Karma'
+  - '公共資金調達'
+  - '開発者メリット'
+  - 'Linea zkEVM'
 sidebar_position: 2
 ---
+
+# なぜStatus Networkで構築するのか
 
 選択できるL2は数多くあります。Status Networkが注目に値する理由をご紹介します。
 

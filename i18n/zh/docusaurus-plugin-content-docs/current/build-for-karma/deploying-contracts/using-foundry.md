@@ -1,3 +1,15 @@
+---
+title: '使用 Foundry 部署智能合约'
+description: 'Comprehensive guide to using Foundry on Status Network. Deploy, test, and interact with smart contracts on our gasless L2 using Forge and Cast tools.'
+keywords:
+  - 'Foundry tutorial'
+  - 'smart contract deployment'
+  - 'Status Network development'
+  - 'blockchain testing'
+  - 'Solidity development'
+  - 'web3 development'
+  - 'Foundry testing'
+---
 # 使用 Foundry 部署智能合约
 
 本教程将指导您使用 Foundry 在 Status Network 测试网上部署智能合约。

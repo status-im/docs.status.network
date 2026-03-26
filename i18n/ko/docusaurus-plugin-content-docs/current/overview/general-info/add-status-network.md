@@ -1,3 +1,15 @@
+---
+title: 'Status Network 추가하기'
+description: 'Learn how to add Status Network to MetaMask and other wallets. Manual configuration steps for desktop and mobile to access our gasless L2 environment.'
+keywords:
+  - 'Status Network'
+  - 'MetaMask setup'
+  - 'add network'
+  - 'wallet configuration'
+  - 'RPC settings'
+  - 'Chain ID'
+  - 'blockchain network setup'
+---
 # Status Network 추가하기
 
 이 가이드는 지갑에 **Status Network**를 추가하는 방법을 보여줍니다.

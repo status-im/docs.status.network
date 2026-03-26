@@ -1,3 +1,14 @@
+---
+title: 'トークン'
+description: 'Directory of supported tokens on Status Network. Find L1 and L2 contract addresses for ETH, stablecoins, and SNT used within our gasless ecosystem.'
+keywords:
+  - 'Status Network tokens'
+  - 'token list'
+  - 'supported tokens'
+  - 'token addresses'
+  - 'L2 tokens'
+  - 'bridge tokens'
+---
 # トークン
 
 Status Network上でサポートされているトークンとそのコントラクトアドレスの最新リストについては、公式の[Status Networkトークンリストリポジトリ](https://github.com/status-im/status-network-token-list)をご参照ください。

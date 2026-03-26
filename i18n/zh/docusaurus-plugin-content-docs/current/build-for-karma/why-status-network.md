@@ -1,9 +1,19 @@
 ---
-title: 为什么在 Status Network 上构建
-description: 在 Status Network 上构建的理由 —— 无 Gas 交易、Karma 声誉、可持续公共资金，以及与其他 L2 的对比。
-keywords: [Status Network, why build, L2 comparison, gasless, Karma, public funding, developer advantages, Linea zkEVM]
+title: '为何在 Status 上构建：为人类与机器人提供的免 Gas 执行'
+description: '在 Status Network 上构建的理由：可预测成本、零 Gas 执行，以及通过逐块流动性再平衡工具减轻机器人的 LVR。'
+keywords:
+  - 'Status Network'
+  - '构建理由'
+  - 'L2对比'
+  - '无Gas'
+  - 'Karma'
+  - '公共资助'
+  - '开发者优势'
+  - 'Linea zkEVM'
 sidebar_position: 2
 ---
+
+# 为什么要在 Status Network 上构建
 
 有数十个 L2 可供选择。以下是 Status Network 值得你关注的原因。
 

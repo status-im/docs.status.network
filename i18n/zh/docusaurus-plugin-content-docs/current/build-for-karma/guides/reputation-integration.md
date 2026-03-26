@@ -1,13 +1,24 @@
 ---
-title: 声誉集成指南
-description: 如何在 Status Network 上读取 Karma 层级、按声誉门控功能、以及构建 Karma 感知的智能合约和前端。
-keywords: [Karma, integration, smart contract, soulbound token, reputation, tiers, gasless, Status Network, developer guide]
-slug: /build-for-karma/guides/reputation-integration
+title: '声誉集成指南'
+description: '如何在 Status Network 上读取 Karma 层级、按声誉门控功能、以及构建 Karma 感知的智能合约和前端。'
+keywords:
+  - 'Karma'
+  - '集成'
+  - '智能合约'
+  - '灵魂绑定代币'
+  - '声誉'
+  - '等级'
+  - '无Gas'
+  - 'Status Network'
+  - '开发者指南'
+slug: '/build-for-karma/guides/reputation-integration'
 sidebar_position: 4
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
+# 声誉集成指南
 
 Karma 是 Status Network 的灵魂绑定声誉代币。每个地址通过真实的网络参与来赚取 Karma，例如质押 SNT、桥接资产、提供流动性、使用应用或支付高级 Gas 费用。Karma 不能被购买、出售或转让。
 

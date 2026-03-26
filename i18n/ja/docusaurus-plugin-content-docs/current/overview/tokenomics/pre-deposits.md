@@ -1,8 +1,24 @@
 ---
-title: 事前預入
-description: SNT、LINEA、ETH向けのAragonベースのボールトと、ステーブルコイン預入のためのGeneric Protocol統合を含む、Status Networkの事前預入ボールトアーキテクチャの技術概要。
-keywords: [Status Network, 事前預入, ボールト, Aragon, Generic Protocol, Karma, GUSD, ステーブルコイン, 利回り, ETH, SNT, LINEA, Lido, Morpho]
+title: '事前預入'
+description: 'SNT、LINEA、ETH向けのAragonベースのボールトと、ステーブルコイン預入のためのGeneric Protocol統合を含む、Status Networkの事前預入ボールトアーキテクチャの技術概要。'
+keywords:
+  - 'Status Network'
+  - '事前預入'
+  - 'ボールト'
+  - 'Aragon'
+  - 'Generic Protocol'
+  - 'Karma'
+  - 'GUSD'
+  - 'ステーブルコイン'
+  - '利回り'
+  - 'ETH'
+  - 'SNT'
+  - 'LINEA'
+  - 'Lido'
+  - 'Morpho'
 ---
+
+# プレデポジット
 
 Status Networkは、メインネットローンチに先立ち、流動性の確保と初期Karma配布のための事前預入キャンペーンを実施しています。2つの異なるボールトシステムがキャンペーンを支えています：
 

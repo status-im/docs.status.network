@@ -1,8 +1,21 @@
 ---
-sidebar_label: '⛽ 无Gas交易'
-title: Status Network的无Gas交易
-description: 了解Status Network如何使用RLN（速率限制无效器）和Karma等级来实现防垃圾邮件和公平使用的无Gas交易。
-keywords: [Status Network, 无Gas交易, Linea, RLN, Rate Limiting Nullifier, Karma, 零知识证明, ZKP, 灵魂绑定代币, 区块链, 第二层, L2, 垃圾邮件防护]
+title: 'Status Network的无Gas交易'
+description: '了解Status Network如何使用RLN（速率限制无效器）和Karma等级来实现防垃圾邮件和公平使用的无Gas交易。'
+keywords:
+  - 'Status Network'
+  - '无Gas交易'
+  - 'Linea'
+  - 'RLN'
+  - 'Rate Limiting Nullifier'
+  - 'Karma'
+  - '零知识证明'
+  - 'ZKP'
+  - '灵魂绑定代币'
+  - '区块链'
+  - '第二层'
+  - 'L2'
+  - '垃圾邮件防护'
+sidebar_label: '⛽ Gasless Transactions'
 ---
 
 # Status Network的无Gas交易

@@ -1,3 +1,15 @@
+---
+title: '공공 자금 조달'
+description: 'Overview of Status Network''s funding pool. Learn how native yield is governed by Karma holders to fund builders, liquidity, and public goods on our L2.'
+keywords:
+  - 'Status Network funding'
+  - 'apps funding pool'
+  - 'blockchain funding'
+  - 'public goods'
+  - 'developer incentives'
+  - 'community governance'
+  - 'sustainable funding'
+---
 # 공공 자금 조달
 
 ## 앱 자금 풀과 공공 자금 조달 메커니즘

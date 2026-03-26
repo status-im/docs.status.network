@@ -1,3 +1,14 @@
+---
+title: 'Remix를 사용하여 스마트 컨트랙트 배포하기'
+description: 'A beginner-friendly guide to deploying Solidity contracts on Status Network via Remix IDE. Setup your wallet and interact with our gasless L2 testnet.'
+keywords:
+  - 'Remix IDE'
+  - 'smart contract deployment'
+  - 'Status Network development'
+  - 'blockchain tutorial'
+  - 'web3 development'
+  - 'solidity'
+---
 # Remix를 사용하여 스마트 컨트랙트 배포하기
 
 이 튜토리얼에서는 Remix IDE를 사용하여 Status Network 테스트넷에 스마트 컨트랙트를 배포하는 과정을 안내합니다. Remix는 빠른 개발과 테스트에 적합한 브라우저 기반 IDE입니다.

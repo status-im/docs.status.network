@@ -1,7 +1,13 @@
 ---
-title: Status Network 跨链桥
-description: 使用 Status Network 跨链桥在 Sepolia 和 Status Network 测试网之间转移代币的完整指南。
-keywords: [Status Network 跨链桥, 代币跨链, 跨链转账, L1 L2 跨链桥, Sepolia 跨链桥]
+title: 'Status Network 跨链桥'
+description: '使用 Status Network 跨链桥在 Sepolia 和 Status Network 测试网之间转移代币的完整指南。'
+keywords:
+  - 'Status Network 跨链桥'
+  - '代币跨链'
+  - '跨链转账'
+  - 'L1 L2 跨链桥'
+  - 'Sepolia 跨链桥'
+slug: '/tools/core-infrastructure/bridge'
 ---
 
 # Status Network 测试网跨链桥

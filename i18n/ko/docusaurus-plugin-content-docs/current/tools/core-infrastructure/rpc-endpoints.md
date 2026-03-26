@@ -1,3 +1,15 @@
+---
+title: 'RPC 엔드포인트'
+description: 'Status Network 공식 RPC 엔드포인트에 연결하세요. MetaMask나 dApp을 가스리스 실행에 맞게 구성하고, 속도 제한과 프라이버시를 고려한 인프라를 활용합니다.'
+keywords:
+  - 'Status Network RPC'
+  - 'JSON-RPC'
+  - 'blockchain API'
+  - 'web3 configuration'
+  - 'MetaMask setup'
+  - 'blockchain development'
+slug: '/tools/core-infrastructure/rpc-endpoints'
+---
 # RPC 엔드포인트
 
 Status Network는 네트워크와 상호작용할 수 있는 공개 RPC(Remote Procedure Call) 엔드포인트를 제공합니다.

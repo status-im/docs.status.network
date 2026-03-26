@@ -1,3 +1,16 @@
+---
+id: 'network-details'
+title: 'ネットワークの詳細'
+description: 'Official network configuration for Status Network. Find Chain IDs, RPC URLs, and block explorer links for wallet setup and developer environment config.'
+keywords:
+  - 'Status Network'
+  - 'network details'
+  - 'RPC endpoint'
+  - 'Chain ID'
+  - 'testnet configuration'
+  - 'blockchain network'
+  - 'MetaMask setup'
+---
 # ネットワークの詳細
 
 ## Status テストネット

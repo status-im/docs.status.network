@@ -1,3 +1,16 @@
+---
+title: '官方链接'
+description: 'Access the directory for Status Network: mainnet links, bridge tools, faucet access, and developer communities for our reputation-based L2 infrastructure.'
+keywords:
+  - 'Status Network links'
+  - 'official resources'
+  - 'network tools'
+  - 'development resources'
+  - 'community links'
+  - 'blockchain explorer'
+  - 'bridge'
+  - 'faucet'
+---
 # 官方链接
 
 本页面包含 Status Network 生态系统的所有官方链接。

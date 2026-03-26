@@ -1,10 +1,17 @@
 ---
-title: 카르마 사용하기
-description: Status Network에서 카르마 기반 가스리스 UX 및 평판 인식 기능을 통합하기 위한 시작점입니다.
-keywords: [카르마, gasless, reputation, integration, Status Network]
-slug: /build-for-karma/guides
+title: '카르마 사용하기'
+description: 'Status Network에서 카르마 기반 가스리스 UX 및 평판 인식 기능을 통합하기 위한 시작점입니다.'
+keywords:
+  - '카르마'
+  - 'gasless'
+  - 'reputation'
+  - 'integration'
+  - 'Status Network'
+slug: '/build-for-karma/guides'
 sidebar_position: 3
 ---
+
+# 카르마 사용하기
 
 카르마는 Status Network에서 가스리스 트랜잭션 권한과 평판을 제공합니다.
 이 섹션은 앱에서 가스리스 동작과 티어 기반 프로덕트 로직을 적용하는 방법을 안내합니다.

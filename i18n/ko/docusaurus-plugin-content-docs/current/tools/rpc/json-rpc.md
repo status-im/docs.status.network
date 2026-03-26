@@ -1,18 +1,18 @@
 ---
-title: JSON-RPC API
-description: 빌더를 위한 Status Network JSON-RPC API 레퍼런스.
+title: 'JSON-RPC API'
+description: '빌더를 위한 Status Network JSON-RPC API 레퍼런스.'
 keywords:
-  [
-    Status Network,
-    JSON-RPC,
-    Linea,
-    EIP-1559,
-    eth_estimateGas,
-    linea_estimateGas,
-    Karma,
-    gasless,
-  ]
+  - 'Status Network'
+  - 'JSON-RPC'
+  - 'Linea'
+  - 'EIP-1559'
+  - 'eth_estimateGas'
+  - 'linea_estimateGas'
+  - 'Karma'
+  - 'gasless'
 ---
+
+# JSON-RPC API
 
 Status Network는 Linea zkEVM을 기반으로 하므로, **대부분의 JSON-RPC 메서드는 표준 EVM 노드와 동일하게 동작합니다**.
 
