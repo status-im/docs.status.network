@@ -1,9 +1,17 @@
 ---
-title: 이더리움과 Status Network의 차이점
-description: Status Network와 이더리움 메인넷의 차이점 — 개발자가 알아야 할 오퍼코드, 프리컴파일, 트랜잭션 타입 및 API 동작.
-keywords: [스테이터스 네트워크, 이더리움 차이, EVM 호환성, 오퍼코드, 프리컴파일, Linea zkEVM]
+title: '이더리움과 Status Network의 차이점'
+description: 'Status Network와 이더리움 메인넷의 차이점 — 개발자가 알아야 할 오퍼코드, 프리컴파일, 트랜잭션 타입 및 API 동작.'
+keywords:
+  - '스테이터스 네트워크'
+  - '이더리움 차이'
+  - 'EVM 호환성'
+  - '오퍼코드'
+  - '프리컴파일'
+  - 'Linea zkEVM'
 sidebar_position: 1
 ---
+
+# 이더리움과 Status Network의 차이점
 
 이 페이지는 이더리움 메인넷과 비교했을 때 스테이터스 네트워크에서 다르게 동작하거나 아직 제공되지 않는 기능들을 정리합니다.
 여기에 언급되지 않은 기능은 스테이터스 네트워크에서 사용할 수 있으며, 동작이 이더리움 메인넷과 동일하다는 뜻입니다.

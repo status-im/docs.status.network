@@ -5,6 +5,8 @@ keywords: [Status Network, Ethereum differences, EVM compatibility, opcodes, pre
 sidebar_position: 1
 ---
 
+# Differences between Ethereum and Status Network
+
 This page outlines Ethereum mainnet functionality that differs on Status Network, or is not yet available.
 Absence from this page indicates that the functionality is available on Status Network and identical to behavior on Ethereum mainnet.
 If you're experiencing otherwise, please get in touch via our [Telegram Builder's Community](https://t.me/statusl2).

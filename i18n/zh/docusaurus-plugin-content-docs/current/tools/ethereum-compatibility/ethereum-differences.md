@@ -1,9 +1,17 @@
 ---
-title: 以太坊与 Status Network 之间的差异
-description: Status Network 与以太坊主网之间的差异——开发者需要了解的操作码、预编译合约、交易类型和 API 行为。
-keywords: [Status Network, 以太坊差异, EVM 兼容性, 操作码, 预编译合约, Linea zkEVM]
+title: '以太坊与 Status Network 之间的差异'
+description: 'Status Network 与以太坊主网之间的差异——开发者需要了解的操作码、预编译合约、交易类型和 API 行为。'
+keywords:
+  - 'Status Network'
+  - '以太坊差异'
+  - 'EVM 兼容性'
+  - '操作码'
+  - '预编译合约'
+  - 'Linea zkEVM'
 sidebar_position: 1
 ---
+
+# 以太坊与 Status Network 之间的差异
 
 本文概述了以太坊主网上的功能在 Status Network 上存在差异或尚不可用的部分。
 如果某项功能未在本文中提及，则表示该功能在 Status Network 上可用，且其行为与以太坊主网保持一致。
