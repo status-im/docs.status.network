@@ -1,6 +1,6 @@
 ---
-title: Economic Model
-description: Overview of Status Network's economic model including revenue streams, sustainable funding approach, and how the network achieves economic sustainability without relying on gas fees.
+title: 'Economic Model: Yield-Backed Network Sustainability'
+description: "Status Network's economic model: replacing gas fees with native yield from L1 staking and lending. Sustainable funding for a truly gasless L2 ecosystem."
 keywords: [Status Network economics, L2 revenue, yield commission, DEX fees, sustainable blockchain, gasless blockchain, crypto economics]
 ---
 

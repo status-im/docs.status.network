@@ -438,11 +438,11 @@
     "description": "The title of the tag list page"
   },
   "homepage.layout.title": {
-    "message": "Status Network 文档",
+    "message": "Status Network 文档：免 Gas L2 与声誉体系",
     "description": "Homepage layout title"
   },
   "homepage.layout.description": {
-    "message": "Status Network 文档 — 面向人类与机器人，完全免 Gas 的 Ethereum L2，具备可组合隐私与内置垃圾信息防护",
+    "message": "Status Network 官方文档，涵盖免 Gas 以太坊 L2。了解 Karma 声誉、RLN 防垃圾机制，以及面向人类与机器人的原生收益。",
     "description": "Homepage layout description"
   },
   "homepage.hero.subtitle": {

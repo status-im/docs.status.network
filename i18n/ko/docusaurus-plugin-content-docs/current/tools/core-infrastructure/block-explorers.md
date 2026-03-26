@@ -1,8 +1,14 @@
 ---
-title: 블록 익스플로러
-description: 트랜잭션 조회, 컨트랙트 검증, 네트워크 활동 모니터링을 위한 Status Network 블록 익스플로러.
-keywords: [블록 익스플로러, 트랜잭션 추적, 스마트 컨트랙트 검증]
+title: '블록 익스플로러'
+description: '트랜잭션 조회, 컨트랙트 검증, 네트워크 활동 모니터링을 위한 Status Network 블록 익스플로러.'
+keywords:
+  - '블록 익스플로러'
+  - '트랜잭션 추적'
+  - '스마트 컨트랙트 검증'
+slug: '/tools/core-infrastructure/block-explorers'
 ---
+
+# 블록 익스플로러
 
 ## Status Network 메인넷
 

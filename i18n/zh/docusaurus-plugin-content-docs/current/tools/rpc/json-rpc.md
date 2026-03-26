@@ -1,18 +1,18 @@
 ---
-title: JSON-RPC API
-description: 面向开发者的 Status Network JSON-RPC API 参考。
+title: 'JSON-RPC API'
+description: '面向开发者的 Status Network JSON-RPC API 参考。'
 keywords:
-  [
-    Status Network,
-    JSON-RPC,
-    Linea,
-    EIP-1559,
-    eth_estimateGas,
-    linea_estimateGas,
-    Karma,
-    gasless,
-  ]
+  - 'Status Network'
+  - 'JSON-RPC'
+  - 'Linea'
+  - 'EIP-1559'
+  - 'eth_estimateGas'
+  - 'linea_estimateGas'
+  - 'Karma'
+  - 'gasless'
 ---
+
+# JSON-RPC API
 
 Status Network 基于 Linea zkEVM，这意味着**大多数 JSON-RPC 方法的行为与标准 EVM 节点完全一致**。
 

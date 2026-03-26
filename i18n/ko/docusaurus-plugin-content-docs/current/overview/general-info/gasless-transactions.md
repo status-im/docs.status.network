@@ -1,8 +1,21 @@
 ---
-sidebar_label: '⛽ 가스리스 트랜잭션'
-title: Status Network의 가스리스 트랜잭션
-description: Status Network가 RLN(Rate Limiting Nullifier)과 Karma 티어를 사용하여 스팸 방지와 공정한 사용을 위한 가스리스 트랜잭션을 구현하는 방법을 알아보세요.
-keywords: [Status Network, 가스리스 트랜잭션, Linea, RLN, Rate Limiting Nullifier, Karma, 영지식 증명, ZKP, 소울바운드 토큰, 블록체인, 레이어 2, L2, 스팸 방지]
+title: 'Status Network의 가스리스 트랜잭션'
+description: 'Status Network가 RLN(Rate Limiting Nullifier)과 Karma 티어를 사용하여 스팸 방지와 공정한 사용을 위한 가스리스 트랜잭션을 구현하는 방법을 알아보세요.'
+keywords:
+  - 'Status Network'
+  - '가스리스 트랜잭션'
+  - 'Linea'
+  - 'RLN'
+  - 'Rate Limiting Nullifier'
+  - 'Karma'
+  - '영지식 증명'
+  - 'ZKP'
+  - '소울바운드 토큰'
+  - '블록체인'
+  - '레이어 2'
+  - 'L2'
+  - '스팸 방지'
+sidebar_label: '⛽ Gasless Transactions'
 ---
 
 # Status Network의 가스리스 트랜잭션

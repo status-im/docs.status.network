@@ -1,6 +1,6 @@
 ---
-title: Using Scaffold-ETH 2 with Status Network
-description: Quick start guide for deploying smart contracts on Status Network using the pre-configured Scaffold-ETH 2 extension.
+title: 'Using Scaffold-ETH 2: Deploy on Status Network L2'
+description: Deploy smart contracts on Status Network with Scaffold-ETH 2. A quick start for developers to integrate gasless UX and reputation-aware project features.
 keywords: [Scaffold-ETH 2, smart contract deployment, Status Network development, Foundry, Hardhat, NextJS, web3 development]
 ---
 

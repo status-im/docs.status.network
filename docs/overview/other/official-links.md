@@ -1,6 +1,6 @@
 ---
-title: Official Links
-description: Complete directory of official Status Network resources, including main website, tools, development resources, and community links.
+title: 'Official Links: Status Network Resources & Communities'
+description: 'Access the directory for Status Network: mainnet links, bridge tools, faucet access, and developer communities for our reputation-based L2 infrastructure.'
 keywords: [Status Network links, official resources, network tools, development resources, community links, blockchain explorer, bridge, faucet]
 ---
 

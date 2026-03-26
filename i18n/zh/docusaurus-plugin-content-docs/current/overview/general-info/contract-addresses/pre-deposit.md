@@ -1,7 +1,11 @@
 ---
-title: 预存活动合约
-description: Status Network预存活动金库地址列表。
-keywords: [Status Network, 预存, 活动, 金库]
+title: '预存活动合约'
+description: 'Status Network预存活动金库地址列表。'
+keywords:
+  - 'Status Network'
+  - '预存'
+  - '活动'
+  - '金库'
 ---
 
 # 预存活动金库合约

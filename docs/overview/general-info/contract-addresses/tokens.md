@@ -1,6 +1,6 @@
 ---
-title: Tokens
-description: Official list of supported tokens and their contract addresses on Status Network, including both L1 and L2 token addresses and bridge mappings.
+title: 'Tokens: Official Contract Addresses on Status Network'
+description: Directory of supported tokens on Status Network. Find L1 and L2 contract addresses for ETH, stablecoins, and SNT used within our gasless ecosystem.
 keywords: [Status Network tokens, token list, supported tokens, token addresses, L2 tokens, bridge tokens]
 ---
 

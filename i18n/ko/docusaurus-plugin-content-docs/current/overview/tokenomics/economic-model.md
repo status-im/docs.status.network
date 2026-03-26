@@ -1,3 +1,15 @@
+---
+title: '경제 모델'
+description: 'Status Network''s economic model: replacing gas fees with native yield from L1 staking and lending. Sustainable funding for a truly gasless L2 ecosystem.'
+keywords:
+  - 'Status Network economics'
+  - 'L2 revenue'
+  - 'yield commission'
+  - 'DEX fees'
+  - 'sustainable blockchain'
+  - 'gasless blockchain'
+  - 'crypto economics'
+---
 # 경제 모델
 
 전통적인 L2가 가스 수수료에서 수익을 창출하는 것과 달리, Status Network는 근본적으로 다른 패러다임으로 운영됩니다: 사용자와 애플리케이션은 거래 수수료를 지불하지 않습니다. 이로 인해 네트워크의 유지와 지속을 위한 대체 수입원이 필요합니다. 가스 수수료가 제로를 향해 가고 롤업이 탈중앙화로 나아감에 따라, L2의 비즈니스 모델은 실행 기반 수익(시퀀서 수수료)에서 네트워크상의 자산 거래량과 수익 창출형 총 잠긴 가치(TVL)의 수익화로 전환되어야 합니다.

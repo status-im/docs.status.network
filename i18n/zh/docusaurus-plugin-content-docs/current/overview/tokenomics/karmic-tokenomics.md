@@ -1,6 +1,41 @@
+---
+title: 'Karmic 通证经济学：赚取声誉与治理权'
+description: 'Karmic 通证经济学详解：了解灵魂绑定 Karma 如何决定交易吞吐量、原生收益分配以及网络级垃圾交易惩罚机制。'
+keywords:
+  - 'Karma 代币'
+  - 'Karmic 通证经济学'
+  - 'Status Network 治理'
+  - '不可转让代币'
+  - '治理权'
+  - '质押奖励'
+  - '贡献奖励'
+---
 # 因果通证经济学
 
 在东方传统中，因果报应代表着一个人过去的行为会塑造其未来的状态。同样，在 Status Network 中，每一个积极的行动和贡献都会积累因果值（Karma），从而在网络的资金分配和激励机制上获得更大的影响力。因果值（$KARMA）是一种不可转让的治理代币，用于奖励质押、跨链、提供流动性和建设行为。用户或应用程序为 L2 提供的流动性或活动越多，在资金分配、流动性激励以及网络路线图和参数方面获得的投票权就越大。
+
+## Karma 等级
+
+Karma 等级决定每个地址的无 Gas 交易额度。等级越高，每个周期内可免费交易次数越多。
+
+### 当前等级模型（测试网）
+
+| 等级 | 每日额度 | 等效频率 | Karma 范围 |
+|---|---|---|---|
+| Entry | 1 tx/day | 1 tx every 24 hours | 1-2 |
+| Newbie | 5 tx/day | 1 tx every ~5 hours | 2-49 |
+| Basic | 15 tx/day | 1 tx every 90 minutes | 50-499 |
+| Active | 96 tx/day | 1 tx every 15 minutes | 500-4999 |
+| Regular | 480 tx/day | 1 tx every 3 minutes | 5000-19999 |
+| Power User | 960 tx/day | 1 tx every 90 seconds | 20000-99999 |
+| Pro User | 10080 tx/day | 1 tx every 9 seconds | 100000-499999 |
+| High-Throughput | 108000 tx/day | 1 TPS | 500000-4999999 |
+| S-Tier | 240000 tx/day | 5 TPS | 5000000-9999999 |
+| Legendary | 480000 tx/day | 10 TPS | 10000000 and more |
+
+:::info 仅限测试网
+该等级模型目前用于测试网对齐。各等级的具体配额未来将由 Karma 持有者治理决定，可能会发生变化。
+:::
 
 ## 如何获得因果值
 

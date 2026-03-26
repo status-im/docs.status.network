@@ -1,9 +1,21 @@
 ---
-title: 인프라 파트너
-description: Status Network에서 사용할 수 있는 인프라 파트너 및 서드파티 통합 — RPC 제공자, 오라클, 인덱서, 계정 추상화, 개발 도구 등.
-keywords: [Status Network, 인프라, 파트너, 오라클, 인덱싱, RPC, 계정 추상화, 개발 도구, 크로스체인, 온램프]
+title: '인프라 파트너'
+description: 'Status Network에서 사용할 수 있는 인프라 파트너 및 서드파티 통합 — RPC 제공자, 오라클, 인덱서, 계정 추상화, 개발 도구 등.'
+keywords:
+  - 'Status Network'
+  - '인프라'
+  - '파트너'
+  - '오라클'
+  - '인덱싱'
+  - 'RPC'
+  - '계정 추상화'
+  - '개발 도구'
+  - '크로스체인'
+  - '온램프'
 sidebar_position: 6
 ---
+
+# 인프라 파트너
 
 :::note 출시 예정
 Status Network는 아래 카테고리의 인프라 파트너를 적극적으로 온보딩하고 있습니다. 이 페이지는 온보딩이 완료됨에 따라 업데이트될 예정입니다.

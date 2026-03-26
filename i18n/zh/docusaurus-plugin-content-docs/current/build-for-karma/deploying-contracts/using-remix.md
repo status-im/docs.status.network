@@ -1,3 +1,14 @@
+---
+title: '使用 Remix 部署智能合约'
+description: 'A beginner-friendly guide to deploying Solidity contracts on Status Network via Remix IDE. Setup your wallet and interact with our gasless L2 testnet.'
+keywords:
+  - 'Remix IDE'
+  - 'smart contract deployment'
+  - 'Status Network development'
+  - 'blockchain tutorial'
+  - 'web3 development'
+  - 'solidity'
+---
 # 使用 Remix 部署智能合约
 
 本教程将指导您使用 Remix IDE 在 Status Network 测试网上部署智能合约。Remix 是一个基于浏览器的 IDE，非常适合快速开发和测试。

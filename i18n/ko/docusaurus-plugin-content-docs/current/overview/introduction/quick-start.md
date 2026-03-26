@@ -1,3 +1,15 @@
+---
+title: '빠른 시작'
+description: 'Get started on Status Network in under 10 minutes. Deploy smart contracts using Remix, fetch test ETH, and interact with our gasless execution environment.'
+keywords:
+  - 'Status Network tutorial'
+  - 'quick start'
+  - 'smart contract deployment'
+  - 'Remix IDE'
+  - 'blockchain development'
+  - 'testnet setup'
+  - 'MetaMask configuration'
+---
 # 빠른 시작
 
 이 섹션에서는 10분 이내에 **Status Network 테스트넷**에 샘플 컨트랙트를 배포하는 방법을 알아보겠습니다.

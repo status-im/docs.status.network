@@ -1,9 +1,19 @@
 ---
-title: Status Network에서 구축해야 하는 이유
-description: Status Network에서 구축해야 하는 이유 — 가스리스 트랜잭션, Karma 평판, 지속 가능한 공공 자금 조달, 그리고 다른 L2와의 비교.
-keywords: [Status Network, why build, L2 comparison, gasless, Karma, public funding, developer advantages, Linea zkEVM]
+title: '왜 Status에서 빌드하는가: 사람과 봇을 위한 가스리스 실행'
+description: 'Status Network에서 구축해야 하는 이유: 예측 가능한 비용, 제로 가스 실행, 블록 단위 유동성 리밸런싱 도구를 통한 봇의 LVR 완화.'
+keywords:
+  - 'Status Network'
+  - '구축 이유'
+  - 'L2 비교'
+  - '가스리스'
+  - 'Karma'
+  - '공공 자금'
+  - '개발자 이점'
+  - 'Linea zkEVM'
 sidebar_position: 2
 ---
+
+# 왜 Status Network에서 구축하는가
 
 여러분이 선택할 수 있는 수십 개의 L2들 중에서 스테이터스 네트워크를 주목할 만한 이유를 소개합니다.
 
@@ -95,7 +105,7 @@ sidebar_position: 2
 
 대부분의 체인들은 "가스리스"를 위해서 페이마스터 설정, 릴레이어 운영, 또는 계정 추상화 SDK 적용 등 개발자의 추가적인 조치가 필요합니다. 스테이터스 네트워크에서는 가스리스가 기본 동작입니다.
 
-Karma를 보유한 주소는 일정량의 무료 트랜잭션을 할당 받습니다. 페이마스터 X. 릴레이어 X. 특별한 지갑 설정 X. 자격이 있는 사용자에게 앱이 가스 수수료 없이 작동합니다.
+Karma를 보유한 주소는 일정량의 무료 트랜잭션을 할당 받습니다. 페이마스터 없음. 릴레이어 없음. 특별한 지갑 설정 없음. 자격이 있는 사용자에게 앱이 가스 수수료 없이 작동합니다.
 
 **빌더에게 의미하는 바:**
 

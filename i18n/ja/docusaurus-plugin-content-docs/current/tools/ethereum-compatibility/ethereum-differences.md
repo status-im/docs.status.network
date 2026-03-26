@@ -1,9 +1,17 @@
 ---
-title: Ethereum と Status Network の違い
-description: Status Network と Ethereum メインネットの違い — 開発者が知っておくべきオペコード、プリコンパイル、トランザクションタイプ、API 動作。
-keywords: [Status Network, Ethereum の違い, EVM 互換性, オペコード, プリコンパイル, Linea zkEVM]
+title: 'Ethereum と Status Network の違い'
+description: 'Status Network と Ethereum メインネットの違い — 開発者が知っておくべきオペコード、プリコンパイル、トランザクションタイプ、API 動作。'
+keywords:
+  - 'Status Network'
+  - 'Ethereum の違い'
+  - 'EVM 互換性'
+  - 'オペコード'
+  - 'プリコンパイル'
+  - 'Linea zkEVM'
 sidebar_position: 1
 ---
+
+# Ethereum と Status Network の違い
 
 このページでは、Ethereum メインネットと比べて Status Network 上で動作が異なる、あるいはまだ提供されていない機能をまとめます。
 ここに記載がない機能については、Status Network 上で利用可能であり、その動作は Ethereum メインネットと同一であるとみなせます。

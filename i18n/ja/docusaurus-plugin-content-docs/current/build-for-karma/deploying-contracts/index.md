@@ -1,11 +1,21 @@
 ---
-id: deploying-contracts-index
-title: 最初のコントラクトをデプロイする
-description: Status Networkでスマートコントラクトを稼働させるためのデプロイツールを選択してください。Hardhat、Foundry、Remix、Scaffold-ETH 2のガイドがあります。
-keywords: [deploy smart contract, Status Network, Hardhat, Foundry, Remix, Scaffold-ETH 2, blockchain deployment, EVM]
-slug: /build-for-karma/deploying-contracts
+id: 'deploying-contracts-index'
+title: '最初のコントラクトをデプロイする'
+description: 'Status Networkでスマートコントラクトを稼働させるためのデプロイツールを選択してください。Hardhat、Foundry、Remix、Scaffold-ETH 2のガイドがあります。'
+keywords:
+  - 'スマートコントラクトデプロイ'
+  - 'Status Network'
+  - 'Hardhat'
+  - 'Foundry'
+  - 'Remix'
+  - 'Scaffold-ETH 2'
+  - 'ブロックチェーンデプロイ'
+  - 'EVM'
+slug: '/build-for-karma/deploying-contracts'
 sidebar_position: 1
 ---
+
+# 最初のコントラクトをデプロイする
 
 Status Networkは完全なEVM互換なので、標準的なイーサリアムツールチェーンを使ってコントラクトをデプロイできます。ワークフローに合ったツールを選び、ステップバイステップのガイドに従ってテストネットに最初のコントラクトをデプロイしましょう。
 

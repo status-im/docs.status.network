@@ -1,7 +1,14 @@
 ---
-title: Status NetworkでScaffold-ETH 2を使用する
-description: 事前設定されたScaffold-ETH 2拡張機能を使用してStatus Networkでスマートコントラクトをデプロイするためのクイックスタートガイド。
-keywords: [Scaffold-ETH 2, スマートコントラクトデプロイ, Status Network開発, Foundry, Hardhat, NextJS, web3開発]
+title: 'Status NetworkでScaffold-ETH 2を使用する'
+description: '事前設定されたScaffold-ETH 2拡張機能を使用してStatus Networkでスマートコントラクトをデプロイするためのクイックスタートガイド。'
+keywords:
+  - 'Scaffold-ETH 2'
+  - 'スマートコントラクトデプロイ'
+  - 'Status Network開発'
+  - 'Foundry'
+  - 'Hardhat'
+  - 'NextJS'
+  - 'web3開発'
 ---
 
 # Scaffold-ETH 2を使用したスマートコントラクトのデプロイ

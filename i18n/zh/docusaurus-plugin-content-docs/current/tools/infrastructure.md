@@ -1,7 +1,17 @@
 ---
-title: 基础设施合作伙伴
-description: Status Network 上可用的基础设施合作伙伴和第三方集成 — RPC 提供商、预言机、索引器、账户抽象、开发工具等。
-keywords: [Status Network, 基础设施, 合作伙伴, 预言机, 索引, RPC, 账户抽象, 开发工具, 跨链, 入金]
+title: '基础设施合作伙伴'
+description: 'Status Network 上可用的基础设施合作伙伴和第三方集成 — RPC 提供商、预言机、索引器、账户抽象、开发工具等。'
+keywords:
+  - 'Status Network'
+  - '基础设施'
+  - '合作伙伴'
+  - '预言机'
+  - '索引'
+  - 'RPC'
+  - '账户抽象'
+  - '开发工具'
+  - '跨链'
+  - '入金'
 sidebar_position: 6
 ---
 

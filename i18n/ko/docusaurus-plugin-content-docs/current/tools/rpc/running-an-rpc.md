@@ -1,8 +1,18 @@
 ---
-title: 자체 RPC 노드 운영하기
-description: 공식 RPC 도구를 사용하여 Status Network용 자체 RPC 노드를 설정하고 운영하는 완벽한 가이드. 노드 설정, 구성 및 유지 관리에 대해 알아보세요.
-keywords: [RPC 노드, Status Network RPC, 블록체인 노드, WebSocket, wss, 자체 호스팅 RPC, 네트워크 인프라, Status L2 RPC 도구]
+title: '자체 RPC 노드 운영하기'
+description: '공식 RPC 도구를 사용하여 Status Network용 자체 RPC 노드를 설정하고 운영하는 완벽한 가이드. 노드 설정, 구성 및 유지 관리에 대해 알아보세요.'
+keywords:
+  - 'RPC 노드'
+  - 'Status Network RPC'
+  - '블록체인 노드'
+  - 'WebSocket'
+  - 'wss'
+  - '자체 호스팅 RPC'
+  - '네트워크 인프라'
+  - 'Status L2 RPC 도구'
 ---
+
+# 자체 RPC 노드 운영하기
 
 이 튜토리얼은 Status Network용 자체 Remote Procedure Call (RPC) 노드를 설정하고 운영하는 과정을 안내합니다. 자체 RPC 노드를 운영함으로써 Status Network와의 상호작용에 대한 더 큰 제어권을 얻고, 프라이버시를 강화하며, 제3자 서비스에 대한 의존도를 줄일 수 있습니다.
 

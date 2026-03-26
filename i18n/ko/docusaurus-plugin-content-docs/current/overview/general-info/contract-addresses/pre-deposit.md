@@ -1,8 +1,14 @@
 ---
-title: 사전예치 금고 컨트랙트
-description: Status Network 사전 예치 캠페인 금고 주소 목록.
-keywords: [Status Network, 사전 예치, 캠페인, 금고]
+title: '사전예치 금고 컨트랙트'
+description: 'Status Network 사전 예치 캠페인 금고 주소 목록.'
+keywords:
+  - 'Status Network'
+  - '사전 예치'
+  - '캠페인'
+  - '금고'
 ---
+
+# 사전예치 금고 컨트랙트
 
 [Aragon](https://www.aragon.org/)과 협력하여 Status Network 사용자를 위한 사전예치 캠페인을 진행하고 있습니다.
 이 페이지는 캠페인의 모든 중요한 컨트랙트 주소를 나열합니다.

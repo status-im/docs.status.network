@@ -1,10 +1,12 @@
 ---
-title: Using Karma
-description: Entry point for integrating Karma-based gasless UX and reputation-aware features on Status Network.
+title: 'Using Karma: Integration Guides for Reputation Logic'
+description: Developer entry point for Karma. Learn to integrate reputation-aware features, gate content by tier, and utilize gasless execution on Status Network L2.
 keywords: [Karma, gasless, reputation, integration, Status Network]
 slug: /build-for-karma/guides
 sidebar_position: 3
 ---
+
+# Using Karma
 
 Karma provides gasless transaction privileges and reputation across Status Network.
 This section helps you integrate both gasless behavior and tier-aware product logic in your app.

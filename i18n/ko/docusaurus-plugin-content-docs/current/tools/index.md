@@ -1,11 +1,20 @@
 ---
-id: tools-index
-title: 도구 및 인프라
-description: Status Network에서 사용할 수 있는 개발자 도구, 인프라 서비스, 통합 — RPC 엔드포인트, 브릿지, 파우셋, 익스플로러, 파트너 통합.
-keywords: [Status Network, 개발자 도구, RPC, 브릿지, 파우셋, 블록 익스플로러, 인프라]
-slug: /tools
+id: 'tools-index'
+title: '도구 및 인프라'
+description: 'Status Network에서 사용할 수 있는 개발자 도구, 인프라 서비스, 통합 — RPC 엔드포인트, 브릿지, 파우셋, 익스플로러, 파트너 통합.'
+keywords:
+  - 'Status Network'
+  - '개발자 도구'
+  - 'RPC'
+  - '브릿지'
+  - '파우셋'
+  - '블록 익스플로러'
+  - '인프라'
+slug: '/tools'
 sidebar_position: 1
 ---
+
+# 도구 및 인프라
 
 Status Network에서 사용할 수 있는 개발자 도구, 인프라 서비스 및 구현에 대한 종합 레퍼런스입니다.
 
@@ -19,6 +28,14 @@ Status Network에서 빌드 및 테스트에 필요한 필수 서비스:
 | **브릿지** | Ethereum Sepolia와 Status Network 간 자산 전송 | [브릿지 →](/tools/core-infrastructure/bridge) |
 | **테스트넷 파우셋** | 개발용 테스트넷 자산 받기 | [파우셋 →](/tools/core-infrastructure/testnet-faucets) |
 | **블록 익스플로러** | 트랜잭션, 컨트랙트, 네트워크 활동 탐색기 | [익스플로러 →](/tools/core-infrastructure/block-explorers) |
+
+## RPC
+
+퍼블릭 엔드포인트, JSON-RPC API 참고, 자체 노드 운영을 시작하려면 아래를 참고하세요.
+
+- [RPC 엔드포인트](/tools/core-infrastructure/rpc-endpoints) — 퍼블릭 URL, 설정 예시, 속도 제한 및 지원 메서드 개요
+- [JSON-RPC API](/tools/rpc/json-rpc) — 메서드 참고와 Status Network 전용 RPC 동작
+- [RPC 노드 운영](/tools/rpc/running-an-rpc) — 자체 호스팅 노드 설정 및 운영 가이드
 
 ## 인프라 파트너
 

@@ -1,8 +1,24 @@
 ---
-title: 사전예치
-description: SNT, LINEA, ETH를 위한 Aragon 기반 금고와 스테이블코인 예치를 위한 Generic Protocol 통합을 포함한 Status Network 사전예치 금고 아키텍처에 대한 기술 개요.
-keywords: [Status Network, 사전예치, 금고, Aragon, Generic Protocol, Karma, GUSD, 스테이블코인, 수익률, ETH, SNT, LINEA, Lido, Morpho]
+title: '사전예치'
+description: 'SNT, LINEA, ETH를 위한 Aragon 기반 금고와 스테이블코인 예치를 위한 Generic Protocol 통합을 포함한 Status Network 사전예치 금고 아키텍처에 대한 기술 개요.'
+keywords:
+  - 'Status Network'
+  - '사전예치'
+  - '금고'
+  - 'Aragon'
+  - 'Generic Protocol'
+  - 'Karma'
+  - 'GUSD'
+  - '스테이블코인'
+  - '수익률'
+  - 'ETH'
+  - 'SNT'
+  - 'LINEA'
+  - 'Lido'
+  - 'Morpho'
 ---
+
+# 사전예치
 
 Status Network는 메인넷 출시 전에 유동성 확보와 초기 Karma 배포를 위한 사전예치 캠페인을 진행하고 있습니다. 두 가지 금고 시스템이 캠페인을 지원합니다:
 

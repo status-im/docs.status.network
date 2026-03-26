@@ -1,3 +1,15 @@
+---
+title: 'Foundryを使用したスマートコントラクトのデプロイ'
+description: 'Comprehensive guide to using Foundry on Status Network. Deploy, test, and interact with smart contracts on our gasless L2 using Forge and Cast tools.'
+keywords:
+  - 'Foundry tutorial'
+  - 'smart contract deployment'
+  - 'Status Network development'
+  - 'blockchain testing'
+  - 'Solidity development'
+  - 'web3 development'
+  - 'Foundry testing'
+---
 # Foundryを使用したスマートコントラクトのデプロイ
 
 このチュートリアルでは、Foundryを使用してStatus Networkテストネットにスマートコントラクトをデプロイする手順を説明します。

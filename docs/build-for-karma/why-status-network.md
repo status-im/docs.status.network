@@ -1,9 +1,11 @@
 ---
-title: Why Build on Status Network
-description: The case for building on Status Network — gasless transactions, Karma reputation, sustainable public funding, and how it compares to other L2s.
+title: 'Why Build on Status: Gasless Execution for Humans & Bots'
+description: 'The case for building on Status Network: predictable costs, zero-gas execution, and LVR reduction for bots through per-block liquidity rebalancing tools.'
 keywords: [Status Network, why build, L2 comparison, gasless, Karma, public funding, developer advantages, Linea zkEVM]
 sidebar_position: 2
 ---
+
+# Why Build on Status Network
 
 There are dozens of L2s to choose from. Here's why Status Network is worth your attention.
 

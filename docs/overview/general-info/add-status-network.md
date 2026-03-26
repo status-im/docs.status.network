@@ -1,11 +1,13 @@
 ---
-title: Add Status Network
-description: Step-by-step guide on how to add Status Network to MetaMask and other wallets. Learn how to configure network settings for both desktop and mobile wallets.
+title: 'Add Status Network: MetaMask & Wallet Setup Guide'
+description: Learn how to add Status Network to MetaMask and other wallets. Manual configuration steps for desktop and mobile to access our gasless L2 environment.
 keywords: [Status Network, MetaMask setup, add network, wallet configuration, RPC settings, Chain ID, blockchain network setup]
 ---
 
 import AddToMetaMask from '@site/src/components/AddToMetaMask';
 import CopyCell from '@site/src/components/CopyCell';
+
+# Add Status Network
 
 This guide shows how to add the **Status Network** to your wallet.
 

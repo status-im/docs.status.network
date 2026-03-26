@@ -1,3 +1,16 @@
+---
+title: '공식 링크'
+description: 'Access the directory for Status Network: mainnet links, bridge tools, faucet access, and developer communities for our reputation-based L2 infrastructure.'
+keywords:
+  - 'Status Network links'
+  - 'official resources'
+  - 'network tools'
+  - 'development resources'
+  - 'community links'
+  - 'blockchain explorer'
+  - 'bridge'
+  - 'faucet'
+---
 # 공식 링크
 
 이 페이지는 Status Network 생태계의 모든 공식 링크를 포함하고 있습니다.

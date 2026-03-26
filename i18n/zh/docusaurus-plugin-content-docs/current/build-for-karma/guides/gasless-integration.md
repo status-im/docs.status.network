@@ -1,8 +1,15 @@
 ---
-title: 无 Gas 集成指南
-description: 在 Status Network 上构建无 Gas 用户体验的实用集成指南。
-keywords: [gasless, linea_estimateGas, Status Network, deny list, builder, zero gas, UX]
-slug: /build-for-karma/guides/gasless-integration
+title: '无 Gas 集成指南'
+description: '在 Status Network 上构建无 Gas 用户体验的实用集成指南。'
+keywords:
+  - '无Gas'
+  - 'linea_estimateGas'
+  - 'Status Network'
+  - '拒绝列表'
+  - '构建者'
+  - '零Gas'
+  - '用户体验'
+slug: '/build-for-karma/guides/gasless-integration'
 sidebar_position: 5
 ---
 

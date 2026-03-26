@@ -1,7 +1,15 @@
 ---
-title: 测试网水龙头
-description: 获取用于 Status Network 开发的测试网 ETH 或 STT。通过 Status Network 水龙头和用于跨链的 Sepolia 水龙头获取测试代币的完整指南。
-keywords: [Status Network 水龙头, 测试网 ETH, 测试代币, STT, Sepolia 水龙头, 区块链测试, 开发代币]
+title: '测试网水龙头'
+description: '获取用于 Status Network 开发的测试网 ETH 或 STT。通过 Status Network 水龙头和用于跨链的 Sepolia 水龙头获取测试代币的完整指南。'
+keywords:
+  - 'Status Network 水龙头'
+  - '测试网 ETH'
+  - '测试代币'
+  - 'STT'
+  - 'Sepolia 水龙头'
+  - '区块链测试'
+  - '开发代币'
+slug: '/tools/core-infrastructure/testnet-faucets'
 ---
 
 # 测试网水龙头

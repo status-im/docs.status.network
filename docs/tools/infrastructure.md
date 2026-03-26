@@ -1,9 +1,11 @@
 ---
-title: Infrastructure Partners
-description: Infrastructure partners and third-party integrations available on Status Network — RPC providers, oracles, indexers, account abstraction, dev tooling, and more.
+title: 'Infrastructure Partners: RPC & Tooling for Status'
+description: Discover infrastructure partners on Status Network. Access RPC providers, oracles, and indexers to scale your gasless dApps and agentic DeFi strategies.
 keywords: [Status Network, infrastructure, partners, oracles, indexing, RPC, account abstraction, dev tooling, cross-chain, onramp]
 sidebar_position: 6
 ---
+
+# Infrastructure Partners
 
 :::note Coming Soon
 Status Network is actively onboarding infrastructure partners across the categories below. This page will be updated as integrations go live.

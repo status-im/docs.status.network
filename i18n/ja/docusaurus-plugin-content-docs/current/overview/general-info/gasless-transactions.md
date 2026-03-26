@@ -1,8 +1,21 @@
 ---
-sidebar_label: '⛽ ガスレストランザクション'
-title: Status Networkのガスレストランザクション
-description: Status NetworkがRLN（Rate Limiting Nullifier）とKarmaティアを使用してスパム防止と公正な使用のためのガスレストランザクションを実装する方法を学びます。
-keywords: [Status Network, ガスレストランザクション, Linea, RLN, Rate Limiting Nullifier, Karma, ゼロ知識証明, ZKP, ソウルバウンドトークン, ブロックチェーン, レイヤー2, L2, スパム防止]
+title: 'Status Networkのガスレストランザクション'
+description: 'Status NetworkがRLN（Rate Limiting Nullifier）とKarmaティアを使用してスパム防止と公正な使用のためのガスレストランザクションを実装する方法を学びます。'
+keywords:
+  - 'Status Network'
+  - 'ガスレストランザクション'
+  - 'Linea'
+  - 'RLN'
+  - 'Rate Limiting Nullifier'
+  - 'Karma'
+  - 'ゼロ知識証明'
+  - 'ZKP'
+  - 'ソウルバウンドトークン'
+  - 'ブロックチェーン'
+  - 'レイヤー2'
+  - 'L2'
+  - 'スパム防止'
+sidebar_label: '⛽ Gasless Transactions'
 ---
 
 # Status Networkのガスレストランザクション

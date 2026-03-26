@@ -1,8 +1,24 @@
 ---
-title: 预存款
-description: Status Network 预存款金库架构的技术概述，包括用于 SNT、LINEA 和 ETH 的 Aragon 金库，以及用于稳定币存款的 Generic Protocol 集成。
-keywords: [Status Network, 预存款, 金库, Aragon, Generic Protocol, Karma, GUSD, 稳定币, 收益, ETH, SNT, LINEA, Lido, Morpho]
+title: '预存款'
+description: 'Status Network 预存款金库架构的技术概述，包括用于 SNT、LINEA 和 ETH 的 Aragon 金库，以及用于稳定币存款的 Generic Protocol 集成。'
+keywords:
+  - 'Status Network'
+  - '预存款'
+  - '金库'
+  - 'Aragon'
+  - 'Generic Protocol'
+  - 'Karma'
+  - 'GUSD'
+  - '稳定币'
+  - '收益'
+  - 'ETH'
+  - 'SNT'
+  - 'LINEA'
+  - 'Lido'
+  - 'Morpho'
 ---
+
+# 预存款
 
 Status Network 正在主网启动前进行预存款活动，以引导流动性和早期 Karma 分配。两个不同的金库系统支持该活动：
 

@@ -1,13 +1,24 @@
 ---
-title: レピュテーション統合ガイド
-description: Status NetworkでKarmaティアを読み取り、レピュテーションで機能をゲーティングし、Karma対応のスマートコントラクトとフロントエンドを構築する方法。
-keywords: [Karma, integration, smart contract, soulbound token, reputation, tiers, gasless, Status Network, developer guide]
-slug: /build-for-karma/guides/reputation-integration
+title: 'レピュテーション統合ガイド'
+description: 'Status NetworkでKarmaティアを読み取り、レピュテーションで機能をゲーティングし、Karma対応のスマートコントラクトとフロントエンドを構築する方法。'
+keywords:
+  - 'Karma'
+  - 'インテグレーション'
+  - 'スマートコントラクト'
+  - 'ソウルバウンドトークン'
+  - 'レピュテーション'
+  - 'ティア'
+  - 'ガスレス'
+  - 'Status Network'
+  - '開発者ガイド'
+slug: '/build-for-karma/guides/reputation-integration'
 sidebar_position: 4
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
+# レピュテーション統合ガイド
 
 KarmaはStatus Networkのソウルバウンドレピュテーショントークンです。すべてのアドレスは、SNTステーキング、アセットのブリッジ、流動性提供、アプリの使用、プレミアムガス手数料の支払いなど、ネットワークへの真正な参加を通じてKarmaを獲得します。Karmaは購入、売却、転送することができません。
 
