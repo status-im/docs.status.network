@@ -1,7 +1,15 @@
 ---
-title: テストネットフォーセット
-description: Status Network 開発用のテストネット ETH または STT を入手しましょう。Status Network フォーセット、およびブリッジ用の Sepolia フォーセットを通じてテストトークンを入手するための完全なガイドです。
-keywords: [Status Network フォーセット, テストネット ETH, テストトークン, STT, Sepolia フォーセット, ブロックチェーンテスト, 開発用トークン]
+title: 'テストネットフォーセット'
+description: 'Status Network 開発用のテストネット ETH または STT を入手しましょう。Status Network フォーセット、およびブリッジ用の Sepolia フォーセットを通じてテストトークンを入手するための完全なガイドです。'
+keywords:
+  - 'Status Network フォーセット'
+  - 'テストネット ETH'
+  - 'テストトークン'
+  - 'STT'
+  - 'Sepolia フォーセット'
+  - 'ブロックチェーンテスト'
+  - '開発用トークン'
+slug: '/tools/core-infrastructure/testnet-faucets'
 ---
 
 Status Network テストネットを開始するには、テストネット ETH またはテストアセットが必要になる場合があります。

@@ -1,3 +1,16 @@
+---
+title: 'SNTステーキング'
+description: 'Staking SNT on Status Network. Earn Karma multipliers, unlock higher gasless transaction tiers, and participate in reputation-based network governance.'
+keywords:
+  - 'SNT staking'
+  - 'Status Network Token'
+  - 'token staking'
+  - 'blockchain staking'
+  - 'multiplier points'
+  - 'locked staking'
+  - 'governance power'
+  - 'Karma system'
+---
 # SNTステーキング
 
 ## Status Network Token (SNT)

@@ -1,11 +1,21 @@
 ---
-id: build-for-karma-index
-title: Build for Karma
-description: 开发者在 Status Network 上构建所需的一切 —— 无Gas交易与声誉整合指南、部署教程和应用创意。
-keywords: [Status Network, builder guides, Karma, gasless integration, reputation, deploy contracts, app ideas, developer documentation]
-slug: /build-for-karma
+id: 'build-for-karma-index'
+title: 'Build for Karma'
+description: '开发者在 Status Network 上构建所需的一切 —— 无Gas交易与声誉整合指南、部署教程和应用创意。'
+keywords:
+  - 'Status Network'
+  - '构建者指南'
+  - 'Karma'
+  - '无Gas集成'
+  - '声誉'
+  - '部署合约'
+  - '应用创意'
+  - '开发者文档'
+slug: '/build-for-karma'
 sidebar_position: 1
 ---
+
+# 为 Karma 构建
 
 本章节是你在 Status Network 上的开发中心。无论你想了解在这里构建的优势、探索可以构建的项目、学习如何实现无Gas交易，还是部署你的第一个智能合约 —— 以 Karma 为核心的开发所需的一切都在这里。
 

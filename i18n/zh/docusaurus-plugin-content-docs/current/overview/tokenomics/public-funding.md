@@ -1,3 +1,15 @@
+---
+title: '公共资金'
+description: 'Overview of Status Network''s funding pool. Learn how native yield is governed by Karma holders to fund builders, liquidity, and public goods on our L2.'
+keywords:
+  - 'Status Network funding'
+  - 'apps funding pool'
+  - 'blockchain funding'
+  - 'public goods'
+  - 'developer incentives'
+  - 'community governance'
+  - 'sustainable funding'
+---
 # 公共资金
 
 ## 应用程序资金池和公共资金机制

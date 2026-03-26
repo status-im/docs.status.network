@@ -1,3 +1,14 @@
+---
+title: 'Hardhat을 사용하여 스마트 컨트랙트 배포하기'
+description: 'Tutorial for deploying on Status Network using Hardhat and TypeScript. Configure your environment for gasless transactions and reputation-aware dApps.'
+keywords:
+  - 'Hardhat tutorial'
+  - 'smart contract deployment'
+  - 'Status Network development'
+  - 'TypeScript'
+  - 'blockchain development'
+  - 'web3 development'
+---
 # Hardhat을 사용하여 스마트 컨트랙트 배포하기
 
 이 튜토리얼에서는 Hardhat, Hardhat Ignition 및 TypeScript를 사용하여 Status Network 테스트넷에 스마트 컨트랙트를 배포하는 과정을 안내합니다.

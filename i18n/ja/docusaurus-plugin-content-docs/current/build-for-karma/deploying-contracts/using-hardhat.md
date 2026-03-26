@@ -1,3 +1,14 @@
+---
+title: 'Hardhatを使用したスマートコントラクトのデプロイ'
+description: 'Tutorial for deploying on Status Network using Hardhat and TypeScript. Configure your environment for gasless transactions and reputation-aware dApps.'
+keywords:
+  - 'Hardhat tutorial'
+  - 'smart contract deployment'
+  - 'Status Network development'
+  - 'TypeScript'
+  - 'blockchain development'
+  - 'web3 development'
+---
 # Hardhatを使用したスマートコントラクトのデプロイ
 
 このチュートリアルでは、Hardhat、Hardhat Ignition、およびTypeScriptを使用してStatus Networkテストネットにスマートコントラクトをデプロイする手順を説明します。

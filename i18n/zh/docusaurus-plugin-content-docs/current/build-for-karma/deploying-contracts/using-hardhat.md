@@ -1,3 +1,14 @@
+---
+title: '使用 Hardhat 部署智能合约'
+description: 'Tutorial for deploying on Status Network using Hardhat and TypeScript. Configure your environment for gasless transactions and reputation-aware dApps.'
+keywords:
+  - 'Hardhat tutorial'
+  - 'smart contract deployment'
+  - 'Status Network development'
+  - 'TypeScript'
+  - 'blockchain development'
+  - 'web3 development'
+---
 # 使用 Hardhat 部署智能合约
 
 本教程将指导您使用 Hardhat、Hardhat Ignition 和 TypeScript 在 Status Network 测试网上部署智能合约。

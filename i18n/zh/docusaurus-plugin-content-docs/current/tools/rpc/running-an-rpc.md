@@ -1,8 +1,18 @@
 ---
-title: 运行自己的RPC节点
-description: 使用官方RPC工具为Status Network设置和运行自己的RPC节点的完整指南。了解节点设置、配置和维护。
-keywords: [RPC节点, Status Network RPC, 区块链节点, WebSocket, wss, 自托管RPC, 网络基础设施, Status L2 RPC工具]
+title: '运行自己的RPC节点'
+description: '使用官方RPC工具为Status Network设置和运行自己的RPC节点的完整指南。了解节点设置、配置和维护。'
+keywords:
+  - 'RPC节点'
+  - 'Status Network RPC'
+  - '区块链节点'
+  - 'WebSocket'
+  - 'wss'
+  - '自托管RPC'
+  - '网络基础设施'
+  - 'Status L2 RPC工具'
 ---
+
+# 运行自己的RPC节点
 
 本教程将指导您完成为Status Network设置和运行自己的Remote Procedure Call (RPC)节点的过程。通过运行自己的RPC节点，您可以更好地控制与Status Network的交互，增强隐私性，并减少对第三方服务的依赖。
 

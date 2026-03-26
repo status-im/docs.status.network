@@ -1,7 +1,13 @@
 ---
-title: Status Network 브릿지
-description: Sepolia와 Status Network 테스트넷 간 토큰 전송을 위한 Status Network 브릿지 사용 가이드.
-keywords: [Status Network 브릿지, 토큰 브릿지, 크로스체인 전송, L1 L2 브릿지, Sepolia 브릿지]
+title: 'Status Network 브릿지'
+description: 'Sepolia와 Status Network 테스트넷 간 토큰 전송을 위한 Status Network 브릿지 사용 가이드.'
+keywords:
+  - 'Status Network 브릿지'
+  - '토큰 브릿지'
+  - '크로스체인 전송'
+  - 'L1 L2 브릿지'
+  - 'Sepolia 브릿지'
+slug: '/tools/core-infrastructure/bridge'
 ---
 
 # Status Network 테스트넷 브릿지

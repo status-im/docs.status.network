@@ -1,3 +1,14 @@
+---
+title: 'Remixを使用したスマートコントラクトのデプロイ'
+description: 'A beginner-friendly guide to deploying Solidity contracts on Status Network via Remix IDE. Setup your wallet and interact with our gasless L2 testnet.'
+keywords:
+  - 'Remix IDE'
+  - 'smart contract deployment'
+  - 'Status Network development'
+  - 'blockchain tutorial'
+  - 'web3 development'
+  - 'solidity'
+---
 # Remixを使用したスマートコントラクトのデプロイ
 
 このチュートリアルでは、Remix IDEを使用してStatus Networkテストネットにスマートコントラクトをデプロイする手順を説明します。Remixは、迅速な開発とテストに最適なブラウザベースのIDEです。

@@ -1,10 +1,17 @@
 ---
-title: 使用 Karma
-description: 在 Status Network 上集成基于 Karma 的无 Gas 用户体验和声誉感知功能的入口。
-keywords: [Karma, gasless, reputation, integration, Status Network]
-slug: /build-for-karma/guides
+title: '使用 Karma'
+description: '在 Status Network 上集成基于 Karma 的无 Gas 用户体验和声誉感知功能的入口。'
+keywords:
+  - 'Karma'
+  - 'gasless'
+  - 'reputation'
+  - 'integration'
+  - 'Status Network'
+slug: '/build-for-karma/guides'
 sidebar_position: 3
 ---
+
+# 使用 Karma
 
 Karma 在 Status Network 上提供无 Gas 交易特权和声誉系统。
 本章节帮助您在应用中集成无 Gas 行为和基于层级的产品逻辑。

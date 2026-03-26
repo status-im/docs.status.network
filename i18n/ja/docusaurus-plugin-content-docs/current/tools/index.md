@@ -1,11 +1,20 @@
 ---
-id: tools-index
-title: ツールとインフラストラクチャ
-description: Status Network で利用可能な開発者ツール、インフラサービス、統合 — RPC エンドポイント、ブリッジ、フォーセット、エクスプローラー、パートナー統合。
-keywords: [Status Network, 開発者ツール, RPC, ブリッジ, フォーセット, ブロックエクスプローラー, インフラストラクチャ]
-slug: /tools
+id: 'tools-index'
+title: 'ツールとインフラストラクチャ'
+description: 'Status Network で利用可能な開発者ツール、インフラサービス、統合 — RPC エンドポイント、ブリッジ、フォーセット、エクスプローラー、パートナー統合。'
+keywords:
+  - 'Status Network'
+  - '開発者ツール'
+  - 'RPC'
+  - 'ブリッジ'
+  - 'フォーセット'
+  - 'ブロックエクスプローラー'
+  - 'インフラストラクチャ'
+slug: '/tools'
 sidebar_position: 1
 ---
+
+# ツールとインフラストラクチャ
 
 Status Network で利用可能な開発者ツール、インフラサービス、統合の完全なリファレンスです。
 
@@ -19,6 +28,14 @@ Status Network でのビルドとテストに必要な基本サービス：
 | **ブリッジ** | Ethereum Sepolia と Status Network 間のアセット転送 | [ブリッジ →](/tools/core-infrastructure/bridge) |
 | **テストネットフォーセット** | 開発用テストネットアセットの取得 | [フォーセット →](/tools/core-infrastructure/testnet-faucets) |
 | **ブロックエクスプローラー** | トランザクション、コントラクト、ネットワーク活動の閲覧 | [エクスプローラー →](/tools/core-infrastructure/block-explorers) |
+
+## RPC
+
+パブリックエンドポイント、JSON-RPC API リファレンス、セルフホストノードのセットアップは次からたどれます。
+
+- [RPC エンドポイント](/tools/core-infrastructure/rpc-endpoints) — パブリック URL、設定例、レート制限、対応メソッドの概要
+- [JSON-RPC API](/tools/rpc/json-rpc) — メソッドリファレンスと Status Network 固有の RPC 挙動
+- [RPC ノードの運用](/tools/rpc/running-an-rpc) — セルフホストノードのセットアップと運用ガイド
 
 ## インフラストラクチャパートナー
 

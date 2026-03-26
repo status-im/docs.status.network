@@ -1,11 +1,21 @@
 ---
-id: build-for-karma-index
-title: Build for Karma
-description: Status Networkで構築するために必要なすべて — ガスレス・レピュテーション統合ガイド、デプロイチュートリアル、アプリアイデア。
-keywords: [Status Network, builder guides, Karma, gasless integration, reputation, deploy contracts, app ideas, developer documentation]
-slug: /build-for-karma
+id: 'build-for-karma-index'
+title: 'Build for Karma'
+description: 'Status Networkで構築するために必要なすべて — ガスレス・レピュテーション統合ガイド、デプロイチュートリアル、アプリアイデア。'
+keywords:
+  - 'Status Network'
+  - 'ビルダーガイド'
+  - 'Karma'
+  - 'ガスレス統合'
+  - 'レピュテーション'
+  - 'コントラクトデプロイ'
+  - 'アプリアイデア'
+  - '開発者ドキュメント'
+slug: '/build-for-karma'
 sidebar_position: 1
 ---
+
+# Build for Karma
 
 このセクションは、Status Networkのビルダーハブです。ここで構築するメリットを理解したい方、何を作るか探したい方、ガスレストランザクションの実装方法を学びたい方、最初のスマートコントラクトをデプロイしたい方 — Karma中心の開発に必要なすべてがここにあります。
 

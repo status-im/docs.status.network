@@ -1,11 +1,23 @@
 ---
-title: Status Networkで何を構築するか
-description: Status Network向けの高レバレッジなアプリアイデアのスキャンファーストカタログ。カテゴリ、工数、デリバリープロファイル別に整理。
-keywords: [Status Network, app ideas, builder ideas, Karma apps, privacy apps, gasless apps, DeFi, social apps, games, MVP]
+title: 'Status Networkで何を構築するか'
+description: 'Status Network向けの高レバレッジなアプリアイデアのスキャンファーストカタログ。カテゴリ、工数、デリバリープロファイル別に整理。'
+keywords:
+  - 'Status Network'
+  - 'アプリアイデア'
+  - 'ビルダーアイデア'
+  - 'Karmaアプリ'
+  - 'プライバシーアプリ'
+  - 'ガスレスアプリ'
+  - 'DeFi'
+  - 'ソーシャルアプリ'
+  - 'ゲーム'
+  - 'MVP'
 sidebar_position: 3
 ---
 
 import IdeaCatalog from '@site/src/components/IdeaCatalog/IdeaCatalog';
+
+# Status Networkで何を構築するか
 
 Status NetworkはガスレスUX、Karmaレピュテーション、プライバシープリミティブを組み合わせています。
 これにより、他のチェーンではうまく構築しにくいプロダクトが実現可能になります。

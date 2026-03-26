@@ -1,8 +1,15 @@
 ---
-title: ガスレス統合ガイド
-description: Status Networkでガスレスなユーザー体験を構築するための実践的な統合ガイド。
-keywords: [gasless, linea_estimateGas, Status Network, deny list, builder, zero gas, UX]
-slug: /build-for-karma/guides/gasless-integration
+title: 'ガスレス統合ガイド'
+description: 'Status Networkでガスレスなユーザー体験を構築するための実践的な統合ガイド。'
+keywords:
+  - 'ガスレス'
+  - 'linea_estimateGas'
+  - 'Status Network'
+  - '拒否リスト'
+  - 'ビルダー'
+  - 'ゼロガス'
+  - 'ユーザー体験'
+slug: '/build-for-karma/guides/gasless-integration'
 sidebar_position: 5
 ---
 

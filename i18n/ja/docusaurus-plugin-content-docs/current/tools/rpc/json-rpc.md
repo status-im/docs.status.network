@@ -1,18 +1,18 @@
 ---
-title: JSON-RPC API
-description: ビルダー向けStatus Network JSON-RPC APIリファレンス。
+title: 'JSON-RPC API'
+description: 'ビルダー向けStatus Network JSON-RPC APIリファレンス。'
 keywords:
-  [
-    Status Network,
-    JSON-RPC,
-    Linea,
-    EIP-1559,
-    eth_estimateGas,
-    linea_estimateGas,
-    Karma,
-    gasless,
-  ]
+  - 'Status Network'
+  - 'JSON-RPC'
+  - 'Linea'
+  - 'EIP-1559'
+  - 'eth_estimateGas'
+  - 'linea_estimateGas'
+  - 'Karma'
+  - 'gasless'
 ---
+
+# JSON-RPC API
 
 Status NetworkはLinea zkEVMをベースとしており、**ほとんどのJSON-RPCメソッドは標準的なEVMノードと同じ動作をします**。
 

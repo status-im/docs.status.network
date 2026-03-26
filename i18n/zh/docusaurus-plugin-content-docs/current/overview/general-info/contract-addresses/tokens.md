@@ -1,3 +1,14 @@
+---
+title: '代币'
+description: 'Directory of supported tokens on Status Network. Find L1 and L2 contract addresses for ETH, stablecoins, and SNT used within our gasless ecosystem.'
+keywords:
+  - 'Status Network tokens'
+  - 'token list'
+  - 'supported tokens'
+  - 'token addresses'
+  - 'L2 tokens'
+  - 'bridge tokens'
+---
 # 代币
 
 有关 Status Network 上支持的代币及其合约地址的最新列表，请参考我们的官方 [Status Network 代币列表仓库](https://github.com/status-im/status-network-token-list)。

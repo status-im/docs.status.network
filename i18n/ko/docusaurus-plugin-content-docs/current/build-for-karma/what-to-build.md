@@ -1,11 +1,23 @@
 ---
-title: 스테이터스 네트워크에서 만들 수 있는 다양한 앱 아이디어 카탈로그
-description: 카테고리, 노력, 전달 프로필별로 구성된 스테이터스 네트워크용 고성과 앱 아이디어 스캔 우선 카탈로그.
-keywords: [Status Network, app ideas, builder ideas, Karma apps, privacy apps, gasless apps, DeFi, social apps, games, MVP]
+title: '스테이터스 네트워크에서 만들 수 있는 다양한 앱 아이디어 카탈로그'
+description: '카테고리, 노력, 전달 프로필별로 구성된 스테이터스 네트워크용 고성과 앱 아이디어 스캔 우선 카탈로그.'
+keywords:
+  - 'Status Network'
+  - '앱 아이디어'
+  - '빌더 아이디어'
+  - 'Karma 앱'
+  - '프라이버시 앱'
+  - '가스리스 앱'
+  - 'DeFi'
+  - '소셜 앱'
+  - '게임'
+  - 'MVP'
 sidebar_position: 3
 ---
 
 import IdeaCatalog from '@site/src/components/IdeaCatalog/IdeaCatalog';
+
+# 스테이터스 네트워크에서 만들 수 있는 것
 
 스테이터스 네트워크는 가스리스 UX, 카르마 평판 시스템 그리고 근본적인 프라이버시를 하나로 모았습니다.
 그로 인해 다른 체인에서는 볼 수 없는 제품들을 구현 가능하게 합니다.

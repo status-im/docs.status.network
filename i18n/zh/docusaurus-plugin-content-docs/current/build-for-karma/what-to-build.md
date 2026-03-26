@@ -1,11 +1,23 @@
 ---
-title: 在 Status Network 上构建什么
-description: 按类别、投入和交付形态整理的 Status Network 高杠杆应用创意扫描目录。
-keywords: [Status Network, app ideas, builder ideas, Karma apps, privacy apps, gasless apps, DeFi, social apps, games, MVP]
+title: '在 Status Network 上构建什么'
+description: '按类别、投入和交付形态整理的 Status Network 高杠杆应用创意扫描目录。'
+keywords:
+  - 'Status Network'
+  - '应用创意'
+  - '构建者创意'
+  - 'Karma应用'
+  - '隐私应用'
+  - '无Gas应用'
+  - 'DeFi'
+  - '社交应用'
+  - '游戏'
+  - 'MVP'
 sidebar_position: 3
 ---
 
 import IdeaCatalog from '@site/src/components/IdeaCatalog/IdeaCatalog';
+
+# 在 Status Network 上构建什么
 
 Status Network 结合了无 Gas 体验、Karma 声誉和隐私原语。
 这解锁了在其他链上难以做好的产品。

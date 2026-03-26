@@ -1,7 +1,11 @@
 ---
-title: 区块浏览器
-description: Status Network 区块浏览器，用于查看交易、验证合约和监控网络活动。
-keywords: [区块浏览器, 交易追踪, 智能合约验证]
+title: '区块浏览器'
+description: 'Status Network 区块浏览器，用于查看交易、验证合约和监控网络活动。'
+keywords:
+  - '区块浏览器'
+  - '交易追踪'
+  - '智能合约验证'
+slug: '/tools/core-infrastructure/block-explorers'
 ---
 
 # 区块浏览器

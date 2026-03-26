@@ -1,8 +1,15 @@
 ---
-title: 가스리스 적용 가이드
-description: Status Network에서 가스리스 UX를 구축하기 위한 실용적인 통합 가이드.
-keywords: [가스리스, linea_estimateGas, 스테이터스 네트워크, deny list, 빌더, 가스리스, UX]
-slug: /build-for-karma/guides/gasless-integration
+title: '가스리스 적용 가이드'
+description: 'Status Network에서 가스리스 UX를 구축하기 위한 실용적인 통합 가이드.'
+keywords:
+  - '가스리스'
+  - 'linea_estimateGas'
+  - 'Status Network'
+  - '거부 목록'
+  - '빌더'
+  - '제로 가스'
+  - '사용자 경험'
+slug: '/build-for-karma/guides/gasless-integration'
 sidebar_position: 5
 ---
 
