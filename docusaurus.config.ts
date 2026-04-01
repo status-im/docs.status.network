@@ -60,7 +60,35 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+ headTags: [
+    {
+      tagName: 'script',
+      attributes: { type: 'application/ld+json' },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Status Network Docs',
+        url: 'https://docs.status.network',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: 'https://docs.status.network/search?q={search_term_string}',
+          'query-input': 'required name=search_term_string',
+        },
+      }),
+    },
+    {
+      tagName: 'script',
+      attributes: { type: 'application/ld+json' },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'Status Network',
+        url: 'https://docs.status.network',
+        logo: 'https://docs.status.network/img/sn_logo.svg',
+        sameAs: ['https://status.network'],
+      }),
+    },
+  ],
   themeConfig: {
     image: 'img/sn-social-card.png',
     navbar: {
