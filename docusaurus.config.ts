@@ -52,9 +52,8 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
         sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          lastmod: 'showLastUpdateTime',
+          ignorePatterns: ['/tags/**', '/search'],
           filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
