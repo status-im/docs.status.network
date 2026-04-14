@@ -167,6 +167,10 @@
     "message": "🌐 RPC 노드 운영하기",
     "description": "The label for the doc item 🌐 Running an RPC Node in sidebar toolsSidebar"
   },
+  "sidebar.toolsSidebar.category.ETHEREUM COMPATIBILITY": {
+    "message": "이더리움 호환성",
+    "description": "The label for category ETHEREUM COMPATIBILITY in sidebar toolsSidebar"
+  },
   "sidebar.toolsSidebar.category.PARTNERS": {
     "message": "파트너",
     "description": "The label for category PARTNERS in sidebar toolsSidebar"

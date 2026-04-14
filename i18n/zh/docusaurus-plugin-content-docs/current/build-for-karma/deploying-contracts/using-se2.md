@@ -37,15 +37,15 @@ keywords:
 
 3. **部署到Status Network:**
    ```bash
-   yarn deploy --network statusSepolia
+   yarn deploy --network statusHoodi
    ```
 
 4. **验证您的合约:**
    ```bash
    # Hardhat
-   yarn hardhat:hardhat-verify --network statusSepolia <YourDeployedContractAddress>
+   yarn hardhat:hardhat-verify --network statusHoodi <YourDeployedContractAddress>
    # Foundry
-   yarn status:verify --network statusSepolia
+   yarn status:verify --network statusHoodi
    ```
 
 5. **启动前端:**
@@ -56,7 +56,7 @@ keywords:
 ## 关键要点
 
 - **无需本地链**: 直接部署到测试网
-- **部署和验证始终使用 `--network statusSepolia`**
+- **部署和验证始终使用 `--network statusHoodi`**
 - **Blockscout验证**: Status Network使用Blockscout，而不是Etherscan
 - **预配置前端**: NextJS自动连接到Status Network
 

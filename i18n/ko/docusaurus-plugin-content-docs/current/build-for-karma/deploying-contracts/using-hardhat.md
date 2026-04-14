@@ -11,23 +11,23 @@ keywords:
 ---
 # Hardhat을 사용하여 스마트 컨트랙트 배포하기
 
-이 튜토리얼에서는 Hardhat, Hardhat Ignition 및 TypeScript를 사용하여 Status Network 테스트넷에 스마트 컨트랙트를 배포하는 과정을 안내합니다.
+이 튜토리얼에서는 Hardhat, Hardhat Ignition 및 TypeScript를 사용하여 Status Network Hoodi 테스트넷에 스마트 컨트랙트를 배포하는 과정을 안내합니다.
 
 ## 사전 요구사항
 
 시작하기 전에 다음이 필요합니다:
 
 - **Node.js와 npm**: [공식 Node.js 웹사이트](https://nodejs.org/)에서 다운로드 및 설치
-- **이더리움 지갑**: Status Network 테스트넷용 개인키가 있는 MetaMask 또는 다른 지갑
-- **테스트넷 ETH**: Status Network 테스트넷 ETH가 필요합니다
-  - Status Network 테스트넷 ETH는 [파우셋](/tools/core-infrastructure/testnet-faucets)에서 받을 수 있습니다
+- **이더리움 지갑**: Status Network Hoodi 테스트넷용 개인키가 있는 MetaMask 또는 다른 지갑
+- **테스트넷 ETH**: Status Network Hoodi 테스트넷 ETH가 필요합니다
+  - Status Network Hoodi 테스트넷 ETH는 [파우셋](/tools/core-infrastructure/testnet-faucets)에서 받을 수 있습니다
 - **기본 지식**: Solidity, Hardhat, 명령줄 사용 경험
 
 ## 달성 목표
 
 - TypeScript 기반 Hardhat 프로젝트 초기화
 - 기본 이더리움 스마트 컨트랙트 작성
-- Status Network 테스트넷 배포를 위한 Hardhat 구성
+- Status Network Hoodi 테스트넷 배포를 위한 Hardhat 구성
 - Hardhat Ignition을 사용하여 스마트 컨트랙트 배포
 
 ## 단계
@@ -93,8 +93,8 @@ const config: HardhatUserConfig = {
   solidity: "0.8.24",
   networks: {
     statusTestnet: {
-      url: "https://public.sepolia.rpc.status.network",
-      chainId: 1660990954,
+      url: "https://public.hoodi.rpc.status.network",
+      chainId: 374,
       accounts: [PRIVATE_KEY],
     },
   },

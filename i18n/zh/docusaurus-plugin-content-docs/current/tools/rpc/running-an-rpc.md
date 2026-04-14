@@ -257,4 +257,4 @@ netstat -tulpn | grep :8445
 
 - [Status Network RPC Tools仓库](https://github.com/status-im/status-l2-rpc-tools) - 包含设置指南和脚本的官方仓库
 - [Status Network文档](https://docs.status.network/) - 官方文档
-- [Status Network区块浏览器](https://sepoliascan.status.network) - Sepolia测试网浏览器
+- [Status Network区块浏览器](https://hoodiscan.status.network) - Hoodi测试网浏览器

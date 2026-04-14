@@ -25,7 +25,7 @@ Status Network에서 빌드 및 테스트에 필요한 필수 서비스:
 | 도구 | 설명 | 링크 |
 |---|---|---|
 | **RPC 엔드포인트** | 퍼블릭 JSON-RPC 및 WebSocket 액세스 | [RPC →](/tools/core-infrastructure/rpc-endpoints) |
-| **브릿지** | Ethereum Sepolia와 Status Network 간 자산 전송 | [브릿지 →](/tools/core-infrastructure/bridge) |
+| **브릿지** | Ethereum Hoodi와 Status Network 간 자산 전송 | [브릿지 →](/tools/core-infrastructure/bridge) |
 | **테스트넷 파우셋** | 개발용 테스트넷 자산 받기 | [파우셋 →](/tools/core-infrastructure/testnet-faucets) |
 | **블록 익스플로러** | 트랜잭션, 컨트랙트, 네트워크 활동 탐색기 | [익스플로러 →](/tools/core-infrastructure/block-explorers) |
 

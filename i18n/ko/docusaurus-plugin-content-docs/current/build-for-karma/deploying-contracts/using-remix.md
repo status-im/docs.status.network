@@ -11,7 +11,7 @@ keywords:
 ---
 # Remix를 사용하여 스마트 컨트랙트 배포하기
 
-이 튜토리얼에서는 Remix IDE를 사용하여 Status Network 테스트넷에 스마트 컨트랙트를 배포하는 과정을 안내합니다. Remix는 빠른 개발과 테스트에 적합한 브라우저 기반 IDE입니다.
+이 튜토리얼에서는 Remix IDE를 사용하여 Status Network Hoodi 테스트넷에 스마트 컨트랙트를 배포하는 과정을 안내합니다. Remix는 빠른 개발과 테스트에 적합한 브라우저 기반 IDE입니다.
 
 ## 사전 요구사항
 
@@ -19,9 +19,9 @@ keywords:
 
 - **웹 브라우저**: Chrome이나 Firefox와 같은 최신 브라우저
 - **MetaMask**: [MetaMask](https://metamask.io) 브라우저 확장 프로그램 설치
-- **테스트넷 ETH**: Status Network 테스트넷 ETH가 필요합니다
-  - Status Network 테스트넷 ETH는 [파우셋](/tools/core-infrastructure/testnet-faucets)에서 받을 수 있습니다
-- **네트워크 구성**: [네트워크 추가 가이드](/overview/general-info/add-status-network)에 따라 MetaMask에 Status Network 테스트넷 추가
+- **테스트넷 ETH**: Status Network Hoodi 테스트넷 ETH가 필요합니다
+  - Status Network Hoodi 테스트넷 ETH는 [파우셋](/tools/core-infrastructure/testnet-faucets)에서 받을 수 있습니다
+- **네트워크 구성**: [네트워크 추가 가이드](/overview/general-info/add-status-network)에 따라 MetaMask에 Status Network Hoodi 테스트넷 추가
 
 ## 단계
 
@@ -68,7 +68,7 @@ contract HelloWorld {
 
 1. "Deploy & Run Transactions" 아이콘(왼쪽 사이드바의 네 번째 아이콘) 클릭
 2. "Environment" 드롭다운에서 "Injected Provider - MetaMask" 선택
-3. MetaMask가 연결을 요청 - Status Network 테스트넷이 선택되어 있는지 확인
+3. MetaMask가 연결을 요청 - Status Network Hoodi 테스트넷이 선택되어 있는지 확인
 4. "Deploy" 클릭
 5. MetaMask에서 트랜잭션 확인
 6. 트랜잭션이 확인될 때까지 대기
@@ -88,7 +88,7 @@ contract HelloWorld {
 ### 일반적인 문제
 
 1. **트랜잭션 실패**
-   - Status Network 테스트넷에 연결되어 있는지 확인
+   - Status Network Hoodi 테스트넷에 연결되어 있는지 확인
 
 2. **컨트랙트를 찾을 수 없음**
    - 탐색기가 컨트랙트를 인덱싱할 때까지 몇 분 대기
@@ -107,4 +107,4 @@ contract HelloWorld {
 ## 추가 리소스
 
 - [Remix 문서](https://remix-ide.readthedocs.io/)
-- [Status Network 탐색기](https://sepoliascan.status.network)
+- [Status Network 탐색기](https://hoodiscan.status.network)

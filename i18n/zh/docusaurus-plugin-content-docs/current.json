@@ -167,6 +167,10 @@
     "message": "🌐 运行 RPC 节点",
     "description": "The label for the doc item 🌐 Running an RPC Node in sidebar toolsSidebar"
   },
+  "sidebar.toolsSidebar.category.ETHEREUM COMPATIBILITY": {
+    "message": "以太坊兼容性",
+    "description": "The label for category ETHEREUM COMPATIBILITY in sidebar toolsSidebar"
+  },
   "sidebar.toolsSidebar.category.PARTNERS": {
     "message": "合作伙伴",
     "description": "The label for category PARTNERS in sidebar toolsSidebar"

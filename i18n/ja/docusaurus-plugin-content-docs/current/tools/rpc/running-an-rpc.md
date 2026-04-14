@@ -257,4 +257,4 @@ RPCノードのパフォーマンスを最適化するには：
 
 - [Status Network RPCツールリポジトリ](https://github.com/status-im/status-l2-rpc-tools) - セットアップガイドとスクリプトを含む公式リポジトリ
 - [Status Networkドキュメント](https://docs.status.network/) - 公式ドキュメント
-- [Status Networkブロックエクスプローラー](https://sepoliascan.status.network) - Sepoliaテストネットエクスプローラー
+- [Status Networkブロックエクスプローラー](https://hoodiscan.status.network) - Hoodiテストネットエクスプローラー

@@ -1,15 +1,15 @@
 ---
 id: 'network-details'
 title: 'ネットワークの詳細'
-description: 'Official network configuration for Status Network. Find Chain IDs, RPC URLs, and block explorer links for wallet setup and developer environment config.'
+description: 'Status Network の公式ネットワーク設定です。ウォレット設定や開発環境構築に必要なチェーン ID、RPC URL、ブロックエクスプローラーを確認できます。'
 keywords:
   - 'Status Network'
-  - 'network details'
-  - 'RPC endpoint'
-  - 'Chain ID'
-  - 'testnet configuration'
-  - 'blockchain network'
-  - 'MetaMask setup'
+  - 'ネットワーク詳細'
+  - 'RPC エンドポイント'
+  - 'チェーン ID'
+  - 'テストネット設定'
+  - 'ブロックチェーンネットワーク'
+  - 'MetaMask 設定'
 ---
 # ネットワークの詳細
 
@@ -17,12 +17,12 @@ keywords:
 
 | 名前                | 値                                       |
 |---------------------|------------------------------------------|
-| **ネットワーク名**  | Status Network Testnet                    |
-| **RPC エンドポイント** | https://public.sepolia.rpc.status.network |
-| **チェーンID**      | 1660990954                               |
+| **ネットワーク名**  | Status Network Hoodi Testnet                    |
+| **RPC エンドポイント** | https://public.hoodi.rpc.status.network |
+| **チェーンID**      | 374                               |
 | **通貨シンボル**    | ETH                                       |
-| **ブロックエクスプローラー** | https://sepoliascan.status.network       |
-| **ブリッジ**        | https://bridge.status.network            |
+| **ブロックエクスプローラー** | https://hoodiscan.status.network       |
+| **フォーセット**        | https://eth.faucet.status.network            |
 | **WebSocket RPC**   | WebSocket RPCを取得するには[Telegram](https://t.me/statusl2)でお問い合わせください |
 
 これらはStatus Networkテストネットの公式ネットワーク詳細です。これらの詳細は以下の用途に使用できます：

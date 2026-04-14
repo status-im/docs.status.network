@@ -14,16 +14,16 @@ slug: '/tools/core-infrastructure/block-explorers'
 
 *출시 예정.*
 
-## Status Network 테스트넷 (Sepolia)
+## Status Network Hoodi 테스트넷 (Hoodi)
 
 | 익스플로러 | URL | 기능 |
 |----------|-----|----------|
-| Sepoliascan | [sepoliascan.status.network](https://sepoliascan.status.network) | 트랜잭션 검색, 스마트 컨트랙트 검증 및 상호작용, 잔액 추적 등 |
+| Hoodiscan | [sepoliascan.status.network](https://hoodiscan.status.network) | 트랜잭션 검색, 스마트 컨트랙트 검증 및 상호작용, 잔액 추적 등 |
 
-컨트랙트 검증은 Sepoliascan의 [컨트랙트 검증](https://sepoliascan.status.network/contract-verification) 페이지를 방문하세요.
+컨트랙트 검증은 Hoodiscan의 [컨트랙트 검증](https://hoodiscan.status.network/contract-verification) 페이지를 방문하세요.
 
-Sepolia의 L1 활동은 [Sepolia Etherscan](https://sepolia.etherscan.io)에서 추적할 수 있습니다.
+Hoodi의 L1 활동은 [Hoodi Etherscan](https://hoodi.etherscan.io)에서 추적할 수 있습니다.
 
-## Status Network 테스트넷 (Hoodi)
+## Status Network Hoodi 테스트넷 (Hoodi)
 
 *출시 예정.*

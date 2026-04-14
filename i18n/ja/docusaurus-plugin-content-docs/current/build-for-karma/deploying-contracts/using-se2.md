@@ -37,15 +37,15 @@ keywords:
 
 3. **Status Networkにデプロイ:**
    ```bash
-   yarn deploy --network statusSepolia
+   yarn deploy --network statusHoodi
    ```
 
 4. **コントラクトを検証:**
    ```bash
    # Hardhat
-   yarn hardhat:hardhat-verify --network statusSepolia <YourDeployedContractAddress>
+   yarn hardhat:hardhat-verify --network statusHoodi <YourDeployedContractAddress>
    # Foundry
-   yarn status:verify --network statusSepolia
+   yarn status:verify --network statusHoodi
    ```
 
 5. **フロントエンドを起動:**
@@ -56,7 +56,7 @@ keywords:
 ## 重要なポイント
 
 - **ローカルチェーンは不要**: テストネットに直接デプロイ
-- **デプロイと検証には常に `--network statusSepolia` を使用**
+- **デプロイと検証には常に `--network statusHoodi` を使用**
 - **Blockscout検証**: Status NetworkはEtherscanではなくBlockscoutを使用
 - **事前設定されたフロントエンド**: NextJSは自動的にStatus Networkに接続
 

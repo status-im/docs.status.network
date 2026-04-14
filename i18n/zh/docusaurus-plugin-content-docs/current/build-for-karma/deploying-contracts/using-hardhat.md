@@ -11,23 +11,23 @@ keywords:
 ---
 # 使用 Hardhat 部署智能合约
 
-本教程将指导您使用 Hardhat、Hardhat Ignition 和 TypeScript 在 Status Network 测试网上部署智能合约。
+本教程将指导您使用 Hardhat、Hardhat Ignition 和 TypeScript 在 Status Network Hoodi 测试网上部署智能合约。
 
 ## 前提条件
 
 开始之前，请确保您具备以下条件：
 
 - **Node.js 和 npm**: 从[官方 Node.js 网站](https://nodejs.org/)下载并安装
-- **以太坊钱包**: MetaMask 或其他具有 Status Network 测试网私钥的钱包
-- **测试网 ETH**: 您需要 Status Network 测试网 ETH
-  - 从我们的[水龙头](/tools/core-infrastructure/testnet-faucets)获取 Status Network 测试网 ETH
+- **以太坊钱包**: MetaMask 或其他具有 Status Network Hoodi 测试网私钥的钱包
+- **测试网 ETH**: 您需要 Status Network Hoodi 测试网 ETH
+  - 从我们的[水龙头](/tools/core-infrastructure/testnet-faucets)获取 Status Network Hoodi 测试网 ETH
 - **基础知识**: 熟悉 Solidity、Hardhat 和命令行
 
 ## 您将完成
 
 - 初始化基于 TypeScript 的 Hardhat 项目
 - 编写基本的以太坊智能合约
-- 配置 Hardhat 以部署到 Status Network 测试网
+- 配置 Hardhat 以部署到 Status Network Hoodi 测试网
 - 使用 Hardhat Ignition 部署您的智能合约
 
 ## 步骤
@@ -93,8 +93,8 @@ const config: HardhatUserConfig = {
   solidity: "0.8.24",
   networks: {
     statusTestnet: {
-      url: "https://public.sepolia.rpc.status.network",
-      chainId: 1660990954,
+      url: "https://public.hoodi.rpc.status.network",
+      chainId: 374,
       accounts: [PRIVATE_KEY],
     },
   },

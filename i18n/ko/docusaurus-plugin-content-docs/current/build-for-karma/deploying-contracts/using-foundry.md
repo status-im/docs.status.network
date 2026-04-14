@@ -12,23 +12,23 @@ keywords:
 ---
 # Foundry를 사용하여 스마트 컨트랙트 배포하기
 
-이 튜토리얼에서는 Foundry를 사용하여 Status Network 테스트넷에 스마트 컨트랙트를 배포하는 과정을 안내합니다.
+이 튜토리얼에서는 Foundry를 사용하여 Status Network Hoodi 테스트넷에 스마트 컨트랙트를 배포하는 과정을 안내합니다.
 
 ## 사전 요구사항
 
 시작하기 전에 다음이 필요합니다:
 
 - **Foundry**: [공식 Foundry 문서](https://book.getfoundry.sh/getting-started/installation)에서 설치
-- **이더리움 지갑**: Status Network 테스트넷용 개인키
-- **테스트넷 ETH**: Status Network 테스트넷 ETH가 필요합니다
-  - Status Network 테스트넷 ETH는 [파우셋](/tools/core-infrastructure/testnet-faucets)에서 받을 수 있습니다
+- **이더리움 지갑**: Status Network Hoodi 테스트넷용 개인키
+- **테스트넷 ETH**: Status Network Hoodi 테스트넷 ETH가 필요합니다
+  - Status Network Hoodi 테스트넷 ETH는 [파우셋](/tools/core-infrastructure/testnet-faucets)에서 받을 수 있습니다
 - **기본 지식**: Solidity와 명령줄 사용 경험
 
 ## 달성 목표
 
 - Foundry 프로젝트 초기화
 - 기본 이더리움 스마트 컨트랙트 작성
-- Status Network 테스트넷 배포를 위한 Foundry 구성
+- Status Network Hoodi 테스트넷 배포를 위한 Foundry 구성
 - 스마트 컨트랙트 배포
 
 ## 단계
@@ -80,7 +80,7 @@ libs = ["lib"]
 solc = "0.8.24"
 
 [rpc_endpoints]
-status_testnet = "https://public.sepolia.rpc.status.network"
+status_testnet = "https://public.hoodi.rpc.status.network"
 ```
 
 ### 4. 컨트랙트 배포
@@ -114,9 +114,9 @@ forge를 사용하여 배포합니다:
 # 환경 변수 로드
 source .env
 
-# Status Network 테스트넷에 배포
+# Status Network Hoodi 테스트넷에 배포
 forge script script/Deploy.s.sol:DeployScript \
-    --rpc-url https://public.sepolia.rpc.status.network \
+    --rpc-url https://public.hoodi.rpc.status.network \
     --broadcast \
 ```
 
@@ -156,7 +156,7 @@ contract InteractScript is Script {
 
 ```bash
 forge script script/Interact.s.sol:InteractScript \
-    --rpc-url https://public.sepolia.rpc.status.network \
+    --rpc-url https://public.hoodi.rpc.status.network \
     --broadcast
 ```
 
@@ -167,12 +167,12 @@ forge script script/Interact.s.sol:InteractScript \
 ```bash
 # 인사말 읽기
 cast call <CONTRACT_ADDRESS> "getGreet()" \
-    --rpc-url https://public.sepolia.rpc.status.network
+    --rpc-url https://public.hoodi.rpc.status.network
 
 # 새 인사말 설정
 cast send <CONTRACT_ADDRESS> "setGreet(string)" "New greeting!" \
     --private-key $PRIVATE_KEY \
-    --rpc-url https://public.sepolia.rpc.status.network
+    --rpc-url https://public.hoodi.rpc.status.network
 ```
 
 ### 7. 테스트
@@ -217,4 +217,4 @@ forge test
 ## 추가 리소스
 
 - [Foundry 문서](https://book.getfoundry.sh/)
-- [Status Network 탐색기](https://sepoliascan.status.network)
+- [Status Network 탐색기](https://hoodiscan.status.network)
