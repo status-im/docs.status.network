@@ -16,7 +16,7 @@ keywords:
 
 ## 测试网
 
-将 **Status Network 测试网**作为自定义网络添加到 MetaMask 的步骤：
+将 **Status Network Hoodi 测试网**作为自定义网络添加到 MetaMask 的步骤：
 
 1. **打开 MetaMask**：
 
@@ -37,17 +37,17 @@ keywords:
 
      | 名称             | 值                                      |
      |------------------|------------------------------------------|
-     | **网络名称**     | Status Network Testnet                   |
-     | **RPC URL**      | https://public.sepolia.rpc.status.network |
-     | **链 ID**        | 1660990954                              |
+     | **网络名称**     | Status Network Hoodi Testnet                   |
+     | **RPC URL**      | https://public.hoodi.rpc.status.network |
+     | **链 ID**        | 374                              |
      | **货币符号**     | `ETH`                                   |
-     | **区块浏览器 URL** | https://sepoliascan.status.network |
+     | **区块浏览器 URL** | https://hoodiscan.status.network |
 
 5. **保存网络**：
 
-   - 点击**"保存"**将 Status Network 测试网添加到您的 MetaMask 钱包。
+   - 点击**"保存"**将 Status Network Hoodi 测试网添加到您的 MetaMask 钱包。
 
-现在您应该可以从网络下拉菜单中选择 Status Network 测试网并连接了。
+现在您应该可以从网络下拉菜单中选择 Status Network Hoodi 测试网并连接了。
 
 ---
 
@@ -85,7 +85,7 @@ keywords:
 
   - [Status Network 网站](https://status.network/)
   - [Status Network 文档](https://docs.status.network/)
-  - [Status Network 测试网浏览器](https://sepoliascan.status.network)
+  - [Status Network Hoodi 测试网浏览器](https://hoodiscan.status.network)
 
 - **需要帮助？**
 

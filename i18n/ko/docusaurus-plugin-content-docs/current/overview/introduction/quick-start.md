@@ -1,18 +1,18 @@
 ---
 title: '빠른 시작'
-description: 'Get started on Status Network in under 10 minutes. Deploy smart contracts using Remix, fetch test ETH, and interact with our gasless execution environment.'
+description: '10분 안에 Status Network를 시작하세요. Remix로 스마트 컨트랙트를 배포하고 테스트 ETH를 받아 가스리스 실행 환경에서 상호작용할 수 있습니다.'
 keywords:
-  - 'Status Network tutorial'
-  - 'quick start'
-  - 'smart contract deployment'
+  - 'Status Network 튜토리얼'
+  - '빠른 시작'
+  - '스마트 컨트랙트 배포'
   - 'Remix IDE'
-  - 'blockchain development'
-  - 'testnet setup'
-  - 'MetaMask configuration'
+  - '블록체인 개발'
+  - '테스트넷 설정'
+  - 'MetaMask 구성'
 ---
 # 빠른 시작
 
-이 섹션에서는 10분 이내에 **Status Network 테스트넷**에 샘플 컨트랙트를 배포하는 방법을 알아보겠습니다.
+이 섹션에서는 10분 이내에 **Status Network Hoodi 테스트넷**에 샘플 컨트랙트를 배포하는 방법을 알아보겠습니다.
 
 간단하게 Remix IDE를 사용하여 Status Network에 스마트 컨트랙트를 배포하는 방법을 살펴보겠습니다.
 
@@ -20,16 +20,16 @@ keywords:
 
 시작하기 전에:
 
-1. **Status Network 테스트넷을 MetaMask에 추가**:
+1. **Status Network Hoodi 테스트넷을 MetaMask에 추가**:
 
-   [Status Network 추가 가이드](/overview/general-info/add-status-network)의 단계별 지침에 따라 Status Network 테스트넷을 MetaMask에 추가하세요.
+   [Status Network 추가 가이드](/overview/general-info/add-status-network)의 단계별 지침에 따라 Status Network Hoodi 테스트넷을 MetaMask에 추가하세요.
 
 2. **테스트 ETH 받기**:
 
-   Sepolia ETH와 Status Network ETH 모두 필요합니다:
-   - 먼저 [Sepolia 파우셋](https://faucet.status.network)에서 Sepolia ETH를 받으세요
+   Hoodi ETH와 Status Network ETH 모두 필요합니다:
+   - 먼저 [Hoodi 파우셋](https://hoodi-eth.faucet.pk910.de/)에서 Hoodi ETH를 받으세요
    - 그런 다음 [Status 브릿지](https://bridge.status.network)를 사용하여 ETH를 Status Network로 브릿지하세요
-   - 또는 [테스트넷 파우셋](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)에서 직접 Status Network ETH를 받으세요
+   - 또는 [테스트넷 파우셋](https://eth.faucet.status.network)에서 직접 Status Network ETH를 받으세요
 
 이제 시작할 준비가 되었습니다!
 
@@ -76,7 +76,7 @@ contract SimpleStorage {
    - **배포 & 실행 트랜잭션** 탭으로 전환하세요.
    - **"환경"** 드롭다운 메뉴에서 **"Injected Provider - MetaMask"**를 선택하세요.
    - MetaMask가 Remix에 연결을 요청할 수 있습니다. 연결을 확인하세요.
-   - MetaMask에서 **Status Network 테스트넷**이 선택되어 있는지 확인하세요.
+   - MetaMask에서 **Status Network Hoodi 테스트넷**이 선택되어 있는지 확인하세요.
    - **"컨트랙트"**에서 `SimpleStorage`가 선택되어 있는지 확인하세요.
    - **"배포"**를 클릭하세요.
    - MetaMask가 팝업되어 트랜잭션 확인을 요청합니다. 가스비는 ETH로 지불됩니다.
@@ -86,7 +86,7 @@ contract SimpleStorage {
 4. **배포 확인**:
    
    - 배포가 완료되면 Remix에서 컨트랙트 주소를 복사하세요
-   - [Status Network 탐색기](https://sepoliascan.status.network)에서 확인하세요
+   - [Status Network 탐색기](https://hoodiscan.status.network)에서 확인하세요
 
 **축하합니다!** Status Network에 첫 번째 스마트 컨트랙트를 배포하셨습니다.
 
@@ -120,7 +120,7 @@ contract SimpleStorage {
 ## 요약
 
 성공적으로 다음을 수행하셨습니다:
-- Status Network 테스트넷과 상호작용하기 위한 환경 설정
+- Status Network Hoodi 테스트넷과 상호작용하기 위한 환경 설정
 - 브릿지 또는 파우셋를 통해 테스트넷 ETH 획득
 - Remix IDE와 MetaMask를 사용하여 스마트 컨트랙트 배포
 - 숫자 저장 및 조회를 통해 배포된 컨트랙트와 상호작용

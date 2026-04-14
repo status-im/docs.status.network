@@ -93,8 +93,8 @@ const config: HardhatUserConfig = {
   solidity: "0.8.24",
   networks: {
     statusTestnet: {
-      url: "https://public.sepolia.rpc.status.network",
-      chainId: 1660990954,
+      url: "https://public.hoodi.rpc.status.network",
+      chainId: 374,
       accounts: [PRIVATE_KEY],
     },
   },

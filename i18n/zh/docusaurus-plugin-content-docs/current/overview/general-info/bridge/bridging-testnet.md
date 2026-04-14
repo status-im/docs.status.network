@@ -1,24 +1,24 @@
 ---
-title: '连接到 Status Network 测试网'
-description: 'Step-by-step instructions for bridging tokens to Status Network. Learn the process for moving assets from Sepolia to our reputation-based gasless L2.'
+title: '连接到 Status Network Hoodi 测试网'
+description: 'Step-by-step instructions for bridging tokens to Status Network. Learn the process for moving assets from Hoodi to our reputation-based gasless L2.'
 keywords:
   - 'Status Network bridge'
   - 'token bridge'
   - 'cross-chain bridge'
-  - 'Sepolia bridge'
+  - 'Hoodi bridge'
   - 'L2 bridge'
   - 'testnet bridge'
   - 'blockchain bridge'
 ---
-# 连接到 Status Network 测试网
+# 连接到 Status Network Hoodi 测试网
 
-Status Network 跨链桥允许您在 Sepolia 和 Status Network 测试网之间转移代币。跨链桥部署在 [bridge.status.network](https://bridge.status.network)。
+Status Network 跨链桥允许您在 Hoodi 和 Status Network Hoodi 测试网之间转移代币。跨链桥部署在 [bridge.status.network](https://bridge.status.network)。
 
 ## 前置要求
 
 - 已安装 MetaMask 或其他 Web3 钱包
-- Sepolia 网络上有一些测试网 ETH
-- 在 Sepolia 网络上持有您想要跨链的代币
+- Hoodi 网络上有一些测试网 ETH
+- 在 Hoodi 网络上持有您想要跨链的代币
 
 ## 跨链流程
 

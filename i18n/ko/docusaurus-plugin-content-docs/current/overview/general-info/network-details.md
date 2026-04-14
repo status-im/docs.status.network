@@ -1,15 +1,15 @@
 ---
 id: 'network-details'
 title: '네트워크 세부정보'
-description: 'Official network configuration for Status Network. Find Chain IDs, RPC URLs, and block explorer links for wallet setup and developer environment config.'
+description: 'Status Network의 공식 네트워크 구성입니다. 지갑 설정과 개발 환경 구성을 위한 체인 ID, RPC URL, 블록 탐색기 링크를 제공합니다.'
 keywords:
   - 'Status Network'
-  - 'network details'
-  - 'RPC endpoint'
-  - 'Chain ID'
-  - 'testnet configuration'
-  - 'blockchain network'
-  - 'MetaMask setup'
+  - '네트워크 상세 정보'
+  - 'RPC 엔드포인트'
+  - '체인 ID'
+  - '테스트넷 구성'
+  - '블록체인 네트워크'
+  - 'MetaMask 설정'
 ---
 # 네트워크 세부정보
 
@@ -17,15 +17,15 @@ keywords:
 
 | 이름                | 값                                       |
 |---------------------|------------------------------------------|
-| **네트워크 이름**    | Status Network Testnet                    |
-| **RPC 엔드포인트**   | https://public.sepolia.rpc.status.network |
-| **체인 ID**         | 1660990954                               |
+| **네트워크 이름**    | Status Network Hoodi Testnet                    |
+| **RPC 엔드포인트**   | https://public.hoodi.rpc.status.network |
+| **체인 ID**         | 374                               |
 | **통화 기호**       | ETH                                       |
-| **블록 탐색기**     | https://sepoliascan.status.network       |
-| **브릿지**          | https://bridge.status.network            |
+| **블록 탐색기**     | https://hoodiscan.status.network       |
+| **브릿지**          | https://eth.faucet.status.network            |
 | **WebSocket RPC**   | WebSocket RPC를 받으려면 [Telegram](https://t.me/statusl2)으로 문의하세요 |
 
-이것은 Status Network 테스트넷의 공식 네트워크 세부정보입니다. 이 세부정보는 다음과 같은 용도로 사용할 수 있습니다:
+이것은 Status Network Hoodi 테스트넷의 공식 네트워크 세부정보입니다. 이 세부정보는 다음과 같은 용도로 사용할 수 있습니다:
 - 지갑에 네트워크 추가
 - 개발 환경 구성
 - 네트워크에 dApp 연결

@@ -10,23 +10,27 @@ import CopyCell from '@site/src/components/CopyCell';
 
 # Network Details
 
-## Status Testnet
+:::warning Sepolia Testnet Sunset
+The Sepolia-based testnet is subject to be sunsetted by the end of April 2026. Please migrate to the new **Status Network Hoodi Testnet** below. Refer to the [migration guide](https://status-im.notion.site/status-network-sepolia-testnet-deprecation-notice) for more information. 
+:::
+
+## Status Network Hoodi Testnet
 
 | Name                | Value                                      |
 |---------------------|--------------------------------------------|
-| **Network Name**    | Status Network Testnet                     |
-| **RPC Endpoint**    | https://public.sepolia.rpc.status.network <CopyCell text="https://public.sepolia.rpc.status.network" ariaLabel="Copy RPC endpoint" /> |
-| **Chain ID**        | 1660990954 <CopyCell text="1660990954" ariaLabel="Copy Chain ID" /> |
-| **Chain ID (Hex)**  | 0x6300b5ea <CopyCell text="0x6300b5ea" ariaLabel="Copy Hex Chain ID" /> |
+| **Network Name**    | Status Network Hoodi Testnet               |
+| **RPC Endpoint**    | https://public.hoodi.rpc.status.network <CopyCell text="https://public.hoodi.rpc.status.network" ariaLabel="Copy RPC endpoint" /> |
+| **Chain ID**        | 374 <CopyCell text="374" ariaLabel="Copy Chain ID" /> |
+| **Chain ID (Hex)**  | 0x176 <CopyCell text="0x176" ariaLabel="Copy Hex Chain ID" /> |
 | **Currency Symbol** | ETH                                        |
-| **Block Explorer**  | https://sepoliascan.status.network <CopyCell text="https://sepoliascan.status.network" ariaLabel="Copy block explorer URL" /> |
-| **Bridge**          | https://bridge.status.network <CopyCell text="https://bridge.status.network" ariaLabel="Copy bridge URL" /> |
+| **Block Explorer**  | https://hoodiscan.status.network <CopyCell text="https://hoodiscan.status.network" ariaLabel="Copy block explorer URL" /> |
+| **Faucet**          | https://eth.faucet.status.network <CopyCell text="https://eth.faucet.status.network" ariaLabel="Copy faucet URL" /> |
+| **L1 Network**      | Hoodi                                      |
 | **WebSocket RPC**   | Get in touch with us on [Telegram](https://t.me/statusl2) to get a websocket RPC |
 
 <AddToMetaMask />
-<div style={{height: '2rem'}} />
 
-These are the official network details for the Status Network testnet. You can use these details to:
+These are the official network details for the Status Network Hoodi Testnet. You can use these details to:
 
 - Add the network to your wallet
 - Configure development environments

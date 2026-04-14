@@ -1,14 +1,14 @@
 ---
 title: 'クイックスタート'
-description: 'Get started on Status Network in under 10 minutes. Deploy smart contracts using Remix, fetch test ETH, and interact with our gasless execution environment.'
+description: '10分以内に Status Network を始めましょう。Remix でスマートコントラクトをデプロイし、テスト ETH を取得してガスレス実行環境で操作できます。'
 keywords:
-  - 'Status Network tutorial'
-  - 'quick start'
-  - 'smart contract deployment'
+  - 'Status Network チュートリアル'
+  - 'クイックスタート'
+  - 'スマートコントラクトのデプロイ'
   - 'Remix IDE'
-  - 'blockchain development'
-  - 'testnet setup'
-  - 'MetaMask configuration'
+  - 'ブロックチェーン開発'
+  - 'テストネット設定'
+  - 'MetaMask 設定'
 ---
 # クイックスタート
 
@@ -26,10 +26,10 @@ keywords:
 
 2. **テストETHを入手**：
 
-   SepoliaのETHとStatus NetworkのETHの両方が必要です：
-   - まず[Sepoliaフォーセット](https://faucet.status.network)からSepolia ETHを入手
+   HoodiのETHとStatus NetworkのETHの両方が必要です：
+   - まず[Hoodiフォーセット](https://hoodi-eth.faucet.pk910.de/)からHoodi ETHを入手
    - 次に[Statusブリッジ](https://bridge.status.network)を使用してETHをStatus Networkにブリッジ
-   - または、[テストネットフォーセット](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)から直接Status Network ETHを入手
+   - または、[テストネットフォーセット](https://eth.faucet.status.network)から直接Status Network ETHを入手
 
 これで準備完了です！
 
@@ -86,7 +86,7 @@ contract SimpleStorage {
 4. **デプロイを確認**：
    
    - デプロイ後、Remixからコントラクトのアドレスをコピー
-   - [Status Networkエクスプローラー](https://sepoliascan.status.network)で確認
+   - [Status Networkエクスプローラー](https://hoodiscan.status.network)で確認
 
 **おめでとうございます！** Status Networkに最初のスマートコントラクトをデプロイしました。
 

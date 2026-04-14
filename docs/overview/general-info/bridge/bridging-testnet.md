@@ -6,13 +6,17 @@ keywords: [Status Network bridge, token bridge, cross-chain bridge, Sepolia brid
 
 # Bridging to Status Network Testnet
 
-The Status Network bridge allows you to transfer tokens between Sepolia and Status Network testnet. The bridge is deployed at [https://bridge.status.network](https://bridge.status.network).
+:::warning Sepolia Testnet Sunset
+The Sepolia-based testnet is subject to be sunsetted by the end of April 2026.
+Please migrate to the **Status Network Hoodi Testnet**.
+Refer to the [migration guide](https://status-im.notion.site/status-network-sepolia-testnet-deprecation-notice) for more information.
+:::
 
 ## Prerequisites
 
 - MetaMask or another Web3 wallet installed
-- Some testnet ETH on Sepolia network
-- The token you want to bridge on Sepolia network
+- Some testnet ETH on Hoodi network
+- The token you want to bridge on Hoodi network
 
 ## Bridging Process
 

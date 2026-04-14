@@ -80,7 +80,7 @@ libs = ["lib"]
 solc = "0.8.24"
 
 [rpc_endpoints]
-status_testnet = "https://public.sepolia.rpc.status.network"
+status_testnet = "https://public.hoodi.rpc.status.network"
 ```
 
 ### 4. コントラクトのデプロイ
@@ -116,7 +116,7 @@ source .env
 
 # Status Networkテストネットにデプロイ
 forge script script/Deploy.s.sol:DeployScript \
-    --rpc-url https://public.sepolia.rpc.status.network \
+    --rpc-url https://public.hoodi.rpc.status.network \
     --broadcast \
 ```
 
@@ -156,7 +156,7 @@ contract InteractScript is Script {
 
 ```bash
 forge script script/Interact.s.sol:InteractScript \
-    --rpc-url https://public.sepolia.rpc.status.network \
+    --rpc-url https://public.hoodi.rpc.status.network \
     --broadcast
 ```
 
@@ -167,12 +167,12 @@ forge script script/Interact.s.sol:InteractScript \
 ```bash
 # 挨拶を読み取り
 cast call <CONTRACT_ADDRESS> "getGreet()" \
-    --rpc-url https://public.sepolia.rpc.status.network
+    --rpc-url https://public.hoodi.rpc.status.network
 
 # 新しい挨拶を設定
 cast send <CONTRACT_ADDRESS> "setGreet(string)" "New greeting!" \
     --private-key $PRIVATE_KEY \
-    --rpc-url https://public.sepolia.rpc.status.network
+    --rpc-url https://public.hoodi.rpc.status.network
 ```
 
 ### 7. テスト
@@ -217,4 +217,4 @@ forge test
 ## 追加リソース
 
 - [Foundryブック](https://book.getfoundry.sh/)
-- [Status Networkエクスプローラー](https://sepoliascan.status.network)
+- [Status Networkエクスプローラー](https://hoodiscan.status.network)

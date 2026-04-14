@@ -7,20 +7,29 @@ slug: /tools/core-infrastructure/bridge
 
 # Status Network Testnet Bridge
 
-The Status Network Testnet Bridge allows users to transfer tokens and pass messages between Sepolia (Layer 1) and Status Network testnet (Layer 2). The bridge interface is available at [bridge.status.network](https://bridge.status.network).
+The Status Network bridge allows users to transfer tokens and pass messages between Layer 1 and Status Network (Layer 2). 
+The bridge interface is available at [bridge.status.network](https://bridge.status.network).
+
+:::warning Sepolia Testnet Sunset
+The Sepolia-based testnet is subject to be sunsetted by the end of April 2026. Please migrate to the new **Status Network Hoodi Testnet** below. Refer to the [migration guide](https://status-im.notion.site/status-network-sepolia-testnet-deprecation-notice) for more information. 
+:::
 
 ## Bridge Contracts
 
-### Layer 1 (Sepolia)
-- **Token Bridge**: [`0x01b44C5Ea321f921D93476cf54Aa8460db17a548`](https://sepolia.etherscan.io/address/0x01b44C5Ea321f921D93476cf54Aa8460db17a548)
+### Layer 1 (Hoodi)
 
-### Layer 2 (Status Network)
-- **Token Bridge**: [`0xbC7f9571152a8e21942b2aEa4831a27f1149af19`](https://sepoliascan.status.network/address/0xbC7f9571152a8e21942b2aEa4831a27f1149af19)
+- **LineaRollup (proxy)**: [`0x24c1DE7F54EeC6eaA65649A535fcFf2129C0E5B5`](https://hoodi.etherscan.io/address/0x24c1DE7F54EeC6eaA65649A535fcFf2129C0E5B5)
+- **TokenBridge L1 (proxy)**: [`0xE342066BBD2c46a04FA79d4C289410ae62Ccbda6`](https://hoodi.etherscan.io/address/0xE342066BBD2c46a04FA79d4C289410ae62Ccbda6)
+
+#### Layer 2 (Status Network Hoodi)
+
+- **L2MessageService (proxy)**: [`0x2CAf1658Bd9B40969E1Ac70b49EC835C7c9Bc68D`](https://hoodiscan.status.network/address/0x2CAf1658Bd9B40969E1Ac70b49EC835C7c9Bc68D)
+- **TokenBridge L2 (proxy)**: [`0x48845B2B3cAb9773a5BBA2519f64003316BA6678`](https://hoodiscan.status.network/address/0x48845B2B3cAb9773a5BBA2519f64003316BA6678)
 
 ## Features
 
 - **Token Bridging**: Transfer ERC-20 tokens between networks
-- **ETH Bridging**: Bridge ETH between Sepolia and Status Network
+- **ETH Bridging**: Bridge ETH between L1 and Status Network
 - **Transaction Tracking**: Monitor the status of your bridge transactions
 - **Gas Estimation**: See estimated gas costs before bridging
 
@@ -35,11 +44,13 @@ For detailed instructions on how to use the bridge, including step-by-step guide
 ## Monitoring Bridge Transactions
 
 You can monitor your bridge transactions using:
-- [Status Network Explorer](https://sepoliascan.status.network) for L2 transactions
-- [Sepolia Etherscan](https://sepolia.etherscan.io) for L1 transactions
+
+- [Status Network Explorer](https://hoodiscan.status.network) for L2 transactions
+- [Hoodi Etherscan](https://hoodi.etherscan.io) for L1 transactions
 
 ## Support
 
 If you encounter any issues while using the bridge:
+
 - Check our [Bridging Guide](/overview/general-info/bridge/bridging-testnet) for common solutions
 - Join our [Telegram Community](https://t.me/statusl2) for assistance

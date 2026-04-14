@@ -1,24 +1,24 @@
 ---
-title: 'Status Network 테스트넷으로 브릿지하기'
-description: 'Step-by-step instructions for bridging tokens to Status Network. Learn the process for moving assets from Sepolia to our reputation-based gasless L2.'
+title: 'Status Network Hoodi 테스트넷으로 브릿지하기'
+description: 'Step-by-step instructions for bridging tokens to Status Network. Learn the process for moving assets from Hoodi to our reputation-based gasless L2.'
 keywords:
   - 'Status Network bridge'
   - 'token bridge'
   - 'cross-chain bridge'
-  - 'Sepolia bridge'
+  - 'Hoodi bridge'
   - 'L2 bridge'
   - 'testnet bridge'
   - 'blockchain bridge'
 ---
-# Status Network 테스트넷으로 브릿지하기
+# Status Network Hoodi 테스트넷으로 브릿지하기
 
-Status Network 브릿지를 사용하면 Sepolia와 Status Network 테스트넷 간에 토큰을 전송할 수 있습니다. 브릿지는 [bridge.status.network](https://bridge.status.network)에 배포되어 있습니다.
+Status Network 브릿지를 사용하면 Hoodi와 Status Network Hoodi 테스트넷 간에 토큰을 전송할 수 있습니다. 브릿지는 [bridge.status.network](https://bridge.status.network)에 배포되어 있습니다.
 
 ## 사전 준비사항
 
 - MetaMask 또는 다른 Web3 지갑이 설치되어 있어야 함
-- Sepolia 네트워크에 테스트넷 ETH 보유
-- Sepolia 네트워크에 브릿지하고자 하는 토큰 보유
+- Hoodi 네트워크에 테스트넷 ETH 보유
+- Hoodi 네트워크에 브릿지하고자 하는 토큰 보유
 
 ## 브릿지 과정
 

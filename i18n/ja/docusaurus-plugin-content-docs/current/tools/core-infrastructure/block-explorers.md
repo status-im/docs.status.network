@@ -14,16 +14,16 @@ slug: '/tools/core-infrastructure/block-explorers'
 
 *近日公開予定。*
 
-## Status Network テストネット (Sepolia)
+## Status Network Hoodi テストネット (Hoodi)
 
 | エクスプローラー | URL | 機能 |
 |----------|-----|----------|
-| Sepoliascan | [sepoliascan.status.network](https://sepoliascan.status.network) | トランザクション検索、スマートコントラクトの検証と対話、残高追跡 |
+| Hoodiscan | [hoodiscan.status.network](https://hoodiscan.status.network) | トランザクション検索、スマートコントラクトの検証と対話、残高追跡 |
 
-コントラクト検証については、Sepoliascan の[コントラクト検証](https://sepoliascan.status.network/contract-verification)ページをご覧ください。
+コントラクト検証については、Hoodiscan の[コントラクト検証](https://hoodiscan.status.network/contract-verification)ページをご覧ください。
 
-Sepolia での L1 活動は [Sepolia Etherscan](https://sepolia.etherscan.io) で追跡できます。
+Hoodi での L1 活動は [Hoodi Etherscan](https://hoodi.etherscan.io) で追跡できます。
 
-## Status Network テストネット (Hoodi)
+## Status Network Hoodi テストネット (Hoodi)
 
 *近日公開予定。*

@@ -105,7 +105,7 @@ contract KarmaGated {
 import { ethers } from 'ethers';
 
 const provider = new ethers.JsonRpcProvider(
-  'https://public.sepolia.rpc.status.network'
+  'https://public.hoodi.rpc.status.network'
 );
 
 const KARMA_ABI = [
@@ -139,7 +139,7 @@ console.log(`每周期交易配额:     ${tier.txPerEpoch}`);
 import { createPublicClient, http } from 'viem';
 
 const client = createPublicClient({
-  transport: http('https://public.sepolia.rpc.status.network'),
+  transport: http('https://public.hoodi.rpc.status.network'),
 });
 
 const karmaAbi = [
