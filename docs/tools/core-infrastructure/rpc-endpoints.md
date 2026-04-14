@@ -34,10 +34,10 @@ For instructions on adding Status Network to your wallet using this RPC, see our
 
 ```javascript
 // Web3.js
-const web3 = new Web3('https://public.sepolia.rpc.status.network');
+const web3 = new Web3('https://public.hoodi.rpc.status.network');
 
 // Ethers.js v5
-const provider = new ethers.providers.JsonRpcProvider('https://public.sepolia.rpc.status.network');
+const provider = new ethers.providers.JsonRpcProvider('https://public.hoodi.rpc.status.network');
 ```
 
 ## Available Methods

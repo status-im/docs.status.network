@@ -9,7 +9,7 @@ keywords: [Status Network tokens, token list, supported tokens, token addresses,
 For the most up-to-date list of supported tokens and their contract addresses on Status Network, please refer to our official [Status Network Token List repository](https://github.com/status-im/status-network-token-list).
 
 This repository contains:
-- Token addresses for both L1 (Sepolia) and L2 (Status Network)
+- Token addresses for both L1 (Hoodi) and L2 (Status Network)
 - Token metadata (decimals, symbols, etc.)
 - Bridge contract mappings
 - App tokens deployed on Status Network

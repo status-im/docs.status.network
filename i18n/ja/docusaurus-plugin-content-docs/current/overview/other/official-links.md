@@ -22,14 +22,14 @@ keywords:
 
 ## ネットワークツール
 - **ブリッジ**: [bridge.status.network](https://bridge.status.network)
-- **ブロックエクスプローラー**: [sepoliascan.status.network](https://hoodiscan.status.network)
-- **RPCエンドポイント**: [public.sepolia.rpc.status.network](https://public.hoodi.rpc.status.network)
+- **ブロックエクスプローラー**: [hoodiscan.status.network](https://hoodiscan.status.network)
+- **RPCエンドポイント**: [public.hoodi.rpc.status.network](https://public.hoodi.rpc.status.network)
 - **WebSocket RPC**: WebSocket RPC を取得するには [Telegram](https://t.me/statusl2) でご連絡ください
 - **フォーセット**: [faucet.status.network](https://eth.faucet.status.network)
 
 ## 開発リソース
 - **トークンリストリポジトリ**: [github.com/status-im/status-network-token-list](https://github.com/status-im/status-network-token-list)
-- **コントラクト検証**: [sepoliascan.status.network/verify-contract](https://hoodiscan.status.network/contract-verification)
+- **コントラクト検証**: [hoodiscan.status.network/verify-contract](https://hoodiscan.status.network/contract-verification)
 
 ## コミュニティ＆サポート
 - **Telegramコミュニティ**: [t.me/statusl2](https://t.me/statusl2)

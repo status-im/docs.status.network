@@ -18,7 +18,7 @@ slug: '/tools/core-infrastructure/block-explorers'
 
 | 浏览器 | URL | 功能 |
 |----------|-----|----------|
-| Hoodiscan | [sepoliascan.status.network](https://hoodiscan.status.network) | 搜索交易、验证和交互智能合约、追踪余额 |
+| Hoodiscan | [hoodiscan.status.network](https://hoodiscan.status.network) | 搜索交易、验证和交互智能合约、追踪余额 |
 
 如需合约验证，请访问 Hoodiscan 上的[合约验证](https://hoodiscan.status.network/contract-verification)页面。
 

@@ -22,14 +22,14 @@ keywords:
 
 ## 네트워크 도구
 - **브릿지**: [bridge.status.network](https://bridge.status.network)
-- **블록 탐색기**: [sepoliascan.status.network](https://hoodiscan.status.network)
-- **RPC 엔드포인트**: [public.sepolia.rpc.status.network](https://public.hoodi.rpc.status.network)
+- **블록 탐색기**: [hoodiscan.status.network](https://hoodiscan.status.network)
+- **RPC 엔드포인트**: [public.hoodi.rpc.status.network](https://public.hoodi.rpc.status.network)
 - **WebSocket RPC**: WebSocket RPC가 필요하시면 [Telegram](https://t.me/statusl2)으로 문의해주세요
 - **파우셋**: [faucet.status.network](https://eth.faucet.status.network)
 
 ## 개발 리소스
 - **토큰 목록 저장소**: [github.com/status-im/status-network-token-list](https://github.com/status-im/status-network-token-list)
-- **컨트랙트 검증**: [sepoliascan.status.network/verify-contract](https://hoodiscan.status.network/contract-verification)
+- **컨트랙트 검증**: [hoodiscan.status.network/verify-contract](https://hoodiscan.status.network/contract-verification)
 
 ## 커뮤니티 & 지원
 - **텔레그램 커뮤니티**: [t.me/statusl2](https://t.me/statusl2)

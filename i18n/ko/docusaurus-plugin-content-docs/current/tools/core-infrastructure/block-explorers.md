@@ -18,7 +18,7 @@ slug: '/tools/core-infrastructure/block-explorers'
 
 | 익스플로러 | URL | 기능 |
 |----------|-----|----------|
-| Hoodiscan | [sepoliascan.status.network](https://hoodiscan.status.network) | 트랜잭션 검색, 스마트 컨트랙트 검증 및 상호작용, 잔액 추적 등 |
+| Hoodiscan | [hoodiscan.status.network](https://hoodiscan.status.network) | 트랜잭션 검색, 스마트 컨트랙트 검증 및 상호작용, 잔액 추적 등 |
 
 컨트랙트 검증은 Hoodiscan의 [컨트랙트 검증](https://hoodiscan.status.network/contract-verification) 페이지를 방문하세요.
 
