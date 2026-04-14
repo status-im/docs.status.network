@@ -14,16 +14,16 @@ slug: '/tools/core-infrastructure/block-explorers'
 
 *即将推出。*
 
-## Status Network 测试网 (Sepolia)
+## Status Network Hoodi 测试网 (Hoodi)
 
 | 浏览器 | URL | 功能 |
 |----------|-----|----------|
-| Sepoliascan | [sepoliascan.status.network](https://sepoliascan.status.network) | 搜索交易、验证和交互智能合约、追踪余额 |
+| Hoodiscan | [sepoliascan.status.network](https://hoodiscan.status.network) | 搜索交易、验证和交互智能合约、追踪余额 |
 
-如需合约验证，请访问 Sepoliascan 上的[合约验证](https://sepoliascan.status.network/contract-verification)页面。
+如需合约验证，请访问 Hoodiscan 上的[合约验证](https://hoodiscan.status.network/contract-verification)页面。
 
-Sepolia 上的 L1 活动可通过 [Sepolia Etherscan](https://sepolia.etherscan.io) 追踪。
+Hoodi 上的 L1 活动可通过 [Hoodi Etherscan](https://hoodi.etherscan.io) 追踪。
 
-## Status Network 测试网 (Hoodi)
+## Status Network Hoodi 测试网 (Hoodi)
 
 *即将推出。*

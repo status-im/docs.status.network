@@ -17,7 +17,7 @@ Status Network는 네트워크와 상호작용할 수 있는 공개 RPC(Remote P
 ## 공개 RPC URL
 
 ```
-https://public.sepolia.rpc.status.network
+https://public.hoodi.rpc.status.network
 ```
 
 ## RPC 사용하기
@@ -29,10 +29,10 @@ https://public.sepolia.rpc.status.network
 
 ```javascript
 // Web3.js
-const web3 = new Web3('https://public.sepolia.rpc.status.network');
+const web3 = new Web3('https://public.hoodi.rpc.status.network');
 
 // Ethers.js v5
-const provider = new ethers.providers.JsonRpcProvider('https://public.sepolia.rpc.status.network');
+const provider = new ethers.providers.JsonRpcProvider('https://public.hoodi.rpc.status.network');
 ```
 
 ## 사용 가능한 메소드

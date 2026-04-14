@@ -12,23 +12,23 @@ keywords:
 ---
 # 使用 Foundry 部署智能合约
 
-本教程将指导您使用 Foundry 在 Status Network 测试网上部署智能合约。
+本教程将指导您使用 Foundry 在 Status Network Hoodi 测试网上部署智能合约。
 
 ## 前提条件
 
 开始之前，请确保您具备以下条件：
 
 - **Foundry**: 从[官方 Foundry 文档](https://book.getfoundry.sh/getting-started/installation)安装
-- **以太坊钱包**: Status Network 测试网的私钥
-- **测试网 ETH**: 您需要 Status Network 测试网 ETH
-  - 从我们的[水龙头](/tools/core-infrastructure/testnet-faucets)获取 Status Network 测试网 ETH
+- **以太坊钱包**: Status Network Hoodi 测试网的私钥
+- **测试网 ETH**: 您需要 Status Network Hoodi 测试网 ETH
+  - 从我们的[水龙头](/tools/core-infrastructure/testnet-faucets)获取 Status Network Hoodi 测试网 ETH
 - **基础知识**: 熟悉 Solidity 和命令行
 
 ## 您将完成
 
 - 初始化 Foundry 项目
 - 编写基本的以太坊智能合约
-- 配置 Foundry 以部署到 Status Network 测试网
+- 配置 Foundry 以部署到 Status Network Hoodi 测试网
 - 部署您的智能合约
 
 ## 步骤
@@ -80,7 +80,7 @@ libs = ["lib"]
 solc = "0.8.24"
 
 [rpc_endpoints]
-status_testnet = "https://public.sepolia.rpc.status.network"
+status_testnet = "https://public.hoodi.rpc.status.network"
 ```
 
 ### 4. 部署合约
@@ -114,9 +114,9 @@ contract DeployScript is Script {
 # 加载环境变量
 source .env
 
-# 部署到 Status Network 测试网
+# 部署到 Status Network Hoodi 测试网
 forge script script/Deploy.s.sol:DeployScript \
-    --rpc-url https://public.sepolia.rpc.status.network \
+    --rpc-url https://public.hoodi.rpc.status.network \
     --broadcast \
 ```
 
@@ -156,7 +156,7 @@ contract InteractScript is Script {
 
 ```bash
 forge script script/Interact.s.sol:InteractScript \
-    --rpc-url https://public.sepolia.rpc.status.network \
+    --rpc-url https://public.hoodi.rpc.status.network \
     --broadcast
 ```
 
@@ -167,12 +167,12 @@ forge script script/Interact.s.sol:InteractScript \
 ```bash
 # 读取问候语
 cast call <CONTRACT_ADDRESS> "getGreet()" \
-    --rpc-url https://public.sepolia.rpc.status.network
+    --rpc-url https://public.hoodi.rpc.status.network
 
 # 设置新问候语
 cast send <CONTRACT_ADDRESS> "setGreet(string)" "New greeting!" \
     --private-key $PRIVATE_KEY \
-    --rpc-url https://public.sepolia.rpc.status.network
+    --rpc-url https://public.hoodi.rpc.status.network
 ```
 
 ### 7. 测试
@@ -217,4 +217,4 @@ forge test
 ## 其他资源
 
 - [Foundry 文档](https://book.getfoundry.sh/)
-- [Status Network 浏览器](https://sepoliascan.status.network)
+- [Status Network 浏览器](https://hoodiscan.status.network)

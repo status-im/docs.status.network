@@ -11,7 +11,7 @@ keywords:
 ---
 # 使用 Remix 部署智能合约
 
-本教程将指导您使用 Remix IDE 在 Status Network 测试网上部署智能合约。Remix 是一个基于浏览器的 IDE，非常适合快速开发和测试。
+本教程将指导您使用 Remix IDE 在 Status Network Hoodi 测试网上部署智能合约。Remix 是一个基于浏览器的 IDE，非常适合快速开发和测试。
 
 ## 前提条件
 
@@ -19,9 +19,9 @@ keywords:
 
 - **网络浏览器**: Chrome 或 Firefox 等现代浏览器
 - **MetaMask**: 安装 [MetaMask](https://metamask.io) 浏览器扩展
-- **测试网 ETH**: 您需要 Status Network 测试网 ETH
-  - 从我们的[水龙头](/tools/core-infrastructure/testnet-faucets)获取 Status Network 测试网 ETH
-- **网络配置**: 按照我们的[添加网络指南](/overview/general-info/add-status-network)将 Status Network 测试网添加到 MetaMask
+- **测试网 ETH**: 您需要 Status Network Hoodi 测试网 ETH
+  - 从我们的[水龙头](/tools/core-infrastructure/testnet-faucets)获取 Status Network Hoodi 测试网 ETH
+- **网络配置**: 按照我们的[添加网络指南](/overview/general-info/add-status-network)将 Status Network Hoodi 测试网添加到 MetaMask
 
 ## 步骤
 
@@ -68,7 +68,7 @@ contract HelloWorld {
 
 1. 点击"Deploy & Run Transactions"图标（左侧边栏的第四个图标）
 2. 在"Environment"下拉菜单中选择"Injected Provider - MetaMask"
-3. MetaMask 会提示连接 - 确保选择了 Status Network 测试网
+3. MetaMask 会提示连接 - 确保选择了 Status Network Hoodi 测试网
 4. 点击"Deploy"
 5. 在 MetaMask 中确认交易
 6. 等待交易确认
@@ -88,7 +88,7 @@ contract HelloWorld {
 ### 常见问题
 
 1. **交易失败**
-   - 检查是否已连接到 Status Network 测试网
+   - 检查是否已连接到 Status Network Hoodi 测试网
 
 2. **找不到合约**
    - 等待几分钟让浏览器索引您的合约
@@ -107,4 +107,4 @@ contract HelloWorld {
 ## 其他资源
 
 - [Remix 文档](https://remix-ide.readthedocs.io/)
-- [Status Network 浏览器](https://sepoliascan.status.network)
+- [Status Network 浏览器](https://hoodiscan.status.network)

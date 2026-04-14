@@ -1,15 +1,15 @@
 ---
 title: '官方链接'
-description: 'Access the directory for Status Network: mainnet links, bridge tools, faucet access, and developer communities for our reputation-based L2 infrastructure.'
+description: 'Status Network 官方资源目录：主网链接、跨链工具、水龙头入口以及面向开发者的社区资源。'
 keywords:
-  - 'Status Network links'
-  - 'official resources'
-  - 'network tools'
-  - 'development resources'
-  - 'community links'
-  - 'blockchain explorer'
-  - 'bridge'
-  - 'faucet'
+  - 'Status Network 链接'
+  - '官方资源'
+  - '网络工具'
+  - '开发资源'
+  - '社区链接'
+  - '区块浏览器'
+  - '跨链桥'
+  - '水龙头'
 ---
 # 官方链接
 
@@ -22,14 +22,14 @@ keywords:
 
 ## 网络工具
 - **跨链桥**: [bridge.status.network](https://bridge.status.network)
-- **区块浏览器**: [sepoliascan.status.network](https://sepoliascan.status.network)
-- **RPC 端点**: [public.sepolia.rpc.status.network](https://public.sepolia.rpc.status.network)
+- **区块浏览器**: [sepoliascan.status.network](https://hoodiscan.status.network)
+- **RPC 端点**: [public.sepolia.rpc.status.network](https://public.hoodi.rpc.status.network)
 - **WebSocket RPC**: 如需 WebSocket RPC，请通过 [Telegram](https://t.me/statusl2) 联系我们
-- **水龙头**: [faucet.status.network](https://faucet.status.network)
+- **水龙头**: [faucet.status.network](https://eth.faucet.status.network)
 
 ## 开发资源
 - **代币列表仓库**: [github.com/status-im/status-network-token-list](https://github.com/status-im/status-network-token-list)
-- **合约验证**: [sepoliascan.status.network/verify-contract](https://sepoliascan.status.network/contract-verification)
+- **合约验证**: [sepoliascan.status.network/verify-contract](https://hoodiscan.status.network/contract-verification)
 
 ## 社区与支持
 - **Telegram 社区**: [t.me/statusl2](https://t.me/statusl2)

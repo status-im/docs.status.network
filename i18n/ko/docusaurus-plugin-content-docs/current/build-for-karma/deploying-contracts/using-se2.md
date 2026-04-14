@@ -37,15 +37,15 @@ keywords:
 
 3. **Status Network에 배포:**
    ```bash
-   yarn deploy --network statusSepolia
+   yarn deploy --network statusHoodi
    ```
 
 4. **컨트랙트 검증:**
    ```bash
    # Hardhat
-   yarn hardhat:hardhat-verify --network statusSepolia <YourDeployedContractAddress>
+   yarn hardhat:hardhat-verify --network statusHoodi <YourDeployedContractAddress>
    # Foundry
-   yarn status:verify --network statusSepolia
+   yarn status:verify --network statusHoodi
    ```
 
 5. **프론트엔드 시작:**
@@ -56,7 +56,7 @@ keywords:
 ## 주요 포인트
 
 - **로컬 체인 불필요**: 테스트넷에 직접 배포
-- **배포 및 검증**: 항상 `--network statusSepolia` 옵션 사용
+- **배포 및 검증**: 항상 `--network statusHoodi` 옵션 사용
 - **Blockscout 검증**: Status Network는 Etherscan이 아닌 Blockscout 사용
 - **사전 구성된 프론트엔드**: NextJS가 자동으로 Status Network에 연결
 

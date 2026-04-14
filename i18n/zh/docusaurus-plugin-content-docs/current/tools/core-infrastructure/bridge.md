@@ -1,31 +1,33 @@
 ---
 title: 'Status Network 跨链桥'
-description: '使用 Status Network 跨链桥在 Sepolia 和 Status Network 测试网之间转移代币的完整指南。'
+description: '使用 Status Network 跨链桥在 Hoodi 和 Status Network Hoodi 测试网之间转移代币的完整指南。'
 keywords:
   - 'Status Network 跨链桥'
   - '代币跨链'
   - '跨链转账'
   - 'L1 L2 跨链桥'
-  - 'Sepolia 跨链桥'
+  - 'Hoodi 跨链桥'
 slug: '/tools/core-infrastructure/bridge'
 ---
 
-# Status Network 测试网跨链桥
+# Status Network Hoodi 测试网跨链桥
 
-Status Network 测试网跨链桥允许用户在 Sepolia（第一层）和 Status Network 测试网（第二层）之间转移代币和传递消息。跨链桥界面可在 [bridge.status.network](https://bridge.status.network) 访问。
+Status Network Hoodi 测试网跨链桥允许用户在 Hoodi（第一层）和 Status Network Hoodi 测试网（第二层）之间转移代币和传递消息。跨链桥界面可在 [bridge.status.network](https://bridge.status.network) 访问。
 
 ## 跨链桥合约
 
-### 第一层 (Sepolia)
-- **代币跨链桥**: [`0x01b44C5Ea321f921D93476cf54Aa8460db17a548`](https://sepolia.etherscan.io/address/0x01b44C5Ea321f921D93476cf54Aa8460db17a548)
+### 第一层 (Hoodi)
+- **LineaRollup (proxy)**: [`0x24c1DE7F54EeC6eaA65649A535fcFf2129C0E5B5`](https://hoodi.etherscan.io/address/0x24c1DE7F54EeC6eaA65649A535fcFf2129C0E5B5)
+- **代币跨链桥**: [`0xE342066BBD2c46a04FA79d4C289410ae62Ccbda6`](https://hoodi.etherscan.io/address/0xE342066BBD2c46a04FA79d4C289410ae62Ccbda6)
 
 ### 第二层 (Status Network)
-- **代币跨链桥**: [`0xbC7f9571152a8e21942b2aEa4831a27f1149af19`](https://sepoliascan.status.network/address/0xbC7f9571152a8e21942b2aEa4831a27f1149af19)
+- **L2MessageService (proxy)**: [`0x2CAf1658Bd9B40969E1Ac70b49EC835C7c9Bc68D`](https://hoodiscan.status.network/address/0x2CAf1658Bd9B40969E1Ac70b49EC835C7c9Bc68D)
+- **代币跨链桥**: [`0x48845B2B3cAb9773a5BBA2519f64003316BA6678`](https://hoodiscan.status.network/address/0x48845B2B3cAb9773a5BBA2519f64003316BA6678)
 
 ## 功能
 
 - **代币跨链**: 在网络间转移 ERC-20 代币
-- **ETH 跨链**: 在 Sepolia 和 Status Network 之间跨链 ETH
+- **ETH 跨链**: 在 Hoodi 和 Status Network 之间跨链 ETH
 - **交易追踪**: 监控您的跨链交易状态
 - **Gas 估算**: 跨链前查看预估 Gas 费用
 
@@ -40,8 +42,8 @@ Status Network 测试网跨链桥允许用户在 Sepolia（第一层）和 Statu
 ## 监控跨链交易
 
 您可以使用以下工具监控跨链交易：
-- [Status Network 浏览器](https://sepoliascan.status.network) 用于 L2 交易
-- [Sepolia Etherscan](https://sepolia.etherscan.io) 用于 L1 交易
+- [Status Network 浏览器](https://hoodiscan.status.network) 用于 L2 交易
+- [Hoodi Etherscan](https://hoodi.etherscan.io) 用于 L1 交易
 
 ## 支持
 

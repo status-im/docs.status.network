@@ -107,4 +107,4 @@ contract HelloWorld {
 ## 追加リソース
 
 - [Remixドキュメント](https://remix-ide.readthedocs.io/)
-- [Status Networkエクスプローラー](https://sepoliascan.status.network)
+- [Status Networkエクスプローラー](https://hoodiscan.status.network)

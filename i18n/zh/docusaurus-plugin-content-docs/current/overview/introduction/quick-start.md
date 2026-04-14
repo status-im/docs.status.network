@@ -1,18 +1,18 @@
 ---
 title: '快速开始'
-description: 'Get started on Status Network in under 10 minutes. Deploy smart contracts using Remix, fetch test ETH, and interact with our gasless execution environment.'
+description: '在 10 分钟内快速上手 Status Network。使用 Remix 部署智能合约，获取测试 ETH，并在我们的免 Gas 执行环境中进行交互。'
 keywords:
-  - 'Status Network tutorial'
-  - 'quick start'
-  - 'smart contract deployment'
+  - 'Status Network 教程'
+  - '快速开始'
+  - '智能合约部署'
   - 'Remix IDE'
-  - 'blockchain development'
-  - 'testnet setup'
-  - 'MetaMask configuration'
+  - '区块链开发'
+  - '测试网配置'
+  - 'MetaMask 配置'
 ---
 # 快速开始
 
-在本节中，我们将帮助您在 10 分钟内在 **Status Network 测试网**上部署一个示例合约。
+在本节中，我们将帮助您在 10 分钟内在 **Status Network Hoodi 测试网**上部署一个示例合约。
 
 让我们看看如何使用 Remix IDE 在 Status Network 上部署智能合约，这是最简单的方式。
 
@@ -20,16 +20,16 @@ keywords:
 
 在开始之前：
 
-1. **将 Status Network 测试网添加到 MetaMask**：
+1. **将 Status Network Hoodi 测试网添加到 MetaMask**：
 
-   按照 [Status Network 添加指南](/overview/general-info/add-status-network) 的步骤说明将 Status Network 测试网添加到 MetaMask。
+   按照 [Status Network 添加指南](/overview/general-info/add-status-network) 的步骤说明将 Status Network Hoodi 测试网添加到 MetaMask。
 
 2. **获取测试 ETH**：
 
-   您需要 Sepolia ETH 和 Status Network ETH：
-   - 首先从 [Sepolia 水龙头](https://faucet.status.network) 获取 Sepolia ETH
+   您需要 Hoodi ETH 和 Status Network ETH：
+   - 首先从 [Hoodi 水龙头](https://hoodi-eth.faucet.pk910.de/) 获取 Hoodi ETH
    - 然后使用 [Status 跨链桥](https://bridge.status.network) 将一些 ETH 跨链到 Status Network
-   - 或者直接从我们的 [测试网水龙头](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878) 获取 Status Network ETH
+   - 或者直接从我们的 [测试网水龙头](https://eth.faucet.status.network) 获取 Status Network ETH
 
 现在我们准备开始了！
 
@@ -76,7 +76,7 @@ contract SimpleStorage {
    - 切换到 **部署 & 运行交易**标签页。
    - 在 **"环境"** 下拉菜单中，选择 **"Injected Provider - MetaMask"**。
    - MetaMask 可能会提示您连接到 Remix。确认连接。
-   - 确保在 MetaMask 中选择了 **Status Network 测试网**。
+   - 确保在 MetaMask 中选择了 **Status Network Hoodi 测试网**。
    - 在 **"合约"** 下，确保选择了 `SimpleStorage`。
    - 点击 **"部署"**。
    - MetaMask 将弹出窗口，要求您确认交易。gas 费用将以 ETH 支付。
@@ -86,7 +86,7 @@ contract SimpleStorage {
 4. **验证部署**：
    
    - 部署完成后，从 Remix 复制您的合约地址
-   - 在 [Status Network 浏览器](https://sepoliascan.status.network) 上查看
+   - 在 [Status Network 浏览器](https://hoodiscan.status.network) 上查看
 
 **恭喜！** 您刚刚在 Status Network 上部署了您的第一个智能合约。
 
@@ -120,7 +120,7 @@ contract SimpleStorage {
 ## 总结
 
 您已经成功：
-- 设置环境以与 Status Network 测试网交互
+- 设置环境以与 Status Network Hoodi 测试网交互
 - 通过跨链或水龙头获取测试网 ETH
 - 使用 Remix IDE 和 MetaMask 部署智能合约
 - 通过存储和检索数字与您部署的合约进行交互

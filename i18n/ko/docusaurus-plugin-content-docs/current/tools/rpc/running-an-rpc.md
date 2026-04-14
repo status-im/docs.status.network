@@ -256,4 +256,4 @@ RPC 노드 성능을 최적화하려면:
 
 - [Status Network RPC Tools 레포지토리](https://github.com/status-im/status-l2-rpc-tools) - 설정 가이드 및 스크립트가 포함된 공식 레포지토리
 - [Status Network 문서](https://docs.status.network/) - 공식 문서
-- [Status Network 블록 탐색기](https://sepoliascan.status.network) - Sepolia 테스트넷 탐색기
+- [Status Network 블록 탐색기](https://hoodiscan.status.network) - Hoodi 테스트넷 탐색기
