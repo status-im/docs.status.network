@@ -8,84 +8,71 @@ keywords: [Status Network contracts, testnet addresses, smart contracts, bridge 
 
 This page lists all the important contract addresses for the Status Network testnet infrastructure.
 
-## Layer 1 Contracts (Sepolia)
+:::warning Sepolia Testnet Sunset
+The Sepolia-based testnet is subject to be sunsetted by the end of April 2026.
+Please migrate to the **Status Network Hoodi Testnet**.
+Refer to the [migration guide](https://status-im.notion.site/status-network-sepolia-testnet-deprecation-notice) for more information.
+:::
 
-These contracts are deployed on the Sepolia testnet. You can view them on [Sepolia Etherscan](https://sepolia.etherscan.io).
+## Layer 1 Contracts (Hoodi)
+
+These contracts are deployed on the Hoodi testnet. You can view them on [Hoodi Etherscan](https://hoodi.etherscan.io).
 
 ### Bridge Contracts
-- **Rollup Contract**
-  - Address: [`0x0Bf464f24D867ff0B20aE8f9C353a589138D6836`](https://sepolia.etherscan.io/address/0x0bf464f24d867ff0b20ae8f9c353a589138d6836)
-  - Purpose: Manages the L2s validity, DA and messaging from the L1 to L2
 
-- **L1 Token Bridge Proxy**
-  - Address: [`0x01b44C5Ea321f921D93476cf54Aa8460db17a548`](https://sepolia.etherscan.io/address/0x01b44C5Ea321f921D93476cf54Aa8460db17a548)
+- **LineaRollup (proxy)**
+  - Address: [`0x24c1DE7F54EeC6eaA65649A535fcFf2129C0E5B5`](https://hoodi.etherscan.io/address/0x24c1DE7F54EeC6eaA65649A535fcFf2129C0E5B5)
+  - Purpose: Manages the L2's validity, DA and messaging from L1 to L2
+
+- **TokenBridge L1 (proxy)**
+  - Address: [`0xE342066BBD2c46a04FA79d4C289410ae62Ccbda6`](https://hoodi.etherscan.io/address/0xE342066BBD2c46a04FA79d4C289410ae62Ccbda6)
   - Purpose: Manages token bridging operations on L1
 
-### Core Infrastructure
-- **L1 Postman**
-  - Address: [`0xB15725119b917d348FfEB365B43bCDeEbfb65C5d`](https://sepolia.etherscan.io/address/0xB15725119b917d348FfEB365B43bCDeEbfb65C5d)
-  - Purpose: Handles message passing between L1 and L2
+### Infrastructure Accounts
 
 - **L1 Data Submission**
-  - Address: [`0x263d8f55BAc71a42d0A822F46b1eC62Cd4183a8d`](https://sepolia.etherscan.io/address/0x263d8f55BAc71a42d0A822F46b1eC62Cd4183a8d)
+  - Address: [`0xf28FffAA0BD329EcE4e85f3D7163267649eb6B80`](https://hoodi.etherscan.io/address/0xf28FffAA0BD329EcE4e85f3D7163267649eb6B80)
   - Purpose: Manages data submission from L2 to L1
 
 - **L1 Finalization**
-  - Address: [`0xb91CB39b3b9F015b0aC88616A463B35568052AEF`](https://sepolia.etherscan.io/address/0xb91CB39b3b9F015b0aC88616A463B35568052AEF)
+  - Address: [`0x74527db6DCa3E006c3ff76787E89eE8dD7963f43`](https://hoodi.etherscan.io/address/0x74527db6DCa3E006c3ff76787E89eE8dD7963f43)
   - Purpose: Handles finalization of L2 blocks on L1
 
-## Layer 2 Contracts (Status Network Testnet)
+## Layer 2 Contracts (Status Network Testnet V2)
 
-These contracts are deployed on the Status Network testnet. You can view them on [Status Network Explorer](https://sepoliascan.status.network).
+These contracts are deployed on the Status Network Hoodi Testnet (Chain ID: 374).
+You can view them on the [Status Network Hoodi Testnet Explorer](https://hoodiscan.status.network).
 
 ### Bridge Contracts
-- **L2 Message Service**
-  - Address: [`0xe74Bd8db0440533F8915042D980AbAA86085821c`](https://sepoliascan.status.network/address/0xe74Bd8db0440533F8915042D980AbAA86085821c)
+
+- **L2MessageService (proxy)**
+  - Address: [`0x2CAf1658Bd9B40969E1Ac70b49EC835C7c9Bc68D`](https://hoodiscan.status.network/address/0x2CAf1658Bd9B40969E1Ac70b49EC835C7c9Bc68D)
   - Purpose: Manages the messaging from L2 to L1
-  
-- **L2 Token Bridge Proxy**
-  - Address: [`0xbC7f9571152a8e21942b2aEa4831a27f1149af19`](https://sepoliascan.status.network/address/0xbC7f9571152a8e21942b2aEa4831a27f1149af19)
+
+- **TokenBridge L2 (proxy)**
+  - Address: [`0x48845B2B3cAb9773a5BBA2519f64003316BA6678`](https://hoodiscan.status.network/address/0x48845B2B3cAb9773a5BBA2519f64003316BA6678)
   - Purpose: Manages token bridging operations on L2
 
-### Infrastructure Contracts
-- **L2 Faucet**
-  - Address: [`0x06338B70F1eAbc60d7A82C083e605C07F78bb878`](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)
-  - Purpose: Distributes testnet tokens to users
+### Status Network Contracts
 
-- **L2 Anchoring**
-  - Address: [`0x24B5eD2763129D6cBDEfE32e08558D2095132560`](https://sepoliascan.status.network/address/0x24B5eD2763129D6cBDEfE32e08558D2095132560)
-  - Purpose: Manages state anchoring between L1 and L2
-
-### Karma Contracts
-- **Karma**
-  - Address: [`0x7ec5Dc75D09fAbcD55e76077AFa5d4b77D112fde`](https://sepoliascan.status.network/address/0x7ec5Dc75D09fAbcD55e76077AFa5d4b77D112fde)
-  - Purpose: Non-transferable ERC20 native reputation token 
+- **Karma (proxy)**
+  - Address: [`0x0700be6f329cc48c38144f71c898b72795db6c1b`](https://hoodiscan.status.network/address/0x0700be6f329cc48c38144f71c898b72795db6c1b)
+  - Purpose: Non-transferable ERC20 native reputation token
 
 - **KarmaTiers**
-  - Address: [`0xc7fCD786a161f42bDaF66E18a67C767C23cFd30C`](https://sepoliascan.status.network/address/0xc7fCD786a161f42bDaF66E18a67C767C23cFd30C)
-  - Purpose: Tier levels for gasless transactions
+  - Address: [`0xb8039632e089dcefa6bbb1590948926b2463b691`](https://hoodiscan.status.network/address/0xb8039632e089dcefa6bbb1590948926b2463b691)
+  - Purpose: Tier levels for gasless transactions (11 tiers initialized)
 
-- **KarmaNFT**
-  - Address: [`0xf78d58742840C0ee00b17EE062855392d10a0305`](https://sepoliascan.status.network/address/0xf78d58742840C0ee00b17EE062855392d10a0305)
-  - Purpose: Soulbound Karma NFT
+- **RLN (proxy)**
+  - Address: [`0x420077c98880a9ebb45296cf7721ab7a5b56bd47`](https://hoodiscan.status.network/address/0x420077c98880a9ebb45296cf7721ab7a5b56bd47)
+  - Purpose: Rate-Limiting Nullifier for gasless transactions
 
-- **StakeManager**
-  - Address: [`0x5cDf1646E4c1D21eE94DED1DA8da3Ca450dc96D1`](https://sepoliascan.status.network/address/0x5cDf1646E4c1D21eE94DED1DA8da3Ca450dc96D1)
+- **StakeManager (proxy)**
+  - Address: [`0x2bc5b2a5f580064aab6fbc1ee30113cd808582ac`](https://hoodiscan.status.network/address/0x2bc5b2a5f580064aab6fbc1ee30113cd808582ac)
   - Purpose: SNT Staking contract
-
-- **VaultFactory**
-  - Address: [`0xddDcd43a0B0dA865decf3e4Ae71FbBE3e2DfFF14`](https://sepoliascan.status.network/address/0xddDcd43a0B0dA865decf3e4Ae71FbBE3e2DfFF14)
-  - Purpose: Factory for creating self-custody vaults that plug into StakeManager
-
+  
 ### Utility Contracts
+
 - **Multicall3**
-  - Address: [`0xcA11bde05977b3631167028862bE2a173976CA11`](https://sepoliascan.status.network/address/0xcA11bde05977b3631167028862bE2a173976CA11)
-  - Purpose: Batching of multiple calls to the chain from one request
-  
-- **deterministic-deployment-proxy**
-  - Address: [`0x4e59b44847b379578588920cA78FbF26c0B4956C`](https://sepoliascan.status.network/address/0x4e59b44847b379578588920cA78FbF26c0B4956C)
-  - Purpose: CREATE2 util contract used by popular frameworks like Hardhat and similar behind the scenes
-  
-- **safe-singleton-factory**
-  - Address: [`0x914d7Fec6aaC8cd542e72Bca78B30650d45643d7`](https://sepoliascan.status.network/address/0x914d7Fec6aaC8cd542e72Bca78B30650d45643d7)
-  - Purpose: Singleton factory used by Safe related contracts
+  - Address: [`0xcA11bde05977b3631167028862bE2a173976CA11`](https://hoodiscan.status.network/address/0xcA11bde05977b3631167028862bE2a173976CA11)
+  - Purpose: Aggregate multiple calls into a single call for efficiency and reduced RPC requests

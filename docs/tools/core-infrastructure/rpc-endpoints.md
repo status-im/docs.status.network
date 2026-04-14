@@ -11,15 +11,20 @@ import AddToMetaMask from '@site/src/components/AddToMetaMask';
 
 The Status Network provides public RPC (Remote Procedure Call) endpoints that allow you to interact with the network.
 
-## Public RPC URL
+:::warning Sepolia Testnet Sunset
+The Sepolia-based testnet is subject to be sunsetted by the end of April 2026. Please migrate to the new **Status Network Hoodi Testnet** below. Refer to the [migration guide](https://status-im.notion.site/status-network-sepolia-testnet-deprecation-notice) for more information. 
+:::
+
+## Status Network Hoodi Testnet — Public RPC URL
 
 ```
-https://public.sepolia.rpc.status.network
+https://public.hoodi.rpc.status.network
 ```
 
 ## Using the RPC
 
 ### Adding to MetaMask
+
 For instructions on adding Status Network to your wallet using this RPC, see our [Add Network guide](/overview/general-info/add-status-network).
 
 <AddToMetaMask />

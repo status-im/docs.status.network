@@ -75,7 +75,7 @@ solc = "0.8.24"
 evm_version = "paris"
 
 [rpc_endpoints]
-status_testnet = "https://public.sepolia.rpc.status.network"
+status_testnet = "https://public.hoodi.rpc.status.network"
 ```
 
 ### 4. Deploy the Contract
@@ -111,7 +111,7 @@ source .env
 
 # Deploy to Status Network testnet
 forge script script/Deploy.s.sol:DeployScript \
-    --rpc-url https://public.sepolia.rpc.status.network \
+    --rpc-url https://public.hoodi.rpc.status.network \
     --broadcast \
 ```
 
@@ -151,7 +151,7 @@ Run the interaction script:
 
 ```bash
 forge script script/Interact.s.sol:InteractScript \
-    --rpc-url https://public.sepolia.rpc.status.network \
+    --rpc-url https://public.hoodi.rpc.status.network \
     --broadcast
 ```
 
@@ -162,12 +162,12 @@ You can also use `cast` to interact with your contract:
 ```bash
 # Read the greeting
 cast call <CONTRACT_ADDRESS> "getGreet()" \
-    --rpc-url https://public.sepolia.rpc.status.network
+    --rpc-url https://public.hoodi.rpc.status.network
 
 # Set a new greeting
 cast send <CONTRACT_ADDRESS> "setGreet(string)" "New greeting!" \
     --private-key $PRIVATE_KEY \
-    --rpc-url https://public.sepolia.rpc.status.network
+    --rpc-url https://public.hoodi.rpc.status.network
 ```
 
 ### 7. Testing
@@ -206,10 +206,11 @@ forge test
 ## Support
 
 If you encounter any issues:
+
 - Join our [Telegram Community](https://t.me/statusl2)
 - View our [Network Details](/overview/general-info/network-details)
 
 ## Additional Resources
 
 - [Foundry Book](https://book.getfoundry.sh/)
-- [Status Network Explorer](https://sepoliascan.status.network)
+- [Status Network Testnet Explorer](https://hoodiscan.status.network)

@@ -102,4 +102,4 @@ If you encounter any issues:
 ## Additional Resources
 
 - [Remix Documentation](https://remix-ide.readthedocs.io/)
-- [Status Network Explorer](https://sepoliascan.status.network)
+- [Status Network Testnet Explorer](https://hoodiscan.status.network)

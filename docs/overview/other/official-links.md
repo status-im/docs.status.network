@@ -27,7 +27,7 @@ This page contains all the official links for the Status Network ecosystem.
 | Block Explorer | [sepoliascan.status.network](https://sepoliascan.status.network) <CopyCell text="https://sepoliascan.status.network" ariaLabel="Copy block explorer URL" /> |
 | RPC Endpoint | [public.sepolia.rpc.status.network](https://public.sepolia.rpc.status.network) <CopyCell text="https://public.sepolia.rpc.status.network" ariaLabel="Copy RPC endpoint URL" /> |
 | WebSocket RPC | Get in touch with us on [Telegram](https://t.me/statusl2) to get a websocket RPC |
-| Faucet | [faucet.status.network](https://faucet.status.network) <CopyCell text="https://faucet.status.network" ariaLabel="Copy faucet URL" /> |
+| Faucet | [eth.faucet.status.network](https://eth.faucet.status.network) <CopyCell text="https://eth.faucet.status.network" ariaLabel="Copy faucet URL" /> |
 
 ## Development Resources
 

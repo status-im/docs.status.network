@@ -20,10 +20,9 @@ Before getting started:
 
 2. **Get Test ETH**:
 
-   You'll need both Sepolia ETH and Status Network Testnet ETH:
-   - First get Sepolia ETH from [Sepolia Faucet](https://faucet.status.network)
-   - Then bridge some ETH to Status Network Testnet using the [Status Bridge](https://bridge.status.network)
-   - Alternatively, get Status Network Testnet ETH directly from our [Testnet Faucet](https://sepoliascan.status.network/address/0x06338B70F1eAbc60d7A82C083e605C07F78bb878)
+   You'll need testnet ETH on Status Network Hoodi Testnet:
+   - Get Hoodi ETH from the [Hoodi Faucet](https://hoodi-eth.faucet.pk910.de/) and bridge to Status Network, or
+   - Get Status Network testnet ETH directly from our [Testnet Faucet](https://eth.faucet.status.network)
 
 We are ready to get started!
 
@@ -78,9 +77,9 @@ contract SimpleStorage {
    - Wait for the transaction to be mined.
 
 4. **Verify Deployment**:
-   
+
    - Once deployed, copy your contract's address from Remix
-   - View it on [Status Network Explorer](https://sepoliascan.status.network)
+   - View it on [Status Network Explorer](https://hoodiscan.status.network)
 
 **CONGRATULATIONS!** You just deployed your first smart contract on Status Network.
 
