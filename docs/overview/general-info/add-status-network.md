@@ -11,46 +11,39 @@ import CopyCell from '@site/src/components/CopyCell';
 
 This guide shows how to add the **Status Network** to your wallet.
 
-You can add Status Network Testnet directly by clicking on the button below:
+:::warning Sepolia Testnet Sunset
+The Sepolia-based testnet is subject to be sunsetted by the end of April 2026. Please migrate to the **Status Network Hoodi Testnet**.
+:::
 
-<AddToMetaMask />
+## Status Network Hoodi Testnet
 
-## Manual Configuration
+To add **Status Network Hoodi Testnet** as a custom network to MetaMask:
 
-To add **Status Network Testnet** as a custom network to MetaMask:
+1. **Open MetaMask** and click on the network selection dropdown.
 
-1. **Open MetaMask**:
+2. Click **"Add network"**, then **"Add a network manually"**.
 
-   - Click on the MetaMask extension icon in your browser to open it.
-
-2. **Access the Network Settings**:
-
-   - Click on the network selection dropdown at the top of the MetaMask window.
-
-3. **Add a New Network**:
-
-   - Click on **"Add network"**.
-   - In the new window, click on **"Add a network manually"**.
-
-4. **Enter Network Details**:
-
-   - Fill in the following information:
+3. **Enter Network Details**:
 
      | Name             | Value                                    |
      |------------------|------------------------------------------|
-     | **Network Name** | Status Network Testnet                   |
-     | **RPC URL**      | https://public.sepolia.rpc.status.network  <CopyCell text="https://public.sepolia.rpc.status.network" ariaLabel="Copy RPC endpoint" /> |
-     | **Chain ID**     | 1660990954                               |
+     | **Network Name** | Status Network Hoodi Testnet             |
+     | **RPC URL**      | https://public.hoodi.rpc.status.network <CopyCell text="https://public.hoodi.rpc.status.network" ariaLabel="Copy RPC endpoint" /> |
+     | **Chain ID**     | 374                                      |
      | **Currency Symbol** | `ETH`                                 |
-     | **Block Explorer URL** | https://sepoliascan.status.network <CopyCell text="https://sepoliascan.status.network" ariaLabel="Copy block explorer URL" /> |
+     | **Block Explorer URL** | https://hoodiscan.status.network <CopyCell text="https://hoodiscan.status.network" ariaLabel="Copy block explorer URL" /> |
 
-5. **Save the Network**:
+4. Click **"Save"** to add the network.
 
-   - Click **"Save"** to add the Status Network Testnet to your MetaMask wallet.
-
-You should now be able to connect to the Status Network Testnet by selecting it from the network dropdown menu.
+You should now be able to connect to the Status Network Hoodi Testnet by selecting it from the network dropdown menu.
 
 ---
+
+## Status Network Sepolia Testnet (Deprecated) {#sepolia}
+
+:::warning
+This testnet is subject to be sunsetted by the end of April 2026. Refer to the [migration guide](https://status-im.notion.site/status-network-sepolia-testnet-deprecation-notice) to migrate to Hoodi testnet. 
+:::
 
 ## Mobile Wallets
 
@@ -72,7 +65,7 @@ You should now be able to connect to the Status Network Testnet by selecting it 
 
 4. **Enter Network Details**:
 
-   - Input the same network details as mentioned above for Testnet.
+   - Input the same network details as mentioned above for the Status Network Hoodi Testnet.
 
 5. **Save the Network**:
 
@@ -86,7 +79,7 @@ You should now be able to connect to the Status Network Testnet by selecting it 
 
   - [Status Network Website](https://status.network/)
   - [Status Network Documentation](https://docs.status.network/)
-  - [Status Network Testnet Explorer](https://sepoliascan.status.network)
+  - [Status Network Hoodi Testnet Explorer](https://hoodiscan.status.network)
 
 - **Need Help?**
 

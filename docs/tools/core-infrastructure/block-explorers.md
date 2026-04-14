@@ -11,16 +11,16 @@ slug: /tools/core-infrastructure/block-explorers
 
 *Coming soon.*
 
-## Status Network Testnet (Sepolia)
+## Status Network Hoodi Testnet
 
 | Explorer | URL | Features |
 |----------|-----|----------|
-| Sepoliascan | [sepoliascan.status.network](https://sepoliascan.status.network) | Search transactions, verify and interact with smart contracts, track balances |
+| Hoodiscan | [hoodiscan.status.network](https://hoodiscan.status.network) | Search transactions, verify and interact with smart contracts, track balances |
 
-For contract verification, visit the [Contract Verification](https://sepoliascan.status.network/contract-verification) page on Sepoliascan.
+L1 activity on Hoodi can be tracked via [Hoodi Etherscan](https://hoodi.etherscan.io).
 
-L1 activity on Sepolia can be tracked via [Sepolia Etherscan](https://sepolia.etherscan.io).
+## Status Network Sepolia Testnet — Deprecated {#sepolia}
 
-## Status Network Testnet (Hoodi)
-
-*Coming soon.*
+:::warning Sepolia Testnet Sunset
+The Sepolia-based testnet is subject to be sunsetted by the end of April 2026. Please migrate to the new **Status Network Hoodi Testnet** below. Refer to the [migration guide](https://status-im.notion.site/status-network-sepolia-testnet-deprecation-notice) for more information. 
+:::
