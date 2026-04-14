@@ -22,14 +22,14 @@ keywords:
 
 ## 网络工具
 - **跨链桥**: [bridge.status.network](https://bridge.status.network)
-- **区块浏览器**: [sepoliascan.status.network](https://hoodiscan.status.network)
-- **RPC 端点**: [public.sepolia.rpc.status.network](https://public.hoodi.rpc.status.network)
+- **区块浏览器**: [hoodiscan.status.network](https://hoodiscan.status.network)
+- **RPC 端点**: [public.hoodi.rpc.status.network](https://public.hoodi.rpc.status.network)
 - **WebSocket RPC**: 如需 WebSocket RPC，请通过 [Telegram](https://t.me/statusl2) 联系我们
 - **水龙头**: [faucet.status.network](https://eth.faucet.status.network)
 
 ## 开发资源
 - **代币列表仓库**: [github.com/status-im/status-network-token-list](https://github.com/status-im/status-network-token-list)
-- **合约验证**: [sepoliascan.status.network/verify-contract](https://hoodiscan.status.network/contract-verification)
+- **合约验证**: [hoodiscan.status.network/verify-contract](https://hoodiscan.status.network/contract-verification)
 
 ## 社区与支持
 - **Telegram 社区**: [t.me/statusl2](https://t.me/statusl2)

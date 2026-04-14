@@ -18,7 +18,7 @@ slug: '/tools/core-infrastructure/block-explorers'
 
 | エクスプローラー | URL | 機能 |
 |----------|-----|----------|
-| Hoodiscan | [sepoliascan.status.network](https://hoodiscan.status.network) | トランザクション検索、スマートコントラクトの検証と対話、残高追跡 |
+| Hoodiscan | [hoodiscan.status.network](https://hoodiscan.status.network) | トランザクション検索、スマートコントラクトの検証と対話、残高追跡 |
 
 コントラクト検証については、Hoodiscan の[コントラクト検証](https://hoodiscan.status.network/contract-verification)ページをご覧ください。
 

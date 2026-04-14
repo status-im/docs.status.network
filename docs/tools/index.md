@@ -18,7 +18,7 @@ Essential services for building and testing on Status Network:
 | Tool | Description |
 |---|---|
 | [**RPC Endpoints**](/tools/core-infrastructure/rpc-endpoints) | Public JSON-RPC access and RPC documentation |
-| [**Bridge**](/tools/core-infrastructure/bridge) | Transfer assets between Ethereum Sepolia and Status Network |
+| [**Bridge**](/tools/core-infrastructure/bridge) | Transfer assets between Ethereum Hoodi and Status Network |
 | [**Testnet Faucets**](/tools/core-infrastructure/testnet-faucets) | Get testnet assets for development |
 | [**Block Explorers**](/tools/core-infrastructure/block-explorers) | Browse transactions, contracts, and network activity |
 

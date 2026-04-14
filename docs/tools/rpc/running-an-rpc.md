@@ -249,4 +249,4 @@ If you encounter any issues:
 
 - [Status Network RPC Tools Repository](https://github.com/status-im/status-l2-rpc-tools) - Official repository with setup guide and scripts
 - [Status Network Documentation](https://docs.status.network/) - Official docs
-- [Status Network Block Explorer](https://sepoliascan.status.network) - Sepolia testnet explorer
+- [Status Network Block Explorer](https://hoodiscan.status.network) - hoodi testnet explorer

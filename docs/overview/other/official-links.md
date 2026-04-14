@@ -24,8 +24,9 @@ This page contains all the official links for the Status Network ecosystem.
 | Name | Link |
 |---|---|
 | Bridge | [bridge.status.network](https://bridge.status.network) <CopyCell text="https://bridge.status.network" ariaLabel="Copy bridge URL" /> |
-| Block Explorer | [sepoliascan.status.network](https://sepoliascan.status.network) <CopyCell text="https://sepoliascan.status.network" ariaLabel="Copy block explorer URL" /> |
-| RPC Endpoint | [public.sepolia.rpc.status.network](https://public.sepolia.rpc.status.network) <CopyCell text="https://public.sepolia.rpc.status.network" ariaLabel="Copy RPC endpoint URL" /> |
+| Block Explorer | [hoodiscan.status.network](https://hoodiscan.
+status.network) <CopyCell text="https://hoodiscan.status.network" ariaLabel="Copy block explorer URL" /> |
+| RPC Endpoint | [public.hoodi.rpc.status.network](https://public.sehoodipolia.rpc.status.network) <CopyCell text="https://public.hoodi.rpc.status.network" ariaLabel="Copy RPC endpoint URL" /> |
 | WebSocket RPC | Get in touch with us on [Telegram](https://t.me/statusl2) to get a websocket RPC |
 | Faucet | [eth.faucet.status.network](https://eth.faucet.status.network) <CopyCell text="https://eth.faucet.status.network" ariaLabel="Copy faucet URL" /> |
 
@@ -34,7 +35,7 @@ This page contains all the official links for the Status Network ecosystem.
 | Name | Link |
 |---|---|
 | Token List Repository | [github.com/status-im/status-network-token-list](https://github.com/status-im/status-network-token-list)  |
-| Contract Verification | [sepoliascan.status.network/contract-verification](https://sepoliascan.status.network/contract-verification)  |
+| Contract Verification | [hoodiscan.status.network/contract-verification](https://hoodiscan.status.network/contract-verification)  |
 
 ## Community & Support
 
