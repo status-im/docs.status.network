@@ -63,6 +63,14 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/sn-social-card.png',
+    announcementBar: {
+      id: 'linea-merger-may-2026',
+      content:
+        '<strong>Status Network is merging into Linea.</strong> Hoodi testnet (chain ID 374) shuts down on <strong>May 15, 2026</strong> — bridge testnet ETH back to L1 before then.<br /><a target="_blank" rel="noopener noreferrer" href="https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream">Read the announcement</a> · <a target="_blank" rel="noopener noreferrer" href="https://bridge.status.network">Open bridge</a>',
+      backgroundColor: '#7140fd',
+      textColor: '#ffffff',
+      isCloseable: true,
+    },
     navbar: {
       title: 'Status Network Docs',
       logo: {
