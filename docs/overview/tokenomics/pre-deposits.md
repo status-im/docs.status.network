@@ -6,6 +6,10 @@ keywords: [Status Network, pre-deposits, vaults, Aragon, Generic Protocol, Karma
 
 # Pre-Deposits
 
+:::info Status Network × Linea Merger — What this means for vault holders
+Following the [merger of Status Network into Linea](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream), pre-deposit vaults remain fully backed and safe. No action is needed now. When the withdrawal interface opens, you will be able to claim your deposits + accrued yield + liquid SNT/LINEA rewards (from the 20M SNT + 20M LINEA pool) on **Linea Mainnet**. An announcement will be made when withdrawals open.
+:::
+
 Status Network runs a pre-deposit campaign to bootstrap liquidity and early Karma distribution ahead of mainnet. Two distinct vault systems power the campaign:
 
 | Asset(s)                 | Vault provider   | Receipt token | Network          |
