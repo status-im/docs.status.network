@@ -20,6 +20,10 @@ keywords:
 
 # 预存款
 
+:::info Status Network × Linea 合并说明（面向金库参与者）
+在 [Status Network 并入 Linea](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream) 后，预存款金库仍保持全额抵押并且安全。您现在无需任何操作。待提取界面开放后，您可在 **Linea Mainnet** 领取存款 + 累计收益 + 流动性奖励（2000 万 SNT + 2000 万 LINEA 奖励池）。提取开放时将另行公告。
+:::
+
 Status Network 正在主网启动前进行预存款活动，以引导流动性和早期 Karma 分配。两个不同的金库系统支持该活动：
 
 | 资产                     | 金库提供者       | 收据代币 | 网络             |

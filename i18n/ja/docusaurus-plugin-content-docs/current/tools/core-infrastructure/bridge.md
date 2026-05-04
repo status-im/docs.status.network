@@ -18,6 +18,10 @@ Hoodi（レイヤー1）と Status Network Hoodi テストネット（レイヤ�
 ブリッジインターフェースは
 [bridge.status.network](https://bridge.status.network) で利用できます。
 
+:::warning Hoodi テストネット終了 — 2026年5月15日
+Status Network は Linea スタックへ統合されます。Hoodi テストネットのブリッジは **2026年5月15日** に停止します。停止前に L2 のテストネット ETH を L1 へ戻してください。停止後に残った残高は復元できません。[公式発表を読む](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream)。
+:::
+
 ## ブリッジコントラクト
 
 ### レイヤー1（Hoodi）

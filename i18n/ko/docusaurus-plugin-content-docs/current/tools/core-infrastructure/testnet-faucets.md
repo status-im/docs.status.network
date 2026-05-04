@@ -14,6 +14,10 @@ slug: '/tools/core-infrastructure/testnet-faucets'
 
 Status Network Hoodi 테스트넷을 시작하려면 테스트넷 ETH 또는 테스트 자산이 필요할 수 있습니다.
 
+:::warning Hoodi 테스트넷 종료 — 2026년 5월 15일
+Status Network는 Linea 스택으로 합병됩니다. 파우셋, RPC, 브릿지를 포함한 Hoodi 테스트넷 인프라는 **2026년 5월 15일**에 종료됩니다. L2 테스트넷 ETH는 그 전에 [bridge.status.network](https://bridge.status.network)에서 L1으로 되돌리세요. [전체 공지 보기](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream).
+:::
+
 ## Status Network Hoodi 테스트넷 ETH 파우셋
 
 Status Network Hoodi 테스트넷 파우셋은 [faucet.status.network](https://eth.faucet.status.network)에서 이용할 수 있습니다.
