@@ -595,6 +595,26 @@ div[class*='sidebarViewport'] {
   font-size: 0.9rem;
 }
 
+/* Announcement Bar — larger, more prominent */
+[class*='announcementBar'] {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  padding: 0.6rem 1rem !important;
+  min-height: 2.75rem !important;
+}
+
+[class*='announcementBarContent'] {
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+}
+
+[class*='announcementBarContent'] a {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+}
+
 /* Footer Enhancements */
 .footer {
   background: rgba(var(--page-background-rgb), 0.95) !important;
