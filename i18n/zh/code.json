@@ -1,4 +1,8 @@
 {
+  "theme.announcementBar.lineaMergerMay2026": {
+    "message": "<strong>Status Network 正在合并至 Linea。</strong>Hoodi 测试网（链 ID <strong>374</strong>）将于 <strong>2026 年 5 月 15 日</strong>关闭——请在此之前将测试网 ETH 跨回 L1。<br /><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream\">阅读公告</a> · <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://bridge.status.network\">打开跨链桥</a>",
+    "description": "Announcement bar HTML for Status Network merging into Linea and Hoodi testnet shutdown (May 15, 2026)."
+  },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
     "description": "The title of the fallback page when the page crashed"
