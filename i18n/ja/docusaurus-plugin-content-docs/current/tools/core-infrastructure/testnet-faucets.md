@@ -14,6 +14,10 @@ slug: '/tools/core-infrastructure/testnet-faucets'
 
 Status Network Hoodi テストネットを開始するには、テストネット ETH またはテストアセットが必要になる場合があります。
 
+:::warning Hoodi テストネット終了 — 2026年5月15日
+Status Network は Linea スタックへ統合されます。フォーセット、RPC、ブリッジを含む Hoodi テストネットの全インフラは **2026年5月15日** に停止します。L2 のテストネット ETH はその日までに [bridge.status.network](https://bridge.status.network) で L1 に戻してください。[公式発表を読む](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream)。
+:::
+
 ## Status Network Hoodi テストネット ETH フォーセット
 
 Status Network Hoodi テストネットフォーセットは [faucet.status.network](https://eth.faucet.status.network) で利用できます。

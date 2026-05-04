@@ -545,6 +545,42 @@
     "message": "网站、社交频道和所有官方资源汇总",
     "description": "Homepage community card description for official links"
   },
+  "homepage.merger.tag": {
+    "message": "网络更新",
+    "description": "Homepage merger banner tag/eyebrow"
+  },
+  "homepage.merger.title": {
+    "message": "Status Network 正在合并至 Linea",
+    "description": "Homepage merger banner title"
+  },
+  "homepage.merger.subtitle": {
+    "message": "Hoodi 测试网（链 ID 374）将于 2026 年 5 月 15 日关闭——包括 RPC 和桥接在内的所有基础设施。",
+    "description": "Homepage merger banner subtitle"
+  },
+  "homepage.merger.testnet.heading": {
+    "message": "在 Status Network Hoodi 上持有测试网 ETH？",
+    "description": "Homepage merger CTA heading for testnet ETH holders"
+  },
+  "homepage.merger.testnet.body": {
+    "message": "请在 5 月 15 日前通过 bridge.status.network 将 L2 → L1 的资产桥接回来。关闭后 L2 测试网上的余额将无法找回。Hoodi 快照已完成，现在提款不影响 SNT + LINEA 奖励资格。",
+    "description": "Homepage merger CTA body for testnet ETH holders"
+  },
+  "homepage.merger.predeposit.heading": {
+    "message": "参与了预存款金库？",
+    "description": "Homepage merger CTA heading for pre-deposit vault holders"
+  },
+  "homepage.merger.predeposit.body": {
+    "message": "暂无需操作。金库资产完全安全。提款界面上线后，您可在 Linea 主网领取存款 + 应计收益 + SNT/LINEA 流动奖励。请关注后续公告。",
+    "description": "Homepage merger CTA body for pre-deposit vault holders"
+  },
+  "homepage.merger.action.announcement": {
+    "message": "阅读完整公告",
+    "description": "Homepage merger banner primary action label"
+  },
+  "homepage.merger.action.bridge": {
+    "message": "打开桥接",
+    "description": "Homepage merger banner secondary action label"
+  },
   "ideaCatalog.filter.category": {
     "message": "分类",
     "description": "Filter group label"

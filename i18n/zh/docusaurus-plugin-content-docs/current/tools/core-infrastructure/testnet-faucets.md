@@ -16,6 +16,10 @@ slug: '/tools/core-infrastructure/testnet-faucets'
 
 要开始在 Status Network Hoodi 测试网上进行开发，您可能需要一些测试网 ETH 或测试资产。
 
+:::warning Hoodi 测试网将于 2026 年 5 月 15 日关闭
+Status Network 正在并入 Linea 技术栈。包括水龙头、RPC 和跨链桥在内的 Hoodi 测试网基础设施将于 **2026 年 5 月 15 日**下线。请在此之前通过 [bridge.status.network](https://bridge.status.network) 将 L2 测试网 ETH 跨回 L1。[查看完整公告](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream)。
+:::
+
 ## Status Network Hoodi 测试网 ETH 水龙头
 
 Status Network Hoodi 测试网水龙头可在 [faucet.status.network](https://eth.faucet.status.network) 访问。

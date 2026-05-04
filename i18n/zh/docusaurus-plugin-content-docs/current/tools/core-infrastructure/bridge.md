@@ -14,6 +14,10 @@ slug: '/tools/core-infrastructure/bridge'
 
 Status Network Hoodi 测试网跨链桥允许用户在 Hoodi（第一层）和 Status Network Hoodi 测试网（第二层）之间转移代币和传递消息。跨链桥界面可在 [bridge.status.network](https://bridge.status.network) 访问。
 
+:::warning Hoodi 测试网将于 2026 年 5 月 15 日关闭
+Status Network 正在并入 Linea 技术栈。Hoodi 测试网跨链桥将于 **2026 年 5 月 15 日**关闭。请在此之前将 L2 测试网 ETH 跨回 L1；关闭后剩余余额将无法恢复。[查看完整公告](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream)。
+:::
+
 ## 跨链桥合约
 
 ### 第一层 (Hoodi)

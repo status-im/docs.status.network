@@ -20,6 +20,10 @@ keywords:
 
 # プレデポジット
 
+:::info Status Network × Linea 統合 — ボールト参加者へのご案内
+[Status Network の Linea への統合](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream)後も、プレデポジットボールトは全額担保され安全です。現時点で対応は不要です。引き出し画面が公開されると、**Linea Mainnet** 上で預入金 + 累積利回り + 流動性報酬（2,000万 SNT + 2,000万 LINEA プール）を請求できます。引き出し開始時に改めて告知します。
+:::
+
 Status Networkは、メインネットローンチに先立ち、流動性の確保と初期Karma配布のための事前預入キャンペーンを実施しています。2つの異なるボールトシステムがキャンペーンを支えています：
 
 | 資産                     | ボールト提供者   | 受領トークン | ネットワーク     |

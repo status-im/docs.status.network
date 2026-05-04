@@ -20,6 +20,10 @@ keywords:
 
 # 사전예치
 
+:::info Status Network × Linea 합병 — 금고 참여자를 위한 안내
+[Status Network의 Linea 합병](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream) 이후에도 사전예치 금고는 전액 담보로 안전하게 유지됩니다. 지금은 별도 조치가 필요하지 않습니다. 출금 인터페이스가 열리면 **Linea Mainnet** 에서 예치금 + 누적 수익 + 유동성 보상(2,000만 SNT + 2,000만 LINEA 풀)을 청구할 수 있습니다. 출금 오픈 시 별도 공지됩니다.
+:::
+
 Status Network는 메인넷 출시 전에 유동성 확보와 초기 Karma 배포를 위한 사전예치 캠페인을 진행하고 있습니다. 두 가지 금고 시스템이 캠페인을 지원합니다:
 
 | 자산                     | 금고 제공자      | 영수증 토큰 | 네트워크         |

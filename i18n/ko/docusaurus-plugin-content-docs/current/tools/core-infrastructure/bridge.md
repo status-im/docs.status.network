@@ -14,6 +14,10 @@ slug: '/tools/core-infrastructure/bridge'
 
 Status Network Hoodi 테스트넷 브릿지를 사용하면 Hoodi (레이어 1)와 Status Network Hoodi 테스트넷 (레이어 2) 간에 토큰을 전송하고 메시지를 전달할 수 있습니다. 브릿지 인터페이스는 [bridge.status.network](https://bridge.status.network)에서 이용할 수 있습니다.
 
+:::warning Hoodi 테스트넷 종료 — 2026년 5월 15일
+Status Network는 Linea 스택으로 합병됩니다. Hoodi 테스트넷 브릿지는 **2026년 5월 15일**에 종료됩니다. 그 전에 L2 테스트넷 ETH를 L1으로 브릿징해 주세요. 종료 후 남은 잔액은 복구할 수 없습니다. [전체 공지 보기](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream).
+:::
+
 ## 브릿지 컨트랙트
 
 ### 레이어 1 (Hoodi)
