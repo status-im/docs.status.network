@@ -117,6 +117,64 @@ function getCommunityLinks() {
   ];
 }
 
+function MergerBanner() {
+  return (
+    <div className={styles.mergerBanner}>
+      <div className={styles.mergerBannerContent}>
+        <span className={styles.mergerBannerTag}>
+          <Translate id="homepage.merger.tag" description="Homepage merger banner tag/eyebrow">
+            Important migration update
+          </Translate>
+        </span>
+        <span className={styles.mergerBannerTitle}>
+          <Translate id="homepage.merger.title" description="Homepage merger banner title">
+            Status Network is merging into the Linea stack.
+          </Translate>
+        </span>
+        <span className={styles.mergerBannerBreak} aria-hidden="true" />
+        <span className={styles.mergerBannerItems}>
+          <span className={styles.mergerBannerItem}>
+            <Translate id="homepage.merger.testnet.heading" description="Homepage merger CTA heading for testnet ETH holders">
+              If you have testnet ETH on Status Network Hoodi:
+            </Translate>
+            {' '}
+            <Translate id="homepage.merger.testnet.body" description="Homepage merger CTA body for testnet ETH holders">
+              Withdraw by May 15 by bridging L2 → L1 at bridge.status.network. Hoodi (chain ID 374) RPC and bridge shut down on May 15, and any L2 balance left after that is unrecoverable. The Hoodi snapshot is already taken, so withdrawing now does not affect SNT + LINEA reward eligibility.
+            </Translate>
+          </span>
+          <span className={styles.mergerBannerBreak} aria-hidden="true" />
+          <span className={styles.mergerBannerItem}>
+            <Translate id="homepage.merger.predeposit.heading" description="Homepage merger CTA heading for pre-deposit vault holders">
+              If you participated in pre-deposit vaults (ETH / GUSD / SNT / LINEA):
+            </Translate>
+            {' '}
+            <Translate id="homepage.merger.predeposit.body" description="Homepage merger CTA body for pre-deposit vault holders">
+              No action is needed yet. Vaults remain fully backed and safe. When withdrawals open, claim your deposits + accrued yield + liquid rewards from the 20M SNT + 20M LINEA pool on Linea Mainnet via the claim interface.
+            </Translate>
+          </span>
+          <span className={styles.mergerBannerBreak} aria-hidden="true" />
+          <span className={styles.mergerBannerBreak} aria-hidden="true" />
+        </span>
+        <span className={styles.mergerBannerLinks}>
+          <Link
+            to="https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream"
+            className={styles.mergerBannerLink}
+          >
+            <Translate id="homepage.merger.action.announcement" description="Homepage merger banner primary action label">
+              Read announcement
+            </Translate>{' '}→
+          </Link>
+          <Link to="https://bridge.status.network" className={styles.mergerBannerLink}>
+            <Translate id="homepage.merger.action.bridge" description="Homepage merger banner secondary action label">
+              Open bridge
+            </Translate>{' '}→
+          </Link>
+        </span>
+      </div>
+    </div>
+  );
+}
+
 function Hero() {
   const logoSrc = useBaseUrl('/img/sn_logo.svg');
   return (
@@ -287,6 +345,7 @@ export default function Home(): React.JSX.Element {
         description: 'Homepage layout description',
       })}
     >
+      <MergerBanner />
       <Hero />
       <DocCards />
       <QuickStart />
