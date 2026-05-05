@@ -13,6 +13,10 @@ keywords:
 ---
 # ネットワークの詳細
 
+:::warning Hoodi テストネット終了 — 2026年5月15日
+Status Network は Linea スタックへ統合されます。Hoodi テストネット（チェーン ID 374）の RPC、ブリッジ、関連インフラは **2026年5月15日** に停止します。L2 のテストネット ETH はその日までに [bridge.status.network](https://bridge.status.network) で L1 に戻してください。停止後に残った残高は復元できません。[公式発表を読む](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream)。
+:::
+
 ## Status テストネット
 
 | 名前                | 値                                       |

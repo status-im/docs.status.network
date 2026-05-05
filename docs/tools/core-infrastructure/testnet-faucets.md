@@ -9,8 +9,8 @@ slug: /tools/core-infrastructure/testnet-faucets
 
 To get started on Status Network testnet, you may need some testnet ETH or test assets.
 
-:::warning Sepolia Testnet Sunset
-The Sepolia-based testnet is subject to be sunsetted by the end of April 2026. Please migrate to the new **Status Network Hoodi Testnet** below. Refer to the [migration guide](https://status-im.notion.site/status-network-sepolia-testnet-deprecation-notice) for more information. 
+:::warning Hoodi Testnet Shutdown — May 15, 2026
+Status Network is merging into the Linea stack. The Hoodi testnet — including faucets, RPC, and bridge — shuts down on **May 15, 2026**. Bridge any testnet ETH back to L1 via [bridge.status.network](https://bridge.status.network) before that date. [Read the full announcement](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream).
 :::
 
 ## Status Network Testnet ETH Faucet
@@ -61,8 +61,8 @@ Status Test Token (STT) is the testnet equivalent of SNT. It is used as a test a
 
 ## Status Network Sepolia Testnet Faucets — Deprecated {#sepolia}
 
-:::warning Sepolia Testnet Sunset
-The Sepolia-based testnet is subject to be sunsetted by the end of April 2026. Please migrate to the new **Status Network Hoodi Testnet** below. Refer to the [migration guide](https://status-im.notion.site/status-network-sepolia-testnet-deprecation-notice) for more information. 
+:::warning Hoodi Testnet Shutdown — May 15, 2026
+Status Network is merging into the Linea stack. The Hoodi testnet — including faucets, RPC, and bridge — shuts down on **May 15, 2026**. Bridge any testnet ETH back to L1 via [bridge.status.network](https://bridge.status.network) before that date. [Read the full announcement](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream).
 :::
 
 ## Support

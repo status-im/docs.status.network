@@ -10,8 +10,8 @@ import CopyCell from '@site/src/components/CopyCell';
 
 # Network Details
 
-:::warning Sepolia Testnet Sunset
-The Sepolia-based testnet is subject to be sunsetted by the end of April 2026. Please migrate to the new **Status Network Hoodi Testnet** below. Refer to the [migration guide](https://status-im.notion.site/status-network-sepolia-testnet-deprecation-notice) for more information. 
+:::warning Hoodi Testnet Shutdown — May 15, 2026
+Status Network is merging into the Linea stack. The Hoodi testnet (chain ID 374) — RPC, bridge, and all infrastructure — will be shut down on **May 15, 2026**. If you have testnet ETH on the L2, bridge it back to L1 via [bridge.status.network](https://bridge.status.network) before that date. Balances remaining after shutdown will be unrecoverable. [Read the full announcement](https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream).
 :::
 
 ## Status Network Hoodi Testnet
