@@ -1,7 +1,7 @@
 {
-  "theme.announcementBar.lineaMergerMay2026": {
-    "message": "<strong>Status Network가 Linea에 합병됩니다.</strong>Hoodi 테스트넷(체인 ID <strong>374</strong>)은 <strong>2026년 5월 15일</strong>에 종료됩니다 — 그 전에 테스트넷 ETH를 L1으로 브릿지하세요.<br /><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream\">공지 읽기</a> · <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://bridge.status.network\">브릿지 열기</a>",
-    "description": "Announcement bar HTML for Status Network merging into Linea and Hoodi testnet shutdown (May 15, 2026)."
+  "theme.announcementBar.docsArchived2026": {
+    "message": "<strong>문서 아카이브 안내 <br /> Status Network는 Linea로 통합되었습니다.</strong> 이 페이지의 콘텐츠는 더 이상 유효하지 않으며 온라인 아카이빙을 위해서만 유지됩니다.<br /> <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream\">통합 발표 읽기</a>",
+    "description": "Announcement bar HTML notifying readers that the documentation is archived after the Status Network → Linea merger."
   },
   "theme.ErrorPageContent.title": {
     "message": "페이지에 오류가 발생하였습니다.",
