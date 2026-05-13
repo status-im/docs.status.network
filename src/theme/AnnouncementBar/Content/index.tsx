@@ -12,10 +12,10 @@ export default function AnnouncementBarContent(props: Props): ReactNode {
     return null;
   }
   const html = translate({
-    id: 'theme.announcementBar.lineaMergerMay2026',
+    id: 'theme.announcementBar.docsArchived2026',
     message: announcementBar.content,
     description:
-      'Announcement bar HTML for Status Network merging into Linea and Hoodi testnet shutdown (May 15, 2026).',
+      'Announcement bar HTML notifying readers that the documentation is archived after the Status Network → Linea merger.',
   });
   return (
     <div
