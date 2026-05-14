@@ -549,42 +549,6 @@
     "message": "ウェブサイト、ソーシャルチャンネル、すべての公式リソースを一か所に",
     "description": "Homepage community card description for official links"
   },
-  "homepage.merger.tag": {
-    "message": "ネットワーク更新",
-    "description": "Homepage merger banner tag/eyebrow"
-  },
-  "homepage.merger.title": {
-    "message": "Status Network が Linea に統合されます",
-    "description": "Homepage merger banner title"
-  },
-  "homepage.merger.subtitle": {
-    "message": "Hoodi テストネット（チェーン ID 374）は 2026 年 5 月 15 日に終了します — RPC およびブリッジを含む全インフラが停止されます。",
-    "description": "Homepage merger banner subtitle"
-  },
-  "homepage.merger.testnet.heading": {
-    "message": "Status Network Hoodi にテストネット ETH をお持ちですか？",
-    "description": "Homepage merger CTA heading for testnet ETH holders"
-  },
-  "homepage.merger.testnet.body": {
-    "message": "5 月 15 日までに bridge.status.network を通じて L2 → L1 へ資産をブリッジしてください。終了後に L2 テストネットに残った残高は回収不可能となります。Hoodi のスナップショットはすでに完了しているため、今出金しても SNT + LINEA 報酬の資格には影響しません。",
-    "description": "Homepage merger CTA body for testnet ETH holders"
-  },
-  "homepage.merger.predeposit.heading": {
-    "message": "プレデポジットボールトに参加されましたか？",
-    "description": "Homepage merger CTA heading for pre-deposit vault holders"
-  },
-  "homepage.merger.predeposit.body": {
-    "message": "現時点では何もする必要はありません。ボールトは完全に安全に保管されています。引き出しインターフェースが開放された際に、Linea メインネット上でデポジット + 累積収益 + SNT/LINEA の流動報酬を請求できます。案内があるまでお待ちください。",
-    "description": "Homepage merger CTA body for pre-deposit vault holders"
-  },
-  "homepage.merger.action.announcement": {
-    "message": "全文を読む",
-    "description": "Homepage merger banner primary action label"
-  },
-  "homepage.merger.action.bridge": {
-    "message": "ブリッジを開く",
-    "description": "Homepage merger banner secondary action label"
-  },
   "ideaCatalog.filter.category": {
     "message": "カテゴリ"
   },
