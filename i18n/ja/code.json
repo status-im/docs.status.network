@@ -1,7 +1,7 @@
 {
-  "theme.announcementBar.lineaMergerMay2026": {
-    "message": "<strong>Status Network は Linea に統合されます。</strong>Hoodi テストネット（チェーン ID <strong>374</strong>）は <strong>2026年5月15日</strong>に停止します <br /> それまでにテストネット ETH を L1 にブリッジしてください。<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream\">発表を読む</a> · <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://bridge.status.network\">ブリッジを開く</a>",
-    "description": "Announcement bar HTML for Status Network merging into Linea and Hoodi testnet shutdown (May 15, 2026)."
+  "theme.announcementBar.docsArchived2026": {
+    "message": "<strong>ドキュメントのアーカイブについて <br /> Status Network は Linea に合併しました。</strong> ここに掲載されている内容は旧版であり、オンラインでの記録保管のみを目的として公開されています。<br /> <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream\">合併の発表を読む</a>",
+    "description": "Announcement bar HTML notifying readers that the documentation is archived after the Status Network → Linea merger."
   },
   "theme.ErrorPageContent.title": {
     "message": "エラーが発生しました",
@@ -548,42 +548,6 @@
   "homepage.community.official.description": {
     "message": "ウェブサイト、ソーシャルチャンネル、すべての公式リソースを一か所に",
     "description": "Homepage community card description for official links"
-  },
-  "homepage.merger.tag": {
-    "message": "ネットワーク更新",
-    "description": "Homepage merger banner tag/eyebrow"
-  },
-  "homepage.merger.title": {
-    "message": "Status Network が Linea に統合されます",
-    "description": "Homepage merger banner title"
-  },
-  "homepage.merger.subtitle": {
-    "message": "Hoodi テストネット（チェーン ID 374）は 2026 年 5 月 15 日に終了します — RPC およびブリッジを含む全インフラが停止されます。",
-    "description": "Homepage merger banner subtitle"
-  },
-  "homepage.merger.testnet.heading": {
-    "message": "Status Network Hoodi にテストネット ETH をお持ちですか？",
-    "description": "Homepage merger CTA heading for testnet ETH holders"
-  },
-  "homepage.merger.testnet.body": {
-    "message": "5 月 15 日までに bridge.status.network を通じて L2 → L1 へ資産をブリッジしてください。終了後に L2 テストネットに残った残高は回収不可能となります。Hoodi のスナップショットはすでに完了しているため、今出金しても SNT + LINEA 報酬の資格には影響しません。",
-    "description": "Homepage merger CTA body for testnet ETH holders"
-  },
-  "homepage.merger.predeposit.heading": {
-    "message": "プレデポジットボールトに参加されましたか？",
-    "description": "Homepage merger CTA heading for pre-deposit vault holders"
-  },
-  "homepage.merger.predeposit.body": {
-    "message": "現時点では何もする必要はありません。ボールトは完全に安全に保管されています。引き出しインターフェースが開放された際に、Linea メインネット上でデポジット + 累積収益 + SNT/LINEA の流動報酬を請求できます。案内があるまでお待ちください。",
-    "description": "Homepage merger CTA body for pre-deposit vault holders"
-  },
-  "homepage.merger.action.announcement": {
-    "message": "全文を読む",
-    "description": "Homepage merger banner primary action label"
-  },
-  "homepage.merger.action.bridge": {
-    "message": "ブリッジを開く",
-    "description": "Homepage merger banner secondary action label"
   },
   "ideaCatalog.filter.category": {
     "message": "カテゴリ"

@@ -1,7 +1,7 @@
 {
-  "theme.announcementBar.lineaMergerMay2026": {
-    "message": "<strong>Status Network 正在合并至 Linea。</strong>Hoodi 测试网（链 ID <strong>374</strong>）将于 <strong>2026 年 5 月 15 日</strong>关闭——请在此之前将测试网 ETH 跨回 L1。<br /><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream\">阅读公告</a> · <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://bridge.status.network\">打开跨链桥</a>",
-    "description": "Announcement bar HTML for Status Network merging into Linea and Hoodi testnet shutdown (May 15, 2026)."
+  "theme.announcementBar.docsArchived2026": {
+    "message": "<strong>归档文档 <br /> Status Network 已并入 Linea。</strong> 本站内容已过时，仅因归档需要而继续提供在线访问。<br /> <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://status.network/blog/status-network-merges-with-linea-scaling-gasless-privacy-upstream\">阅读合并公告</a>",
+    "description": "Announcement bar HTML notifying readers that the documentation is archived after the Status Network → Linea merger."
   },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
@@ -548,42 +548,6 @@
   "homepage.community.official.description": {
     "message": "网站、社交频道和所有官方资源汇总",
     "description": "Homepage community card description for official links"
-  },
-  "homepage.merger.tag": {
-    "message": "网络更新",
-    "description": "Homepage merger banner tag/eyebrow"
-  },
-  "homepage.merger.title": {
-    "message": "Status Network 正在合并至 Linea",
-    "description": "Homepage merger banner title"
-  },
-  "homepage.merger.subtitle": {
-    "message": "Hoodi 测试网（链 ID 374）将于 2026 年 5 月 15 日关闭——包括 RPC 和桥接在内的所有基础设施。",
-    "description": "Homepage merger banner subtitle"
-  },
-  "homepage.merger.testnet.heading": {
-    "message": "在 Status Network Hoodi 上持有测试网 ETH？",
-    "description": "Homepage merger CTA heading for testnet ETH holders"
-  },
-  "homepage.merger.testnet.body": {
-    "message": "请在 5 月 15 日前通过 bridge.status.network 将 L2 → L1 的资产桥接回来。关闭后 L2 测试网上的余额将无法找回。Hoodi 快照已完成，现在提款不影响 SNT + LINEA 奖励资格。",
-    "description": "Homepage merger CTA body for testnet ETH holders"
-  },
-  "homepage.merger.predeposit.heading": {
-    "message": "参与了预存款金库？",
-    "description": "Homepage merger CTA heading for pre-deposit vault holders"
-  },
-  "homepage.merger.predeposit.body": {
-    "message": "暂无需操作。金库资产完全安全。提款界面上线后，您可在 Linea 主网领取存款 + 应计收益 + SNT/LINEA 流动奖励。请关注后续公告。",
-    "description": "Homepage merger CTA body for pre-deposit vault holders"
-  },
-  "homepage.merger.action.announcement": {
-    "message": "阅读完整公告",
-    "description": "Homepage merger banner primary action label"
-  },
-  "homepage.merger.action.bridge": {
-    "message": "打开桥接",
-    "description": "Homepage merger banner secondary action label"
   },
   "ideaCatalog.filter.category": {
     "message": "分类",
